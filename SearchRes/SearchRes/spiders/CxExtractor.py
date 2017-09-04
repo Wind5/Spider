@@ -31,20 +31,21 @@ class CxExtractor:
         self.__blocksWidth = blocksWidth
         self.__threshold = threshold
 
-    def crawl(self, url):
-        try:
-            html = self.getHtml(url)
-        except:
-            print 'Failed to get the url'
-            return False
-        else:
-            print 'Succeed to get the url'
+    def crawl(self, html, path, filename):
+        # try:
+        #     html = self.getHtml(url)
+        # except:
+        #     print 'Failed to get the url'
+        #     return False
+        # else:
+        #     print 'Succeed to get the url'
+        # soup = BeautifulSoup(html, 'html.parser')
         soup = BeautifulSoup(html, 'html.parser')
         links = soup.find_all('a', href=re.compile('http'))
         self.__num_a = len(links)
         print 'num_a: ' + str(self.__num_a)
-        for link in links:
-            print link['href']
+        # for link in links:
+        #     print link['href']
         div_content = soup.find('div', class_=re.compile('main-content'))
         if div_content is not None and len(div_content) > 0:
             html = str(div_content)
@@ -57,7 +58,11 @@ class CxExtractor:
         content = self.getText(clear_page)
         # print 'content' + content
         res_text = self.clean_and_judge(content)
-        return res_text
+        # return res_text
+        self.__lang = 'en' if self.__lang else 'cn'
+        if res_text is not None:
+            with io.open(path[self.__lang] + filename + '.txt', 'w') as f:
+                f.write(res_text)
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=10):
         s = content.decode('utf-8')
@@ -99,9 +104,6 @@ class CxExtractor:
         boolstart = False
         boolend = False
         for i in range(len(self.__indexDistribution) - 1):
-            print self.__indexDistribution[i]
-            if self.__indexDistribution[i] > 0:
-                print lines[i]
             if(self.__indexDistribution[i] > self.__threshold and (not boolstart)):
                 if (self.__indexDistribution[i + 1] != 0 or self.__indexDistribution[i + 2] != 0 or self.__indexDistribution[i + 3] != 0):
                     boolstart = True

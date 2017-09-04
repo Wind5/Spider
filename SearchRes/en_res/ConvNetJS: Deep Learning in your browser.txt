@@ -1,0 +1,6 @@
+ ConvNetJS is a Javascript library for training Deep Learning models (Neural Networks) entirely in your browser. Open a tab and you're training. No software requirements, no compilers, no installations, no GPUs, no sweat. 
+ The library allows you to formulate and solve Neural Networks in Javascript, and was originally written by @karpathy (I am a PhD student at Stanford). However, the library has since been extended by contributions from the community and more are warmly welcome. Current support includes:
+ Ability to specify and train Convolutional Networks that process images
+ An experimental Reinforcement Learning module, based on Deep Q Learning.
+ Head over to Getting Started for a tutorial that lets you get up and running quickly, and discuss Documentation for all specifics.
+ The code is available on Github under MIT license and I warmly welcome pull requests for new features / layers / demos and miscellaneous improvements. The library is also available on npm for use in Nodejs, under name convnetjs.

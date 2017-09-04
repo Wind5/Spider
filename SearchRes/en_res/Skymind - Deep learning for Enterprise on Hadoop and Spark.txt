@@ -1,0 +1,4 @@
+Skymind is the company behind Deeplearning4j, the only commercial-grade, open-source, distributed deep-learning library written for Java and Scala. Integrated with Hadoop and Spark, DL4J is specifically designed to run in business environments on distributed GPUs and CPUs.
+Distributed deep learning not only develops more accurate models for detecting fraud, network intrusion, cyber attacks and other anomalies, but it also learns from new data on massively parallel hardware. LEARN MORE →
+Recommender systems influence us every day, from internet search to movie suggestions to online shopping. These algorithms attempt to show us the information and products we want, based on user trends and past behavior.LEARN MORE →
+We help you define the scope of your projects, understand the outcomes and deploy Deeplearning4j to production. All Skymind deployments are backed with the support you need to be successful.

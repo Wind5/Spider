@@ -1,0 +1,24 @@
+ Natural language processing (NLP) is one of the most important technologies of the information age. Understanding complex language utterances is also a crucial part of artificial intelligence. Applications of NLP are everywhere because people communicate most everything in language: web search, advertisement, emails, customer service, language translation, radiology reports, etc. There are a large variety of underlying tasks and machine learning models powering NLP applications.
+Recently, deep learning approaches have obtained very high performance across many different NLP tasks. These models can often be trained with a single end-to-end model and do not require traditional, task-specific feature engineering.
+In this spring quarter course students will learn to implement, train, debug, visualize and invent their own neural network models. The course provides a deep excursion into cutting-edge research in deep learning applied to NLP.
+The final project will involve training a complex recurrent neural network and applying it to a large scale NLP problem.
+On the model side we will cover word vector representations, window-based neural networks, recurrent neural networks, long-short-term-memory models, recursive neural networks, convolutional neural networks as well as some very novel models involving a memory component.
+Through lectures and programming assignments students will learn the necessary engineering tricks for making neural networks work on practical problems.
+ Proficiency in PythonAll class assignments will be in Python (and use numpy). There is a tutorial here for those who aren't as familiar with Python. If you have a lot of programming experience but in a different language (e.g. C/C++/Matlab/Javascript) you will probably be fine.
+ College Calculus, Linear Algebra (e.g. MATH 19 or 41, MATH 51) You should be comfortable taking derivatives and understanding matrix vector operations and notation.
+ Basic Probability and Statistics (e.g. CS 109 or other stats course)You should know basics of probabilities, gaussian distributions, mean, standard deviation, etc.
+ Equivalent knowledge of CS229 (Machine Learning) We will be formulating cost functions, taking derivatives and performing optimization with gradient descent.
+ Knowledge of natural language processing (CS224N or CS224U) We will discuss a lot of different tasks and you will appreciate the power of deep learning techniques even more if you know how much work had been done on these tasks and how related models have solved them.
+ Convex optimization You may find some of the optimization tricks more intuitive with this background.
+ Knowledge of convolutional neural networks (CS231n)The first problem set will probably be easier for you. We cannot assume you took this class so there will be ~3 lectures that overlap in content. You can use that time to dive deeper into some aspects. 
+ This is the second offering of this course. The class
+ is designed to introduce students to deep learning for natural language
+ processing. We will place a particular emphasis on Neural Networks,
+ which are a class of deep learning models that have recently obtained
+ We'd be happy if you join us! We plan to make the course materials widely available: The assignments, course notes and slides will be available online. We may provide videos. We won't be able to give you course credit.
+ Yes. Credit will be given to those who would have otherwise earned a C- or above.
+ In general we are very open to sitting-in guests if you are a member of the Stanford community (registered student, staff, and/or faculty). Out of courtesy, we would appreciate that you first email us or talk to the instructor after the first class you attend.
+ I have a question about the class. What is the best way to reach the course staff?
+ Piazza so that other students may benefit from your questions and our
+ answers. If you have a personal matter, email us at the class mailing
+ Yes, you may. There are a couple of courses concurrently offered with CS224d that are natural choices, such as CS224u (Natural Language Understanding, by Prof. Chris Potts and Bill MacCartney). If you are taking a related class, please speak to the instructors to receive permission to combine the Final Project assignments.

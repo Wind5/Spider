@@ -1,0 +1,174 @@
+This section assumes the reader has already read through Classifying MNIST digits using Logistic Regression and
+Multilayer Perceptron. Additionally, it uses the following new Theano functions and concepts:
+floatX, pool , conv2d, dimshuffle. If you intend to run the
+To run this example on a GPU, you need a good GPU. It needs
+at least 1GB of GPU RAM. More may be required if your monitor is
+When the GPU is connected to the monitor, there is a limit
+of a few seconds for each GPU function call. This is needed as
+for too long and make it look as if the computer froze.
+GPU isnt connected to a monitor, there is no time limit. You can
+The code for this section is available for download here and the 3wolfmoon image
+From Hubel and Wiesels early work on the cats visual cortex [Hubel68], we
+know the visual cortex contains a complex arrangement of cells. These cells are
+sensitive to small sub-regions of the visual field, called a receptive
+field. The sub-regions are tiled to cover the entire visual field. These
+cells act as local filters over the input space and are well-suited to exploit
+Additionally, two basic cell types have been identified: Simple cells respond
+cells have larger receptive fields and are locally invariant to the exact
+The animal visual cortex being the most powerful visual processing system in
+neurally-inspired models can be found in the literature. To name a few: the
+pattern between neurons of adjacent layers. In other words, the inputs of
+hidden units in layer m are from a subset of units in layer m-1, units
+Imagine that layer m-1 is the input retina. In the above figure, units in
+layer m have receptive fields of width 3 in the input retina and are thus
+only connected to 3 adjacent neurons in the retina layer. Units in layer
+m+1 have a similar connectivity with the layer below. We say that their
+receptive field with respect to the layer below is also 3, but their receptive
+field with respect to the input is larger (5). Each unit is unresponsive to
+variations outside of its receptive field with respect to the retina. The
+However, as shown above, stacking many such layers leads to (non-linear)
+filters that become increasingly global (i.e. responsive to a larger region
+of pixel space). For example, the unit in hidden layer m+1 can encode a
+In addition, in CNNs, each filter is replicated across the entire
+In the above figure, we show 3 hidden units belonging to the same feature map.
+Weights of the same color are sharedconstrained to be identical. Gradient
+descent can still be used to learn such shared parameters, with only a small
+change to the original algorithm. The gradient of a shared weight is simply the
+Replicating units in this way allows for features to be detected regardless
+of their position in the visual field. Additionally, weight sharing increases
+learning efficiency by greatly reducing the number of free parameters being
+learnt. The constraints on the model enable CNNs to achieve better
+A feature map is obtained by repeated application of a function across
+sub-regions of the entire image, in other words, by convolution of the
+input image with a linear filter, adding a bias term and then applying a
+non-linear function. If we denote the k-th feature map at a given layer as
+To form a richer representation of the data, each hidden layer is composed of
+a hidden layer can be represented in a 4D tensor containing elements for every
+represented as a vector containing one element for every destination feature
+The figure shows two layers of a CNN. Layer m-1 contains four feature maps.
+red squares) are computed from pixels of layer (m-1) which fall within their
+2x2 receptive field in the layer below (shown as colored rectangles). Notice
+how the receptive field spans all four input feature maps. The weights
+tensors. The leading dimension indexes the input feature maps, while the other
+each pixel of the k-th feature map at layer m, with the pixel at coordinates
+ConvOp is the main workhorse for implementing a convolutional layer in Theano.
+a 4D tensor corresponding to a mini-batch of input images. The shape of the
+tensor is as follows: [mini-batch size, number of input feature maps, image
+a 4D tensor corresponding to the weight matrix . The shape of the
+tensor is: [number of feature maps at layer m, number of feature maps at
+Below is the Theano code for implementing a convolutional layer similar to the
+one of Figure 1. The input consists of 3 features maps (an RGB color image) of size
+# initialize shared variable for bias (1D tensor) with random values
+# IMPORTANT: biases are usually initialized to zero. However in this
+# build symbolic expression that computes the convolution of input with filters in w
+# build symbolic expression to add bias and apply activation function, i.e. produce neural net layer output
+# what it allows you to do is to shuffle dimension around
+# but also to insert new ones along which the tensor will be
+# then we will have the third dimension of the input tensor as
+# the second of the resulting tensor, etc. If the tensor has
+# shape (20, 30, 40), the resulting tensor will have dimensions
+# (1, 40, 1, 20, 30). (AxBxC tensor is mapped to 1xCx1xAxB tensor)
+# dimshuffle(x) -> make a 0d (scalar) into a 1d vector
+# dimshuffle(x, 0) -> make a row out of a 1d vector (N to 1xN)
+# dimshuffle(0, x) -> make a column out of a 1d vector (N to Nx1)
+# put image in 4D tensor of shape (1, 3, height, width)
+# plot original image and first and second components of output
+# recall that the convOp output (filtered image) is actually a "minibatch",
+# of size 1 here, so we take index 0 in the first dimension:
+Notice that a randomly initialized filter acts very much like an edge detector!
+Note that we use the same weight initialization formula as with the MLP.
+Weights are sampled randomly from a uniform distribution in the range
+[-1/fan-in, 1/fan-in], where fan-in is the number of inputs to a hidden unit.
+For MLPs, this was the number of units in the layer below. For CNNs however, we
+have to take into account the number of input feature maps and the size of the
+Another important concept of CNNs is max-pooling, which is a form of
+a set of non-overlapping rectangles and, for each such sub-region, outputs the
+cascading a max-pooling layer with a convolutional layer. There are 8
+directions in which one can translate the input image by a single pixel.
+If max-pooling is done over a 2x2 region, 3 out of these 8 possible
+layer. For max-pooling over a 3x3 window, this jumps to 5/8.
+an N dimensional tensor (where N >= 2) and a downscaling factor and performs
+print invals[1, 0, :, :] =\n , invals[1, 0, :, :]
+print output[1, 0, :, :] =\n , f(invals)[1, 0, :, :]
+Note that compared to most Theano code, the max_pool_2d operation is a
+little special. It requires the downscaling factor ds (tuple of length 2
+containing downscaling factors for image width and height) to be known at graph
+Sparse, convolutional layers and max-pooling are at the heart of the LeNet
+family of models. While the exact details of the model will vary greatly,
+the figure below shows a graphical depiction of a LeNet model.
+traditional MLP (hidden layer + logistic regression). The input to the
+first fully-connected layer is the set of all features maps at the layer
+From an implementation point of view, this means lower-layers operate on 4D
+tensors. These are then flattened to a 2D matrix of rasterized feature maps,
+Note that the term convolution could corresponds to different mathematical operations:
+which is the most common one in almost all of the recent published
+In this operation, each output feature map is connected to each
+input feature map by a different 2D filter, and its value is the sum of
+The convolution used in the original LeNet model: In this work,
+each output feature map is only connected to a subset of input
+Here, we use the first operation, so this models differ slightly
+from the original LeNet paper. One reason to use 2. would be to
+it as fast to have the full connection pattern. Another reason would
+be to slightly reduce the number of free parameters, but we have
+ # add the bias term. Since the bias is a vector (1D array), we first
+ # reshape it to a tensor of shape (1, n_filters, 1, 1). Each bias will
+Notice that when initializing the weight values, the fan-in is determined by
+the size of the receptive fields and the number of input feature maps.
+Finally, using the LogisticRegression class defined in Classifying MNIST digits using Logistic Regression and
+ x = T.matrix(x) # the data is presented as rasterized images
+ y = T.ivector(y) # the labels are presented as 1D vector of
+ # Reshape matrix of rasterized images of shape (batch_size, 28 * 28)
+ # filtering reduces the image size to (28-5+1 , 28-5+1) = (24, 24)
+ # maxpooling reduces this further to (24/2, 24/2) = (12, 12)
+ # 4D output tensor is thus of shape (batch_size, nkerns[0], 12, 12)
+ # filtering reduces the image size to (12-5+1, 12-5+1) = (8, 8)
+ # maxpooling reduces this further to (8/2, 8/2) = (4, 4)
+ # 4D output tensor is thus of shape (batch_size, nkerns[1], 4, 4)
+ # the HiddenLayer being fully-connected, it operates on 2D matrices of
+ # This will generate a matrix of shape (batch_size, nkerns[1] * 4 * 4),
+ # or (500, 50 * 4 * 4) = (500, 800) with the default values.
+ # the cost we minimize during training is the NLL of the model
+ # create a function to compute the mistakes that are made by the model
+ # create a list of all model parameters to be fit by gradient descent
+ # create a list of gradients for all model parameters
+ # train_model is a function that updates the model parameters by
+ # SGD Since this model has many parameters, it would be tedious to
+ # manually create an update rule for each model parameter. We thus
+ # create the updates list by automatically looping over all
+We leave out the code that performs the actual training and early-stopping,
+since it is exactly the same as with an MLP. The interested reader can
+The following output was obtained with the default parameters on a Core i7-2600K
+Best validation score of 0.910000 % obtained at iteration 17800,with test
+Best validation score of 0.910000 % obtained at iteration 15500,with test
+Best validation score of 0.910000 % obtained at iteration 16400,with test
+Note that the discrepancies in validation and test error (as well as iteration
+count) are due to different implementations of the rounding mechanism in
+CNNs are especially tricky to train, as they add even more hyper-parameters than
+a standard MLP. While the usual rules of thumb for learning rates and
+regularization constants still apply, the following should be kept in mind when
+When choosing the number of filters per layer, keep in mind that computing the
+activations of a single convolutional filter is much more expensive than with
+The total cost is times that. Things may be more complicated if
+not all features at one level are connected to all features at the previous one.
+As such, the number of filters used in CNNs is typically much
+smaller than the number of hidden units in MLPs and depends on the size of the
+feature maps (itself a function of input image size and filter shapes).
+Since feature map size decreases with depth, layers near the input layer will tend to
+have fewer filters while layers higher up can have much more. In fact, to
+equalize computation at each layer, the product of the number of features
+and the number of pixel positions is typically picked to be roughly constant
+across layers. To preserve the information about the input would require
+keeping the total number of activations (number of feature maps times
+number of pixel positions) to be non-decreasing from one layer to the next
+(of course we could hope to get away with less when we are doing supervised
+learning). The number of feature maps directly controls capacity and so
+that depends on the number of available examples and the complexity of
+Common filter shapes found in the literature vary greatly, usually based on
+the dataset. Best results on MNIST-sized images (28x28) are usually in the 5x5
+range on the first layer, while natural image datasets (often with hundreds of pixels in each
+dimension) tend to use larger first-layer filters of shape 12x12 or 15x15.
+The trick is thus to find the right level of granularity (i.e. filter
+shapes) in order to create abstractions at the proper scale, given a
+Typical values are 2x2 or no max-pooling. Very large input images may warrant
+4x4 pooling in the lower-layers. Keep in mind however, that this will reduce the
+dimension of the signal by a factor of 16, and may result in throwing away too

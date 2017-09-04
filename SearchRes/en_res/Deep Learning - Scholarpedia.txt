@@ -1,0 +1,337 @@
+Dr. Juergen Schmidhuber, Dalle Molle Institute for Artificial Intelligence, Manno-Lugano, Switzerland
+It is about credit assignment in adaptive systems with long chains of 
+and to Artificial Neural Networks (NNs) by Aizenberg et al (2000). 
+Subsequently it became especially popular in the context of deep NNs,
+This article will focus on essential developments since the 1960s, 
+LeCun et al (2015) provide a more limited view of more recent Deep Learning history.
+A standard NN consists of many simple, connected processors called units,
+other units through connections with real-valued weights from previously active units. 
+Learning or credit assignment is about finding weights that make the NN exhibit desired behavior,
+Depending on the problem and how the units are connected, such behavior
+may require long causal chains of computational stages, where each stage transforms (often
+in a non-linear way) the aggregate activation of the network. 
+Deep Learning in NNs is about accurately assigning credit across many such stages. 
+In a sense, sequence-processing recurrent NNs (RNNs) are the ultimate NNs, 
+because they are general computers (an RNN can emulate the circuits of a microchip). 
+In fully connected RNNs, all units have connections to all non-input units.
+Unlike feedforward NNs, RNNs can implement while loops, recursion, etc. 
+To measure whether credit assignment in a given NN application 
+we consider the length of the corresponding credit assignment paths, 
+which are chains of possibly causal connections between subsequent unit activations, e.g., 
+from input units through hidden units to output units in feedforward NNs (FNNs)
+RNNs, the deepest of all NNs, may learn to solve problems of potentially unlimited depth,
+for example, by learning to store in their activation-based "short-term memory" 
+The difficulty of a problem may have little to do with its depth. 
+through random weight guessing (e.g., Hochreiter and Schmidhuber, 1997b). In general, however,
+finding an NN that precisely models a given training set (of input patterns 
+5 Fundamental Deep Learning Problem and Unsupervised Pre-Training of RNNs and FNNs
+Certain early NNs (McCulloch and Pitts, 1943) did not learn at all. 
+Ivakhnenko (1971) already described a deep network with 8 layers 
+Given a training set of input vectors with corresponding target output vectors, 
+then pruned with the help of a separate validation set, 
+The numbers of layers and units per layer can be learned in problem-dependent fashion.
+Many later non-neural methods of Artificial Intelligence and Machine Learning also 
+For example, syntactic pattern recognition methods (Fu, 1977) such as grammar induction 
+The 1970s also saw the birth of the convolutional NN (CNN) 
+Here the (typically rectangular) receptive field of a unit with given weight
+vector (a filter) is shifted step by step across a 2-dimensional array of input values, such as the pixels
+of an image (usually there are several such filters). The resulting array of subsequent activation
+events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight
+replication, relatively few parameters may be necessary to describe the behavior of
+least one of their inputs is active; their responses are insensitive to certain small image shifts.
+Weng (1993) later replaced Spatial Averaging by "Max-Pooling" (MP), which is widely used today. Here
+a 2-dimensional layer or array of unit activations is partitioned into smaller rectangular arrays. Each
+is replaced in a downsampling layer by the activation of its maximally active unit.
+Ivakhnenko and Fukushima did not yet use supervised backpropagation (BP) to train 
+the weights of their nets by gradient descent in an objective function, 
+such as the total classification error on a given training set of input patterns and 
+BP’s continuous form was derived in the early 1960s (Kelley, 1960; Bryson, 1961; Bryson and Ho, 1969). 
+Dreyfus (1962) published the elegant derivation of BP based on the chain rule only. 
+Here the complexity of computing the derivatives of the output error with respect to each weight
+is proportional to the number of weights. That’s the method still used today.
+Dreyfus (1973) used BP to change weights of controllers in proportion to such gradients.
+By 1980, automatic differentiation could derive BP for any differentiable graph (Speelpenning, 1980). 
+Werbos (1982) published the first application of BP to NNs, 
+extending thoughts in his 1974 thesis, which did not yet have Linnainmaa’s modern, efficient form of BP. 
+In 1980-1990, computers became 10,000 times faster per cent than those of 1960-1970, 
+can indeed yield useful internal representations in hidden layers of NNs (Rumelhart et al., 1986). 
+Wan (1994) produced the first BP-trained NN to win a controlled pattern recognition contest with secret test set. Amari (1998) described BP for natural gradient-based NNs. 
+By 2003, deep BP-based standard FNNs with up to 7 layers were 
+used to successfully classify high-dimensional data (e.g., Vieira and Barradas, 2003).
+In the 2000s, computing hardware had again become 10,000 times faster per cent than in the 1980s. 
+Cheap massively parallel Graphics Processing Units (GPUs, originally developed for video games) 
+Standard FNNs implemented on GPU were 20 times faster than on CPU (Oh and Jung, 2004).
+A plain GPU-based FNN trained by BP with pattern distortions (Baird, 1990) 
+set a new record of 0.35% error rate (Ciresan et al., 2010)
+This seemed to suggest that advances in exploiting modern computing hardware
+LeCun et al. (1989) first applied BP to Neocognitron-like CNNs, 
+Ranzato et al. (2007) first applied BP to Max-Pooling CNNs (MPCNNs);
+of doing this were pointed out subsequently (Scherer et al., 2010).
+Efficient parallelized GPU-based MPCNNs (Ciresan et al., 2011a) further improved the MNIST record dramatically, 
+achieving human performance (around 0.2%) for the first time (Ciresan et al., 2012c). 
+To detect human actions in surveillance videos, a 3-dimensional CNN, combined with support vector machines, 
+of features approach to extract regions of interest. The system won three 2009
+TRECVID competitions. These were possibly the first official international contests won with the
+In 2011, an ensemble (Breiman, 1996; Schapire, 1990) of GPU-based MPCNNs also 
+sign recognition contest in Silicon Valley (Ciresan et al., 2012c). The system was
+twice better than humans, and three times better than the nearest nonhuman competitor. 
+and also won the 2012 ImageNet classification contest (Krizhevsky et al., 2012), 
+Further progress on ImageNet was achieved through variants of such systems 
+(e.g., Zeiler and Fergus, 2013; Szegedy et al., 2014; Simonyan & Zisserman, 2015).
+In 2012, a GPU-MPCNN committee also was the first Deep Learning NN to win a contest
+on visual object discovery in large images (Ciresan et al., 2013), namely, the
+ICPR 2012 Contest on Mitosis Detection in Breast Cancer Histological Images.
+Here deep MPCNNs are trained on labelled patches of big images, then used as feature 
+to contain objects similar to those the NN was trained on.
+A similar GPU-MPCNN committee was the first Deep Learner to win a 
+namely, the ISBI 2012 Segmentation of Neuronal Structures in EM Stacks Challenge. 
+speed up naive implementations by up to three orders of magnitude (Masci et al., 2013),
+extending earlier efficient methods for CNNs without MP (Vaillant et al., 1994).
+It is fair to say that deep GPU-CNNs have revolutionised computer vision.
+For example, GPU-MPCNNs helped to recognise multi-digit numbers in Google Street View
+images (Goodfellow et al., 2014b), where part of the NN was trained to count visible digits. 
+detection (Khan et al., 2014), and video classification (Karpathy et al., 2014), to name a few. 
+ Fundamental Deep Learning Problem and Unsupervised Pre-Training of RNNs and FNNs
+There are extensions of backpropagation (BP) for supervised RNNs (e.g., 
+During training by "BP through time" (BPTT), the RNN is "unfolded" into an FNN that has essentially
+as many layers as there are time steps in the observed sequence of input vectors.
+The drawbacks of BP and BPTT became obvious in 1991, when 
+signals either shrink exponentially in the number of layers (or time steps), or grow out of bounds.
+The problem is most apparent in RNNs, the deepest of all NNs.
+To some extent, Hessian-free optimization can alleviate the problem for FNNs (Moller, 1993;
+To overcome the vanishing gradient problem, an early generative model was proposed, namely, 
+an unsupervised stack of RNNs called the neural history compressor (Schmidhuber, 1992b). 
+A first RNN uses unsupervised learning to predict its next input. 
+Each higher level RNN tries to learn a compressed representation of the info in the RNN below, 
+trying to minimise the description length (or negative log probability) of the data. 
+The top RNN may then find it easy to classify the data by supervised learning. 
+One can also "distill" the knowledge of a higher RNN (the teacher) into a lower RNN (the student) 
+by forcing the lower RNN to predict the hidden units of the higher one. 
+such systems could solve previously unsolvable "Very Deep Learning" tasks involving hundreds
+adding more layers improves a bound on the data’s negative log probability (Hinton et al., 2006), 
+equivalent to the data’s description length - just like with the RNN history compressor above. 
+A GPU-DBN implementation (Raina et al., 2009) was orders of magnitudes faster than previous CPU-DBNs;
+DBNs achieved good results on phoneme recognition (Mohamed and Hinton, 2010).
+Autoencoder stacks (Ballard, 1987) became a popular alternative way of pre-training
+deep FNNs in unsupervised fashion, before fine-tuning them through BP (e.g., Bengio et al., 2007).
+can help to encode input data in a form advantageous for further processing.
+redundancy reduction through a deep NN will create a factorial code (a code with statistically
+advantageous for (1) data compression, (2) speeding up subsequent BP, (3) trivialising
+potential function networks (Lee and Kil, 1991), layer-wise UL of feature hierarchies fed into SL
+classifiers (Behnke, 1999), the Self-Organising Tree Algorithm (Herrero et al., 2001),
+and nonlinear Autoencoder (AEs) with 5 or more layers (e.g., Kramer, 1991). 
+through nonlinear feature detectors that fight nonlinear predictors, trying to become both as informative
+Hierarchical CNNs in a Neural Abstraction Pyramid (e.g., Behnke, 2003b) can be trained to
+In many applications of the 2000s, however, DBNs and other unsupervised methods 
+were largely replaced by purely supervised FNNs, especially MPCNNs (see above).
+Supervised Long Short-Term Memory (LSTM) RNNs have been developed since the 1990s 
+(e.g., Hochreiter and Schmidhuber, 1997b; Gers and Schmidhuber, 2001; Graves et al., 2009). 
+can neither vanish nor explode, but flow backwards in "civilized" fashion
+LSTM variants could learn previously unlearnable Very Deep Learning tasks 
+happened thousands of discrete time steps ago, while previous standard 
+time lags of 10 steps. It is possible to evolve good problem-specific LSTM-like 
+Bi-directional RNNs (BRNNs) (Schuster and Paliwal, 1997) are designed for input
+such as spoken sentences to be labeled by their phonemes. 
+Recursive NNs, BRNNs and DAG-RNNs unfold their full potential when combined with 
+(CTC, Graves et al., 2006), a gradient-based method for finding RNN weights that maximize
+Hannun et al (2014) used CTC-trained RNNs to break a famous speech recognition benchmark record,
+Unlike HMMs and previous RNNs, LSTM can learn to recognise 
+outperforming traditional HMMs in keyword spotting tasks (Fernandez et al., 2007). 
+large-vocabulary speech recognition (Sak et al., Google, 2014a; Li & Wu, 2015a). 
+LSTM also helped to improve the state of the art in numerous other fields,
+image caption generation (in conjunction with CNNs) (Vinyals et al., Google, 2014),
+syntactic parsing for natural language processing (Vinyals et al., Google, 2014b),
+LSTM is no panacea though. Other methods sometimes outperformed LSTM at least on certain
+tasks (e.g., Jaeger, 2004; Schmidhuber et al., 2007; Martens and Sutskever, 2011; 
+Zimmermann et al., 2012; Pascanu et al., 2013b; Koutnik et al., 2014).
+Several alternative RNN-related methods with fast memory control have been proposed 
+BP-like methods can be used to search for "simple," low-complexity NNs 
+with high generalization capability. For example, weight decay (e.g., Hanson and Pratt, 1989) 
+Related weight priors are implicit in additional penalty terms (MacKay, 1992) or in methods based
+on validation sets (e.g., Hastie and Tibshirani, 1990). Similar priors (or biases towards simplicity)
+are implicit in constructive and pruning algorithms, e.g., layer-by-layer sequential network construction
+unit pruning (e.g., Ivakhnenko, 1971; Mozer and Smolensky, 1989), weight pruning (e.g., LeCun et al., 1990b),
+DBN training can be improved (Cho et al., 2012) through Tikhonov-type
+regularization (Tikhonov et al., 1977). See also sparsity-enforcing methods mentioned earlier. 
+closely related to older, biologically plausible techniques for adding noise to neurons or synapses during
+NNs with competing units (e.g., Schmidhuber, 1989b; Maass, 2000; Goodfellow et al., 2013) 
+and avoid catastrophic forgetting through BP when training sets change over time (Srivastava et al.,
+The popular activation function f of Rectified Linear Units (ReLUs) is f(x) = x for x > 0; f(x) = 0
+ReLU NNs are useful for RBMs (Nair and Hinton, 2010; Maas et al., 2013), outperformed sigmoidal activation
+functions in deep NNs (Glorot et al., 2011), and helped to obtain best results on several
+Many additional tricks for improving NNs have been described (e.g., Montavon et al., 2012; Schmidhuber, 2015).
+Artificial NNs (ANNs) can help to better understand biological NNs (BNNs).
+similar to those found in early visual processing stages of BNNs. 
+Likewise, the feature detectors learned in deep layers of visual ANNs 
+should be highly predictive of what neuroscientists will find in deep layers of BNNs. 
+While the visual cortex of BNNs may use quite different learning algorithms, 
+its objective function to be minimized may be rather similar to the one of visual ANNs. 
+In fact, results obtained with relatively deep artificial NNs (e.g., Yamins et al., 2013) 
+seem compatible with insights about the visual pathway in the primate cerebral cortex, 
+which are little ovens, much hungrier for energy than biological brains, whose neurons efficiently
+communicate by brief spikes (e.g., Hodgkin and Huxley, 1952), and often remain quiet. 
+Future energy-efficient hardware for DL in NNs may implement aspects of such models - see numerous
+references in the survey (Schmidhuber, 2015, Sec. 5.26). In practical applications,
+however, current artificial networks of spiking neurons cannot yet compete with the best traditional
+Reinforcement Learning (RL) is the most general type of learning. 
+General RL agents must discover, without the aid of a teacher, how to interact
+with a dynamic, initially unknown, partially observable environment in order to maximize
+their expected cumulative reward signals (e.g., Kaelbling et al., 1996; Sutton and Barto,
+1998; Wiering and van Otterlo, 2012). There may be arbitrary, a priori unknown delays between actions
+and perceivable consequences. The RL problem is as hard as any problem of computer science,
+since any task with a computable description can be formulated in the general RL framework (e.g., Hutter,
+2005). Deep FNNs and RNNs are useful tools for various types of RL. 
+Many references on this since the 1980s can be found in the 
+Deep Learning in NNs is more than a temporary fad. Physics seems
+to dictate that any future efficient computational hardware will have to be brain-like,
+sparsely connected by many short and few long wires, to minimize total connection cost
+(even if the "wires" are actually light beams). The basic architecture
+3-dimensional RNN, and Deep Learning methods for such RNNs are expected to become 
+The contents of this article may be used for educational and non-commercial purposes, 
+I. Aizenberg, N.N. Aizenberg, and J. P.L. Vandewalle (2000). Multi-Valued and Universal Binary Neurons: Theory, Learning and Applications. Springer Science & Business Media. First work to introduce the term "Deep Learning" to Neural Networks; compare a popular G+ post on this.
+AMAmemory (2015): Answer at reddit AMA (Ask Me Anything) on "memory networks" etc (with references)
+Amari, S.-I. (1998). Natural gradient works efficiently in learning. Neural Computation, 10(2):251–
+Baird, H. (1990). Document image defect models. In Proc. IAPR Workshop on Syntactic and
+Baldi, P. and Pollastri, G. (2003). The principled design of large-scale recursive neural network architectures – DAG-RNNs and the protein structure prediction problem. J. Mach. Learn. Res., 4:575–602.
+Ballard, D. H. (1987). Modular learning in neural networks. Proc. AAAI, pp. 279–284.
+Barlow, H. B., Kaushal, T. P., and Mitchison, G. J. (1989). Finding minimum entropy codes. Neural
+Bayer, J., Wierstra, D., Togelius, J., and Schmidhuber, J. (2009). Evolving memory cell structures for
+Behnke, S. (1999). Hebbian learning and competition in the neural abstraction pyramid. Proc. IJCNN, vol 2, pp. 1356–1361.
+Behnke, S. (2003b). Hierarchical Neural Networks for Image Interpretation, vol LNCS 2766 of
+Bengio, Y., Lamblin, P., Popovici, D., and Larochelle, H. (2007). Greedy layer-wise training of deep
+networks. In Cowan, J. D., Tesauro, G., and Alspector, J., editors, Proc. NIPS 19, pp. 153–160. MIT Press.
+Bryson, A. E. (1961). A gradient method for optimizing multi-stage allocation processes. In Proc.
+Bryson, A. and Ho, Y. (1969). Applied optimal control: optimization, estimation, and control. Blaisdell Pub. Co.
+Cho, K., Ilin, A., and Raiko, T. (2012). Tikhonov-type regularization for restricted Boltzmann machines.
+Ciresan, D. C., Giusti, A., Gambardella, L. M., and Schmidhuber, J. (2012a). Deep neural networks
+segment neuronal membranes in electron microscopy images. Proc. NIPS, pp. 2852–2860.
+Ciresan, D. C., Giusti, A., Gambardella, L. M., and Schmidhuber, J. (2013). Mitosis detection in
+breast cancer histology images with deep neural networks. Proc. MICCAI, vol 2, pp. 411–418.
+Ciresan, D. C., Meier, U., Gambardella, L. M., and Schmidhuber, J. (2010). Deep big simple neural
+Ciresan, D. C., Meier, U., Masci, J., Gambardella, L. M., and Schmidhuber, J. (2011a). Flexible, high
+performance convolutional neural networks for image classification. Proc. IJCAI, pp. 1237–1242.
+Ciresan, D. C., Meier, U., Masci, J., and Schmidhuber, J. (2012b). Multi-column deep neural network
+Ciresan, D. C., Meier, U., and Schmidhuber, J. (2012c). Multi-column deep neural networks for image
+Coates, A., Huval, B., Wang, T., Wu, D. J., Ng, A. Y., and Catanzaro, B. (2013). Deep learning with
+R. Dechter (1986). Learning while searching in constraint-satisfaction problems. University of California, Computer Science Department, Cognitive Systems Laboratory. First paper to introduce the term "Deep Learning" to Machine Learning; compare a popular G+ post on this.
+Dreyfus, S. E. (1962). The numerical solution of variational problems. Journal of Mathematical Analysis and Applications, 5(1):30–45.
+Dreyfus, S. E. (1973). The computational solution of optimal control problems with time lag. IEEE Transactions on Automatic Control, 18(4):383–385.
+Fan, B.; Wang, L.; Soong, F. K.; Xie, L. (2015). Photo-Real Talking Head with Deep Bidirectional LSTM. Proc. ICASSP 2015. 
+Farabet, C., Couprie, C., Najman, L., and LeCun, Y. (2013). Learning hierarchical features for scene
+Fernandez, S., Graves, A., and Schmidhuber, J. (2007). An application of recurrent neural networks to discriminative keyword spotting. Proc. ICANN (2), pp. 220–229.
+Fernandez, S., Graves, A., and Schmidhuber, J. (2007). Sequence labelling in structured domains with hierarchical recurrent neural networks. Proc. IJCAI.
+Fu, K. S. (1977). Syntactic Pattern Recognition and Applications. Berlin, Springer.
+Fukushima, K. (1979). Neural network model for a mechanism of pattern recognition unaffected by shift in position - Neocognitron. Trans. IECE, J62-A(10):658–665.
+Gers, F. A. and Schmidhuber, J. (2001). LSTM recurrent networks learn simple context free and
+Gerstner, W. and Kistler, W. K. (2002). Spiking Neuron Models. Cambridge University Press.
+Glorot, X., Bordes, A., and Bengio, Y. (2011). Deep sparse rectifier networks. Proc. AISTATS, vol 15,
+Goodfellow, I. J., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013). Maxout networks. Proc. ICML.
+Goodfellow, I. J., Bulatov, Y., Ibarz, J., Arnoud, S., and Shet, V. (2014b). Multi-digit number
+recognition from street view imagery using deep convolutional neural networks. arXiv preprint
+Goller, C.; Küchler, A. (1996). Learning task-dependent distributed representations by backpropagation through structure. IEEE International Conference on Neural Networks, 1996, vol. 1, pp. 347-352. 
+Graves, A., Fernandez, S., Gomez, F. J., and Schmidhuber, J. (2006). Connectionist temporal classification:
+Labelling unsegmented sequence data with recurrent neural nets. Proc. ICML’06, pp. 369–376.
+Graves, A., Liwicki, M., Fernandez, S., Bertolami, R., Bunke, H., and Schmidhuber, J. (2009). A novel connectionist system for improved unconstrained handwriting recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, 31(5).
+Graves, A., Mohamed, A.-R., and Hinton, G. E. (2013). Speech recognition with deep recurrent
+Hannun, A.; Case, C; Casper, J.; Catanzaro, B.; Diamos, G.; Elsen, E.; Prenger, R.; Satheesh, S.; Sengupta, S.; Coates, A.; Ng, A. Y. (2014). Deep Speech: Scaling up end-to-end speech recognition. arXiv preprint http://arxiv.org/abs/1412.5567
+Hanson, S. J. and Pratt, L. Y. (1989). Comparing biases for minimal network construction with
+back-propagation. In Touretzky, D. S., editor, Proc. NIPS, 1, pp. 177–185. San Mateo, CA: Morgan Kaufmann.
+Hanson, S. J. (1990). A stochastic version of the delta rule. Physica D: Nonlinear Phenomena,
+Hastie, T. J. and Tibshirani, R. J. (1990). Generalized additive models. Monographs on Statisics and
+Hebb, D. O. (1949). The Organization of Behavior. Wiley, New York.
+Herrero, J., Valencia, A., and Dopazo, J. (2001). A hierarchical unsupervised growing neural network
+Hinton, G. and Salakhutdinov, R. (2006). Reducing the dimensionality of data with neural networks.
+Hinton, G. E. (2002). Training products of experts by minimizing contrastive divergence. Neural
+Hinton, G. E., Osindero, S., and Teh, Y.-W. (2006). A fast learning algorithm for deep belief nets.
+Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. R. (2012b).
+Improving neural networks by preventing co-adaptation of feature detectors. Technical Report
+Hochreiter, S. (1991). Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, Institut
+fuer Informatik, Lehrstuhl Prof. Brauer, Tech. Univ. Munich. Advisor: J. Schmidhuber.
+Hochreiter, S. and Schmidhuber, J. (1997a). Flat minima. Neural Computation, 9(1):1–42.
+Hochreiter, S. and Schmidhuber, J. (1997b). Long Short-Term Memory. Neural Computation,
+Hodgkin, A. L. and Huxley, A. F. (1952). A quantitative description of membrane current and its
+application to conduction and excitation in nerve. The Journal of Physiology, 117(4):500.
+Hutter, M. (2005). Universal Artificial Intelligence: Sequential Decisions based on Algorithmic Probability.
+Ivakhnenko, A. G. and Lapa, V. G. (1965). Cybernetic Predicting Devices. CCM Information Corporation.
+Ivakhnenko, A. G. (1971). Polynomial theory of complex systems. IEEE Transactions on Systems, Man and Cybernetics, (4):364–378.
+Jaeger, H. (2004). Harnessing nonlinearity: Predicting chaotic systems and saving energy in wireless
+Ji, S., Xu, W., Yang, M., and Yu, K. (2013). 3D convolutional neural networks for human action
+Kaelbling, L. P., Littman, M. L., and Moore, A.W. (1996). Reinforcement learning: a survey. Journal
+Karpathy, A., Toderici, G., Shetty, S., Leung, T., Sukthankar, R., and Fei-Fei, L. (2014). Large-scale
+Kelley, H. J. (1960). Gradient theory of optimal flight paths. ARS Journal, 30(10):947–954.
+Khan, S. H., Bennamoun, M., Sohel, F., and Togneri, R. (2014). Automatic feature learning for robust
+Koikkalainen, P. and Oja, E. (1990). Self-organizing hierarchical feature maps. Proc. IJCNN, pp. 279–284.
+Koutnik, J., Greff, K., Gomez, F., and Schmidhuber, J. (2014). A Clockwork RNN. Proc. ICML, vol 32, pp. 1845–1853.
+Kramer, M. (1991). Nonlinear principal component analysis using autoassociative neural networks.
+Krizhevsky, A., Sutskever, I., and Hinton, G. E. (2012). Imagenet classification with deep convolutional
+LeCun, Y., Boser, B., Denker, J. S., Henderson, D., Howard, R. E., Hubbard, W., and Jackel, L. D.
+LeCun, Y., Denker, J. S., and Solla, S. A. (1990b). Optimal brain damage. In Touretzky, D. S., Proc. NIPS 2, 
+LeCun, Y., Bengio, Y., Hinton, G. (2015). Deep Learning. Nature 521, 436-444. Link. See critique by J. Schmidhuber (2015)
+Lee, S. and Kil, R. M. (1991). A Gaussian potential function network with hierarchically selforganizing
+Li, X.; Wu, X (2015). Constructing Long Short-Term Memory based Deep Recurrent Neural Networks for Large Vocabulary Speech Recognition. Proc. ICASSP 2015. http://arxiv.org/abs/1410.4281
+Linnainmaa, S. (1970). The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors. Master’s thesis, Univ. Helsinki.
+Linnainmaa, S. (1976). Taylor expansion of the accumulated rounding error. BIT Numerical Mathematics, 16(2):146–160.
+Maas, A. L., Hannun, A. Y., and Ng, A. Y. (2013). Rectifier nonlinearities improve neural network
+Maass, W. (2000). On the computational power of winner-take-all. Neural Computation, 12:2519–2535.
+MacKay, D. J. C. (1992). A practical Bayesian framework for backprop networks. Neural Computation,
+Maclin, R. and Shavlik, J. W. (1995). Combining the predictions of multiple classifiers: Using competitive
+Martens, J. and Sutskever, I. (2011). Learning recurrent neural networks with Hessian-free optimization.
+Masci, J., Giusti, A., Ciresan, D. C., Fricout, G., and Schmidhuber, J. (2013). A fast learning algorithm
+for image segmentation with max-pooling convolutional networks. Proc. ICIP13, pp. 2713–2717.
+McCulloch, W. and Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics, 7:115–133.
+Mohamed, A. and Hinton, G. E. (2010). Phone recognition using restricted Boltzmann machines.
+Moller, M. F. (1993). Exact calculation of the product of the Hessian matrix of feed-forward network
+error functions and a vector in O(N) time. Technical Report PB-432, Computer Science Department,
+Montavon, G., Orr, G., and Mueller, K. (2012). Neural Networks: Tricks of the Trade. Number LNCS
+Moody, J. E. (1992). The effective number of parameters: An analysis of generalization and regularization
+Mozer, M. C. and Smolensky, P. (1989). Skeletonization: A technique for trimming the fat from a
+network via relevance assessment. In Proc. NIPS 1, pp. 107–115. Morgan Kaufmann.
+Nair, V. and Hinton, G. E. (2010). Rectified linear units improve restricted Boltzmann machines. Proc. ICML.
+Oh, K.-S. and Jung, K. (2004). GPU implementation of neural networks. Pattern Recognition,
+Pascanu, R., Mikolov, T., and Bengio, Y. (2013b). On the difficulty of training recurrent neural
+Pearlmutter, B. A. (1994). Fast exact multiplication by the Hessian. Neural Computation, 6(1):147–160.
+Raina, R., Madhavan, A., and Ng, A. (2009). Large-scale deep unsupervised learning using graphics
+Ranzato, M. A., Huang, F., Boureau, Y., and LeCun, Y. (2007). Unsupervised learning of invariant
+feature hierarchies with applications to object recognition. Proc. CVPR, pp. 1–8. 
+Robinson, A. J. and Fallside, F. (1987). The utility driven dynamic error propagation network. Technical
+Rosenblatt, F. (1958). The perceptron: a probabilistic model for information storage and organization
+Rumelhart, D. E., Hinton, G. E., and Williams, R. J. (1986). Learning internal representations by error
+propagation. In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing,
+Sak, H., Senior, A., Rao, K., Beaufays, F., Schalkwyk, J. (2015):
+Scherer, D., Mueller, A., and Behnke, S. (2010). Evaluation of pooling operations in convolutional architectures for object recognition. Proc. ICANN, pp. 92–101.
+Schmidhuber, J. (1989b). A local learning algorithm for dynamic feedforward and recurrent networks.
+Schmidhuber, J. (1992b). Learning complex, extended sequences using the principle of history compression.
+Schmidhuber, J. (1992c). Learning factorial codes by predictability minimization. Neural Computation,
+Schmidhuber, J. (1997). Discovering neural nets with low Kolmogorov complexity and high generalization
+Schmidhuber, J., Wierstra, D., Gagliolo, M., and Gomez, F. J. (2007). Training recurrent networks by
+Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. arXiv preprint 1404.7828
+Schuster, M. and Paliwal, K. K. (1997). Bidirectional recurrent neural networks. IEEE Transactions on Signal Processing, 45:2673–2681.
+Sima, J. (1994). Loading deep networks is hard. Neural Computation, 6(5):842–850.
+Simonyan, K., and Zisserman, A. (2015). Very Deep Convolutional Networks for Large-Scale Image Recognition. arXiv preprint http://arxiv.org/abs/1409.1556
+Smolensky, P. (1986). Parallel distributed processing: Explorations in the microstructure of cognition,
+vol. 1. chapter Information Processing in Dynamical Systems: Foundations of Harmony Theory,
+Speelpenning, B. (1980). Compiling Fast Partial Derivatives of Functions Given by Algorithms. PhD
+Srivastava, R. K., Masci, J., Kazerounian, S., Gomez, F., and Schmidhuber, J. (2013). Compete to
+Sutskever, I., Vinyals, O., and Le, Q. V. (2014). Sequence to sequence learning with neural networks.
+Sutton, R. and Barto, A. (1998). Reinforcement learning: An introduction. Cambridge, MA, MIT
+Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D., Vanhoucke, V., and Rabinovich,
+Tikhonov, A. N., Arsenin, V. I., and John, F. (1977). Solutions of ill-posed problems. Winston.
+Vaillant, R., Monrocq, C., and LeCun, Y. (1994). Original approach for the localisation of objects in
+Vieira, A. and Barradas, N. (2003). A training algorithm for classification of high-dimensional data.
+Vinyals, O.; Toshev, A.; Bengio, S.; Erhan, D. (2014). Show and Tell: A Neural Image Caption Generator. 
+Vinyals, O.; Kaiser, L.; Koo, T.; Petrov, S.; Sutskever, I.; Hinton, G. (2014b). Grammar as a Foreign Language. Preprint http://arxiv.org/abs/1412.7449
+Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines.
+In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+Williams, R. J. (1989). Complexity of exact gradient computation algorithms for recurrent neural
+Weng, J., Ahuja, N., and Huang, T. S. (1993). Learning recognition and segmentation of 3-D objects from 2-D images. Proc. 4th Intl. Conf. Computer Vision, Berlin, Germany, pp. 121-128. 
+Werbos, P. J. (1974). Beyond Regression: New Tools for Prediction and Analysis in the Behavioral
+Werbos, P. J. (1982). Applications of advances in nonlinear sensitivity analysis. In Proceedings of the
+Werbos, P. J. (1988). Generalization of backpropagation with application to a recurrent gas market
+Yamins, D., Hong, H., Cadieu, C., and DiCarlo, J. J. (2013). Hierarchical modular optimization of
+convolutional networks achieves representations similar to macaque IT and human ventral stream.
+Zeiler, M. D. and Fergus, R. (2013). Visualizing and understanding convolutional networks. Technical
+Zen, H. and Sak, H. (2015). Unidirectional Long Short-Term Memory Recurrent Neural Network with Recurrent Output Layer for Low-Latency Speech Synthesis. Proc. ICASSP, pp. 4470-4474
+Zimmermann, H.-G., Tietz, C., and Grothmann, R. (2012). Forecasting with recurrent neural networks:
+12 tricks. In Montavon, G., Orr, G. B., and Mueller, K.-R., editors, Neural Networks:
+Tricks of the Trade (2nd ed.), vol 7700 of Lecture Notes in Computer Science, pp. 687–707.
+Sponsored by: Prof. Risto Miikkulainen, The University of Texas at Austin, Austin, TX, USAReviewed by: Eugene M. Izhikevich, Editor-in-Chief of Scholarpedia, the peer-reviewed open-access encyclopediaReviewed by: Prof. Risto Miikkulainen, The University of Texas at Austin, Austin, TX, USAAccepted on: 2015-11-27 14:37:33 GMT

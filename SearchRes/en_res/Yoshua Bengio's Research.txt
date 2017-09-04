@@ -1,0 +1,137 @@
+has been extremely successful in the past two decades and is now
+applied in many areas of science and technology, some well known
+frontiers of machine learning is to make sense of the data, i.e., to
+complicated and highly-varying functions such as those that are necessary to perform
+An introductory discussion of recent and ongoing research is below. 
+a hot topic, why should we care? to be able to represent complicated functions compactly
+architectures: ok, we need deep architectures, but what how do we train them?
+distributed representations: depth is not enough, but is often combined with distributed representations.
+deep architectures: training deep architectures presents a fundamental non-convex optimization challenge. 
+language modeling: we'll need to address that to deal with data involving time (language, video, music, etc.)
+ progress on deep learning towards AI, and comes with apparently intractable challenges.
+ We study how models based on auto-encoders can be used both to learn features and as generative models,
+ avoiding some of these issues, and potentially opening the door to methods that can disentangle
+ the underlying factors of variation and do better credit assignment in
+Challenges for the Science and Engineering of Learning, one of the
+system to learn complex functions mapping the input to the output
+which humans often do not know how to specify explicitly. Complexity theory theorems suggest
+that one of the missing ingredients in current learning algorithms is depth of architecture (the number of
+levels of composition in the learned function, e.g. number of layers of
+On the right the circuit implements a neural nework with three layers.
+layers, and that can be trained in an unsupervised way, one layer at a
+Each layer represents a factor model for the layer below, and
+altogether we obtain a highly non-linear factor model. Since 2006, the
+number of papers on deep architectures has grown very quickly, several
+experimental results have been obtained on a wide variety of tasks, and
+research question. Hinton et al introduced Deep Belief Networks in a 2006
+From our lab, these other papers can be considered follow-up work on
+We would prefer to call it the curse of highly-varying functions or the
+curse of locality. That curse occurs when the only way a learning
+algorithm generalizes to a new case x is by exploiting only a raw
+This is typically done by the learner looking in its training examples
+for cases that are close to x according to some similarity measure. One
+can often interpret what these algorithms do as some kind of
+approximate a function by many small linear or constant pieces. We need
+at least one example for each piece. We can figure out what each piece
+should look like by looking mostly at the examples in the neighborhood
+of each piece. If the target function has a lot of variations, we'll
+need correspondingly many training examples. In dimension d (or on a
+if we are lucky, we may still obtain good results when we are trying to
+associated with two classes of objects. Even though each manifold may
+have many variations, they might be separable by a smooth (maybe even
+when the distribution of examples is very noisy, because it is
+difficult to capture much signal then (and a smooth predictor is pretty
+data. Because many examples can inform us about each of these factors,
+and because each factor may tell us something about examples that are
+very far from the training examples, it is possible to generalize
+or when the function to capture can be described with a smooth
+manifold. But when the target function has many ups and downs, one
+one requires an exponential number of training examples to cover it. To
+cover and discriminate among  N regions in input space, one would
+need O(N) examples with a local learning algorithm, but N can grow to
+partition of the space, and K hyper-planes (= K linear classifiers = K
+hidden units of a neural net) can capture and discriminate among 2**K
+Samy Bengio and Yoshua Bengio, Taking on the Curse of Dimensionality in
+Joint Distributions Using Neural Networks, in: IEEE Transaction on Neural Networks,
+special issue on data mining and knowledge discovery, volume 11, number
+And this one an attempt to introduce a non-local component in a
+predict the manifold structure at each point x, as a function of x:
+Yoshua Bengio, Hugo Larochelle and Pascal Vincent, Non-Local Manifold Parzen Windows,
+One basic hypothesis of our work is that the main stumbling block
+explaining past failures at training deep architectures is due to an
+The optimization problem is made difficult because of the presence of
+local minima and plateaus. However, it is encouraging to note that
+problem is made difficult because of the presence of local minima and
+plateaus. The working strategies we know of involve at least one of
+Since deeper networks are more difficult to train than shallow ones, it
+is not surprising to find that many of the 'guiding' strategies can be
+seen as giving hints to the hidden layers, to help them move to regions
+near good solutions to the learning task. It is conjectured that in
+order to generalize to a wide array of tasks (e.g. all related to
+data examples that have not been hand-labeled) is crucial. One way to
+observe that they exploit the idea that one can get near a good
+criterion, and gradually making it closer to the target criterion of
+interest, tracking a local minimum along the way (this is called a
+Our research objective is to further improve our understanding of these
+algorithms and to exploit it to develop new strategies for training
+inspiration from the natural world comes from the way in which children
+children learn in stages, moving to a next stage only after having
+understanding of the world. That is why schooling is normally organized
+in the form of a curriculum. This principle is also called shaping in
+the world of animal training, where a sequence of gradually more
+This is a new research thread in my lab, and the only published work
+method for deep neural networks is with the difficulty in optimizing
+the lower layers. We also show the importance of the unsupervised layer-wise
+In this paper we summarize several of the above ideas on strategies
+that have been or may be employed to circumvent the optimization
+One of the highest impact results I obtained was about the difficulty
+propagated through many time steps is a poor source of information for
+propagate it from the past to the future through a context variable, or
+it is vulnerable to perturbations and noise), or the gradients relating
+Yoshua Bengio, Patrice Simard and Paolo Frasconi, Learning Long-Term Dependencies with
+Yoshua Bengio and Paolo Frasconi, Diffusion of Credit in Markovian Models,
+Is there any hope? Humans seem to manage to learn through many time
+Salah El Hihi and Yoshua Bengio, Hierarchical Recurrent Neural Networks for
+Sutskever (U. Toronto), all suggest that there may be ways around the
+issues introduced in the above papers in the mid-90's. Exploring these
+potential solutions is one of the current undertakings in my lab.
+statistical structure of language. We have been working on such models
+and continue to do so. Our early work was meant to show the advantage
+This work has been followed up by many, as discussed in this
+The Baby AI project is a way to make concrete the above research, with
+the additional insight that a major source of data about "the world of
+television shows, or web pages, and that images (or image sequences)
+and natural language (in the form of textual captions or of sound) are
+communicate with humans through these modalities, an AI will need to
+reinforce each other in the process of extracting the regularities we
+In the short term we want to explore the limitations of current
+two advantages to this "starting small" strategy. Firstly, it is easier
+to understand what works and does not work when the setting and the
+mastered a set of concepts, it makes sense to apply them to more
+complex ones and we can even initialize the new models using the models
+trained on the simpler concepts. In the medium term, we would like to
+add to virtual data (for which we know the underlying true semantics)
+unlabeled data from a very rich source such as TV programs.
+Some of the basic research questions that we explore in this setting
+feature sets for various tasks and as new tasks emerge more effort will
+be required to devise new ones. The demonstrated ability of deep
+new applications for machine learning. We want to explore more learning
+performance and robustness of a system that uses these features, as has
+already been confirmed by us and others, not only in classification
+context; this is related to older research on long term dependencies
+only observe images, in others only text and sound, etc. We would like
+our algorithms to be able to infer "explanations" about the input that
+can take into account the modalities that are available in each
+modality that can be disjoint or connected, according to the need.
+asynchronous. How to unify them in the perspective of learning the
+can be quite big. So is the vocabulary. We would like to process them
+in a reasonable time, so the learning time per frame is of the order of
+Unsupervised learning attempts to discover structure in the data, and in its most general form
+that means that the joint distribution between the observed variable is captured. It may then
+be possible to answer an exponential number of questions about these variables, e.g., 
+Whereas estimating a probability function by maximum likelihood is statistically efficient
+(with the right model structure) it poses intractable computational challenges, which
+are revealed when studing various graphical models such as Boltzmann machines and directed
+graphical models. We attempt to better understand these issues and either find solutions
+within this framework or explore completely different approaches to unsupervised learning,
+both tractable deep generative models and potentially replace back-prop as a means
