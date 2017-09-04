@@ -1,0 +1,6 @@
+Abstract: The success of machine learning algorithms generally depends on data
+representations can entangle and hide more or less the different explanatory
+factors of variation behind the data. Although specific domain knowledge can be
+used to help design representations, learning with generic priors can also be
+used, and the quest for AI is motivating the design of more powerful
+recent work in the area of unsupervised feature learning and deep learning,

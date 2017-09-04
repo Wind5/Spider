@@ -1,0 +1,5 @@
+ If you find any issues using SINGA, please report it to the Issue Tracker.
+Please cite the following two papers if you use SINGA in your research:
+ B. C. Ooi, K.-L. Tan, S. Wang, W. Wang, Q. Cai, G. Chen, J. Gao, Z. Luo,
+A. K. H. Tung, Y. Wang, Z. Xie, M. Zhang, and K. Zheng. SINGA: A distributed
+ W. Wang, G. Chen, T. T. A. Dinh, B. C. Ooi, K.-L.Tan, J. Gao, and S. Wang.

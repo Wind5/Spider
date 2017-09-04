@@ -1,0 +1,5 @@
+Abstract: We introduce two Python frameworks to train neural networks on large
+datasets: Blocks and Fuel. Blocks is based on Theano, a linear algebra compiler
+with CUDA-support. It facilitates the training of complex neural network models
+symbolic computational graph, and providing an extensive set of utilities to
+learning datasets. It allows the user to easily iterate over large datasets,

@@ -10,12 +10,12 @@ class BaiduSpider(scrapy.Spider):
 
   def start_requests(self):
     key = getattr(self, 'key', None)
-    pagenum = 5
+    pagenum = 100
     # pagenum = int(getattr(self, 'pagenum', None))
     for pg in range(pagenum):
-      cn_url = requests.get('http://www.baidu.com/s?', params={'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'cn'}).url
+      # cn_url = requests.get('http://www.baidu.com/s?', params={'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'cn'}).url
       en_url = requests.get('http://www.baidu.com/s?', params={'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'en'}).url
-      yield scrapy.Request(cn_url, self.parse)
+      # yield scrapy.Request(cn_url, self.parse)
       yield scrapy.Request(en_url, self.parse)
 
   def parse(self, response):
@@ -27,7 +27,8 @@ class BaiduSpider(scrapy.Spider):
     print type(div.find('h3'))
     for link in div.find_all('div', [re.compile('result c-container '), re.compile('result-op c-container')]):
         a = link.find('h3').find('a')
-        print a.text + ': ' + a['href']
+        # print a.text
+        print a['href']
         yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text})
 
   def parse_content(self, response):

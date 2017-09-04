@@ -1,0 +1,154 @@
+This section assumes the reader has already read through Classifying MNIST digits using Logistic Regression
+and concepts: T.tanh, shared variables, basic arithmetic ops, T.grad, Random numbers, floatX. If you intend to run the code on GPU also read GPU.
+autoencoder and it was introduced as a building block for deep networks
+in [Vincent08]. We will start the tutorial with a short discussion on
+of the reverse mapping may be constrained to be the transpose of the forward
+The reconstruction error can be measured in many ways, depending on the
+traditional squared error , can be used. If the input is interpreted as either bit
+that captures the coordinates along the main factors of variation in the data.
+This is similar to the way the projection on principal components would capture
+the main factors of variation in the data. Indeed, if there is one linear
+hidden layer (the code) and the mean squared error criterion is used to train
+the network, then the hidden units learn to project the input in the
+span of the first principal components of the data. If the hidden
+layer is non-linear, the auto-encoder behaves differently from PCA, with the
+ability to capture multi-modal aspects of the input distribution. The departure
+from PCA becomes even more important when we consider stacking multiple
+examples, and hopefully for other inputs as well, but not for arbitrary inputs.
+That is the sense in which an auto-encoder generalizes: it gives low
+reconstruction error on test examples from the same distribution as the
+We want to implement an auto-encoder using Theano, in the form of a class, that
+could be afterwards used in constructing a stacked autoencoder. The first step
+is to create shared variables for the parameters of the autoencoder
+ Initialize the dA class by specifying the number of visible units (the
+ dimension d of the input ), the number of hidden units ( the dimension
+ d of the latent or hidden space ) and the corruption level. The
+ constructor also receives symbolic variables for the input, weights and
+ bias. Such a symbolic variables are useful when, for example the input
+ is the result of some computations, or when weights are shared between
+ the dA and an MLP layer. When dealing with SdAs this always happens,
+ the dA on layer 2 gets as input the output of the dA on layer 1,
+ and the weights of the dA are used in the second stage of training
+ :param theano_rng: Theano random generator; if None is given one is
+ :param input: a symbolic description of the input or None for
+ :param W: Theano variable pointing to a set of weights that should be
+ shared belong the dA and another architecture; if dA should
+ :param bhid: Theano variable pointing to a set of biases values (for
+ hidden units) that should be shared belong dA and another
+ architecture; if dA should be standalone set this to None
+ :param bvis: Theano variable pointing to a set of biases values (for
+ visible units) that should be shared belong dA and another
+ architecture; if dA should be standalone set this to None
+ # create a Theano random generator that gives symbolic random values
+ # note : W was written as `W_prime` and b as `b_prime`
+ # W is initialized with `initial_W` which is uniformely sampled
+ # theano.config.floatX so that the code is runable on GPU
+ # if no input is given, generate a variable representing the input
+ # we use a matrix because we expect a minibatch of several
+Note that we pass the symbolic input to the autoencoder as a parameter.
+This is so that we can concatenate layers of autoencoders to form a deep
+Now we can express the computation of the latent representation and of the reconstructed
+And using these functions we can compute the cost and the updates of
+ """ This function computes the cost and the updates for one trainng
+ # note : we sum over the size of a datapoint; if we are using
+ # minibatches, L will be a vector, with one entry per
+ L = - T.sum(self.x * T.log(z) + (1 - self.x) * T.log(1 - z), axis=1)
+ # note : L is now a vector, where each element is the
+ # compute the average of all these to get the cost of
+ # compute the gradients of the cost of the `dA` with respect
+We can now define a function that applied iteratively will update the
+If there is no constraint besides minimizing the reconstruction error, one
+might expect an auto-encoder with inputs and an encoding of dimension
+ (or greater) to learn the identity function, merely mapping an input
+to its copy. Such an autoencoder would not differentiate test examples (from
+useful means that a network taking the encoding as input has low
+A simple explanation is that stochastic gradient descent with early stopping is
+similar to an L2 regularization of the parameters. To achieve perfect
+non-linear hidden units (exactly like in the above code) needs very small
+weights in the first (encoding) layer, to bring the non-linearity of the hidden
+units into their linear regime, and very large weights in the second (decoding)
+layer. With binary inputs, very large weights are also needed to completely
+similar to those in the training set, which is what we want. It means that the
+There are other ways by which an auto-encoder with more hidden units than inputs
+useful about the input in its hidden representation. One is the addition of
+sparsity (forcing many of the hidden units to be zero or near-zero). Sparsity
+has been exploited very successfully by many [Ranzato07] [Lee08]. Another is
+to add randomness in the transformation from input to reconstruction. This
+Restricted Boltzmann Machines (RBM)), as well as in Denoising Auto-Encoders, discussed below.
+The idea behind denoising autoencoders is simple. In order to force
+the hidden layer to discover more robust features and prevent it
+autoencoder to reconstruct the input from a corrupted version of it.
+Intuitively, a denoising auto-encoder does two things: try to encode the input
+(preserve the information about the input), and try to undo the effect of a
+corruption process stochastically applied to the input of the auto-encoder. The
+latter can only be done by capturing the statistical dependencies between the
+generative model perspective), all of which are explained in [Vincent08]. See
+In [Vincent08], the stochastic corruption process randomly sets some of the
+inputs (as many as half of them) to zero. Hence the denoising auto-encoder is
+trying to predict the corrupted (i.e. missing) values from the uncorrupted
+Note how being able to predict any subset of variables from the rest is a
+To convert the autoencoder class into a denoising autoencoder class, all we
+need to do is to add a stochastic corruption step operating on the input. The input can be
+corrupted in many ways, but in this tutorial we will stick to the original
+corruption mechanism of randomly masking entries of the input by making
+ Note : first argument of theano.rng.binomial is the shape(size) of
+ third argument is the probability of success of any trial
+ this will produce an array of 0s and 1s where 1 has a
+ in floatX when floatX is float32, we set the dtype of
+ the binomial to floatX. As in our case the value of
+ the binomial is always 0 or 1, this dont change the
+ result. This is needed to allow the gpu to work
+the dA class have to be shared with those of a corresponding sigmoid layer.
+For this reason, the constructor of the dA also gets Theano variables
+pointing to the shared parameters. If those parameters are left to None,
+ A denoising autoencoders tries to reconstruct the input from a corrupted
+ version of it by projecting it first in a latent space and reprojecting
+ it afterwards back in the input space. Please refer to Vincent et al.,2008
+ for more details. If x is the input then equation (1) computes a partially
+ destroyed version of x by means of a stochastic mapping q_D. Equation (2)
+ computes the projection of the input into the latent space. Equation (3)
+ computes the reconstruction of the input, while equation (4) computes the
+ L(x,z) = -sum_{k=1}^d [x_k \log z_k + (1-x_k) \log( 1-z_k)] (4)
+ Initialize the dA class by specifying the number of visible units (the
+ dimension d of the input ), the number of hidden units ( the dimension
+ d of the latent or hidden space ) and the corruption level. The
+ constructor also receives symbolic variables for the input, weights and
+ bias. Such a symbolic variables are useful when, for example the input
+ is the result of some computations, or when weights are shared between
+ the dA and an MLP layer. When dealing with SdAs this always happens,
+ the dA on layer 2 gets as input the output of the dA on layer 1,
+ and the weights of the dA are used in the second stage of training
+ :param theano_rng: Theano random generator; if None is given one is
+ :param input: a symbolic description of the input or None for
+ :param W: Theano variable pointing to a set of weights that should be
+ shared belong the dA and another architecture; if dA should
+ :param bhid: Theano variable pointing to a set of biases values (for
+ hidden units) that should be shared belong dA and another
+ architecture; if dA should be standalone set this to None
+ :param bvis: Theano variable pointing to a set of biases values (for
+ visible units) that should be shared belong dA and another
+ architecture; if dA should be standalone set this to None
+ # create a Theano random generator that gives symbolic random values
+ # note : W was written as `W_prime` and b as `b_prime`
+ # W is initialized with `initial_W` which is uniformely sampled
+ # theano.config.floatX so that the code is runable on GPU
+ # if no input is given, generate a variable representing the input
+ # we use a matrix because we expect a minibatch of several
+ Note : first argument of theano.rng.binomial is the shape(size) of
+ third argument is the probability of success of any trial
+ this will produce an array of 0s and 1s where 1 has a
+ in floatX when floatX is float32, we set the dtype of
+ the binomial to floatX. As in our case the value of
+ the binomial is always 0 or 1, this dont change the
+ result. This is needed to allow the gpu to work
+ """ This function computes the cost and the updates for one trainng
+ # note : we sum over the size of a datapoint; if we are using
+ # minibatches, L will be a vector, with one entry per
+ L = - T.sum(self.x * T.log(z) + (1 - self.x) * T.log(1 - z), axis=1)
+ # note : L is now a vector, where each element is the
+ # compute the average of all these to get the cost of
+ # compute the gradients of the cost of the `dA` with respect
+since we neglect the biases and plot the weights up to a multiplicative
+To plot our filters we will need the help of tile_raster_images (see
+Plotting Samples and Filters) so we urge the reader to study it. Also
+using the help of the Python Image Library, the following lines of code will

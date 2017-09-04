@@ -1,0 +1,15 @@
+Neural Engineering Object (NENGO) – A graphical and scripting software for simulating large-scale neural systems
+Numenta Platform for Intelligent Computing – Numenta's open source implementation of their hierarchical temporal memory model
+^ Atilim Gunes Baydin; Barak A. Pearlmutter; Alexey Andreyevich Radul; Jeffrey Mark Siskind (20 February 2015). "Automatic differentiation in machine learning: a survey". arXiv:1502.05767  [cs.LG]. 
+^ "Support for Open CL · Issue #27 · deeplearning4j/nd4j". GitHub. 
+^ Does Keras support using multiple GPUs? · Issue #2436 · fchollet/keras
+^ "How to train a model using multiple machines? · Issue #59 · Microsoft/CNTK". GitHub. 
+^ a b "CNTK - Computational Network Toolkit". Microsoft Corporation. 
+^ "Support for other Device Types, OpenCL AMD GPU · Issue #621 · dmlc/mxnet". GitHub. 
+^ "Run MXNet on Multiple CPU/GPUs with Data Parallel". GitHub. 
+^ interface), JJ Allaire (R; RStudio; Eddelbuettel, Dirk; Golding, Nick; Tang, Yuan; Tutorials), Google Inc (Examples and (2017-05-26), tensorflow: R Interface to TensorFlow, retrieved 2017-06-14 
+^ "tensorflow/roadmap.md at master · tensorflow/tensorflow · GitHub". GitHub. January 23, 2017. Retrieved May 21, 2017. 
+^ "GitHub - jonathantompson/jtorch: An OpenCL Torch Utility Library". GitHub. 
+Categories: Applied machine learningComparisons of mathematical softwareData mining and machine learning softwareDeep learning
+ This page was last edited on 4 September 2017, at 08:13.
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.

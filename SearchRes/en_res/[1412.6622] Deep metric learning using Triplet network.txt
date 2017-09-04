@@ -1,0 +1,5 @@
+Abstract: Deep learning has proven itself as a successful set of models for learning
+learned as part of a classification task. In this paper we propose the triplet
+comparisons. A similar model was defined by Wang et al. (2014), tailor made for
+learning a ranking for image information retrieval. Here we demonstrate using
+various datasets that our model learns a better representation than that of its

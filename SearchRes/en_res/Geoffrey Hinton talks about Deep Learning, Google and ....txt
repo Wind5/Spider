@@ -1,0 +1,26 @@
+There is no doubt that Geoffrey Hinton is one of the top thought leaders in artificial intelligence. He is a professor at University of Toronto, and recently joined Google as a part-time researcher.
+When it comes to deep learning, we can see his name almost everywhere, such as in Back-propagation, Boltzmann machines, distributed representations, time-delay neural nets, dropout, deep belief nets, etc.
+My aim is to discover a learning procedure that is efficient at finding complex structure in large, high-dimensional datasets and to show that this is how the brain learns to see  Geoff Hinton.
+Since Geoffrey Hinton became a researcher in Google, we did not hear much from him. His AMA (Ask Me Anything) on Reddit provided an excellent opportunity to his fans. Here are some hot topics discussed on his AMA.
+The main thing I have been working on is my capsules theory.
+Currently we use an unstructured layer of artificial neurons to model a cortical area. We tried it because it is easy to program and it turned out to work very well. But Dr. Hinton wants to replace unstructured layers with groups of neurons called capsules that are a lot more like cortical columns.
+Hinton also commented on Szegedy et al.s paper where the continuity and stability of deep neural networks were questioned  (See my post Does Deep Learning Have Deep Flaws?). However, Hinton said his capsule theory may not be fooled as easily.
+Dr. Hinton joined Google last year after Google acquired his startup DNNresearch Inc.
+When asked about his most successful things so far at Google, he said that
+One big success was sending my student, Navdeep Jaitly, to be an intern at Google. He took a deep net for acoustic modeling developed by two students in Toronto (George Dahl and Abdel-Rahman Mohamed) and ported it to Googles system.
+Geoff Hinton discovered how the brain really works. Once each year for the last 25 years.
+This is a popular joke about Dr. Hinton and his theories (watch the video). Dr. Hinton made a couple of points about Deep Learning and how our brain works on his AMA.
+I think the success of deep learning gives a lot of credibility to the idea that we learn multiple layers of distributed representations using stochastic gradient descent. However, I think we are probably a long way from understanding how the brain does this.
+The brain does complex tasks like object recognition and sentence understanding with surprisingly little serial depth to the computation. So artificial neural nets should do the same.
+It is very impressive that DeepMinds Neural Turing Machine can get an RNN to invent a sorting algorithm. Its the first time Ive believed that deep learning would be able to do real reasoning in the not too distant future.
+Dr. Hinton shared his life stories which have the greatest influences on his thinking.
+From a very young age I was convinced that many of the things that the teachers and other kids believed were just obvious nonsense. Thats great training for a scientist and it transferred very well to artificial intelligence.
+Dr. Hinton started a course Neural Networks for machine learning on Coursera, which introduces artificial neural networks and its application. The course is a good start to learn deep learning. However, the course was offered two years ago. Someone asked if  there are any changes on the course if Hinton redid it today.
+Dr. Hinton said that he would split it into a basic course and an advanced course. In the advanced course, he would put a lot more about RNNs especially for things like machine translation and also include reinforcement learning in the course.
+I think that the most exciting areas over the next five years will be really understanding videos and text. I will be disappointed if in five years time we do not have something that can watch a YouTube video and tell a story about what happened.
+The pooling operation used in convolutional neural networks is a big mistake and the fact that it works so well is a disaster.
+I think the long-term future (of machine learning) is quite likely to be something that most researchers currently regard as utterly ridiculous and would certainly reject as a NIPS paper.
+I think answering questions about pictures is a better form of the Turing test. Methods that manipulate symbol strings without understanding them (like Eliza) can often fool us because we project meaning into their answers.
+More AMAs on Reddit of Machine Learning and Deep Learning stars: 
+Will Deep Learning take over Machine Learning, make other algorithms obsolete?
+ Cartoon: Machine Learning Class Adobe: Sr. Data Science Engineer Upcoming Meetings in AI, Analytics, Big Data,... Global AI Conference, New York City, October ... WCAI Analytics Accelerator Challenge Search Millions of Documents for Thousands of...

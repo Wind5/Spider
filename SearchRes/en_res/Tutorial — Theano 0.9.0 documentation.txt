@@ -1,0 +1,5 @@
+Several of the symbols you will need to use are in the tensor subpackage
+of Theano. Let us import that subpackage under a handy name like
+If that succeeded you are ready for the tutorial, otherwise check your
+Throughout the tutorial, bear in mind that there is a Glossary as well
+as index and modules links in the upper-right corner of each page to help

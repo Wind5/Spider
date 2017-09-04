@@ -1,0 +1,83 @@
+ Representation Learning: A Review and New Perspectives, Yoshua Bengio, Aaron Courville, Pascal Vincent, Arxiv, 2012.
+The monograph or review paper Learning Deep Architectures for AI (Foundations & Trends in Machine Learning, 2009).
+Deep Machine Learning  A New Frontier in Artificial Intelligence Research  a survey paper by Itamar Arel, Derek C. Rose, and Thomas P. Karnowski.
+Graves, A. (2012). Supervised sequence labelling with recurrent neural networks(Vol. 385). Springer.
+Schmidhuber, J. (2014). Deep Learning in Neural Networks: An Overview. 75 pages, 850+ references, http://arxiv.org/abs/1404.7828, PDF & LATEX source & complete public BIBTEX file under http://www.idsia.ch/~juergen/deep-learning-overview.html.
+LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. Deep learning. Nature 521, no. 7553 (2015): 436-444.
+Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. Playing Atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602 (2013).
+Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu. Recurrent Models of Visual Attention ArXiv e-print, 2014.
+ImageNet Classification with Deep Convolutional Neural Networks, Alex Krizhevsky, Ilya Sutskever, Geoffrey E Hinton, NIPS 2012.
+Going Deeper with Convolutions, Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, 19-Sept-2014.
+Learning Hierarchical Features for Scene Labeling, Clement Farabet, Camille Couprie, Laurent Najman and Yann LeCun, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2013.
+ Learning Convolutional Feature Hierachies for Visual Recognition, Koray Kavukcuoglu, Pierre Sermanet, Y-Lan Boureau, Karol Gregor, Michaël Mathieu and Yann LeCun, Advances in Neural Information Processing Systems (NIPS 2010), 23, 2010.
+Graves, Alex, et al. A novel connectionist system for unconstrained handwriting recognition. Pattern Analysis and Machine Intelligence, IEEE Transactions on 31.5 (2009): 855-868.
+Cireşan, D. C., Meier, U., Gambardella, L. M., & Schmidhuber, J. (2010). Deep, big, simple neural nets for handwritten digit recognition. Neural computation, 22(12), 3207-3220.
+Ciresan, Dan, Ueli Meier, and Jürgen Schmidhuber. Multi-column deep neural networks for image classification. Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. IEEE, 2012.
+Ciresan, D., Meier, U., Masci, J., & Schmidhuber, J. (2011, July). A committee of neural networks for traffic sign classification. In Neural Networks (IJCNN), The 2011 International Joint Conference on (pp. 1918-1921). IEEE.
+Joint Learning of Words and Meaning Representations for Open-Text Semantic Parsing, Antoine Bordes, Xavier Glorot, Jason Weston and Yoshua Bengio (2012), in: Proceedings of the 15th International Conference on Artificial Intelligence and Statistics (AISTATS)
+Dynamic pooling and unfolding recursive autoencoders for paraphrase detection. Socher, R., Huang, E. H., Pennington, J., Ng, A. Y., and Manning, C. D. (2011a).  In NIPS’2011.
+Semi-supervised recursive autoencoders for predicting sentiment distributions. Socher, R., Pennington, J., Huang, E. H., Ng, A. Y., and Manning, C. D. (2011b).  In EMNLP’2011.
+Mikolov Tomáš: Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012.
+Graves, Alex, and Jürgen Schmidhuber. Framewise phoneme classification with bidirectional LSTM and other neural network architectures. Neural Networks 18.5 (2005): 602-610.
+Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean. Distributed representations of words and phrases and their compositionality. In Advances in Neural Information Processing Systems, pp. 3111-3119. 2013.
+K. Cho, B. van Merrienboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, Y. Bengio. Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation. EMNLP 2014.
+Sutskever, Ilya, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. Advances in Neural Information Processing Systems. 2014.
+Bengio, Yoshua, et al. Better Mixing via Deep Representations. arXiv preprint arXiv:1207.4404 (2012).
+Xavier Glorot, Antoine Bordes and Yoshua Bengio, Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach, in: Proceedings of the Twenty-eight International Conference on Machine Learning (ICML11), pages 97-110, 2011.
+Raina, Rajat, et al. Self-taught learning: transfer learning from unlabeled data. Proceedings of the 24th international conference on Machine learning. ACM, 2007.
+Xavier Glorot, Antoine Bordes and Yoshua Bengio, Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach, in: Proceedings of the Twenty-eight International Conference on Machine Learning (ICML11), pages 97-110, 2011.
+R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu and P. Kuksa. Natural Language Processing (Almost) from Scratch. Journal of Machine Learning Research, 12:2493-2537, 2011.
+Mesnil, Grégoire, et al. Unsupervised and transfer learning challenge: a deep learning approach. Unsupervised and Transfer Learning Workshop, in conjunction with ICML. 2011.
+Ciresan, D. C., Meier, U., & Schmidhuber, J. (2012, June). Transfer learning for Latin and Chinese characters with deep neural networks. In Neural Networks (IJCNN), The 2012 International Joint Conference on (pp. 1-6). IEEE.
+Goodfellow, Ian, Aaron Courville, and Yoshua Bengio. Large-Scale Feature Learning With Spike-and-Slab Sparse Coding. ICML 2012.
+Improving neural networks by preventing co-adaptation of feature detectors. Hinton, Geoffrey E., et al.  arXiv preprint arXiv:1207.0580 (2012).
+Practical recommendations for gradient-based training of deep architectures, Yoshua Bengio, U. Montreal, arXiv report:1206.5533, Lecture Notes in Computer Science Volume 7700, Neural Networks: Tricks of the Trade Second Edition, Editors: Grégoire Montavon, Geneviève B. Orr, Klaus-Robert Müller, 2012.
+Emergence of simple-cell receptive field properties by learning a sparse code for natural images, Bruno Olhausen, Nature 1996.
+Kavukcuoglu, Koray, MarcAurelio Ranzato, and Yann LeCun. Fast inference in sparse coding algorithms with applications to object recognition. arXiv preprint arXiv:1010.3467 (2010).
+Goodfellow, Ian, Aaron Courville, and Yoshua Bengio. Large-Scale Feature Learning With Spike-and-Slab Sparse Coding. ICML 2012.
+Efficient sparse coding algorithms. Honglak Lee, Alexis Battle, Raina Rajat and Andrew Y. Ng. In NIPS 19, 2007. pdf
+Sparse coding with an overcomplete basis set: A strategy employed by VI?. . Olshausen, Bruno A., and David J. Field. Vision research 37.23 (1997): 3311-3326.
+Montufar, Guido F., and Jason Morton. When Does a Mixture of Products Contain a Product of Mixtures?. arXiv preprint arXiv:1206.0387 (2012).
+Montúfar, Guido, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio. On the Number of Linear Regions of Deep Neural Networks. arXiv preprint arXiv:1402.1869 (2014).
+The Manifold Tangent Classifier, Salah Rifai, Yann Dauphin, Pascal Vincent, Yoshua Bengio and Xavier Muller, in: NIPS2011.
+Discriminative Learning of Sum-Product Networks., Gens, Robert, and Pedro Domingos, NIPS 2012 Best Student Paper.
+Goodfellow, I., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013). Maxout networks. Technical Report, Universite de Montreal.
+Hinton, Geoffrey E., et al. Improving neural networks by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580 (2012).
+Wang, Sida, and Christopher Manning. Fast dropout training. In Proceedings of the 30th International Conference on Machine Learning (ICML-13), pp. 118-126. 2013.
+Glorot, Xavier, Antoine Bordes, and Yoshua Bengio. Deep sparse rectifier networks. In Proceedings of the 14th International Conference on Artificial Intelligence and Statistics. JMLR W&CP Volume, vol. 15, pp. 315-323. 2011.
+ImageNet Classification with Deep Convolutional Neural Networks, Alex Krizhevsky, Ilya Sutskever, Geoffrey E Hinton, NIPS 2012.
+Building High-level Features Using Large Scale Unsupervised Learning Quoc V. Le, Marc’Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg S. Corrado, Jeffrey Dean, and Andrew Y. Ng, ICML 2012.
+Bengio, Yoshua, et al. Neural probabilistic language models. Innovations in Machine Learning (2006): 137-186. Specifically Section 3 of this paper discusses the asynchronous SGD.
+Dean, Jeffrey, et al. Large scale distributed deep networks. Advances in Neural Information Processing Systems. 2012.
+Bengio, Yoshua, Patrice Simard, and Paolo Frasconi. Learning long-term dependencies with gradient descent is difficult. Neural Networks, IEEE Transactions on 5.2 (1994): 157-166.
+Mikolov Tomáš: Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012.
+Hochreiter, S., Bengio, Y., Frasconi, P., & Schmidhuber, J. (2001). Gradient flow in recurrent nets: the difficulty of learning long-term dependencies.
+Schmidhuber, J. (1992). Learning complex, extended sequences using the principle of history compression. Neural Computation, 4(2), 234-242.
+Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. (2006, June). Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks. In Proceedings of the 23rd international conference on Machine learning (pp. 369-376). ACM.
+Practical Bayesian Optimization of Machine Learning Algorithms, Jasper Snoek, Hugo Larochelle, Ryan Adams, NIPS 2012.
+Random Search for Hyper-Parameter Optimization, James Bergstra and Yoshua Bengio (2012), in: Journal of Machine Learning Research, 13(281305).
+Algorithms for Hyper-Parameter Optimization, James Bergstra, Rémy Bardenet, Yoshua Bengio and Balázs Kégl, in: NIPS2011, 2011.
+Training Deep and Recurrent Neural Networks with Hessian-Free Optimization, James Martens and Ilya Sutskever, Neural Networks: Tricks of the Trade, 2012.
+Schaul, Tom, Sixin Zhang, and Yann LeCun. No More Pesky Learning Rates. arXiv preprint arXiv:1206.1106 (2012).
+Le Roux, Nicolas, Pierre-Antoine Manzagol, and Yoshua Bengio. Topmoumoute online natural gradient algorithm. Neural Information Processing Systems (NIPS). 2007.
+Bordes, Antoine, Léon Bottou, and Patrick Gallinari. SGD-QN: Careful quasi-Newton stochastic gradient descent. The Journal of Machine Learning Research 10 (2009): 1737-1754.
+Glorot, Xavier, and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS’10). Society for Artificial Intelligence and Statistics. 2010.
+Glorot, Xavier, Antoine Bordes, and Yoshua Bengio. Deep Sparse Rectifier Networks. Proceedings of the 14th International Conference on Artificial Intelligence and Statistics. JMLR W&CP Volume. Vol. 15. 2011.
+Deep learning via Hessian-free optimization. Martens, James. Proceedings of the 27th International Conference on Machine Learning (ICML). Vol. 951. 2010.
+Pascanu, Razvan, and Yoshua Bengio. Revisiting natural gradient for deep networks. arXiv preprint arXiv:1301.3584 (2013).
+Dauphin, Yann N., Razvan Pascanu, Caglar Gulcehre, Kyunghyun Cho, Surya Ganguli, and Yoshua Bengio. Identifying and attacking the saddle point problem in high-dimensional non-convex optimization. In Advances in Neural Information Processing Systems, pp. 2933-2941. 2014.
+Salakhutdinov, Ruslan, and Geoffrey E. Hinton. Deep boltzmann machines. Proceedings of the international conference on artificial intelligence and statistics. Vol. 5. No. 2. Cambridge, MA: MIT Press, 2009.
+An Efficient Learning Procedure for Deep Boltzmann Machines, Ruslan Salakhutdinov and Geoffrey Hinton, Neural Computation August 2012, Vol. 24, No. 8: 1967  2006.
+Montavon, Grégoire, and Klaus-Robert Müller. Deep Boltzmann Machines and the Centering Trick. Neural Networks: Tricks of the Trade (2012): 621-637.
+Salakhutdinov, Ruslan, and Hugo Larochelle. Efficient learning of deep boltzmann machines. International Conference on Artificial Intelligence and Statistics. 2010.
+Goodfellow, Ian, et al. Multi-prediction deep Boltzmann machines. Advances in Neural Information Processing Systems. 2013.
+Unsupervised Models of Images by Spike-and-Slab RBMs, Aaron Courville, James Bergstra and Yoshua Bengio, in: ICML2011
+Hinton, Geoffrey. A practical guide to training restricted Boltzmann machines. Momentum 9.1 (2010): 926.
+Regularized Auto-Encoders Estimate Local Statistics, Guillaume Alain, Yoshua Bengio and Salah Rifai, Université de Montréal, arXiv report 1211.4246, 2012
+A Generative Process for Sampling Contractive Auto-Encoders, Salah Rifai, Yoshua Bengio, Yann Dauphin and Pascal Vincent, in: ICML2012, Edinburgh, Scotland, U.K., 2012
+Contracting Auto-Encoders: Explicit invariance during feature extraction, Salah Rifai, Pascal Vincent, Xavier Muller, Xavier Glorot and Yoshua Bengio, in: ICML2011
+Disentangling factors of variation for facial expression recognition, Salah Rifai, Yoshua Bengio, Aaron Courville, Pascal Vincent and Mehdi Mirza, in: ECCV2012.
+Vincent, Pascal, et al. Stacked denoising autoencoders: Learning useful representations in a deep network with a local denoising criterion. The Journal of Machine Learning Research 11 (2010): 3371-3408.
+Vincent, Pascal. A connection between score matching and denoising autoencoders. Neural computation 23.7 (2011): 1661-1674.
+Chen, Minmin, et al. Marginalized denoising autoencoders for domain adaptation. arXiv preprint arXiv:1206.4683 (2012).
+A very brief introduction to AI, Machine Learning, and Deep Learning in Yoshua Bengios IFT6266 graduate class

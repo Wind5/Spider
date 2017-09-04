@@ -1,0 +1,15 @@
+DeepGrammar is an artificial intelligence company focusing on natural language processing.
+The name comes from our product, a grammar checker that employs both deep learning
+ Our grammar checker is in development and will be coming soon.
+ making it difficult to simply write down the rules and check that they are followed.
+ This lack of regularity is why grammar checkers have always been so poor.
+ Fortunately, a new technique in machine learning called deep learning allows
+ computers to be as squishy as our language, and effective grammar checking is finally possible.
+Our grammar checker is coming out soon, but in the meantime, you can try an early prototype here.
+Dr. Mugan specializes in artificial intelligence and machine learning. His current research focuses in the area 
+of deep learning, where he seeks to allow computers to acquire abstract representations that enable 
+them to capture subtleties of meaning. Dr. Mugan received his Ph.D. in Computer Science from the 
+University of Texas at Austin. His thesis work was in the area of developmental robotics where he focused 
+on the problem of how to build robots that can learn about the world in the same way that children do.
+Dr. Storm earned his doctorate in Biophysics from the University of California, Berkeley. His research combined machine learning, nonlinear dynamics, and neuroscience. He developed a systems identification method that can track nonlinear switching events in near real time. The method was applicable in breaking hyperchaotic key shifting cryptographic codes and anticipating epileptic seizures from EEG waveforms. He went on to co-found Turnitin and served as its CTO. He developed the core search and display algorithms. As a board member and R&D leader, he was instrumental in building a highly profitable company that serviced tens of millions of users in hundreds of countries. The company's sale in 2014 was one of the top technology acquisitions of the year.
+Dr. Goode received his Ph.D. in Applied Mathematics & Statistics from SUNY Stony Brook, where he worked on the application of supercomputers to financial risk forecasting. This work led to several patents and publications, and he currently focuses on developing deep learning algorithms for natural language processing and entity analysis. In his free time, he enjoys mountain biking, kayaking, and playing with his cat.

@@ -1,0 +1,10 @@
+That is while many problems in computer vision inherently have an underlying
+high-level structure and can benefit from it. Spatio-temporal graphs are a
+popular tool for imposing such high-level intuitions in the formulation of real
+world problems. In this paper, we propose an approach for combining the power
+Neural Networks~(RNNs). We develop a scalable method for casting an arbitrary
+spatio-temporal graph as a rich RNN mixture that is feedforward, fully
+principled as it can be used for transforming any spatio-temporal graph through
+employing a certain set of well defined steps. The evaluations of the proposed
+approach on a diverse set of problems, ranging from modeling human motion to
+margin. We expect this method to empower new approaches to problem formulation

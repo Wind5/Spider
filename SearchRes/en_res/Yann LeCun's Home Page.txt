@@ -1,0 +1,54 @@
+(212)998-3283     yann [ a t ] cs.nyu.edu     yann [ a t ] fb.com
+Administrative aide: Hong Tam (212)998-3374     hongtam [ a t ] cs.nyu.edu
+Note: the best way to reach me is by email or through Hong (I don't check my voicemail very often).
+2013-10-16: announcing the 2014 International Conference on Learning Representations: a conference about deep learning, feature learning, compositional hierarhcical models, etc. It uses an open reviewing process similar to what I advocate in this pamphlet.
+ Biological Learning Lab, my research group at the Courant Institute, NYU.
+CILVR Lab: Computational Intelligence, Vision Robotics Lab: a 20-person lab consisting of my colleagues Rob Fergus, Savid Sontag and me, together with our students and postdocs.
+VLG: The Vision-Learning-Graphics Group consisting of the CILVR Lab, plus our colleagues in computer graphics, movement analysis, and human-computer interfaces.
+ where you will find our latest results, before they may receive a stamp of approval.
+This pamphlet proposes a new publishing model based on an open repository
+and open (but anonymous) reviews which creates a "market" between papers
+Animals and humans can learn to see, perceive, act, and communicate
+with an efficiency that no Machine Learning method can approach. The
+brains of humans and animals are "deep", in the sense that each action
+is the result of a long chain of synaptic communications (many layers
+surmise that understanding deep learning will not only enable us to
+We are developing a new type of relational graphical models that can
+price of a house depends not only on the characteristics of the house,
+but also of the prices of similar houses in the neighborhood, or
+funded by the US government, is to design vision and learning algorithms
+can be viewed as a form of non-probabilistic factor graphs, and they
+Lush combines three languages in one: a very simple to use,
+with the same syntax, and the C language, which can be freely mixed
+with the other languages within a single source file, and even
+Matlab and other existing tools, Lush is for you. If you want a 
+Lush is for you. Lush is Free Software (GPL) and runs under GNU/Linux,
+DjVu is a document format, a set of compression methods and a software
+platform for distributing scanned and digitally produced documents on the Web.
+DjVu image files of scanned documents are typically 3-8 times 
+smaller than PDF or TIFF-groupIV for bitonal and 5-10 times 
+smaller than PDF or JPEG for color (at 300 DPI). DjVu versions
+ a description of DjVu, and a set of useful links.
+ at the University of Illinois at Urbana-Champaign, October 22 2001.
+ free plug-ins for Windows and Mac, free and commercial applications
+ your documents and get them converted to DjVu. Bib2Web automates
+Convolutional Nets are a special kind of neural net architecture designed 
+to recognize images directly from pixel data. Convolutional Nets can be
+A system I helped develop reads an estimated 10 percent of
+MNIST is widely used by researchers as a benchmark for testing 
+I have several interests beside my family (my wife and three sons)
+ and Baroque music. A few MP3 and MIDI files of Renaissance music are 
+ preferably battery powered, radio controled, and unconventional in their design.
+Building robots: particularly Lego robots (before the days of the Lego Mindstorms)
+ I have owned 5 computers between 1978 and 1992: SYM-1, OSI C2-4P, Commodore 64, 
+ Amiga 1000, Amiga 4000. then I lost interest in personal computing when the only thing
+ you could get was a boring Wintel box. Then, Linux appeared and I came back to life.....
+Sailing: I own two sport catamarans, a Nacra 5.8 and a Prindle 19. I also sail 
+Graphic Design: I designed the DjVu logo and much of the AT&T DjVu web site.
+Reading European comics. Comics in certain European countries (France, Belgium, Italy,
+ Spain) are considered a true art form ("le 8-ieme art"), and not just a business with
+ products targeted at teenagers like on this side of the pond. Although I don't have
+ a shred of evidence to support it, I claim to have the largest private collection 
+ have much of an audience this side of the pond.
+include the ever so popular Support Vector Machine, the PlayMail and 
+Virt2Elle synthetic talking heads, the Net32K and ANNA neural net chips, 

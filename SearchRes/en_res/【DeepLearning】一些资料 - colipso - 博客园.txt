@@ -1,0 +1,57 @@
+Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+ACL 2014 Accepted Long PapersA Bayesian Mixed Effects Model of Literary Character
+Jeffrey Flanigan, Sam Thomson, Jaime Carbonell, Chris Dyer and Noah A. Smith
+A Generalized Language Model as the Combination of Skipped n-grams and Modified Kneser Ney Smoothing
+Rene Pickhardt, Thomas Gottron, Martin Krner, Paul Georg Wagner, Till Speicher and Steffen Staab
+A Semiparametric Gaussian Copula Regression Model for Predicting Financial Risks from Earnings Calls
+A Unified Model for Soft Linguistic Reordering Constraints in Statistical Machine Translation
+Abstractive Summarization of Spoken and Written Conversations Based on Phrasal Queries
+Active Learning with Efficient Feature Weighting Methods for Improving Data Quality and Classification Accuracy
+Marco Turchi, Antonios Anastasopoulos, Jos Guilherme Camargo de Souza and Matteo Negri
+Jiajun Zhang, Shujie Liu, Mu Li, Ming Zhou and Chengqing Zong
+Can You Repeat That? Using Word Repetition to Improve Spoken Term Detection
+Hongzhao Huang, Yunbo Cao, Xiaojiang Huang, Heng Ji and Chin-Yew Lin
+Comparing Multi-label Classification with Reinforcement Learning for Summarisation of Time-series Data
+Correcting Preposition Errors in Learner English Using Error Case Frames and Feedback Messages
+Miao Fan, Deli Zhao, Qiang Zhou, Zhiyuan Liu, Thomas Fang Zheng and Edward Y. Chang
+Don't count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors
+Extracting Opinion Targets and Opinion Words from Online Reviews with Graph Co-ranking
+Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+Jacob Devlin, Rabih Zbib, Zhongqiang Huang, Thomas Lamar, Richard Schwartz and John Makhoul
+Weiwei Sun, Yantao Du, Xin Kou, Shuoyang Ding and Xiaojun Wan
+How to make words with vectors: Phrase generation in distributional semantics
+Interpretable Semantic Vectors from a Joint Model of Brain- and Text- Based Meaning
+Alona Fyshe, Partha Pratim Talukdar, Brian Murphy and Tom M Mitchell
+Joint POS Tagging and Transition-based Constituent Parsing in Chinese with Non-local Features
+Ruiji Fu, Jiang Guo, Bing Qin, Wanxiang Che, Haifeng WANG and Ting Liu
+Duyu Tang, Furu Wei, Nan Yang, Ming Zhou, Bing Qin and Ting Liu
+Learning Structured Perceptrons for Coreference Resolution with Latent Antecendents and Non-local Features
+Lei Cui, Dongdong Zhang, Shujie Liu, Qiming Chen, Mu Li and Ming Zhou
+Learning Word Sense Distributions, Detecting Unattested Senses and Identifying Novel Senses Using Topic Models
+Jey Han Lau, Paul Cook, Diana McCarthy, Spandana Gella and Timothy Baldwin
+Tao Lei, Yu Xin, Yuan Zhang, Regina Barzilay and Tommi Jaakkola
+Matthew R. Gormley, Margaret Mitchell, Benjamin Van Durme and Mark Dredze
+Yulia Tsvetkov, Leonid Boytsov, Anatole Gershman, Eric Nyberg and Chris Dyer
+Aliaksei Severyn, Olga Uryupina, Barbara Plank, Alessandro Moschitti and Katja Filippova
+ReNew: A Semi-Supervised Framework for Generating Domain-Specific Lexicons and Sentiment Analysis
+Minh Luan Nguyen, Ivor W. Tsang, Kian Ming A. Chai and Hai Leong Chieu
+Shallow Analysis Based Assessment of Syntactic Complexity for Automated Speech Scoring
+Simple Negation Scope Resolution Through Deep Parsing: A Semantic Solution to a Semantic Problem
+Woodley Packard, Emily M. Bender, Jonathon Read, Stephan Oepen and Rebecca Dridan
+Single-Agent vs. Multi-Agent Techniques for Concurrent Reinforcement Learning of Negotiation Dialogue Policies
+Steps to Excellence: Simple Inference with Refined Scoring of Dependency Trees
+Yuan Zhang, Tao Lei, Regina Barzilay, Tommi Jaakkola and Amir Globerson
+Tagging The Web: Building A Robust Web Tagger with Neural Network
+Thats sick dude!: Automatic identification of word sense change across different timescales
+Sunny Mitra, Ritwik Mitra, Martin Riedl, Chris Biemann, Animesh Mukherjee and Pawan Goyal
+That's Not What I Meant! Using Parsers to Avoid Structural Ambiguities in Generated Text
+The effect of wording on message propagation: Topic- and author-controlled natural experiments on Twitter
+Xiaodong Zeng, Lidia S. Chao, Derek F. Wong, Isabel Trancoso and Liang Tian
+Toward Future Scenario Generation: Extracting Event Causality Exploiting Semantic Relation, Context, and Association Features
+Chikara Hashimoto, Kentaro Torisawa, Julien Kloetzer, Motoki Sano, Istvan Varga, Jong-Hoon Oh and Yutaka Kidawara
+Translation Assistance by Translation of L1 Fragments in an L2 Context
+Two Heads are Better than One: Crowdsourcing Translation via a Two-Step Non-Professional Collaboration towards Professionals
+Two Is Bigger (and Better) Than One: the Wikipedia Bitaxonomy Project
+Validating and Extending Semantic Knowledge Bases using Video Games with a Purpose
+Daniele Vannella, David Jurgens, Daniele Scarfini, Domenico Toscani and Roberto Navigli
+Weak semantic context helps phonetic learning in a model of infant language acquisition

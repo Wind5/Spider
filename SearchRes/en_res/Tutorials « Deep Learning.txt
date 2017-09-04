@@ -1,0 +1,21 @@
+Deep Learning, Yoshua Bengio, Ian Goodfellow, Aaron Courville, MIT Press, In preparation.
+Yoshua Bengio, Learning Deep Architectures for AI, Foundations and Trends in Machine Learning, 2(1), pp.1-127, 2009.
+Yoshua Bengio, Aaron Courville, Pascal Vincent, Representation Learning: A Review and New Perspectives, Arxiv, 2012.
+Jurgen Schmidhuber, Deep Learning and Neural Networks: An Overview, arXiv, 2014.
+The Deep Learning Tutorials are a walk-through with code for several important Deep Architectures (in progress; teaching material for Yoshua Bengios IFT6266 course).
+Stanfords Unsupervised Feature and Deep Learning tutorials has wiki pages and matlab code examples for several basic concepts and algorithms used for unsupervised feature learning and deep learning.
+The videos of the lectures given in the Deep Learning 2015 Summer School in Montreal: http://videolectures.net/deeplearning2015_montreal (University of Montreal, August 2015)
+Yoshua Bengios Google tech talk on Deep Learning Representations at Google Montreal (Google Montreal, 11/13/2012)
+Geoffrey Hintons talk at the Redwood Center for Theoretical Neuroscience (UC Berkeley, March 2010).
+A general presentation done by Yoshua Bengio in September 2009, also at Google.
+Geoffrey Hintons 2007 NIPS Tutorial [updated 2009] on Deep Belief Networks 3 hour video , ppt, pdf , readings
+Geoffrey Hintons talk at Google about dropout and Brain, Sex and Machine Learning.
+ Yoshua Bengio and Richard Sochers talk, Deep Learning for NLP(without magic) at ACL 2012.
+Yoshua Bengio and Yann LeCuns presentation at ICML Workshop on Learning Feature Hiearchies on June 18th 2009.
+[LeCun et al 2006]. A Tutorial on Energy-Based Learning, in Bakir et al. (eds) Predicting Structured Outputs, MIT Press 2006: a 60-page tutorial on energy-based learning, with an emphasis on structured-output models. The tutorial includes an annotated bibliography of discriminative learning, with a simple view of CRF, maximum-margin Markov nets, and graph transformer networks.
+A 2006 Tutorial an Energy-Based Learning given at the 2006 CIAR Summer School: Neural Computation & Adaptive Perception.[Energy-Based Learning: Slides in DjVu (5.2MB), Slides in PDF (18.2MB)] [Deep Learning for Generic Object Recognition:Slides in DjVu (3.8MB), Slides in PDF (11.6MB)]
+ Feature learning for Image Classification (by Kai Yu and Andrew Ng): introducing a paradigm of feature learning from unlabeled images, with an emphasis on applications to supervised image classification.
+ Deep Learning and Unsupervised Feature Learning: basic concepts about unsupervised feature learning and deep learning methods with links to papers and code.
+Graduate Summer School: Deep Learning, Feature Learning: IPAM summer school about deep learning.
+Deep Learning for Computer Vision and Natural Language Processing Course from University of Columbia by Liangliang Cao and James Fan.
+ Last modified on September 30, 2015, at 10:46 am by Caglar Gulcehre

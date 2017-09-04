@@ -1,0 +1,10 @@
+The BICV group does extensive work with deep learning in our research. For more details, see the Techniques we use.
+The purpose of the Deep Learning Network is to unite researchers across Imperial College London working on deep learning by facilitating the sharing of knowledge and experience, and expanding this to the wider deep learning community. There is no formal membership and all are welcome to attend meetings. You may subscribe to the mailing list (for events and general-interest postings) or Slack (for reading groups and general chat).
+The group was founded by Kai in 2014 and is run with the help of volunteers both inside and outside of the university; it is not officially endorsed by Imperial College London. For more information about current events please contact Pierre.
+The reading group happens regularly on Tuesdays at 18:00 in the Electrical and Electronic Engineering building, South Kensington campus; we utilise room 1004 or 1009f depending on availability. All reading groups are listed in the calendar below (which can also indicate when the reading group is not running).
+(New York University)On Different Distances Between Distributions and Generative Adversarial NetworksSlides (organised with the Creative AI Meetup)
+(Queen Mary University of London)Some (Mis)Applications of Deep Learning to MusicSlides
+2015-06-12Bio-inspired Unsupervised Learning of Visual Features Leads to Robust Invariant Object RecognitionSlides
+Unsupervised Feature Learning and Deep Learning Tutorial (Andrew Ng et al.)
+Deep Learning Summer School 2015 (Yoshua Bengio, Roland Memisevic, Yann LeCun)
+Convolutional Neural Networks for Visual Recognition (Fei-Fei Li, Andrej Karpathy, Justin Johnson)

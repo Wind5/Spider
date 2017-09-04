@@ -1,0 +1,11 @@
+That is while many problems in computer vision inherently have an underlying
+high-level structure and can benefit from it. Spatio-temporal graphs are a
+formulation of real world problems. In this paper, we propose an approach for
+success of Recurrent Neural Networks~(RNNs). We develop a scalable method for
+casting an arbitrary spatio-temporal graph as a rich RNN mixture that is
+is generic and principled as it can be used for transforming any
+spatio-temporal graph through employing a certain set of well defined steps.
+The evaluations of the proposed approach on a diverse set of problems, ranging
+from modeling human motion to object interactions, shows improvement over the
+state-of-the-art with a large margin. We expect this method to empower a new
+graphs and Recurrent Neural Networks, and be of broad interest to the

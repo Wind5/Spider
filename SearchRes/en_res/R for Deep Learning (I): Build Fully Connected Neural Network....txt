@@ -1,0 +1,97 @@
+Deep Neural Network (DNN) has made a great progress in recent years in image recognition, natural language processing and automatic driving fields, such as Picture.1 shown from 2012  to 2015 DNN improved IMAGNET’s accuracy from ~80% to ~95%, which really beats traditional computer vision (CV) methods.
+In this post, we will focus on fully connected neural networks which are commonly called DNN in data science. The biggest advantage of DNN is to extract and learn features automatically by deep layers architecture, especially for these complex and high-dimensional data that feature engineers can’t capture easily, examples in Kaggle. Therefore, DNN is also very attractive to data scientists and there are lots of successful cases as well in classification, time series, and recommendation system, such as Nick’s post and credit scoring by DNN. In CRAN and R’s community, there are several popular and mature DNN packages including nnet, nerualnet, H2O, DARCH, deepnet and mxnet,  and I strong recommend H2O DNN algorithm and R interface.
+Using existing DNN package, you only need one line R code for your DNN model in most of the time and there is an example by neuralnet. For the inexperienced user, however, the processing and results may be difficult to understand.  Therefore, it will be a valuable practice to implement your own network in order to understand more details from mechanism and computation views.
+DNN is one of rapidly developing area. Lots of novel works and research results are published in the top journals and Internet every week, and the users also have their specified neural network configuration to meet their problems such as different activation functions, loss functions, regularization, and connected graph. On the other hand, the existing packages are definitely behind the latest researches, and almost all existing packages are written in C/C++, Java so it’s not flexible to apply latest changes and your ideas into the packages.
+As we mentioned, the existing DNN package is highly assembled and written by low-level languages so that it’s a nightmare to debug the network layer by layer or node by node. Even it’s not easy to visualize the results in each layer, monitor the data or weights changes during training, and show the discovered patterns in the network.
+Fully connected neural network, called DNN in data science, is that adjacent network layers are fully connected to each other. Every neuron in the network is connected to every neuron in adjacent layers.
+A very simple and typical neural network is shown below with 1 input layer, 2 hidden layers, and 1 output layer. Mostly, when researchers talk about network’s architecture, it refers to the configuration of DNN, such as how many layers in the network, how many neurons in each layer, what kind of activation, loss function, and regularization are used.
+Now, we will go through the basic components of DNN and show you how it is implemented in R.
+Take above DNN architecture, for example, there are 3 groups of weights from the input layer to first hidden layer, first to second hidden layer and second hidden layer to output layer. Bias unit links to every hidden node and which affects the output scores, but without interacting with the actual data. In our R implementation, we represent weights and bias by the matrix. Weight size is defined by,
+  (number of neurons layer M) X (number of neurons in layer M+1)
+and weights are initialized by random number from rnorm. Bias is just a one dimension matrix with the same size of  neurons and set to zero. Other initialization approaches, such as calibrating the variances with 1/sqrt(n) and sparse initialization, are introduced in weight initialization part of Stanford CS231n.
+Another common implementation approach combines weights and bias together so that the dimension of input is N+1 which indicates N input features with 1 bias, as below code:
+A neuron is a basic unit in the DNN which is biologically inspired model of the human neuron. A single neuron performs weight and input multiplication and addition (FMA), which is as same as the linear regression in data science, and then FMA’s result is passed to the activation function. The commonly used activation functions include sigmoid, ReLu, Tanh and Maxout. In this post, I will take the rectified linear unit (ReLU)  as activation function,  f(x) = max(0, x). For other types of activation function, you can refer here.
+In R, we can implement neuron by various methods, such as sum(xi*wi). But, more efficient representation is by matrix multiplication.
+In practice, we always update all neurons in a layer with a batch of examples for performance consideration. Thus, the above code will not work correctly.
+As below code shown,  input %*% weights and bias with different dimensions and  it cant  be added directly. Two solutions are provided. The first one repeats bias ncol times, however, it will waste lots of memory in big data input. Therefore, the second approach is better.
+Another trick in here is to replace max by pmax to get element-wise maximum value instead of a global one, and be careful of the order in pmax 🙂
+# s1 is aligned with a scalar, so the matrix structure is lost
+# put matrix in the first, the scalar will be recycled to match matrix structure
+the input layer is relatively fixed with only 1 layer and the unit number is equivalent to the number of features in the input data.
+Hidden layers are very various and it’s the core component in DNN. But in general,  more hidden layers are needed to capture desired patterns in case the problem is more complex (non-linear).
+The unit in output layer most commonly does not have an activation because it is usually taken to represent the class scores in classification and arbitrary real-valued numbers in regression. For classification, the number of output units matches the number of categories of prediction while there is only one output node for regression.
+Till now, we have covered the basic concepts of deep neural network and we are going to build a neural network now, which includes determining the network architecture, training network and then predict new data with the learned network. To make things simple, we use a small data set, Edgar Andersons Iris Data (iris) to do classification by DNN.
+IRIS is well-known built-in dataset in stock R for machine learning. So you can take a look at this dataset by the summary at the console directly as below.
+ Min. :4.300 Min. :2.000 Min. :1.000 Min. :0.100 setosa :50 
+ 1st Qu.:5.100 1st Qu.:2.800 1st Qu.:1.600 1st Qu.:0.300 versicolor:50 
+ Median :5.800 Median :3.000 Median :4.350 Median :1.300 virginica :50 
+From the summary, there are four features and three categories of Species. So we can design a DNN architecture as below.
+And then we will keep our DNN model in a list, which can be used for retrain or prediction, as below. Actually, we can keep more interesting parameters in the model with great flexibility.
+ $ W1: num [1:4, 1:6] 1.34994 1.11369 -0.57346 -1.12123 -0.00107 ...
+ $ b1: num [1, 1:6] 1.336621 -0.509689 -0.000277 -0.473194 0 ...
+ $ W2: num [1:6, 1:3] 1.31464 -0.92211 -0.00574 -0.82909 0.00312 ...
+Prediction, also called classification or inference in machine learning field, is concise compared with training, which walks through the network layer by layer from input to output by matrix multiplication. In output layer, the activation function doesn’t need. And for classification, the probabilities will be calculated by softmax  while for regression the output represents the real value of predicted.   This process is called feed forward or feed propagation.
+Training is to search the optimization parameters (weights and bias) under the given network architecture and minimize the classification error or residuals.  This process includes two parts: feed forward and back propagation. Feed forward is going through the network with input data (as prediction parts) and then compute data loss in the output layer by loss function (cost function). Data loss measures the compatibility between a prediction (e.g. the class scores in classification) and the ground truth label.” In our example code, we selected cross-entropy function to evaluate data loss, see detail in here.
+After getting data loss, we need to minimize the data loss by changing the weights and bias. The very popular method is to back-propagate the loss into every layers and neuron by gradient descent or  stochastic gradient descent which requires derivatives of data loss for each parameter (W1, W2, b1, b2). And back propagation will be different for different activation functions and see here and here for their derivatives formula and method, and Stanford CS231n for more training tips.
+ # updated: 10.March.2016: create index for both row and col
+ # use all train data to update weights since it's a small dataset
+ # you can add more parameters for debug and visualization
+We have built the simple 2-layers DNN model and now we can test our model. First, the dataset is split into two parts for training and testing, and then use the training set to train model while testing set to measure the generalization ability of our model.
+The data loss in train set and the accuracy in test as below:
+Then we compare our DNN model with nnet package as below codes.
+ir.nn2 <- nnet(species ~ ., data = ird, subset = samp, size = 6, rang = 0.1,
+Googles tensorflow released a very cool website to visualize neural network in here. And we has taught almost all technologies as googles website in this blog so you can build up with R as well 🙂
+In this post, we have shown how to implement R neural network from scratch. But the code is only implemented the core concepts of DNN, and the reader can do further practices by:
+Solving other classification problem, such as a toy case in here
+Visualizing the network architecture, weights, and bias by R, an example in here.
+In the next post, I will introduce how to accelerate this code by multicores CPU and NVIDIA GPU.
+3. Pretty R syntax in this blog is Created by inside-R .org (acquired by MS and dead)
+Neural network in the article is nothing to do with the deep neural network has not. This is a common MLP. Only 2 package (darch, deepnet) actually create deep neural network initialized by Stacked Autoencoder and Stacked RBM. All other create a simple neural network with deep regularization and the original initialization of weights of neurons.
+Thanks for your comments. Great point about the difference between MLP and DNN, and several nice answers in below:
+In this blog, I intend to make sure the code is as simple as possible to understand, so only 1 hidden layer is used and we initinized the weights/bias w/ random number. The construction of DNN model mainly refers the online course of CS231n.
+As you mentioned the initialization method of Stacked Autoencoder and Stacked RBM (or other parts of DNN) which can be implemented in example R code is relative flexible compared with mature packages. And that is one of major reasons why we need to build DNN from scratch rather than using CRAN packages.
+The example code of this blog is in GitHub and I will be very happy if you can improve the code by what real DNN has as you mentioned so that more readers can learn it clearly from codes.
+Im not a programmer, I practice. I It is important to know the basic principles of the algorithm without unnecessary gory details.
+Look at a few of my articles here. https://www.mql5.com/en/articles/1103 and https://www.mql5.com/en/articles/2029 and
+impressed! Very helpful information particularly the closing part 🙂 I take care
+of such info much. I was seeking this particular info for a very lengthy time.
+Whats up very cool web site!! Guy .. Beautiful .. Wonderful .. Ill bookmark your website and take the feeds additionally…Im happy to find numerous useful info here within the put up, we need develop extra strategies in this regard, thanks for sharing.
+This is a very good question and its not very difficult to switch from current classification network to regression network.
+2. Loss function from softmax to mean squared error or absolute error;
+I think you can get the correct codes after a little warm-up, and welcome to check in your code in ParallelR GitHub.
+On the other hand, I will release the regression code later in case you have issues to build regression NN.
+after i tried for regression, i come up with some further question
+ how do we modify the number of hidden layer from 2- 5 layers instead of fix hidden layer (2), does 2 hidden layers architecture guarantee best structure of network? the idea is perform grid search, or random search hyper-paramater optimization to look for best architecture. for example
+-can we consider your network architecture is a deep learning? since DNN also in family of deep learning, in term of deep learning usually at the first step use unsupervised pre-training (RBM, AE, SAE, CRBM) to learn feature then followed by supervised at the top(fine-tune, backpropagation, etc) 
+im not an expert , still need to learn many things
+1) Fixed 1 hidden layer (totally 3 layers) in the article is only for simplified the code and make it shorter.
+In practice, people prefer to use many hidden layers (range from the layers to hundred layers) to capture complicated patterns in the data; however, its prone to over-fitting the data by much layers. Thus, it’s a tradeoff between shallow and deep network, and you can refer this paper as well (https://arxiv.org/pdf/1312.6184.pdf). And dropout and adaptive LR are commonly used in the modern network.
+Regarding with which kind of NN structure is better, it really depends on the problem and input data, and I think this the real state-of-art in DNN and very time-consuming 🙂 
+Go back the code, the forward and back propagation processing of multiple layer network are very similar to 1 layer. The only thing for you is to add a loop. Take 2 hidden layers for example in below code. Actually, you need to generalize this piece of code by numbers of input parameters, such as hidden=c(3,3,3) stands for 3 hidden layers and each with 3 neurons:
+You can refer the materials of VladMinkov from above comments for whats really deep learning or below slide.
+Sweet blog! I found it while surfing around on Yahoo News. Do you have any tips on how to get listed in Yahoo News? Ive been trying for a while but I never seem to get there! Many thanks
+Thanks, though this is a little out of topic, Im very happy to know the blog has been listed on Yahoo. 
+Actually, I dont know the exact reasons but I think a well-baked article with enriched technology instructions will be favored for readers.
+Wow, wonderful weblog format! How lengthy have you ever been blogging for? you made running a blog look easy. The full look of your site is great, let alone the content!
+Sorry for the confusions. Actually, layer.size is a fake function I used to illustrate how to initialize weight and bias.
+When we define the network architecture, we need to pass the hidden layer size to train.dnn function with hidden=c(3) and we can save it to a vector such as size.nn < - c(D, hidden, K)'. 
+Hope this helpful 🙂 And I will try to refine the post later to make it clear.
+Actually, nnet doesnt use learning rate as Brian D. Ripley said:
+I think you need to read the book nnet supports. It does not do on-line learning and does not have a learning rate.
+And NN in Chapter 8 of the books from Brain in below:
+Actually, LR is not needed in nnet and I am trying to understand the weights updating of nnet. I will reply to you when I figure out more details.
+I think that it is already on weight inside nnet package includes the learning rate. If you check the this books 6.8.11 in below :
+Hello, Peng 🙂 I have a question about overfitting in neural networks model. In general, overfitting means when validation error increases while the training error steadily decreases in result. right? but if validation error will be converge (not increase or decrease) at particular point while the training error steadily decreases, is this case also overfitting?
+1. str(ir.model), actually, you need to train model first, as blog mentioned,
+2. traindata is located in function, you can't execute it line by line. But you can assign real data first as below:
+BTW, the whole R code is on Github, you can try to run it and then debug one by one.
+2. Loss function from softmax to mean squared error or absolute error;
+Welcome to share your codes with me. It is a great honor to help you.🙂
+I tested the classification results and it worked very well as what you have showed.
+Now, I am facing a task to fit a NN onto a regression dataset, you mentioned above in one of the comments that switching from classification to regression is not very hard. But, I tried to modify the code and ended up with not working well on my end. I am just wondering did you post somewhere another blog talking about regression NN or can you kindly provide me with some details? I would really appreciated your help.
+To switch from current classification network to regression network, major changes include:
+1. Activation function from ReLu to tanh or sigmoid. Attention that it is usually not necessary to set activation function on the output layer;
+2. Loss function from softmax to mean squared error or absolute error;
+you can try to run it and then debug one by one.
+2) The opinions expressed here represent my own and not those of my employer.
+3) The opinions expressed by the ParallelR Bloggers and those providing comments are theirs alone and do not reflect the opinions of ParallelR.

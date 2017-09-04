@@ -1,0 +1,199 @@
+In this post, we take a tour of the most popular machine learning algorithms.
+It is useful to tour the main algorithms in the field to get a feeling of what methods are available.
+There are so many algorithms available that it can feel overwhelming when algorithm names are thrown around and you are expected to just know what they are and where they fit.
+I want to give you two ways to think about and categorize the algorithms you may come across in the field.
+The first is a grouping of algorithms by the learning style.
+The second is a grouping of algorithms by similarity in form or function (like grouping similar animals together).
+Both approaches are useful, but we will focus in on the grouping of algorithms by similarity and go on a tour of a variety of different algorithm types.
+After reading this post, you will have a much better understanding of the most popular machine learning algorithms for supervised learning and how they are related.
+A cool example of an ensemble of lines of best fit. Weak members are grey, the combined prediction is red.Plot from Wikipedia, licensed under public domain.
+There are different ways an algorithm can model a problem based on its interaction with the experience or environment or whatever we want to call the input data.
+It is popular in machine learning and artificial intelligence textbooks to first consider the learning styles that an algorithm can adopt.
+There are only a few main learning styles or learning models that an algorithm can have and well go through them here with a few examples of algorithms and problem types that they suit.
+This taxonomy or way of organizing machine learning algorithms is useful because it forces you to think about the roles of the input data and the model preparation process and select one that is the most appropriate for your problem in order to get the best result.
+Lets take a look at three different learning styles in machine learning algorithms:
+Input data is called training data and has a known label or result such as spam/not-spam or a stock price at a time.
+A model is prepared through a training process in which it is required to make predictions and is corrected when those predictions are wrong. The training process continues until the model achieves a desired level of accuracy on the training data.
+Input data is not labeled and does not have a known result.
+A model is prepared by deducing structures present in the input data. This may be to extract general rules. It may be through a mathematical process to systematically reduce redundancy, or it may be to organize data by similarity.
+There is a desired prediction problem but the model must learn the structures to organize the data as well as make predictions.
+Example algorithms are extensions to other flexible methods that make assumptions about how to model the unlabeled data.
+When crunching data to model business decisions, you are most typically using supervised and unsupervised learning methods.
+A hot topic at the moment is semi-supervised learning methods in areas such as image classification where there are large datasets with very few labeled examples.
+I've created a handy mind map of 60+ algorithms organized by type.
+Also get exclusive access to the machine learning algorithms email mini-course.
+Algorithms are often grouped by similarity in terms of their function (how they work). For example, tree-based methods, and neural network inspired methods.
+I think this is the most useful way to group algorithms and it is the approach we will use here.
+This is a useful grouping method, but it is not perfect. There are still algorithms that could just as easily fit into multiple categories like Learning Vector Quantization that is both a neural network inspired method and an instance-based method. There are also categories that have the same name that describe the problem and the class of algorithm such as Regression and Clustering.
+We could handle these cases by listing algorithms twice or by selecting the group that subjectively is the best fit. I like this latter approach of not duplicating algorithms to keep things simple.
+In this section, I list many of the popular machine learning algorithms grouped the way I think is the most intuitive. The list is not exhaustive in either the groups or the algorithms, but I think it is representative and will be useful to you to get an idea of the lay of the land.
+Please Note: There is a strong bias towards algorithms used for classification and regression, the two most prevalent supervised machine learning problems you will encounter.
+If you know of an algorithm or a group of algorithms not listed, put it in the comments and share it with us. Lets dive in.
+Regression is concerned with modeling the relationship between variables that is iteratively refined using a measure of error in the predictions made by the model.
+Regression methods are a workhorse of statistics and have been co-opted into statistical machine learning. This may be confusing because we can use regression to refer to the class of problem and the class of algorithm. Really, regression is a process.
+Instance-based learning model is a decision problem with instances or examples of training data that are deemed important or required to the model.
+Such methods typically build up a database of example data and compare new data to the database using a similarity measure in order to find the best match and make a prediction. For this reason, instance-based methods are also called winner-take-all methods and memory-based learning. Focus is put on the representation of the stored instances and similarity measures used between instances.
+An extension made to another method (typically regression methods) that penalizes models based on their complexity, favoring simpler models that are also better at generalizing.
+I have listed regularization algorithms separately here because they are popular, powerful and generally simple modifications made to other methods.
+Decision tree methods construct a model of decisions made based on actual values of attributes in the data.
+Decisions fork in tree structures until a prediction decision is made for a given record. Decision trees are trained on data for classification and regression problems. Decision trees are often fast and accurate and a big favorite in machine learning.
+Bayesian methods are those that explicitly apply Bayes Theorem for problems such as classification and regression.
+Clustering, like regression, describes the class of problem and the class of methods.
+Clustering methods are typically organized by the modeling approaches such as centroid-based and hierarchal. All methods are concerned with using the inherent structures in the data to best organize the data into groups of maximum commonality.
+Association rule learning methods extract rules that best explain observed relationships between variables in data.
+These rules can discover important and commercially useful associations in large multidimensional datasets that can be exploited by an organization.
+Artificial Neural Networks are models that are inspired by the structure and/or function of biological neural networks.
+They are a class of pattern matching that are commonly used for regression and classification problems but are really an enormous subfield comprised of hundreds of algorithms and variations for all manner of problem types.
+Note that I have separated out Deep Learning from neural networks because of the massive growth and popularity in the field. Here we are concerned with the more classical methods.
+Deep Learning methods are a modern update to Artificial Neural Networks that exploit abundant cheap computation.
+They are concerned with building much larger and more complex neural networks and, as commented on above, many methods are concerned with semi-supervised learning problems where large datasets contain very little labeled data.
+Like clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarize or describe data using less information.
+This can be useful to visualize dimensional data or to simplify data which can then be used in a supervised learning method. Many of these methods can be adapted for use in classification and regression.
+Ensemble methods are models composed of multiple weaker models that are independently trained and whose predictions are combined in some way to make the overall prediction.
+Much effort is put into what types of weak learners to combine and the ways in which to combine them. This is a very powerful class of techniques and as such is very popular.
+I did not cover algorithms from specialty tasks in the process of machine learning, such as:
+I also did not cover algorithms from specialty subfields of machine learning, such as:
+This tour of machine learning algorithms was intended to give you an overview of what is out there and some ideas on how to relate algorithms to each other.
+Ive collected together some resources for you to continue your reading on algorithms. If you have a specific question, please leave a comment.
+There are other great lists of algorithms out there if youre interested. Below are few hand selected examples.
+List of Machine Learning Algorithms: On Wikipedia. Although extensive, I do not find this list or the organization of the algorithms particularly useful.
+Machine Learning Algorithms Category: Also on Wikipedia, slightly more useful than Wikipedias great list above. It organizes algorithms alphabetically.
+CRAN Task View: Machine Learning & Statistical Learning: A list of all the packages and all the algorithms supported by each machine learning package in R. Gives you a grounded feeling of whats out there and what people are using for analysis day-to-day.
+Top 10 Algorithms in Data Mining: Published article and now a book (Affiliate Link) on the most popular algorithms for data mining. Another grounded and less overwhelming take on methods that you could go off and learn deeply.
+Algorithms are a big part of machine learning. Its a topic I am passionate about and write about a lot on this blog. Below are few hand selected posts that might interest you for further reading.
+How to Learn Any Machine Learning Algorithm: A systematic approach that you can use to study and understand any machine learning algorithm using algorithm description templates (I used this approach to write my first book).
+How to Create Targeted Lists of Machine Learning Algorithms: How you can create your own systematic lists of machine learning algorithms to jump start work on your next machine learning problem.
+How to Research a Machine Learning Algorithm: A systematic approach that you can use to research machine learning algorithms (works great in collaboration with the template approach listed above).
+How to Investigate Machine Learning Algorithm Behavior: A methodology you can use to understand how machine learning algorithms work by creating and executing very small studies into their behavior. Research is not just for academics!
+How to Implement a Machine Learning Algorithm: A process and tips and tricks for implementing machine learning algorithms from scratch.
+Sometimes you just want to dive into code. Below are some links you can use to run machine learning algorithms, code them up using standard libraries or implement them from scratch.
+How To Get Started With Machine Learning Algorithms in R: Links to a large number of code examples on this site demonstrating machine learning algorithms in R.
+Machine Learning Algorithm Recipes in scikit-learn: A collection of Python code examples demonstrating how to create predictive models using scikit-learn.
+How to Run Your First Classifier in Weka: A tutorial for running your very first classifier in Weka (no code required!).
+Please, leave a comment if you have any questions or ideas on how to improve the algorithm tour.
+Update #2: Ive added a bunch more resources and more algorithms. Ive also added a handy mind map that you can download (see above).
+It covers explanations and examples of 10 top algorithms, like:Linear Regression, k-Nearest Neighbors, Support Vector Machines and much more
+Dr. Jason Brownlee is a husband, proud father, academic researcher, author, professional developer and a machine learning practitioner. He is dedicated to helping developers get started and get good at applied machine learning.
+I enjoy your blog and your writing style of explaining a complex topic in simple terms.
+I have one request. Do you have a cheat sheet in choosing the right algorithm. I would like to know when to use what ML algorithm as a starters guideline?
+Then I dont quite understand the listing of both Back-Propagation and Hopfield Network under the title of Artificial Neural Network Algorithms. Back-Propagation is clearly a training algorithm, whereas a Hopfield Network is probably a classifier?
+Hi qnaguru, Id recommend starting small and experimenting with algorithms on small datasets using a tool like Weka. Its a GUI tool and provides a bunch of standard datasets and algorithms out of the box.
+Id suggest you build up some skill on small datasets before moving onto big data tools like Hadoop and Mahout.
+I would also read a couple of books to give you some background into the possibilities and limitations. Nate Silver; The Signal and The Noise & Danial Kahneman; Thinking Fast and Slow.
+The best written one I have found is: The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition. However you probably need to have some background on maths/stats/computing before reading that (especially if you are planning to implement them too). For general algorithms implementation I recommend reading also Numerical Recipes 3rd Edition: The Art of Scientific Computing.
+I enjoyed this post but I think that this is a misinformed statement. Genetic Algorithms are most useful in large search spaces (enumerating here would be impossible, were talking about spaces that could be 10^100) and highly complex non-convex functions. Modern algorithms are much more sophisticated than the simple techniques used in the 80s e.g. (http://en.wikipedia.org/wiki/CMA-ES) and (http://en.wikipedia.org/wiki/Estimation_of_distribution_algorithm). Here is a nice fun recent application: http://www.cc.gatech.edu/~jtan34/project/learningBicycleStunts.html
+Thanks Alex, you can also check out my 2011 book of algorithm recipes titled Clever Algorithms: Nature-Inspired Programming Recipes. In it I cover 5 different estimation of distribution algorithms and 10 different evolutionary algorithms.
+Where does imagination lie? Would it be a Unsupervised Feedback Learning? Maybe its Neural Deep Essemble Networks. I presume dreaming = imagination while sleeping, hence daydreaming is imagining of new learning algorithms 🙂
+I lot of people swear by this chart for helping you narrow down which machine learning approach to take: http://scikit-learn.org/stable/_static/ml_map.png. It doesnt seem to cover all the types you list in your article. Perhaps a more thorough chart would be useful.
+You might want to include entropy-based methods in your summary. I use relative-entropy based monitoring in my work to identify anomalies in time series data. This approach has a better recall rate and lower false positive rates when tested with synthetic data using injected outliers. Just an idea, your summary is excellent for such a high level conceptual overview.
+Thanks for this tour, it is very useful ! But I disagree with you for the LDA method, which is in the Kernel Methods. First of all, by LDA, do you mean Linear Discriminant Analysis ? Because if its not, the next parts of my comment are useless :p
+If you are talking about this method, then you should put KLDA (which stand for Kernel LDA) and not simply LDA. Because LDA is more a dimension reduction method than a kernel method (It finds the best hyperplane that optimize the Fisher discriminant in order to project data on it).
+Next, I dont know if we can view the RBF as a real machine learning method, its more a mapping function I think, but it is clearly used for mapping to a higher dimension.
+Except these two points, the post is awesome ! Thanks again.
+@Vincent, I think he mentions Radial Based Network or RBN, which is artificial neural network (ANN) that uses radial basis functions [1]. Jason is correct in placing it under ANN classification. 
+Great post, but I agree with Vincent. Kernel Methods are not machine learning methods by themselve, but more an extension that allows to overcome some difficulties encountered when input data are not linearly separable. SVM and LDA are not Kernel-based, but their definition can be adapted to make use of the famous kernel-trick, giving birth to KSVM and KLDA, that are able to separate data linearly in a higher-dimensional space. Kernel trick can be applied to a wide variety of Machine learning methods:
+Moreover, I dont think that RBF can be considered a machine learning method. It is a kernel function used alongside the kernel trick to project the data in a high-dimensional space. So the listing in Kernel methods seems to have a typing error :p
+Last point, dont you think LDA could be added to the Dimensionality Reduction category ? In fact, its more an open question but, mixture methods (clustering) and factor analysis could be considered Dimensionality Reduction methods since data can be labeled either by its cluster id, or its factors.
+Thanks again for this post, giving an overview of machin learning methods is a great thing.
+Hi qnaguru, I have collected some nice reference books to start digging Machine learning. I would suggest you to start with Introduction to statistical learning and after that you can look into “The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition”, Probabilistic Machine Learning by David Barber.
+Very nice taxonomy of methods. Two small quibbles, both in the Decision Tree section.
+1) MARS isnt a tree method, its a spline method. You list it already in the regression group, though could even go in the regularization group. (not a natural fit in any, IMHO).
+2) Random Forests is an ensemble method and sticks out a bit in the trees group. Yes, they are trees, but so is the MART (TreeNet) and some flavors of Adaboost. Since you already have an ensembles and RF is already there, I think you can safely remove it from the Trees.
+Greate article. my knowledge in Machne learning is improving in bredth not in depth.how should i improve my learning.i have done some real time implementations with Regression analysis.and Random forest.and also i am atteding coursera courses.how would i get real time experience on ML R with Hadoop.
+I am currently learning Sparse Coding. And I have difficulty putting Sparse Coding into the categories you created.
+I am now taking convex optimization course. Is it a correct roadmap?
+Where does ranking fit into the machine learning algorithms? Is it by any chance under some of the categories mentioned in the article? The only time I find ranking mentioned in relation to machine learn is when I specifically search for ranking, none of the machine learning articles discuss it.
+What methods/algorithms are suitable for applying to trading patterns analysis. I mean looking at the trading graphs of the last 6 months (e.g. SPY). Currently, I am looking at the graphs visually. Can an algorithm come to my aid (I am currently enrolled in an online data mining course) ?
+Great list. Definitely cleared things up for me, Jason! I do have a question concerning Batch Gradient Descent and the Normal Equation. Are these considered Estimators?
+I would love to see a post that addresses the different types of estimators / optimizers that could be used for each of these algorithms that is simple to understand. Also where does feature scaling (min max scaling & standardization) and other things fall into all of this? Are they also optimizers? So many things! 
+I would call recommender a higher-order system that internally is solving regression or classification problems. and, 
+You can break a recommender down into a classification or a regression problem.
+Could you please expand on your thought process? In general, I find that people talk about building or wanting a classifier since it is the de-jeure buzzword (and related to deep learning) when in fact, a recommender or something else will do the job. Anyway, great discussion.
+Im trying to implement object detection through computer vision through Machine Learning but Im hitting a wall when trying to find a suitable approach. Can you suggest which kind of algorithm will help me? Id like to research more on it.
+i started reading and i feel i dont succeed to understand it.
+I dont understand which algorithm is good for which type of problem.
+I think that little example for each algorithm will be useful.
+Jason: Nice addition of the simple graphic to each of the families of machine learning algorithms. This is a change from what I recall was a previous version of this post. The diagram helps visualize the activity of the family and thus aid developing an internal model of how the members of the family operate. 
+1) the area under both density functions should integrate to one. While no scale is provided, the prior appears to integrate to a much smaller number than the posterior.
+2) in general, a posterior is narrower / more concentrated than a prior given an observation.
+3) (interpreting the baseline as zero density) a posterior typically concentrates the probability of the prior in a smaller range; it never moves probability to a range where the prior density was zero.
+I need one that does time series analysis that does Bayesian analysis too. 
+Im given data for hourly price movements for half a day, and tasked to predict for the second half of day. Clearly a time series (TS) problems.
+But on top of that Im also given information on 10 discrete factors for each day in the training and testing set. 
+Do you know of any algo that creates multiple TS models conditional upon the values (or bands) of the various discrete factors at the onset?
+I would be very grateful if you could let me know which neural network is useful for multivariate time series classification.For example, classifying patient and healthy people when we have multiple time series of each feature.
+Did you find any solution for this? I have the same problem. I was thinking about convolution neural networks and use the feature space to create a heatmap image and use that as input. For example, each row in the pixel image will be a RGB value mapped from a feature and each column will be a specific time point. That way you have all multivariate time series in one image. You might need to reduce the dimensionality of the time interval though if they are very high, alternatively take partitions of the time interval in sections of the image (first 500 time points in the upper half of the image for example). I have no idea if this would work, just some thoughts
+I have a good background in artificial intelligence and machine learning, and I must say this is a really good list, I would not have done the categories any other way, its very close to perfection. Very pertinent information.
+However, it would be nice to include Learning Style categories for reinforcement learning, genetic algorithms and probabilistic models, (but meanwhile you already mention them at the end so this gives a good pointer for the readers).
+The ending links are very good, particularly the How to Study Machine Learning Algorithms. It would be also nice to put a list of machine learning online courses (coursera, udacity, etc.  theres even a course by Geoffrey Hinton!), and links to tutorials on how to check and verify that your ML algo works well on your dataset (cross-validation, generalization curve, ROC, confusion matrix, etc.).
+Also, thanks to previous commenters, your comments are also very pertinent and a good addition to the article!
+To develop my suggestion for adding Learning Style categories: I think these classes of learning algorithms should be added, since they are used more and more (albeit being less popular than the currently listed methods) and they cannot be replaced by other classes of learning, they bring their own capabilities:
+ Reinforcement learning models a reward/punishment way of learning. This allows to explore and memorize the states of an environment or the actions with a way very similar on how the actual brain learns using the pleasure circuit (TD-Learning). It also has a very useful ability: blocking, which naturally allows a reinforcement learning model to only use the stimuli and information that is useful to predict the reward, the useless stimuli will be blocked (ie, filtered out). This is currently being used in combination with deep learning to model more biologically plausible and powerful neural networks, that can for example maybe solve the Go game problem (see Googles DeepMind AlphaGo).
+ Genetic algorithms, as a previous commenter said, are best used when facing a very high dimension problem or multimodal optimizations (where you have multiple equally good solutions, aka multiple equilibriums). Also, a big advantage is that genetic algorithms are derivative-free cost optimization methods, so they are VERY generic and can be applied to virtually any problem and find a good solution (even if other algorithms may find better ones).
+ Probabilistic models (eg, monte-carlo, markov chains, markovian processes, gaussian mixtures, etc.) and probabilistic graphical models (eg, bayesian networks, credal networks, markov graphs, etc.) are great for uncertain situations and for inference, since they can manipulate uncertain values and hidden variables. Graphical models are kinda close to deep learning, but they are more flexible (its easier to define a PGM from a semantic of what you want to do than a deep learning network).
+ Maybe mention at the end Fuzzy Logic, which is not a machine learning algorithm per se but is close to probabilistic models, except that it can be seen as a superset that also allows to define a possibility value (see possibilistic logic, and the works by Edwin Jaynes).
+Im just getting started on learning about machine learning algorithms. I still need some time to digest what Ive read here. My background comes from finance/investing and therefore Ive been trying to learn more about how machine learning is used in investing. I come from a fundamental investing background and therefore Im curious if you have an insight. Given there are so many algorithms (and different branches https://www.youtube.com/watch?v=B8J4uefCQMc which I thought this was an interesting video) I wanted to ask how do you know which type of branch/algorithm in machine learning would be more useful for investing?
+a blog every once in a while that isnt the same old
+rehashed material. Excellent read! Ive bookmarked your site and Im including your RSS feeds
+I fully agree with your opinion. The outcome of a (simple) logistic regression is binary and the algorithm should be part of a classification method, like the neural networks you mentioned.
+Hello sir. Thank you so much for your help. But as we know Machine Learning require a strong Math background. I am very interested math but, i am little bit week in that. So,I want good understandable resources for math required in Machine Learning. Thank you.
+I teach an approach to getting started without the theory or math understanding. By treating ML as a tool you can use to solve problems and deliver value. The deep mathematical understanding can come later if and when you need it in order to deliver better solutions.
+Jason, thanks for the write-up. When it comes it supervised learning using regression analysis all examples I have found deal with simple scalar inputs and perhaps multiple features of one input. What if an input data is more complicated, say two values where one is a quadratic curve and another is a real number? I have data that consists of two pairs of values: univariate quadratic function (represented as quadratic functions or an array of points) and a real value R. Each quadratic function F rather predictably changes its skew/shape based on its real value pair R and becomes(changes) into F. Given a new real value R, it becomes F and so on. This is the training data and I have about thousand pairs of functions and real values. Based on a current function F and a new real value R can we predict the shape of F using supervised learning and regression analysis? If so, what should I look out for? Any help would be much appreciated!
+This is useful, but it could be made more useful for someone new to the field, specifcally in the section where algorithms are grouped by similarity, by clarifying exactly what is being learned. Eg Regression algorithms learn the curve that best fits the data points, Bayesian learning algorithms learn the parameters and structure of a Bayesian network, Decision Tree algorithms learn the structure of the decision tree, etc.
+Additionally some kind of task based classification would be helpful. Eg if youre trying to classify then the following kinds of ML algorithms are best, if youre trying to do inference then rule learning and bayesian network learning are good, if youre curve fitting then regression is good, etc.
+Just to clarify that first point I made: eg when you write Naive Bayes, its not the Naive Bayes method itself thats being learned, nor whether a given fruit is an apple or pear, but the structure and parameters of that network that apply Bayes method and can then be used to classify a given fruit
+This article depicted almost all algorithms theoretically best at least for me (as a beginner)
+But i am new to ML so i am not able to relate algorithms use cases in a real life problems/scenarios. Can u please suggest me some links where i could be able to relate each algorithms with a different real time/real life business problem?
+Hi Anuj, it is generally helpful think of predictive modeling problems in terms of classification (predict a class or category) and regression (predict a number).
+This page has a nice list of modern and popular machine learning problems:
+I am totally new to the topic  so it is a good starting point. In other domains of methods, patterns or algorithm types I am more familiar with one could typically define generic weaknesses/pains, strengths/gains and things to look at with care (e.g. how to set parameters). I wonder what those would be for each of the algorithm groups you specified. 
+I have seen that you described use cases, e.g. one could use Bayesian Algorithms and Decision Tree Algorithms for classification. But when would I e.g. prefer the one over the other for classification? just an example
+The best practical approach to find the best/good algorithms for a given problem is trial and error. Heuristics provide a good guide, but sometimes/often you can get best results by breaking some rules or modeling assumptions.
+I recommend empirical trial and error (or a bake-off of methods) on a given problem as the best approach.
+Wonderful post ! Really helped me a lot in understanding different algorithms. 
+My question is i have seen lot of algorithms apart from the above list. 
+Can you please post the algorithms, how they work with list of examples. 
+Example: Cart algorithm (Decision Trees)  How they split, entropy, info gain, gini index and impurity. 
+If youre more of a coder, I explain how they work with Python code in this book:
+Your page, no your website is gold. I have very poor knowledge in Machine learning, and you helped me in few paragraphs to learn more when to use which algorithm.
+I am yet to go through your book, but I decided a thank you is a must. Thanks a lot.
+Master Machine Learning Algorithms  With this book, Is it possible to understand how the algorithm works and how to build the predictive models for different kinds training sets. 
+And by seeing the problem or train data, can we say that the machine learning (tree based, knn, Naive base or optimisation ) and the algorithms (cart, c4.5) are best suitable. 
+I can purchase that above book that you have mentioned  
+But I am more concerned with how the algorithm works (more illustration) and apply in machine learning. Present i am using R.
+Hi sbollav, after reading Master Machaine Learning Algorithms you will know how 10 top algorithms work.
+For working through predictive modeling problems in R, I would suggest the book: Machine Learning Mastery With R:
+It does not teach how algorithms work, instead, after reading it you will be able to confidently work through your own machine learning problems and get usable results with R.
+So Im writing my thesis on MLAs in Motion Analysis (focussing on instrumented insoles) and I was wondering which type of MLA would be the most useful and if your ebook has the information I need (like what kind of data needs what kind of MLA) or if I should keep scouring PubMed for answers. Mostly I found C4.5, CART, Naïve Bayes, Multi-Layer Perceptrons, and Support Vector Machines (especially SVM, it seems like the most popular in rehab technologies), but I want to be thorough. After all my degree depends on it 😛
+Your summary on this page was already very helpful, so thank you for that!
+Hi Cara, I do not cover the problem of motion analysis directly. 
+I would advise evaluating a suite of algorithms on the problem and see what works best. Use what others have tried in the literature as a heuristic or suggestions of things to try.
+I have few rules and I classified my target variable as 0 or 1 by these rules.
+Now I want Machine to learn these rules and predict my target variable .
+Can you please suggest me which algorithm is good to do so.
+Yes, there will be a number of ways. Generally, machine learning is intended to learn the mapping/rules automatically from examples of the data input and output.
+Perhaps try this approach, try a few different methods. You may even come up with an objectively better mapping.
+Im new in Machine learning and i have a question,, all the algorithm can i use it in the supervised learning ?? and how to know what is the best model can i use it for the classification image?
+We cannot know which algorithm will be best for a given problem. We must design experiments to discover it.
+Jason, am happy to find your site where machine learning and its algorithm are discussed. Its comforting. Am working on Natural Language Processing and intend to add a machine learning algorithm to it but alas you listed NLP under other type of machine learning algorithm. Thats startling! Because my aim was to locate the best algorithm to use.
+Sir need a formal introduction for Grouping of algorithms by similarity in form or function. Everywhere on internet it comes under the supervised learning style classified a scluster classification so is it a part of learning style??
+thanks for sharing this great stuff. I need to choose an ML algorithm on a non-rigid object detection in an image data base ( smoke, cloud,). Do you have any suggestion on the proper algorithm or a way to find it out. I come to the point to use CNN. Still not sure why should it be ?
+I would like know about the How an ‘algorithms’ works on “Machines”?
+Here, please consider “Machines” as a “Humans” or “biological VIRUS” or “any living cells”.
+I would say biological individuals have a logical series of an algorithm, which is regulates their commands and response. These algorithms we may call as a ‘Genetic Material’ as ‘DNA or RNA’; but I would like to see them as an “ALGORITHMS” which is regulates there all activities like responses and commands. Because, particular DNA or RNA sequences have special type of code, which can be used by different performers, here performers are Enzymes.
+My query is that, can we able to form algorithms like DNA or RNA which can be able to run a Machine?
+It can be possible to form a Human made Biological VIRUS that can be cure our infected cells within a Human Body?
+Perhaps. For example, genetic algorithms can help turning hyperparameters or choosing features.
+I have a book on nature inspired algorithms I wrote right after completing my Ph.D., its free online here:
+Hello Jason, could you label all the algorithms on this page as supervised, unsupervised, or semi-supervised? Its easy enough to understand what these three different types are, but which ones are which? Thanks.
+Hi Jason, thanks for your great article! I would propose an alternative classification of ml algorithms into two groups: (i) those which always produce the same model when trained from the same dataset with the récords presented in the same order and (ii) those which produce a different model each time. But I would be interested on your thoughts about this.
+Thanks for your reply, Jason. Yes, the continuos scale would be better. Some years ago I worked with simulated annealing/gradient descent, genetic algs. and neural networks (which performed random jumps to escape local minimums). However, on the other hand, the information gain calculation inside a rule
+induction algorithm such as M5Rules always follows the same path (?) Could be the basis for an article ;-
+Thank you for the reply sir. Say I collected a large amount of data e.g. temperature for a period of time. I was wondering how to apply machine learning in interpreting the data. That is why my idea was to produce a function out from the graph, is this still relevant to machine learning?
+It sounds like you are describing a regression equation, like a line of best fit.
+If a line of best fit is good enough for you, then I would recommend using it.
+You can use a suite of machine learning algorithms to make predictions, this process will give you an idea of what is involved:
+I have created several supervised models with some regression and classification estimators. I want to know how to create a data driven application using these models? Could you explain what does it mean?
+For sometime now, I have been looking for an authoritative paper on taxonomy, survey and classification of ML algorithms with examples. This article is absoulutely a step in that direction  can be massaged into a taxonomy/survey paper? 
+Nonetheless as other readers noticed, it is missing some topics: preprocessing including anomaly detection and feature selection, NLP, genetic algorithms, recommender systems etc.
+Wonder if you know of any academic work on the topic. I did not find any in ACM CSUR.

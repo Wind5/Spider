@@ -1,0 +1,1 @@
+Once your setup is complete and if you installed the GPU libraries, head to Testing Theano with GPU to find how to verify

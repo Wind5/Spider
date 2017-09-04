@@ -1,0 +1,33 @@
+ Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Judy Hoffman, Li Fei-Fei, C. Lawrence Zitnick, Ross Girshick
+ Towards Vision-Based Smart Hospitals: A System for Tracking and Monitoring Hand Hygiene Compliance
+ Albert Haque, Michelle Guo, Alexandre Alahi, Serena Yeung, Zelun Luo, Alisha Rege, Amit Singh, Jeffrey Jopling, Lance Downing, William Beninati, Terry Platchek, Arnold Milstein, Li Fei-Fei
+ CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning
+ Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Li Fei-Fei, C. Lawrence Zitnick, Ross Girshick
+ Alexandre Alahi, Vignesh Ramanathan, Kratarth Goel, Alexandre Robicquet, Amir Abbas Sadeghian, Li Fei-Fei, Silvio Savarese
+ Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning
+ Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J. Lim, Abhinav Gupta, Li Fei-Fei, Ali Farhadi
+ Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations
+ Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li Jia-Li, David Ayman Shamma, Michael Bernstrein, Li Fei-Fei
+ Jonathan Krause, Benjamin Sapp, Andrew Howard, Howard Zhou, Alexander Toshev, Tom Duerig, James Philbin, Li Fei-Fei
+ Ranjay Krishna, Kenji Hata, Stephanie Chen, Joshua Kravitz, David A. Shamma, Li Fei-Fei, Michael S. Bernstein
+ CHI: ACM Conference on Human Factors in Computing Systems, 2016
+ Towards More Gender Diversity in CS through an Artificial Intelligence Summer Program for High School Girls
+ Marie E. Vachovsky, Grace Wu, Sorathan Chaturapruek, Olga Russakovsky, Rick Sommer, Li Fei-Fei
+ What You See is What You Expect: Rapid Scene Understanding Benefits from Prior Experience
+ Michelle R. Greene, Abraham P. Botros, Diane M. Beck, Li Fei-Fei
+ Generating Semantically Precise Scene Graphs from Textual Descriptions for Improved Image Retrieval
+ Sebastian Schuster, Ranjay Krishna, Angel Chang, Li Fei-Fei, Christopher D. Manning
+ Empirical Methods in Natural Language Processing (EMNLP) - Vision and Language Workshop 2015 (oral)
+ Marius Cătălin Iordan, Armand Joulin, Diane M. Beck, Li Fei-Fei
+ Machine Learning and Interpretation in Neuroimaging (MLINI) Workshop, NIPS 2015
+ Olga Russakovsky*, Jia Deng*, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, Li Fei-Fei
+ Basic Level Category Structure Emerges Gradually Across Human Ventral Visual Cortex
+ Marius Cătălin Iordan, Michelle R. Greene, Diane M. Beck, Li Fei-Fei
+ Good Exemplars of Natural Scene Categories Elicit Clearer Patterns than Bad Exemplars but not Greater BOLD Activity
+ A. Torralbo, D.B. Walther, B. Chai, E. Caddigan, L. Fei-Fei, and D.M. Beck
+ Christopher Baldassano, Marius Cătălin Iordan, Diane M. Beck, Li Fei-Fei
+ Machine Learning and Interpretation in Neuroimaging (MLINI) Workshop, NIPS 2012
+ ReV ReVision: Automated Classification, Analysis and Redesign of Chart Imagesision: Automated Classification, Analysis and Redesign of Chart Images
+ M. Savva, N. Kong, A. Chhajta, L. Fei-Fei, M. Agrawala, and J. Heer
+ Why does natural scene categorization require little attention? Exploring attentional requirements for natural and synthetic stimuli.
+ Learning generative visual models from few training examples: an incremental Bayesian approach tested on 101 object categories

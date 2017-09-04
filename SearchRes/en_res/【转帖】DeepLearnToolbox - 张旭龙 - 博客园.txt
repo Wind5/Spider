@@ -1,0 +1,20 @@
+Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started. 
+         rasmusbergpalm        authored on May 11       
+Deep Learning is a new subfield of machine learning that focuses on learning deep hierarchical models of data. It is inspired by the human brain's apparent deep (layered, hierarchical) architecture. A good overview of the theory of Deep Learning theory is Learning Deep Architectures for AI
+For a more informal introduction, see the following videos by Geoffrey Hinton and Andrew Ng.
+If you use this toolbox in your research please cite Prediction as a candidate for learning deep hierarchical models of data
+ title = "Prediction as a candidate for learning deep hierarchical models of data",
+NN/   - A library for Feedforward Backpropagation Neural Networks
+test_cnn_gradients_are_numerically_correct fails on Octave because of a bug in Octave's convn implementation. See http://savannah.gnu.org/bugs/?39314
+%% ex1 train a 100 hidden unit RBM and visualize its weights
+%% ex2 train a 100-100 hidden unit DBN and use its weights to initialize a NN
+%% ex1 train a 100 hidden unit SDAE and use it to initialize a FFNN
+%will run 1 epoch in about 200 second and get around 11% error. 
+opts.batchsize = 100; % Take a mean gradient step over this many samples
+opts.batchsize = 100; % Take a mean gradient step over this many samples
+opts.batchsize = 100; % Take a mean gradient step over this many samples
+opts.batchsize = 100; % Take a mean gradient step over this many samples
+opts.batchsize = 1000; % Take a mean gradient step over this many samples
+%% ex6 neural net with sigmoid activation and plotting of validation and training error
+opts.batchsize = 1000; % Take a mean gradient step over this many samples
+nn = nntrain(nn, tx, ty, opts, vx, vy); % nntrain takes validation set as last two arguments (optionally)

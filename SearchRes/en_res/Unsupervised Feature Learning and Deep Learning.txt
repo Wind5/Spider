@@ -1,0 +1,6 @@
+ many problems in vision, audio, NLP, robotics, and other areas. In this course,
+ you'll learn about methods for unsupervised feature learning and deep learning,
+ which automatically learn a good representation of the input from unlabeled
+ data. You'll also pick up the "hands-on," practical skills and tricks-of-the-trade 
+ Basic knowledge of machine learning (supervised learning) is assumed, though we'll quickly 
+I. INTRODUCTION II. LOGISTIC REGRESSION &nbspRepresentation(1.5x) &nbspBatch gradient descent(1.2x)(1.5x) &nbspGradient descent in practice(1.2x)(1.5x) &nbspStochastic gradient descent &nbspExponentially weighted average &nbspShuffling data&nbspExercise 1: Implementation III. NEURAL NETWORKS &nbspRepresentation &nbspArchitecture &nbspExamples and intuitions #1(1.2x) &nbspExamples and intuitions #2 &nbspParameter learning &nbspGradient checking &nbspRandom initialization &nbspVectorized implementation &nbspActivation function derivativeV. APPLICATION TO CLASSIFICATION IV. UNSUPERVISED FEATURE LEARNING and SELF-TAUGHT LEARNINGV. APPLICATION TO CLASSIFICATION VI. DEEP LEARNING WITH AUTOENCODERS VII. SPARSE REPRESENTATIONS VIII. WHITENING IX. INDEPENDENT COMPONENTS ANALYSIS (ICA)X. SLOW FEATURE ANALYSIS (SFA) XI. RESTRICTED BOLTZMANN MACHINES (RBM) XII. DEEP BELIEF NETWORKS (DBN) 

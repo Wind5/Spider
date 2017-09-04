@@ -1,0 +1,98 @@
+Produce word vectors with deep learning via word2vecs skip-gram and CBOW models, using either
+NOTE: There are more ways to get word vectors in Gensim than just Word2Vec. See wrappers for FastText, VarEmbed and WordRank.
+The training algorithms were originally ported from the C package https://code.google.com/p/word2vec/
+For a blog tutorial on gensim word2vec, with an interactive web app trained on GoogleNews, visit http://radimrehurek.com/2014/02/word2vec-tutorial/
+Make sure you have a C compiler before installing gensim, to use optimized (compiled) word2vec training
+>>> model = Word2Vec.load(fname) # you can continue training with the loaded model!
+The word vectors are stored in a KeyedVectors instance in model.wv. This separates the read-only word vector lookup operations in KeyedVectors from the training code in Word2Vec:
+The word vectors can also be instantiated from an existing file on disk in the word2vec C format as a KeyedVectors instance:
+NOTE: It is impossible to continue training the vectors loaded from the C format because hidden weights, vocabulary frequency and the binary tree is missing::
+You can perform various NLP word tasks with the model. Some of them
+If youre finished training a model (i.e. no more updates, only querying), then switch to the gensim.models.KeyedVectors instance in wv
+Note that there is a gensim.models.phrases module which lets you automatically
+detect phrases longer than one word. Using phrases, you can learn a word2vec model
+where words are actually multiword expressions, such as new_york_times or financial_crisis:
+Simple format: one sentence = one line; words already preprocessed and separated by whitespace.
+source can be either a string or a file object. Clip the file to the first
+limit lines (or no clipped if limit is None, the default).
+Simple format: one sentence = one line; words already preprocessed and separated by whitespace.
+Like LineSentence, but will process all files in a directory in alphabetical order by filename
+source should be a path to a directory (as a string) where all files can be opened by the
+limit lines (or no clipped if limit is None, the default).
+The files in the directory should be either text files, .bz2 files, or .gz files.
+class gensim.models.word2vec.Word2Vec(sentences=None, size=100, alpha=0.025, window=5, min_count=5, max_vocab_size=None, sample=0.001, seed=1, workers=3, min_alpha=0.0001, sg=0, hs=0, negative=5, cbow_mean=1, hashfxn=<built-in function hash>, iter=5, null_word=0, trim_rule=None, sorted_vocab=1, batch_words=10000, compute_loss=False)¶
+Class for training, using and evaluating neural networks described in https://code.google.com/p/word2vec/
+If youre finished training a model (=no more updates, only querying)
+The model can be stored/loaded via its save() and load() methods, or stored/loaded in a format
+Initialize the model from an iterable of sentences. Each sentence is a
+list of words (unicode strings) that will be used for training.
+The sentences iterable can be simply a list, but for larger corpora,
+If you dont supply sentences, the model is left uninitialized  use if
+sg defines the training algorithm. By default (sg=0), CBOW is used.
+window is the maximum distance between the current and predicted word within a sentence.
+alpha is the initial learning rate (will linearly drop to min_alpha as training progresses).
+seed = for the random number generator. Initial vectors for each
+word are seeded with a hash of the concatenation of word + str(seed).
+Note that for a fully deterministically-reproducible run, you must also limit the model to
+a single worker thread, to eliminate ordering jitter from OS thread scheduling. (In Python
+3, reproducibility between interpreter launches also requires use of the PYTHONHASHSEED
+min_count = ignore all words with total frequency lower than this.
+max_vocab_size = limit RAM during vocabulary building; if there are more unique
+words than this, then prune the infrequent ones. Every 10 million word types
+need about 1GB of RAM. Set to None for no limit (default).
+sample = threshold for configuring which higher-frequency words are randomly downsampled;
+workers = use this many worker threads to train the model (=faster training with multicore machines).
+hs = if 1, hierarchical softmax will be used for model training.
+If set to 0 (default), and negative is non-zero, negative sampling will be used.
+negative = if > 0, negative sampling will be used, the int for negative
+specifies how many noise words should be drawn (usually between 5-20).
+Default is 5. If set to 0, no negative samping is used.
+cbow_mean = if 0, use the sum of the context word vectors. If 1 (default), use the mean.
+hashfxn = hash function to use to randomly initialize weights, for increased
+iter = number of iterations (epochs) over the corpus. Default is 5.
+trim_rule = vocabulary trimming rule, specifies whether certain words should remain
+in the vocabulary, be trimmed away, or handled using the default (discard if word count < min_count).
+Can be None (min_count will be used), or a callable that accepts parameters (word, count, min_count) and
+Note: The rule, if given, is only used to prune vocabulary during build_vocab() and is not stored as part
+sorted_vocab = if 1 (default), sort the vocabulary by descending frequency before
+batch_words = target size (in words) for batches of examples passed to worker threads (and
+thus cython routines). Default is 10000. (Larger batches will be passed if individual
+texts are longer than 10000 words, but the standard cython code truncates to that maximum.)
+Build vocabulary from a sequence of sentences (can be a once-only generator stream).
+Discard parameters that are used in training and score. Use if youre sure youre done training a model.
+If replace_word_vectors_with_normalized is set, forget the original vectors and only keep the normalized
+init_sims() resides in KeyedVectors because it deals with syn0 mainly, but because syn1 is not an attribute
+of KeyedVectors, it has to be deleted in this class, and the normalizing of syn0 happens inside of KeyedVectors
+Merge the input-hidden weight matrix from the original C word2vec-tool format
+given, where it intersects with the current vocabulary. (No words are added to the
+binary is a boolean indicating whether the data is in binary word2vec format.
+lockf is a lock-factor value to be set for any imported word-vectors; the
+default value of 0.0 prevents further updating of the vector during subsequent
+training. Use 1.0 to allow further training updates of merged vectors.
+To draw a word index, choose a random integer up to the maximum value in the
+(as if by bisect_left or ndarray.searchsorted()). That insertion point is the
+drawn index, coming up in proportion equal to the increment at that slot.
+save to, or an open file-like object which can be written to. If
+the object is a file handle, no special array handling will be
+You can also set separately manually, in which case it must be
+a list of attribute names to be stored in separate files. The
+ignore is a set of attribute names to not serialize (file
+pickle_protocol defaults to 2 so the pickled object can be imported
+report the size of the retained vocabulary, effective corpus length, and
+Delete the raw vocabulary after the scaling is done to free up RAM,
+Score the log probability for a sequence of sentences (can be a once-only generator stream).
+This does not change the fitted model in any way (see Word2Vec.train() for that).
+We have currently only implemented score for the hierarchical softmax scheme,
+so you need to have run word2vec with hs=1 and negative=0 for this to work.
+Note that you should specify total_sentences; well run into problems if you ask to
+score more than this number of sentences but it is inefficient to set the value too high.
+See the article by [taddy] and the gensim demo at [deepir] for examples of how to use such scores in document classification.
+Update the models neural weights from a sequence of sentences (can be a once-only generator stream).
+For Word2Vec, each sentence must be a list of unicode strings. (Subclasses may accept other examples.)
+To support linear learning-rate decay from (initial) alpha to min_alpha, and accurate
+progres-percentage logging, either total_examples (count of sentences) or total_words (count of
+raw words in sentences) MUST be provided. (If the corpus is the same as was provided to
+build_vocab(), the count of examples in that corpus will be available in the models
+To avoid common mistakes around the models ability to do multiple training passes itself, an
+explicit epochs argument MUST be provided. In the common and recommended case, where train()
+is only called once, the models cached iter value should be supplied as epochs value.

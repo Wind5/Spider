@@ -1,0 +1,2 @@
+TORCS_baseline_testset.zip: A fixed testset to compare with the baselines (Caltech lane detector and GIST).
+Note: Our real testing is to let the ConvNet to drive the car in the game. So the testing images are generated on-the-fly. 

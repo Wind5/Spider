@@ -1,0 +1,34 @@
+Pinterest is getting smarter when it comes to spotting things in all those images that millions of users pin to boards.
+Engineers at the company have developed a technology called visual search, which can find and display visually similar images.
+The system powers a Pinterest feature called Related Pins. Its getting more engagement than previous implementations for recommending images. And later this year Pinterest will roll out a new feature, called Similar Looks, that relies on the technology.
+Pinterests visual search employs an increasingly popular type of artificial intelligence known as deep learning, which trains systems called artificial neural networks by feeding them lots and lots of data  like images  and then receiving inferences in response to fresh data.
+We try to understand whats in an image through that, Kevin Jing, head of Pinterests visual discovery team, told VentureBeat in an interview at Pinterest headquarters in San Francisco last week. We try to figure out what people want. Thats our job  to extract information from the image. Its also our job to figure out how to use that information once its extracted.
+So this isnt just a nerdy algorithm swap. Really, it could help Pinterest make the most of its data and even accelerate the companys monetization efforts.
+But rather than hoard all the gains for itself, Pinterest is talking openly about its new visual search system.
+Today the company is publishing a blog post from Jing that details his teams achievements. And in August Jing will be presenting a paper on their research at the annual ACM SIGKDD Conference on Knowledge Discovery and Data Mining in Sydney.
+If it seems like Jing is critical to all of this advancement at Pinterest  well, he is.
+Jing was one of the first computer vision engineers at Google. He spent seven years working for the tech giant before he decided to start building computer vision tools for much smaller companies. So he cofounded the startup VisualGraph.
+He arrived at Pinterest early in 2014, when Pinterest acquired VisualGraph.
+Along the way, many startups have built up pools of computer vision talent. The greatest excitement has been around deep learning, because it can outperform more traditional machine learning approaches.
+Baidu, Facebook, Google, and Microsoft have done a lot in this area, with images often being a key area of focus. Meanwhile Snapchat has been developing a research team to do deep learning on images and videos, and Flipboard has been exploring the domain recently as well.
+Pinterest has formed a partnership with the Berkeley Vision and Learning Center at the University of California, Berkeley. The groups director, Professor Trevor Darrell, is an advisor to Pinterest. And Pinterest has hired two students affiliated with the center, Eric Tzeng and Jeff Donahue.
+Jing is doing what he can to make Pinterest a major player in computer vision and particularly deep learning.
+Hes completely convinced that it would be a no-brainer for people skilled in these fields to come work for Pinterest.
+The type of data we have is amazing, Jing said. Most of the data, its just so richly annotated. Everytime you pin something, youre creating a copy. Theres so much you can do with the data set  thats what fascinates me.
+I feel like any computer vision researcher will be more excited with this data set than any other data set they can find.
+Pinterest doesnt only have images. The company has also accumulated lots of text about those images.
+Jing explains in the academic paper that the company has collected aggregated pin descriptions and board titles for images that are pinned to multiple boards. Essentially, Pinterest has a brief phrase for any given image. These phrases serve as a starting point. They tell Pinterest which types of objects  like bags, or shirts, or shoes  to look for. That shrinks the amount of computing Pinterest needs to do.
+The visual signals from object recognition now allow Pinterest to provide users with Related Pins  pins that Pinterest thinks people might be interested in  even when pins are not popular or merely just brand new, without any text labels. That just wasnt possible before.
+Jing and his team tested out the improved Related Pins feature on 10 percent of all live traffic. The results were positive.
+After running the experiment for three months, Visual Related Pins increased total repins in the Related Pins product by 2 percent, they wrote.
+The team also tried out a new feature using their new visual search system, Similar Looks. The idea was to let a user click a red dot somewhere on a pinned image  say, on a bag  and then see images of similar bags elsewhere on the same webpage.
+Again, the text metadata came in handy  it helps filter out false positives.
+But when Jing and his team tried out Similar Looks on live traffic, the results were initially not as good as they were for the expanded Related Pins. That might have to do with the fact that the feature is making people interact with images in a new way.
+An average of 12 percent of users who viewed a pin with a dot clicked on a dot in a given day, Jing and his team wrote. Those users went on to click on an average 0.55 Similar Look results. Although this data was encouraging, when we compared engagement with all related content on the pin close-up (summing both engagement with Related Pins and Similar Look results for the treatment group, and just related pin engagement for the control), Similar Looks actually hurt overall engagement on the pin close-up by 4 percent.
+As a result, Jing and his team got crafty. They blended Similar Looks with Related Pins, so all of these types of images showed up together in one region of the webpage. This time, the result was far better.
+On pins where we detected an object, this experiment increased overall engagement (repins and close-ups) in Related Pins by 5 percent, they wrote.
+These optimizations should help Pinterest keep users content  surely a positive effect. But visual search could also help Pinterest more intelligently show ads, which could have a more visible effect on the companys top line.
+We hope to explore how to extend our pixel-based CTR [clickthrough rate] prediction mode for ads targeting, Jing and his team mention near the end of the paper.
+Jing couldnt talk about any plans to share the technology under an open-source license, which could get people outside the company to make it better  although Pinterest has open-sourced some technology in the past.
+For the time being, Jing is glad to be getting the paper out.
+We want to show that any team of two or three engineers can develop a large-scale visual search system from scratch these days, he said.

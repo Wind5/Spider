@@ -1,0 +1,30 @@
+ Deep learning exploits gigantic datasets to produce powerful models. But what can we do when our datasets are comparatively small? Transfer learning by fine-tuning deep nets offers a way to leverage existing datasets to perform well on new tasks. 
+Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton handily won the 2012
+ImageNet competition, establishing convolutional neural networks (CNNs) as the state of the art in computer vision.
+Now consider a CNN trained for object recognition on the ImageNet dataset.
+the top-most hidden layer of the neural network constitutes a single vector representation
+sufficiently flexible to be useful for classifying images into each of the 1000 categories.
+where the dataset may not be large enough to train an entire CNN from scratch.
+Another common tactic is to take the pre-trained ImageNet network and then to fine-tune
+This is typically done by training end-to-end with backpropagation and stochastic gradient descent.
+Where does the transition from broadly useful to highly specialized features take place?
+What is the relative performance of fine-tuning an entire network vs. freezing the transferred layers?
+To study these questions, the authors restrict their attention to the ImageNet dataset,
+but consider two 50-50 splits of the data into subsets A and B.
+assigning to one set only natural images and to the other only images of man-made objects.
+The authors examine the case in which the network is pre-trained on task A and then trained further on B,
+They also consider the same experiment but pre-training on task B, 
+randomly initializing the top 8-k layers, and then continuing to train on the same task B.
+In all cases, they find that fine-tuning end-to-end on a pre-trained network
+the transferability of features is nonlinear in the number of pre-trained layers.
+between the nodes in adjacent layers which are difficult to relearn.
+replacing the right half of the brain with a blank slate child's brain.
+it might seem intuitive that a fresh right brain hemisphere would have trouble
+filling the expected role of one to which the left hemisphere was fully adapted.
+One question which is not addressed in this paper but could inspire future research,
+is how these results hold up when the new task has far fewer examples than the original task.
+In practice, this imbalance in the number of labeled examples between the original task and the new one,
+A preliminary approach could be to repeat this exact work 
+but with a 999 to 1 split instead of a 500-500 split of the categories.
+Zachary Chase Lipton is a PhD student in the Computer Science Engineering department at the University of California, San Diego. Funded by the Division of Biomedical Informatics, he is interested in both theoretical foundations and applications of machine learning. In addition to his work at UCSD, he has interned at Microsoft Research Labs.
+ Cartoon: Machine Learning Class Adobe: Sr. Data Science Engineer Upcoming Meetings in AI, Analytics, Big Data,... Global AI Conference, New York City, October ... WCAI Analytics Accelerator Challenge Search Millions of Documents for Thousands of...

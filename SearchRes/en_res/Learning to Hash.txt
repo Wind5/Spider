@@ -1,0 +1,15 @@
+    Wei Liu, Jun Wang, Sanjiv Kumar and Shih-Fu Chang. [ICML], 2011
+     Yunchao Gong and Svetlana Lazebnik. [CVPR], 2011
+    Weihao Kong and Wu-Jun Li. [NIPS], 2012
+Lopamudra Mukherjee, Sathya N. Ravi, Vamsi K. Ithapu, Tyler Holmes and Vikas Singh. [ICCV], 2015
+     Qing-Yuan Jiang and Wu-Jun Li. [IJCAI], 2015 
+Two Birds, One Stone: Jointly Learning Binary Code for Large-scale Face Image Retrieval and Attributes Prediction [paper]
+    Yan Li, Ruiping Wang, Haomiao Liu, Huajie Jiang, Shiguang Shan and Xilin Chen. [ICCV], 2015
+ Large-scale multi-task image labeling with adaptive relevance discovery and feature hashing. [paper]     Cheng Deng, Xianglong Liu, Yadong Mu, Jie Li. [Signal Processing], 2015 
+    Wang-Cheng Kang, Wu-Jun Li and Zhi-Hua Zhou. [AAAI], 2016
+Bit-Scalable Deep Hashing With Regularized Similarity Learning for Image Retrieval and Person Re-Identification [paper][code]
+    Ruimao Zhang, Liang Lin, Rui Zhang, Wangmeng Zuo, and Lei Zhang. [TIP], 2015
+    Sean Moran, Victor Lavrenko,Miles Osborne. [ACL], 2013
+ Hash Bit Selection: a Unified Solution for Selection Problems in Hashing. [paper][supplementary][slide (in Chinese)][code][data]
+     Xianglong Liu, Junfeng He, Bo Lang and Shih-Fu Chang . [CVPR], 2013 
+    Zhe Wang, Ling-Yu Duan, Jie Lin, Xiaofang Wang, Tiejun Huang and Wen Gao [IJCAI], 2015

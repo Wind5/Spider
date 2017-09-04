@@ -1,0 +1,377 @@
+There are lots of awesome reading lists or posts that summarized materials related to Deep Learning. So why would I commit another one? Well, the primary objective is to develop a complete reading list that allows readers to build a solid academic and practical background of Deep Learning. And this list is developed while I’m preparing my Deep Learning workshop. My research is related to Deep Neural Networks (DNNs) in general. Hence, this posts tends to summary contributions in DNNs instead of generative models.
+If you have no idea about Machine Learning and Scientific Computing, I suggest you learn the following materials while you are reading Machine Learning or Deep Learning books. You don’t have to master these materials, but basic understanding is important. It’s hard to open a meaningful conversation if the person has no idea about matrix or single variable calculus.
+ Differential Equations by Arthur Mattuck, Haynes Miller, Jeremy Orloff, John Lewis.
+Deep Learning is a fast-moving community. Therefore the line between “Recent Advances” and “Literature that matter” is kind of blurred. Here I collected articles that are either introducing fundamental algorithms, techniques or highly cited by the community.
+ A Hierarchical Recurrent Encoder-Decoder For Generative Context-Aware Query Suggestion by Alessandro Sordoni, Yoshua Bengio, Hossein Vahabi, Christina Lioma, Jakob G. Simonsen, Jian-Yun Nie.
+ A Large-Scale Car Dataset for Fine-Grained Categorization and Verification by Linjie Yang, Ping Luo, Chen Change Loy, Xiaoou Tang.
+ A Lightened CNN for Deep Face Representation by Xiang Wu, Ran He, Zhenan Sun.
+ A Mathematical Theory of Deep Convolutional Neural Networks for Feature Extraction by Thomas Wiatowski, Helmut Bölcskei.
+ A Multi-scale Multiple Instance Video Description Network by Huijuan Xu, Subhashini Venugopalan, Vasili Ramanishka, Marcus Rohrbach, Kate Saenko.
+ A Neural Attention Model for Abstractive Sentence Summarization by Alexander M. Rush, Sumit Chopra, Jason Weston.
+ A Recurrent Latent Variable Model for Sequential Data by Junyoung Chung, Kyle Kastner, Laurent Dinh, Kratarth Goel, Aaron Courville, Yoshua Bengio.
+ A Restricted Visual Turing Test for Deep Scene and Event Understanding by Hang Qi, Tianfu Wu, Mun-Wai Lee, Song-Chun Zhu.
+ A Self-Driving Robot Using Deep Convolutional Neural Networks on Neuromorphic Hardware by Tiffany Hwu, Jacob Isbell, Nicolas Oros, Jeffrey Krichmar.
+ A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification by Ye Zhang, Byron Wallace.
+ ABC-CNN: An Attention Based Convolutional Neural Network for Visual Question Answering by Kan Chen, Jiang Wang, Liang-Chieh Chen, Haoyuan Gao, Wei Xu, Ram Nevatia.
+ Accelerating Very Deep Convolutional Networks for Classification and Detection by Xiangyu Zhang, Jianhua Zou, Kaiming He, Jian Sun.
+ Accurate Image Super-Resolution Using Very Deep Convolutional Networks by Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee.
+ Action Recognition using Visual Attention by Shikhar Sharma, Ryan Kiros, Ruslan Salakhutdinov.
+ Action Recognition With Trajectory-Pooled Deep-Convolutional Descriptors by Limin Wang, Yu Qiao, Xiaoou Tang.
+ Action-Conditional Video Prediction using Deep Networks in Atari Games by Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh.
+ Active Object Localization with Deep Reinforcement Learning by Juan C. Caicedo, Svetlana Lazebnik.
+ adaQN: An Adaptive Quasi-Newton Algorithm for Training RNNs by Nitish Shirish Keskar, Albert S. Berahas.
+ Adding Gradient Noise Improves Learning for Very Deep Networks by Arvind Neelakantan, Luke Vilnis, Quoc V. Le, Ilya Sutskever, Lukasz Kaiser, Karol Kurach, James Martens.
+ Adversarial Autoencoders by Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow.
+ Adversarial Manipulation of Deep Representations by Sara Sabour, Yanshuai Cao, Fartash Faghri, David J. Fleet.
+ All you need is a good init by Dmytro Mishkin, Jiri Matas.
+ An Efficient Approach to Boosting Performance of Deep Spiking Network Training by Seongsik Park, Sang-gil Lee, Hyunha Nam, Sungroh Yoon.
+ An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition by Baoguang Shi, Xiang Bai, Cong Yao.
+ An Uncertain Future: Forecasting from Static Images using Variational Autoencoders by Jacob Walker, Carl Doersch, Abhinav Gupta, Martial Hebert.
+ Answer Sequence Learning with Neural Networks for Answer Selection in Community Question Answering by Xiaoqiang Zhou, Baotian Hu, Qingcai Chen, Buzhou Tang, Xiaolong Wang.
+ Anticipating the future by watching unlabeled video by Carl Vondrick, Hamed Pirsiavash, Antonio Torralba.
+ Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering by Haoyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, Wei Xu.
+ Artificial Neural Networks Applied to Taxi Destination Prediction by Alexandre de Brébisson, Étienne Simon, Alex Auvolat, Pascal Vincent, Yoshua Bengio.
+ Ask, Attend and Answer: Exploring Question-Guided Spatial Attention for Visual Question Answering by Huijuan Xu, Kate Saenko.
+ Ask Me Anything: Dynamic Memory Networks for Natural Language Processing by Ankit Kumar, Ozan Irsoy, Jonathan Su, James Bradbury, Robert English, Brian Pierce, Peter Ondruska, Ishaan Gulrajani, Richard Socher.
+ Ask Me Anything: Free-form Visual Question Answering Based on Knowledge from External Sources by Qi Wu, Peng Wang, Chunhua Shen, Anton van den Hengel, Anthony Dick.
+ Ask Your Neurons: A Neural-based Approach to Answering Questions about Images by Mateusz Malinowski, Marcus Rohrbach, Mario Fritz.
+ Associative Long Short-Term Memory by Ivo Danihelka, Greg Wayne, Benigno Uria, Nal Kalchbrenner, Alex Graves.
+ Asynchronous Stochastic Gradient Descent with Delay Compensation for Distributed Deep Learning by Shuxin Zheng, Qi Meng, Taifeng Wang, Wei Chen, Nenghai Yu, Zhi-Ming Ma, Tie-Yan Liu.
+ AttentionNet: Aggregating Weak Directions for Accurate Object Detection by Donggeun Yoo, Sunggyun Park, Joon-Young Lee, Anthony Paek, In So Kweon.
+ Attention-Based Models for Speech Recognition by Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, Yoshua Bengio.
+ Attention to Scale: Scale-aware Semantic Image Segmentation by Liang-Chieh Chen, Yi Yang, Jiang Wang, Wei Xu, Alan L. Yuille.
+ Attention with Intention for a Neural Network Conversation Model by Kaisheng Yao, Geoffrey Zweig, Baolin Peng.
+ AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery by Izhar Wallach, Michael Dzamba, Abraham Heifets.
+ Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift by Sergey Ioffe and Christian Szegedy.
+ Batch Normalized Recurrent Neural Networks by César Laurent, Gabriel Pereyra, Philémon Brakel, Ying Zhang, Yoshua Bengio.
+ Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding by Alex Kendall, Vijay Badrinarayanan, Roberto Cipolla.
+ Better Computer Go Player with Neural Network and Long-term Prediction by Yuandong Tian, Yan Zhu.
+ Better Exploiting OS-CNNs for Better Event Recognition in Images by Limin Wang, Zhe Wang, Sheng Guo, Yu Qiao.
+ Beyond Short Snipets: Deep Networks for Video Classification by Joe Yue-Hei Ng, Matthew Hausknecht, Sudheendra Vijayanarasimhan, Oriol Vinyals, Rajat Monga, George Toderici.
+ Beyond Temporal Pooling: Recurrence and Temporal Convolutions for Gesture Recognition in Video by Lionel Pigou, Aäron van den Oord, Sander Dieleman, Mieke Van Herreweghe, Joni Dambre.
+ Binarized Neural Networks by Itay Hubara, Daniel Soudry, Ran El Yaniv.
+ BinaryNet: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1 by Matthieu Courbariaux, Yoshua Bengio.
+ Binding via Reconstruction Clustering by Klaus Greff, Rupesh Kumar Srivastava, Jürgen Schmidhuber.
+ Bottom-up and top-down reasoning with convolutional latent-variable models by Peiyun Hu, Deva Ramanan.
+ Brain4Cars: Car That Knows Before You Do via Sensory-Fusion Deep Learning Architecture by Ashesh Jain, Hema S Koppula, Shane Soh, Bharad Raghavan, Avi Singh, Ashutosh Saxena.
+ Brain-Inspired Deep Networks for Image Aesthetics Assessment by Zhangyang Wang, Florin Dolcos, Diane Beck, Shiyu Chang, Thomas S. Huang.
+ Character-level Convolutional Networks for Text Classification by Xiang Zhang, Junbo Zhao, Yann LeCun.
+ Compositional Memory for Visual Question Answering by Aiwen Jiang, Fang Wang, Fatih Porikli, Yi Li.
+ Compressing Convolutional Neural Networks by Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen.
+ Compressing LSTMs into CNNs by Krzysztof J. Geras, Abdel-rahman Mohamed, Rich Caruana, Gregor Urban, Shengjie Wang, Ozlem Aslan, Matthai Philipose, Matthew Richardson, Charles Sutton.
+ Compression of Deep Neural Networks on the Fly by Guillaume Soulié, Vincent Gripon, Maëlys Robert.
+ Confusing Deep Convolution Networks by Relabelling by Leigh Robinson, Benjamin Graham.
+ Constrained Convolutional Neural Networks for Weakly Supervised Segmentation by Deepak Pathak, Philipp Krähenbühl, Trevor Darrell.
+ Continuous control with deep reinforcement learning by Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra.
+ Convergent Learning: Do different neural networks learn the same representations? by Yixuan Li, Jason Yosinski, Jeff Clune, Hod Lipson, John Hopcroft.
+ Convolutional Clustering for Unsupervised Learning by Aysegul Dundar, Jonghoon Jin, Eugenio Culurciello.
+ Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting by Xingjian Shi, Zhourong Chen, Hao Wang, Dit-Yan Yeung, Wai-Kin Wong, Wang-chun Woo.
+ Convolutional Pose Machines by Shih-En Wei, Varun Ramakrishna, Takeo Kanade, Yaser Sheikh.
+ DAG-Recurrent Neural Networks For Scene Labeling by Bing Shuai, Zhen Zuo, Gang Wang, Bing Wang.
+ Data-dependent Initializations of Convolutional Neural Networks by Philipp Krähenbühl, Carl Doersch, Jeff Donahue, Trevor Darrell.
+ Data-free parameter pruning for Deep Neural Networks by Suraj Srinivas, R. Venkatesh Babu.
+ DecomposeMe: Simplifying ConvNets for End-to-End Learning by Jose Alvarez, Lars Petersson.
+ Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation by Seunghoon Hong, Hyeonwoo Noh, Bohyung Han.
+ DeepBox: Learning Objectness with Convolutional Networks by Weicheng Kuo, Bharath Hariharan, Jitendra Malik.
+ DeepFont: Identify Your Font from An Image by Zhangyang Wang, Jianchao Yang, Hailin Jin, Eli Shechtman, Aseem Agarwala, Jonathan Brandt, Thomas S. Huang.
+ DeepFool: a simple and accurate method to fool deep neural networks by Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard.
+ DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection by Wanli Ouyang, Xiaogang Wang, Xingyu Zeng, Shi Qiu, Ping Luo, Yonglong Tian, Hongsheng Li, Shuo Yang, Zhe Wang, Chen-Change Loy, Xiaoou Tang.
+ DeepLogo: Hitting Logo Recognition with the Deep Neural Network Hammer by Forrest N. Iandola, Anting Shen, Peter Gao, Kurt Keutzer.
+ DeepProposal: Hunting Objects by Cascading Deep Convolutional Layers by Amir Ghodrati, Ali Diba, Marco Pedersoli, Tinne Tuytelaars, Luc Van Gool.
+ DeepSaliency: Multi-Task Deep Neural Network Model for Salient Object Detection by Xi Li, Liming Zhao, Lina Wei, MingHsuan Yang, Fei Wu, Yueting Zhuang, Haibin Ling, Jingdong Wang.
+ Deep Attention Recurrent Q-Network by Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva.
+ Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN) by Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, Alan Yuille.
+ Deep Compositional Question Answering with Neural Module Networks by Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein.
+ Deep clustering: Discriminative embeddings for segmentation and separation by John R. Hershey, Zhuo Chen, Jonathan Le Roux, Shinji Watanabe
+ Deep CNN Ensemble with Data Augmentation for Object Detection by Jian Guo, Stephen Gould.
+ Deep Compositional Captioning: Describing Novel Object Categories without Paired Training Data by Lisa Anne Hendricks, Subhashini Venugopalan, Marcus Rohrbach, Raymond Mooney, Kate Saenko, Trevor Darrell.
+ Deep Convolutional Matching by Jerome Revaud, Philippe Weinzaepfel, Zaid Harchaoui, Cordelia Schmid.
+ Deep Convolutional Networks are Hierarchical Kernel Machines by Fabio Anselmi, Lorenzo Rosasco, Cheston Tan, Tomaso Poggio.
+ Deep Convolutional Neural Network Design Patterns by Leslie N. Smith, Nicholay Topin.
+ Deep Directed Generative Models with Energy-Based Probability Estimation by Taesup Kim, Yoshua Bengio.
+ Deep Convolutional Networks on Graph-Structured Data by Mikael Henaff, Joan Bruna, Yann LeCun.
+ Deep Fishing: Gradient Features from Deep Nets by Albert Gordo, Adrien Gaidon, Florent Perronnin.
+ Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks by Emily Denton, Soumith Chintala, Arthur Szlam, Rob Fergus.
+ Deep Kernel Learning by Andrew Gordon Wilson, Zhiting Hu, Ruslan Salakhutdinov, Eric P. Xing.
+ Deep Knowledge Tracing by Chris Piech, Jonathan Spencer, Jonathan Huang, Surya Ganguli, Mehran Sahami, Leonidas Guibas, Jascha Sohl-Dickstein.
+ Deep Learning Face Attributes in the Wild by Ziwei Liu, Ping Luo, Xiaogang Wang, Xiaoou Tang.
+ Deep Learning with Differential Privacy by Martín Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang.
+ Deep Learning with S-shaped Rectified Linear Activation Units by Xiaojie Jin, Chunyan Xu, Jiashi Feng, Yunchao Wei, Junjun Xiong, Shuicheng Yan.
+ DeepMath - Deep Sequence Models for Premise Selection by Alex A. Alemi, Francois Chollet, Geoffrey Irving, Christian Szegedy, Josef Urban.
+ Deep multi-scale video prediction beyond mean square error by Michael Mathieu, Camille Couprie, Yann LeCun.
+ Deep Networks Resemble Human Feed-forward Vision in Invariant Object Recognition by Saeed Reza Kheradpisheh, Masoud Ghodrati, Mohammad Ganjtabesh, Timothée Masquelier.
+ Deep Networks with Internal Selective Attention through Feedback Connections by Marijn Stollenga, Jonathan Masci, Faustino Gomez, Jürgen Schmidhuber.
+ Deep Neural Networks predict Hierarchical Spatio-temporal Cortical Dynamics of Human Visual Object Recognition by Radoslaw M. Cichy, Aditya Khosla, Dimitrios Pantazis, Antonio Torralba, Aude Oliva.
+ DeepProposals: Hunting Objects and Actions by Cascading Deep Convolutional Layers by Amir Ghodrati, Ali Diba, Marco Pedersoli, Tinne Tuytelaars, Luc Van Gool.
+ Deep Recurrent Q-Learning for Partially Observable MDPs by Matthew Hausknecht, Peter Stone.
+ Deep Residual Learning for Image Recognition by Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
+ Deeply-Recursive Convolutional Network for Image Super-Resolution.pdf by Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee.
+ Deep Reinforcement Learning in Parameterized Action Space by Matthew Hausknecht, Peter Stone.
+ Deep Reinforcement Learning with an Unbounded Action Space by Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng, Mari Ostendorf.
+ Deep Reinforcement Learning with Double Q-learning by Hado van Hasselt, Arthur Guez, David Silver.
+ Deep Sliding Shapes for Amodal 3D Object Detection in RGB-D Images by Shuran Song, Jianxiong Xiao.
+ Deep Speech: Scaling up end-to-end speech recognition by Awni Hannun, Carl Case, Jared Casper, Bryan Catanzaro, Greg Diamos, Erich Elsen, Ryan Prenger, Sanjeev Satheesh, Shubho Sengupta, Adam Coates, Andrew Y. Ng.
+ Deep Tracking: Seeing Beyond Seeing Using Recurrent Neural Networks by Peter Ondruska, Ingmar Posner.
+ Deep Transfer Learning with Joint Adaptation Networks by Mingsheng Long, Jianmin Wang, Michael I. Jordan.
+ Deep Visual-Semantic Alignments for Generating Image Descriptions by Andrej Karpathy, Fei-Fei Li.
+ Deeply Improved Sparse Coding for Image Super-Resolution by Zhaowen Wang, Ding Liu, Jianchao Yang, Wei Han, Thomas Huang.
+ DeePM: A Deep Part-Based Model for Object Detection and Semantic Part Localization by Jun Zhu, Xianjie Chen, Alan L. Yuille.
+ Delving Deeper into Convolutional Networks for Learning Video Representations by Nicolas Ballas, Li Yao, Chris Pal, Aaron Courville.
+ Denoising Criterion for Variational Auto-Encoding Framework by Daniel Jiwoong Im, Sungjin Ahn, Roland Memisevic, Yoshua Bengio.
+ DenseCap: Fully Convolutional Localization Networks for Dense Captioning by Justin Johnson, Andrej Karpathy, Li Fei-Fei.
+ DenseBox: Unifying Landmark Localization with End to End Object Detection by Lichao Huang, Yi Yang, Yafeng Deng, Yinan Yu.
+ Describing Multimedia Content using Attention-based Encoder–Decoder Networks by Kyunghyun Cho, Aaron Courville, Yoshua Bengio.
+ Describing Videos by Exploiting Temporal Structure by Li Yao, Atousa Torabi, Kyunghyun Cho, Nicolas Ballas, Christopher Pal, Hugo Larochelle, Aaron Courville.
+ Detecting Interrogative Utterances with Recurrent Neural Networks by Junyoung Chung, Jacob Devlin, Hany Hassan Awadalla.
+ Dictionary Learning and Sparse Coding for Third-order Super-symmetric Tensors by Piotr Koniusz, Anoop Cherian.
+ Digging Deep into the layers of CNNs: In Search of How CNNs Achieve View Invariance by Amr Bakry, Mohamed Elhoseiny, Tarek El-Gaaly, Ahmed Elgammal.
+ Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks by Alexey Dosovitskiy, Philipp Fischer, Jost Tobias Springenberg, Martin Riedmiller, Thomas Brox.
+ DisturbLabel: Regularizing CNN on the Loss Layer by Lingxi Xie, Jingdong Wang, Zhen Wei, Meng Wang, Qi Tian.
+ Distributed Deep Learning Using Synchronous Stochastic Gradient Descent by Dipankar Das, Sasikanth Avancha, Dheevatsa Mudigere, Karthikeyan Vaidynathan, Srinivas Sridharan, Dhiraj Kalamkar, Bharat Kaul, Pradeep Dubey.
+ Distributed Deep Q-Learning by Hao Yi Ong, Kevin Chavez, Augustus Hong.
+ Do Deep Neural Networks Learn Facial Action Units When Doing Expression Recognition? by Pooya Khorrami, Tom Le Paine, Thomas S. Huang.
+ Do semantic parts emerge in Convolutional Neural Networks? by Abel Gonzalez-Garcia, Davide Modolo, Vittorio Ferrari.
+ DRAW: A Recurrent Neural Network For Image Generation by Karol Gregor, Ivo Danihelka, Alex Graves, Daan Wierstra.
+ Drawing and Recognizing Chinese Characters with Recurrent Neural Network by Xu-Yao Zhang, Fei Yin, Yan-Ming Zhang, Cheng-Lin Liu, Yoshua Bengio.
+ DropNeuron: Simplifying the Structure of Deep Neural Networks by Wei Pan, Hao Dong, Yike Guo.
+ Dropout: A Simple Way to Prevent Neural Networks from Overfitting by Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov.
+ Dynamic Neural Turing Machine with Soft and Hard Addressing Schemes by Caglar Gulcehre, Sarath Chandar, Kyunghyun Cho, Yoshua Bengio.
+ DynaNewton - Accelerating Newton’s Method for Machine Learning by Hadi Daneshmand, Aurelien Lucchi, Thomas Hofmann.
+ EIE: Efficient Inference Engine on Compressed Deep Neural Network by Song Han, Xingyu Liu, Huizi Mao, Jing Pu, Ardavan Pedram, Mark A. Horowitz, William J. Dally.
+ Empirical performance upper bounds for image and video captioning by Li Yao, Nicolas Ballas, Kyunghyun Cho, John R. Smith, Yoshua Bengio.
+ End-to-End Attention-based Large Vocabulary Speech Recognition by Dzmitry Bahdanau, Jan Chorowski, Dmitriy Serdyuk, Philemon Brakel, Yoshua Bengio.
+ End-to-End Deep Learning for Person Search by Tong Xiao, Shuang Li, Bochao Wang, Liang Lin, Xiaogang Wang.
+ End-to-end Learning of Action Detection from Frame Glimpses in Videos by Serena Yeung, Olga Russakovsky, Greg Mori, Li Fei-Fei.
+ End-To-End Memory Networks by Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus.
+ End-to-end people detection in crowded scenes by Russell Stewart, Mykhaylo Andriluka.
+ ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation by Adam Paszke, Abhishek Chaurasia, Sangpil Kim, Eugenio Culurciello.
+ Evaluating the visualization of what a Deep Neural Network has learned by Wojciech Samek, Alexander Binder, Grégoire Montavon, Sebastian Bach, Klaus-Robert Müller.
+ Exploring the Limits of Language Modeling by Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, Yonghui Wu.
+ FaceNet: A Unified Embedding for Face Recognition and Clustering by Florian Schroff, Dmitry Kalenichenko, James Philbin.
+ Factors in Finetuning Deep Model for object detection by Wanli Ouyang, Xiaogang Wang, Cong Zhang, Xiaokang Yang.
+ Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs) by Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter.
+ Fast-Classifying, High-Accuracy Spiking Deep Networks Through Weight and Threshold Balancing by Peter U. Diehl, Daniel Neil, Jonathan Binas, Matthew Cook, Shih-Chii Liu, and Michael Pfeiffer.
+ Fast and Accurate Recurrent Neural Network Acoustic Models for Speech Recognition by Haşim Sak, Andrew Senior, Kanishka Rao, Françoise Beaufays.
+ Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks by Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun.
+ Feature-based Attention in Convolutional Neural Networks by Grace W. Lindsay.
+ Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems by Colin Raffel, Daniel P. W. Ellis.
+ FireCaffe: near-linear acceleration of deep neural network training on compute clusters by Forrest N. Iandola, Khalid Ashraf, Mattthew W. Moskewicz, Kurt Keutzer.
+ First Step toward Model-Free, Anonymous Object Tracking with Recurrent Neural Networks by Quan Gan, Qipeng Guo, Zheng Zhang, Kyunghyun Cho.
+ FitNets: Hints for Thin Deep Nets by Adriana Romero, Nicolas Ballas, Samira Ebrahimi Kahou, Antoine Chassang, Carlo Gatta, Yoshua Bengio.
+ FlowNet: Learning Optical Flow with Convolutional Networks by Philipp Fischer, Alexey Dosovitskiy, Eddy Ilg, Philip Häusser, Caner Hazırbaş, Vladimir Golkov, Patrick van der Smagt, Daniel Cremers, Thomas Brox.
+ From Facial Parts Responses to Face Detection: A Deep Learning Approach by Shuo Yang, Ping Luo, Chen Change Loy, Xiaoou Tang.
+ Fully Convolutional Networks for Semantic Segmentation by Evan Shelhamer, Jonathan Long, Trevor Darrell.
+ Fusing Multi-Stream Deep Networks for Video Classification by Zuxuan Wu, Yu-Gang Jiang, Xi Wang, Hao Ye, Xiangyang Xue, Jun Wang.
+ Generating Images from Captions with Attention by Elman Mansimov, Emilio Parisotto, Jimmy Lei Ba, Ruslan Salakhutdinov.
+ Generative Image Modeling Using Spatial LSTMs by Lucas Theis, Matthias Bethge.
+ Generating News Headlines with Recurrent Neural Networks by Konstantin Lopyrev.
+ Geometry-aware Deep Transform by Jiaji Huang, Qiang Qiu, Robert Calderbank, Guillermo Sapiro.
+ Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation by Melvin Johnson, Mike Schuster, Quoc V. Le, Maxim Krikun, Yonghui Wu, Zhifeng Chen, Nikhil Thorat, Fernanda Viégas, Martin Wattenberg, Greg Corrado, Macduff Hughes, Jeffrey Dean.
+ Gradual DropIn of Layers to Train Very Deep Neural Networks by Leslie N. Smith, Emily M. Hand, Timothy Doster.
+ Grid Long Short-Term Memory by Nal Kalchbrenner, Ivo Danihelka, Alex Graves.
+ Guiding Long-Short Term Memory for Image Caption Generation by Xu Jia, Efstratios Gavves, Basura Fernando, Tinne Tuytelaars.
+ Harvesting Discriminative Meta Objects with Deep CNN Features for Scene Classification by Ruobing Wu, Baoyuan Wang, Wenping Wang, Yizhou Yu.
+ Hierarchical Attention Networks by Paul Hongsuck Seo, Zhe Lin, Scott Cohen, Xiaohui Shen, Bohyung Han.
+ Hierarchical Object Detection with Deep Reinforcement Learning by Miriam Bellver, Xavier Giro-i-Nieto, Ferran Marques, Jordi Torres.
+ Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning by Pingbo Pan, Zhongwen Xu, Yi Yang, Fei Wu, Yueting Zhuang.
+ Highway Networks by Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber.
+ How far can we go without convolution: Improving fully-connected networks by Zhouhan Lin, Roland Memisevic, Kishore Konda.
+ How Important is Weight Symmetry in Backpropagation? by Qianli Liao, Joel Z. Leibo, Tomaso Poggio.
+ How to scale distributed deep learning? by Peter H. Jin, Qiaochu Yuan, Forrest Iandola, Kurt Keutzer.
+ Human Action Recognition using Factorized Spatio-Temporal Convolutional Networks by Lin Sun, Kui Jia, Dit-Yan Yeung, Bertram E. Shi.
+ Human-level concept learning through probabilistic program induction by Brenden M. Lake, Ruslan Salakhutdinov, Joshua B. Tenenbaum
+ ImageNet Classification with Deep Convolutional Neural Networks by Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton.
+ Image Captioning with an Intermediate Attributes Layer by Qi Wu, Chunhua Shen, Anton van den Hengel, Lingqiao Liu, Anthony Dick.
+ Image Representations and New Domains in Neural Image Captioning by Jack Hessel, Nicolas Savva, Michael J. Wilber.
+ Image Super-Resolution Using Deep Convolutional Networks by Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang.
+ Image Question Answering: A Visual Semantic Embedding Model and a New Dataset by Mengye Ren, Ryan Kiros, Richard Zemel.
+ Image Question Answering using Convolutional Neural Network with Dynamic Parameter Prediction by Hyeonwoo Noh, Paul Hongsuck Seo, Bohyung Han.
+ Importance Weighted Autoencoders by Yuri Burda, Roger Grosse, Ruslan Salakhutdinov.
+ Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning by Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke.
+ Indexing of CNN Features for Large Scale Image Search by Ruoyu Liu, Yao Zhao, Shikui Wei, Zhenfeng Zhu, Lixin Liao, Shuang Qiu.
+ InterActive: Inter-Layer Activeness Propagation by Lingxi Xie, Liang Zheng, Jingdong Wang, Alan Yuille, Qi Tian.
+ Inverting Convolutional Networks with Convolutional Networks by Alexey Dosovitskiy, Thomas Brox.
+ Is Image Super-resolution Helpful for Other Vision Tasks? by Dengxin Dai, Yujian Wang, Yuhua Chen, Luc Van Gool.
+ Is L2 a Good Loss Function for Neural Networks for Image Processing? by Hang Zhao, Orazio Gallo, Iuri Frosio, Jan Kautz.
+ Joint Calibration for Semantic Segmentation by Holger Caesar, Jasper Uijlings, Vittorio Ferrari.
+ Large-scale Simple Question Answering with Memory Networks by Antoine Bordes, Nicolas Usunier, Sumit Chopra, Jason Weston.
+ Large Margin Deep Neural Networks: Theory and Algorithms by Shizhao Sun, Wei Chen, Liwei Wang, Tie-Yan Liu.
+ Layer Normalization by Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E. Hinton.
+ Learning Contextual Dependencies with Convolutional Hierarchical Recurrent Neural Networks by Zhen Zuo, Bing Shuai, Gang Wang, Xiao Liu, Xingxing Wang, Bing Wang.
+ Learning Deconvolution Network for Semantic Segmentation by Hyeonwoo Noh, Seunghoon Hong, Bohyung Han.
+ Learning Deep Feature Representations with Domain Guided Dropout for Person Re-identification by Tong Xiao, Hongsheng Li, Wanli Ouyang, Xiaogang Wang.
+ Learning Deep Representations of Fine-grained Visual Descriptions by Scott Reed, Zeynep Akata, Bernt Schiele, Honglak Lee.
+ Learning Fine-grained Features via a CNN Tree for Large-scale Classification by Zhenhua Wang, Xingxing Wang, Gang Wang.
+ Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images by Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, Alan Yuille.
+ Learning from LDA using Deep Neural Networks by Dongxu Zhang, Tianyi Luo, Dong Wang, Rong Liu.
+ Learning Multiple Tasks with Deep Relationship Networks by Mingsheng Long, Jianmin Wang.
+ Learning scale-variant and scale-invariant features for deep image classification by Nanne van Noord, Eric Postma.
+ Learning Spatiotemporal Features with 3D Convolutional Networks by Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, Manohar Paluri.
+ Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks by Jakob N. Foerster, Yannis M. Assael, Nando de Freitas, Shimon Whiteson.
+ Learning to Compose Neural Networks for Question Answering by Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein.
+ Learning to learn by gradient descent by gradient descent by Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew W. Hoffman, David Pfau, Tom Schaul, Nando de Freitas.
+ Learning to Linearize Under Uncertainty by Ross Goroshin, Michael Mathieu, Yann LeCun.
+ Learning to See by Moving by Pulkit Agrawal, Joao Carreira, Jitendra Malik.
+ Learning to Segment Object Candidates by Pedro O. Pinheiro, Ronan Collobert, Piotr Dollar.
+ Learning to Track at 100 FPS with Deep Regression Networks by David Held, Sebastian Thrun, Silvio Savarese.
+ Learning to track for spatio-temporal action localization by Philippe Weinzaepfel, Zaid Harchaoui, Cordelia Schmid.
+ Learning Transferable Features with Deep Adaptation Networks by Mingsheng Long, Yue Cao, Jianmin Wang, Michael I. Jordan.
+ Learning Wake-Sleep Recurrent Attention Models by Jimmy Ba, Roger Grosse, Ruslan Salakhutdinov, Brendan Frey.
+ Learning Visual Features from Large Weakly Supervised Data by Armand Joulin, Laurens van der Maaten, Allan Jabri, Nicolas Vasilache.
+ Leveraging Context to Support Automated Food Recognition in Restaurants by Vinay Bettadapura, Edison Thomaz, Aman Parnami, Gregory Abowd, Irfan Essa.
+ Lipreading with Long Short-Term Memory by Michael Wand, Jan Koutník, Jürgen Schmidhuber.
+ Listen, Attend and Spell by William Chan, Navdeep Jaitly, Quoc V. Le, Oriol Vinyals.
+ Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences by Hongyuan Mei, Mohit Bansal, Matthew R. Walter.
+ LLNet: A Deep Autoencoder Approach to Natural Low-light Image Enhancement by Kin Gwn Lore, Adedotun Akintayo, Soumik Sarkar.
+ Locally-Supervised Deep Hybrid Model for Scene Recognition by Sheng Guo, Weilin Huang, Yu Qiao.
+ LocNet: Improving Localization Accuracy for Object Detection by Spyros Gidaris, Nikos Komodakis.
+ LOGO-Net: Large-scale Deep Logo Detection and Brand Recognition with Deep Region-based Convolutional Networks by Steven C.H. Hoi, Xiongwei Wu, Hantang Liu, Yue Wu, Huiqiong Wang, Hui Xue, Qiang Wu.
+ Long Short-Term Memory-Networks for Machine Reading by Jianpeng Cheng, Li Dong, Mirella Lapata.
+ Long-term Recurrent Convolutional Networks for Visual Recognition and Description by Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, Trevor Darrell.
+ Love Thy Neighbors: Image Annotation by Exploiting Image Metadata by Justin Johnson, Lamberto Ballan, Fei-Fei Li.
+ MADE: Masked Autoencoder for Distribution Estimation by Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle.
+ Manitest: Are classifiers really invariant? by Alhussein Fawzi, Pascal Frossard.
+ Maxout Networks by Ian J. Goodfellow, David Warde-Farley, Mehdi Mirza, Aaron Courville, Yoshua Bengio.
+ Memory-Efficient Backpropagation Through Time by Audrūnas Gruslys, Remi Munos, Ivo Danihelka, Marc Lanctot, Alex Graves.
+ Modelling Uncertainty in Deep Learning for Camera Relocalization by Alex Kendall, Roberto Cipolla.
+ MuFuRU: The Multi-Function Recurrent Unit by Dirk Weissenborn, Tim Rocktäschel.
+ Multiagent Cooperation and Competition with Deep Reinforcement Learning by Ardi Tampuu, Tambet Matiisen, Dorian Kodelja, Ilya Kuzovkin, Kristjan Korjus, Juhan Aru, Jaan Aru, Raul Vicente.
+ Multi-Instance Visual-Semantic Embedding by Zhou Ren, Hailin Jin, Zhe Lin, Chen Fang, Alan Yuille.
+ Multi-task Sequence to Sequence Learning by Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, Lukasz Kaiser.
+ Multi-view Machines by Bokai Cao, Hucheng Zhou, Philip S. Yu.
+ Multimodal Deep Learning for Robust RGB-D Object Recognition by Andreas Eitel, Jost Tobias Springenberg, Luciano Spinello, Martin Riedmiller, Wolfram Burgard.
+ MuProp: Unbiased Backpropagation for Stochastic Neural Networks by Shixiang Gu, Sergey Levine, Ilya Sutskever, Andriy Mnih.
+ Named Entity Recognition with Bidirectional LSTM-CNNs by Jason P.C. Chiu, Eric Nichols.
+ Natural Neural Networks by Guillaume Desjardins, Karen Simonyan, Razvan Pascanu, Koray Kavukcuoglu.
+ Neighborhood Watch: Stochastic Gradient Descent with Neighbors by Thomas Hofmann, Aurelien Lucchi, Brian McWilliams.
+ Net2Net: Accelerating Learning via Knowledge Transfer by Tianqi Chen, Ian Goodfellow, Jonathon Shlens.
+ Neural Functional Programming by John K. Feser, Marc Brockschmidt, Alexander L. Gaunt, Daniel Tarlow.
+ Neural Random-Access Machines by Karol Kurach, Marcin Andrychowicz, Ilya Sutskever.
+ On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models by Juergen Schmidhuber.
+ On Multiplicative Integration with Recurrent Neural Networks by Yuhuai Wu, Saizheng Zhang, Ying Zhang, Yoshua Bengio, Ruslan Salakhutdinov.
+ On the Convergence of SGD Training of Neural Networks by Thomas M. Breuel.
+ On the Expressive Power of Deep Learning: A Tensor Analysis by Nadav Cohen, Or Sharir, Amnon Shashua.
+ On the expressive power of deep neural networks by Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, Jascha Sohl-Dickstein.
+ One-Shot Video Object Segmentation by Sergi Caelles, Kevis-Kokitsi Maninis, Jordi Pont-Tuset, Laura Leal-Taixé, Daniel Cremers, Luc Van Gool.
+ Online and Offline Handwritten Chinese Character Recognition: A Comprehensive Study and New Benchmark by Xu-Yao Zhang, Yoshua Bengio, Cheng-Lin Liu.
+ Online Batch Selection for Faster Training of Neural Networks by Ilya Loshchilov, Frank Hutter.
+ Orthogonal RNNs and Long-Memory Tasks by Mikael Henaff, Arthur Szlam, Yann LeCun.
+ Parallel Multi-Dimensional LSTM, With Application to Fast Biomedical Volumetric Image Segmentation by Marijn F. Stollenga, Wonmin Byeon, Marcus Liwicki, Juergen Schmidhuber.
+ Path-Normalized Optimization of Recurrent Neural Networks with ReLU Activations by Behnam Neyshabur, Yuhuai Wu, Ruslan Salakhutdinov, Nathan Srebro.
+ Path-SGD: Path-Normalized Optimization in Deep Neural Networks by Behnam Neyshabur, Ruslan Salakhutdinov, Nathan Srebro.
+ Person Recognition in Personal Photo Collections by Seong Joon Oh, Rodrigo Benenson, Mario Fritz, Bernt Schiele.
+ Pixel Recurrent Neural Networks by Aaron van den Oord, Nal Kalchbrenner, Koray Kavukcuoglu.
+ PlaNet - Photo Geolocation with Convolutional Neural Networks by Tobias Weyand, Ilya Kostrikov, James Philbin.
+ Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games by Nikolai Yakovenko, Liangliang Cao, Colin Raffel, James Fan.
+ Predicting Deep Zero-Shot Convolutional Neural Networks using Textual Descriptions by Jimmy Ba, Kevin Swersky, Sanja Fidler, Ruslan Salakhutdinov.
+ Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks by José Miguel Hernández-Lobato, Ryan P. Adams.
+ ProNet: Learning to Propose Object-specific Boxes for Cascaded Neural Networks by Chen Sun, Manohar Paluri, Ronan Collobert, Ram Nevatia, Lubomir Bourdev
+ Proposal-free Network for Instance-level Object Segmentation by Xiaodan Liang, Yunchao Wei, Xiaohui Shen, Jianchao Yang, Liang Lin, Shuicheng Yan.
+ P-CNN: Pose-based CNN Features for Action Recognition by Guilhem Chéron, Ivan Laptev, Cordelia Schmid.
+ RAID: A Relation-Augmented Image Descriptor by Paul Guerrero, Niloy J. Mitra, Peter Wonka.
+ RATM: Recurrent Attentive Tracking Model by Samira Ebrahimi Kahou, Vincent Michalski, Roland Memisevic.
+ Random Maxout Features by Youssef Mroueh, Steven Rennie, Vaibhava Goel.
+ Recurrent Attentional Networks for Saliency Detection by Jason Kuen, Zhenhua Wang, Gang Wang.
+ Recurrent Batch Normalization by Tim Cooijmans, Nicolas Ballas, César Laurent, Aaron Courville
+ Recurrent Instance Segmentation by Bernardino Romera-Paredes, Philip H. S. Torr.
+ Recurrent Models of Visual Attention by Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu.
+ Recurrent Network Models for Kinematic Tracking by Katerina Fragkiadaki, Sergey Levine, Jitendra Malik.
+ Recurrent Neural Networks for Driver Activity Anticipation via Sensory-Fusion Architecture by Ashesh Jain, Avi Singh, Hema S Koppula, Shane Soh, Ashutosh Saxena.
+ Recurrent Reinforcement Learning: A Hybrid Approach by Xiujun Li, Lihong Li, Jianfeng Gao, Xiaodong He, Jianshu Chen, Li Deng, Ji He.
+ Recursive Decomposition for Nonconvex Optimization by Abram L. Friesen, Pedro Domingos.
+ Recursive Training of 2D-3D Convolutional Networks for Neuronal Boundary Detection by Kisuk Lee, Aleksandar Zlateski, Ashwin Vishwanathan, H. Sebastian Seung.
+ Relative Natural Gradient for Learning Large Complex Models by Ke Sun, Frank Nielsen.
+ Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views by Hao Su, Charles R. Qi, Yangyan Li, Leonidas Guibas.
+ ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks by Francesco Visin, Kyle Kastner, Kyunghyun Cho, Matteo Matteucci, Aaron Courville, Yoshua Bengio.
+ ReSeg: A Recurrent Neural Network for Object Segmentation by Francesco Visin, Kyle Kastner, Aaron Courville, Yoshua Bengio, Matteo Matteucci, Kyunghyun Cho.
+ Reuse of Neural Modules for General Video Game Playing by Alexander Braylan, Mark Hollenbeck, Elliot Meyerson, Risto Miikkulainen.
+ Rich feature hierarchies for accurate object detection and semantic segmentation by Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik.
+ RL2: Fast Reinforcement Learning via Slow Reinforcement Learning by Yan Duan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, Pieter Abbeel.
+ Scaling Up Natural Gradient by Sparsely Factorizing the Inverse Fisher Matrix by Roger B. Grosse, Ruslan Salakhutdinov.
+ SceneNet: Understanding Real World Indoor Scenes With Synthetic Data by Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipolla.
+ Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks by Samy Bengio, Oriol Vinyals, Navdeep Jaitly, Noam Shazeer.
+ Searching for Higgs Boson Decay Modes with Deep Learning by Peter Sadowski, Pierre Baldi, Daniel Whiteson.
+ SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation by Vijay Badrinarayanan, Alex Kendall, Roberto Cipolla.
+ SegNet: A Deep Convolutional Encoder-Decoder Architecture for Robust Semantic Pixel-Wise Labelling by Vijay Badrinarayanan, Ankur Handa, Roberto Cipolla.
+ Semantic Image Segmentation via Deep Parsing Network by Ziwei Liu, Xiaoxiao Li, Ping Luo, Chen Change Loy, Xiaoou Tang.
+ Semi-supervised Sequence Learning by Andrew M. Dai, Quoc V. Le.
+ SentiCap: Generating Image Descriptions with Sentiments by Alexander Mathews, Lexing Xie, Xuming He.
+ SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size by Forrest N. Iandola, Matthew W. Moskewicz, Khalid Ashraf, Song Han, William J. Dally, Kurt Keutzer.
+ Show and Tell: A Neural Image Caption Generator by Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan
+ Show, Attend and Tell: Neural Image Caption Generation with Visual Attention by Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio.
+ Simple Baseline for Visual Question Answering by Bolei Zhou, Yuandong Tian, Sainbayar Sukhbaatar, Arthur Szlam, Rob Fergus.
+ Skip-Thought Vectors by Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler.
+ Sparsely-Connected Neural Networks: Towards Efficient VLSI Implementation of Deep Neural Networks by Arash Ardakani, Carlo Condo, Warren J. Gross.
+ Sparsifying Neural Network Connections for Face Recognition by Yi Sun, Xiaogang Wang, Xiaoou Tang.
+ Spatial Semantic Regularisation for Large Scale Object Detection by Damian Mrowca, Marcus Rohrbach, Judy Hoffman, Ronghang Hu, Kate Saenko, Trevor Darrell.
+ Spatial Transformer Networks by Max Jaderberg, Karen Simonyan, Andrew Zisserman, Koray Kavukcuoglu.
+ Spiking Deep Networks with LIF Neurons by Eric Hunsberger, Chris Eliasmith.
+ Stacked Attention Networks for Image Question Answering by Zichao Yang, Xiaodong He, Jianfeng Gao, Li Deng, Alex Smola.
+ Stacked What-Where Auto-encoders by Junbo Zhao, Michael Mathieu, Ross Goroshin, Yann Lecun.
+ STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation by Yunchao Wei, Xiaodan Liang, Yunpeng Chen, Xiaohui Shen, Ming-Ming Cheng, Yao Zhao, Shuicheng Yan.
+ STDP-based spiking deep neural networks for object recognition by Saeed Reza Kheradpisheh, Mohammad Ganjtabesh, Simon J Thorpe, Timothée Masquelier.
+ Stochastic Gradient Made Stable: A Manifold Propagation Approach for Large-Scale Optimization by Yadong Mu, Wei Liu, Wei Fan.
+ StochasticNet: Forming Deep Neural Networks via Stochastic Connectivity by Mohammad Javad Shafiee, Parthipan Siva, Alexander Wong.
+ Strategic Attentive Writer for Learning Macro-Actions by Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu.
+ Studying Very Low Resolution Recognition Using Deep Networks by Zhangyang Wang, Shiyu Chang, Yingzhen Yang, Ding Liu, Thomas S. Huang.
+ Super-Resolution with Deep Convolutional Sufficient Statistics by Joan Bruna, Pablo Sprechmann, Yann LeCun.
+ Superpixel Convolutional Networks using Bilateral Inceptions by Raghudeep Gadde, Varun Jampani, Martin Kiefel, Peter V. Gehler.
+ Structured Depth Prediction in Challenging Monocular Video Sequences by Miaomiao Liu, Mathieu Salzmann, Xuming He.
+ Structured Memory for Neural Turing Machines by Wei Zhang, Yang Yu.
+ Symmetry-invariant optimization in deep networks by Vijay Badrinarayanan, Bamdev Mishra, Roberto Cipolla.
+ Tagger: Deep Unsupervised Perceptual Grouping by Klaus Greff, Antti Rasmus, Mathias Berglund, Tele Hotloo Hao, Jürgen Schmidhuber, Harri Valpola.
+ Task Loss Estimation for Sequence Prediction by Dzmitry Bahdanau, Dmitriy Serdyuk, Philémon Brakel, Nan Rosemary Ke, Jan Chorowski, Aaron Courville, Yoshua Bengio.
+ T-CNN: Tubelets with Convolutional Neural Networks for Object Detection from Videos by Kai Kang, Hongsheng Li, Junjie Yan, Xingyu Zeng, Bin Yang, Tong Xiao, Cong Zhang, Zhe Wang, Ruohui Wang, Xiaogang Wang, Wanli Ouyang.
+ Teaching Machines to Read and Comprehend by Karl Moritz Hermann, Tomáš Kočiský, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, Phil Blunsom.
+ Text-Attentional Convolutional Neural Networks for Scene Text Detection by Tong He, Weilin Huang, Yu Qiao, Jian Yao.
+ The Effects of Hyperparameters on SGD Training of Neural Networks by Thomas M. Breuel.
+ The Unreasonable Effectiveness of Recurrent Neural Networks by Andrej Karpathy.
+ Towards Automatic Image Editing: Learning to See another You by Amir Ghodrati, Xu Jia, Marco Pedersoli, Tinne Tuytelaars.
+ Towards Biologically Plausible Deep Learning by Yoshua Bengio, Dong-Hyun Lee, Jorg Bornschein, Zhouhan Lin.
+ Towards Good Practices for Very Deep Two-Stream ConvNets by Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao.
+ Towards universal neural nets: Gibbs machines and ACE by Galin Georgiev.
+ Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control by Fangyi Zhang, Juergen Leitner, Michael Milford, Ben Upcroft, Peter Corke.
+ Train faster, generalize better: Stability of stochastic gradient descent by Moritz Hardt, Benjamin Recht, Yoram Singer.
+ Training a Convolutional Neural Network for Appearance-Invariant Place Recognition by Ruben Gomez-Ojeda, Manuel Lopez-Antequera, Nicolai Petkov, Javier Gonzalez-Jimenez.
+ Training Deep Networks with Structured Layers by Matrix Backpropagation by Catalin Ionescu, Orestis Vantzos, Cristian Sminchisescu.
+ Training Deeper Convolutional Networks with Deep Supervision by Liwei Wang, Chen-Yu Lee, Zhuowen Tu, Svetlana Lazebnik.
+ Trainable performance upper bounds for image and video captioning by Li Yao, Nicolas Ballas, Kyunghyun Cho, John R. Smith, Yoshua Bengio.
+ Training Very Deep Networks by Rupesh Kumar Srivastava, Klaus Greff, Jürgen Schmidhuber.
+ Transfer Learning from Deep Features for Remote Sensing and Poverty Mapping by Michael Xie, Neal Jean, Marshall Burke, David Lobell, Stefano Ermon.
+ Translating Videos to Natural Language Using Deep Recurrent Neural Networks by Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, Kate Saenko.
+ Variable Rate Image Compression with Recurrent Neural Networks by George Toderici, Sean M. O’Malley, Sung Jin Hwang, Damien Vincent, David Minnen, Shumeet Baluja, Michele Covell, Rahul Sukthankar.
+ Video Paragraph Captioning using Hierarchical Recurrent Neural Networks by Haonan Yu, Jiang Wang, Zhiheng Huang, Yi Yang, Wei Xu.
+ VISALOGY: Answering Visual Analogy Questions by Fereshteh Sadeghi, C. Lawrence Zitnick, Ali Farhadi.
+ Visualizing and Understanding Deep Texture Representations by Tsung-Yu Lin, Subhransu Maji.
+ Visualizing and Understanding Recurrent Networks by Andrej Karpathy, Justin Johnson, Fei-Fei Li.
+ Visualizing Deep Convolutional Neural Networks Using Natural Pre-Images by Aravindh Mahendran, Andrea Vedaldi.
+ Visual7W: Grounded Question Answering in Images by Yuke Zhu, Oliver Groth, Michael Bernstein, Li Fei-Fei.
+ Watch and Learn: Semi-Supervised Learning of Object Detectors from Videos by Ishan Misra, Abhinav Shrivastava, Martial Hebert.
+ We Are Humor Beings: Understanding and Predicting Visual Humor by Arjun Chandrasekaran, Ashwin K Vijayakumar, Stanislaw Antol, Mohit Bansal, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh.
+ Weakly-Supervised Alignment of Video With Text by P. Bojanowski, R. Lagugie, Edouard Grave, Francis Bach, I. Laptev, J. Ponce, C. Schmid.
+ Weakly Supervised Deep Detection Networks by Hakan Bilen, Andrea Vedaldi.
+ Weight Uncertainty in Neural Networks by Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra.
+ What is Holding Back Convnets for Detection? by Bojan Pepik, Rodrigo Benenson, Tobias Ritschel, Bernt Schiele.
+ What to talk about and how? Selective Generation using LSTMs with Coarse-to-Fine Alignment by Hongyuan Mei, Mohit Bansal, Matthew R. Walter.
+ What can we learn about CNNs from a large scale controlled object dataset? by Ali Borji, Saeed Izadi, Laurent Itti.
+ Where To Look: Focus Regions for Visual Question Answering by Kevin J. Shih, Saurabh Singh, Derek Hoiem.
+ Who’s Behind the Camera? Identifying the Authorship of a Photograph by Christopher Thomas, Adriana Kovashka.
+ Why Regularized Auto-Encoders learn Sparse Representation? by Devansh Arpit, Yingbo Zhou, Hung Ngo, Venu Govindaraju.
+ WordRank: Learning Word Embeddings via Robust Ranking by Shihao Ji, Hyokun Yun, Pinar Yanardag, Shin Matsushima, S. V. N. Vishwanathan.
+ YodaNN: An Ultra-Low Power Convolutional Neural Network Accelerator Based on Binary Weights by Renzo Andri, Lukas Cavigelli, Davide Rossi, Luca Benini.
+ You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi.
+ Zero-Shot Learning via Semantic Similarity Embedding by Ziming Zhang, Venkatesh Saligrama.
+ ZNN - A Fast and Scalable Algorithm for Training 3D Convolutional Networks on Multi-Core and Many-Core Shared Memory Machines by Aleksandar Zlateski, Kisuk Lee, H. Sebastian Seung.
+ Zoom Better to See Clearer: Huamn Part Segmentation with Auto Zoom Net by Fangting Xia, Peng Wang, Liang-Chieh Chen, Alan L. Yuille.
+ ImageNet by Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg and Li Fei-Fei.
+ SVHN by Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng.
+ TGIF by Yuncheng Li, Yale Song, Liangliang Cao, Joel Tetreault, Larry Goldberg, Alejandro Jaimes, Jiebo Luo.
+ Visual Perception of Forest Trails by IDSIA, USI/SUPSI and Robotics and Perception Group, UZH.
+ WWW Crowd Dataset by Jing Shao, Kai Kang, Chen Change Loy, and Xiaogang Wang.
+I configured 2 types of GPU instances that are available in AWS and installed necessary software for Deep Learning practice. The first one is DGYDLGPUv4. It is a machine that provides 8-core CPU, 15GB RAM, 500GB SSD and 1 NVIDIA Grid K520 GPU, you can use it to learn Deep Learning or conduct normal size experiment. If you need even more computing resources, you can choose DGYDLGPUXv1. This new released GPU instance offered a 32-core CPU, 60GB RAM, 500GB SSD and 4 NVIDIA Grid K520 GPUs.
+Currently they are only available at Asia Pacific (Singapore). You can copy the instance to your close region.
+If you are doing analysis or experiments, I suggest you to request spot instance instead of on-demand instance. This will save you a lot of costs.
+Currently, my build of Caffe in the instance is failed. You can use the AMI that is provided by Caffe community. You can get more details from here
+So far the instance is only available at US East (N. Virginia)
+ MLP Layers: Tanh Layer, Sigmoid Layer, Identity Layer, ReLU Layer
+ ConvNet layers: Tanh Layer, Sigmoid Layer, Identity Layer, ReLU Layer

@@ -1,0 +1,18 @@
+ Deep Learning is the hottest trend now in AI and Machine Learning. We review the popular software for Deep Learning, including Caffe, Cuda-convnet, Deeplearning4j, Pylearn2, Theano, and Torch.
+Deep Learning is now of the hottest trends in Artificial Intelligence and Machine Learning, with daily reports of amazing new achievements, like doing better than humans on IQ test.
+In 2015 KDnuggets Software Poll, a new category for Deep Learning Tools was added, with most popular tools in that poll listed below.
+I havent used all of them, so this is a brief summary of these popular tools based on their homepages and tutorials.
+Theano and Pylearn2 are both developed at University of Montreal with most developers in the LISA group led by Yoshua Bengio. Theano is a Python library, and you can also consider it as a mathematical expression compiler. It is good for making algorithms from scratch. Here is an intuitive example of Theano training.
+If we want to use standard algorithms, we can write Pylearn2 plugins as Theano expressions, and Theano will optimize and stabilize the expressions. It includes all things needed for multilayer perceptron/RBM/Stacked Denoting Autoencoder/ConvNets. Here is a quick start tutorial to walk you through some basic ideas on Pylearn2.
+Caffe is developed by the Berkeley Vision and Learning Center, created by Yangqing Jia and led by Evan Shelhamer. It is a fast and readable implementation of ConvNets in C++. As shown on its official page, Caffe can process over 60M images per day with a single NVIDIA K40 GPU with AlexNet. It can be used like a toolkit for image classification, while not for other deep learning application such as text or speech.
+Torch is written in Lua, and used at NYU, Facebook AI lab and Google DeepMind. It claims to provide a MATLAB-like environment for machine learning algorithms. Why did they choose Lua/LuaJIT instead of the more popular Python? They said in Torch7 paper that Lua is easily to be integrated with C so within a few hours work, any C or C++ library can become a Lua library. With Lua written in pure ANSI C, it can be easily compiled for arbitrary targets.
+OverFeat is a feature extractor trained on the ImageNet dataset with Torch7 and also easy to start with.
+There is no doubt that GPU accelerates deep learning researches these days. News about GPU especially Nvidia Cuda is all over the Internet. Cuda-convnet/CuDNN supports all the mainstream softwares such as Caffe, Torch and Theano and is very easy to enable.
+Unlike the above packages, Deeplearning4j is designed to be used in business environments, rather than as a research tool. As on its introduction, DL4J is a Java-based, industry-focused, commercially supported, distributed deep-learning framework.
+These tools seem to be in a friendly competition of speed and ease of use. 
+Caffe developers say that Caffe is the fastest convnet implementation available. 
+Torch7 is proved to be faster than Theano on most benchmarks as shown in Torch7 paper. 
+A comparison table of some popular deep learning tools is listed in the Caffe paper.
+There is a thread on reddit about best framework for deep neural nets. DL4J also gives DL4J vs. Torch vs. Theano vs. Caffe on its website.
+R leads RapidMiner, Python catches up, Big Data tools grow, Spark ignites
+ Cartoon: Machine Learning Class Adobe: Sr. Data Science Engineer Upcoming Meetings in AI, Analytics, Big Data,... Global AI Conference, New York City, October ... WCAI Analytics Accelerator Challenge Search Millions of Documents for Thousands of...

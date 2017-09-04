@@ -1,0 +1,8 @@
+Dr. Arno Candel is Chief Architect at H2O.ai. He is considered one of the leading deep learning experts. He has over a decade of experience in high-performance computing. In past he has designed and implemented high-performance machine learning algorithms. Arno was named 2014 Big Data All-Star by Fortune Magazine. 
+I recently got to hear from him last month at H2O World 2015 which I would love to share with everyone. While most the tips are generic, there are some which are specific to H2O.
+Here are top 10 deep learning tips and tricks as per Arno:
+Model size is independent of number of rows or training time
+If model is taking too long, cancel and decrease model complexity
+ Python overtakes R, becomes the leader in Data Science, Machine Learning platforms
+ What Artificial Intelligence and Machine Learning Can Do - And What It Can't
+ Top Stories, Aug 28-Sep 3: Python Overtakes R... Cartoon: Machine Learning Class Adobe: Sr. Data Science Engineer Upcoming Meetings in AI, Analytics, Big Data,... Global AI Conference, New York City, October ... WCAI Analytics Accelerator Challenge

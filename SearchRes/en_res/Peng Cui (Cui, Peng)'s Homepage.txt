@@ -1,0 +1,88 @@
+ I gave a keynote talk on Computational Modeling on Social Dynamics in DSBDA workshop in ICDM 2016. 
+ Our paper on social group evolution was included in the Best Papers of KDD 2016 special issue in ACM TKDD.
+ With Wenwu Zhu, Tat-Seng Chua and Ramesh Jain we publish a perspective and vision paper Social-Sensed Multimedia Computing in IEEE Multimedia Magazine.
+ Peng Cui is an Associate Professor in Tsinghua University. He got his PhD degree from Tsinghua University in 2010. He is keen to promote the convergence of social media data mining and multimedia computing technologies. His research interests include network representation learning, human behavioral modeling, and social-sensed multimedia computing. He has published more than 60 papers in prestigious conferences and journals in data mining and multimedia. His recent research won the SIGKDD 2016 Best Paper Finalist, ICDM 2015 Best Student Paper Award, SIGKDD 2014 Best Paper Finalist, IEEE ICME 2014 Best Paper Award, ACM MM12 Grand Challenge Multimodal Award, and MMM13 Best Paper Award. He is the Area Chair of ICDM 2016, ACM MM 2014-2015, IEEE ICME 2014-2015, ICASSP 2013, Associate Editors of IEEE TKDE, ACM TOMM, Elsevier Journal on Neurocomputing, and Guest Editors of IEEE Intelligent Systems, Information Retrieval Journal, Machine Vision and Applications, etc. He was the recipient of ACM China Rising Star Award in 2015.
+ My research interests include social network analysis and social multimedia computing. In social network analysis, I foucs more
+ on computational modeling of complex user behaviors, including individual user behavior prediction, social group analysis and information propogation modeling. In social multimedia computing, I am keen to promote the convergence of user behavioral modeling and multimedia content analysis, with the ultimate goal to bridge the gap between multimedia data and user needs. 
+ Mingdong Ou, Peng Cui, Fei Wang, Jun Wang, Wenwu Zhu, Shiqiang Yang. 
+ Comparing Apples to Oranges: A Scalable Solution with Heterogeneous Hashing.
+ Linyun Yu, Peng Cui, Chaoming Song, Tianyang Zhang, Shiqiang Yang.
+ A Temporally Heterogeneous Survival Framework with Application to Social Behavior Dynamics.
+ Kun Kuang, Peng Cui, Bo Li, Meng Jiang, Fei Wang, Shiqiang Yang.
+ Linyun Yu, Peng Cui, Fei Wang, Chaoming Song, Shiqiang Yang.
+ Uncovering and Predicting the Dynamic Process of Information Cascades with Survival Model.
+ Tianyang Zhang, Peng Cui, Christos Faloutsos, Wenwu Zhu, Shiqiang Yang.
+ Beyond Sigmoids: the NetTide Model for Social Network Growth, and its Applications.
+ Meng Jiang, Alex Beutel, Peng Cui, Bryn Hooi, Shiqiang Yang, Christos Faloutsos.
+ Spotting Suspicious Behaviors in Multimodal Data: A General Metric and Algortihms.
+ Tianyang Zhang, Peng Cui, Chaoming Song, Wenwu Zhu, Shiqiang Yang.
+ Meng Jiang, Peng Cui, Nicholas Jing Yuan, Xing Xie, Shiqiang Yang.
+ Linyun Yu, Peng Cui, Fei Wang, Chaoming Song, Shiqiang Yang.
+ From Micro to Macro: Uncovering and Predicting Information Cascading Process with Behavioral Dynamics.
+ Meng Jiang, Alex Beutel, Peng Cui, Bryn Hooi, Shiqiang Yang, Christos Faloutsos.
+ A General Suspiciousness Metric for Dense Blocks in Multimodal Data.
+ Meng Jiang, Peng Cui, Alex Beutel, Wenwu Zhu, Shiqiang Yang.
+ Meng Jiang, Peng Cui, Fei Wang, Wenwu Zhu, Shiqiang Yang.
+ Meng Jiang, Peng Cui, Alex Beutel, Christos Faloutsos, Shiqiang Yang. 
+ Catching Synchronized Behaviors in Large Networks: A Graph Mining Approach.
+ ACM Transactions on Knowledge Discovery from Data (TKDD), 2015.(to appear) (special issue on The Best of KDD2014)(Download)
+ Mingdong Ou, Peng Cui, Jun Wang, Fei Wang, Wenwu Zhu. 
+ Meng Jiang, Peng Cui, Fei Wang, Wenwu Zhu, Shiqiang Yang. 
+ IEEE Transactions on Knowledge and Data Engineering (TKDE), 2014.(to appear) (Download)
+ Meng Jiang, Peng Cui, Alex Beutel,Christos Faloutsos, Shiqiang Yang. 
+ Meng Jiang, Peng Cui, Fei Wang, Xinran Xu, Wenwu Zhu, Shiqiang Yang. 
+ FEMA: Flexible Evolutionary Multi-faceted Analysis for Dynamic Behavioral Pattern Discovery.
+ Meng Jiang, Peng Cui, Alex Beutel,Christos Faloutsos, Shiqiang Yang. 
+ Meng Jiang, Peng Cui, Alex Beutel,Christos Faloutsos, Shiqiang Yang. 
+ Peng Cui, Shifei Jin, Linyun Yu, Fei Wang, Wenwu Zhu, Shiqiang Yang. 
+ Zhi Wang, Wenwu Zhu, Peng Cui, Lifeng Sun, Shiqiang Yang.
+ In Social Media Retrieval, Naeem Ramzan, Roelof van Zwol, Jong‐Seok Lee, Kai Clüver, and Xian‐Sheng Hua, Editors, Springer-Verlag, ISBN 978-1-4471-4554-7, 2013 . 
+ Meng Jiang, Peng Cui, Fei Wang, Qiang Yang, Wenwu Zhu, Shiqiang Yang. 
+ Meng Jiang, Peng Cui, Rui Liu, Qiang Yang, Fei Wang, Wenwu Zhu, Shiqiang Yang. 
+ Peng Cui, Fei Wang, Shaowei Liu, Mingdong Ou, Shiqiang Yang. 
+ Who Should Share What? Item-level Social Influence Prediction for Users and Posts Ranking.
+ International ACM SIGIR Conference (SIGIR), 2011.(Full paper, accepting rate 19.8%)(Download)
+ Item-Level Social Influence Prediction with Probabilistic Hybrid Factor Matrix Factorization.
+ Twenty-Fifth AAAI Conference on Artificial Intelligence (AAAI), 2011.(Oral, accepting rate 24.8%) 
+ Fei Wang, Peng Cui, Gordon Sun, Tat-Seng Chua, Shiqiang Yang. 
+ Guest editorial: Special issue on information retrieval for social media. 
+ Learning Compact Hash Codes for Multimodal Representations using Orthogonal Deep Structure.
+ Peng Cui, Shaowei Liu, Wenwu Zhu, Huanbo Luan, Tat-Seng Chua, Shiqiang Yang. 
+ Zhiyu Wang, Peng Cui, Fangtao Li, Edward Y Chang, Shiqiang Yang. 
+ A Data-Driven Study of Image Feature Extraction and Fusion. 
+ Shaowei Liu, Peng Cui, Huanbo Luan, Wenwu Zhu, Shiqiang Yang, Qi Tian. 
+ Computer Vision and Image Understanding (CVIU), vol. 118, pp. 30-39, 2014.(Download)
+ IEEE MultiMedia, vol.21, no. 4, pp. 76-83, Oct.-Dec. 2014.(Download) 
+ Zhiyu Wang, Peng Cui, Lexing Xie, Wenwu Zhu, Yong Rui, Shiqiang Yang.
+ ACM Transactions on Multimedia Computing, Communications and Applications (TOMCCAP), 2014.(Download)
+ What Videos Are Similar With You? Learning a Common Attributed Representation for Video Recommendation.
+ Shaowei Liu, Peng Cui, Wenwu Zhu, Shiqiang Yang, Qi Tian. 
+ Find You from Your Friends: Graph-based Residence Location Prediction for Users in Social Media.
+ Yun Yang, Peng Cui, Vicky Zhao, Wenwu Zhu, Shiqiang Yang. 
+ User Interest and Social Influence Based Emotion Prediction for Individuals.
+ Shaowei Liu, Peng Cui, Huanbo Luan, Wenwu Zhu, Shiqiang Yang, Qi Tian. 
+ International Conference on Multimedia Modeling (MMM), 2013.(Oral Paper, accepting rate 27%)(Best Paper Award)(Download)
+ Zhi Wang, Wenwu Zhu, Xiangwen Chen, Lifeng Sun, Jiangchuan Liu, Minghua Chen, Peng Cui, Shiqiang Yang. 
+ ACM Transactions on Multimedia Computing Communications and Applications (TOMCCAP), 2013.(to appear) 
+ Zhiyu Wang, Peng Cui, Lexing Xie, Hao Chen, Wenwu Zhu, Shiqiang Yang. 
+ IEEE Transactions on Multimedia (TMM), vol. 14, no. 1, pp. 102-110, 2012.(SCI IF=2.29)
+ Chao Wang, Lifeng Sun, Peng Cui, Jianwei Zhang, Shiqiang Yang. 
+ IEEE Transactions on Image Processing (TIP), vol. 21, no. 1, pp.115-129, 2012.(SCI IF=2.6)
+ Data Mining and Knowledge Discovery (DMKD), vol. 22, no. 3, pp. 467-492, 2011.(SCI IF=2.95)(Download)
+ Yinjun Miao, Chao Wang, Peng Cui, Lifeng Sun, Shiqiang Yang. 
+ HFAG: Hierarchical Frame Affinity Group for Video Retrieval on Very Large Dataset.
+ IEEE Transactions on Multimedia (TMM), vol. 11, pp. 333-341, 2009.(SCI IF=2.29)(Download)
+ Science in China Series F: Information Sciences, vol. 52, no. 2, pp. 226-235, 2009.
+ A Sequential Monte Carlo Approach to Anomaly Detection in Tracking Visual Events.
+ Associate Editor: IEEE Trans. Knowledge and Data Engineering (IEEE TKDE) (2017-), ACM Trans. Multimedia Computing, Communications and Applications (ACM TOMM) (2016-), Neurocomputing(2015-), Frontier of Computer Science (Young AE, 2013-) 
+ Area Chair (SPC): ACM MM2017, ICDM2016, ACM MM2015, ICME2015, SocInfo2015, ACM MM2014, ICMR2014(special session), ICME2014(special session), ICASSP2013 
+ PC Member: IJCAI2015, KDD2015, AAAI2015, WSDM2015, ICIP2015, KDD2014, CIKM2014, ICMR2013, ACM MM2012 
+ Guest Editor, IEEE Intelligent Systems Magazine, Special issue on Online Behavioral Analysis and Modeling, 2015 
+ Co-Chair, Workshop on Connecting Online and Offline Social Network Analysis, ICDM2014 
+ Co-Chair, Special Session on Harvesting and Analyzing Live Social Media Data, ACM ICMR 2014 
+ Co-Chair, Special Session on Geo-Social Media Mining, Analysis, Recommendation and Retrieval, IEEE ICME 2014 
+ Co-Chair, Workshop on Diffusion Networks and Cascade Analytics, ACM WSDM 2014 
+ Chair, Special Session on Multimedia in Online Communities, ICME'2012 
+ Guest Editor, Information Retrieval, Special Issue on Information Retrieval for Social Media 
+ Co-Chair, Workshop on Social and Behavioral Media Access, in conjunction with ACM International Conference on Mutlimedia, 2011. 
+ Finance Chair, 7th International Conference on Advanced Data Mining and Applications, 2011 

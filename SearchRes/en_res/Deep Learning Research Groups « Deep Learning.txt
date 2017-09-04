@@ -1,0 +1,13 @@
+Some labs and research groups that are actively working on deep learning:
+University of Toronto  Machine Learning Group (Geoffrey Hinton, Rich Zemel, Ruslan Salakhutdinov, Brendan Frey, Radford Neal)
+Université de Montréal   MILA Lab (Yoshua Bengio, Pascal Vincent, Aaron Courville, Roland Memisevic)
+New York University  Yann Lecun, Rob Fergus, David Sontag and Kyunghyun Cho
+University of Oxford  Deep learning group,  Nando de Freitas and Phil Blunsom, Andrew Zisserman
+Google Research  Jeff Dean, Geoffrey Hinton, Samy Bengio, Ilya Sutskever, Ian Goodfellow, Oriol Vinyals, Dumitru Erhan, Quoc Le et al
+Google DeepMind  Alex Graves, Karol Gregor, Koray Kavukcuoglu, Andriy Mnih, Guillaume Desjardins, Xavier Glorot, Razvan Pascanu, Volodymyr Mnih et al
+Facebook AI Research(FAIR)  Yann Lecun, Rob Fergus, Jason Weston, Antoine Bordes, Soumit Chintala, Leon Bouttou, Ronan Collobert, Yann Dauphin et al.
+Twitters Deep Learning Group  Hugo Larochelle, Ryan Adams, Clement Farabet et al
+UC Berkeley  Bruno Olshausens group, Trevor Darrells group, Pieter Abbeel
+Gatsby Unit @ University College London  Maneesh Sahani, Peter Dayan
+If you want your lab to be added to the list, please contact us.
+ Last modified on October 20, 2016, at 7:49 am by Caglar Gulcehre

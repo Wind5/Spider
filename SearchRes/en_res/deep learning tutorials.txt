@@ -1,0 +1,50 @@
+Consider a supervised learning problem where we have access to labeled training
+examples (x(i),y(i)). Neural networks give a way of defining a complex,
+non-linear form of hypotheses hW,b(x), with parameters W,b that we can
+To describe neural networks, we will begin by describing the simplest possible
+neural network, one which comprises a single "neuron." We will use the following
+This "neuron" is a computational unit that takes as input x1,x2,x3 (and a +1 intercept term), and
+neuron corresponds exactly to the input-output mapping defined by logistic regression.
+Although these notes will use the sigmoid function, it is worth noting that
+another common choice for f is the hyperbolic tangent, or tanh, function:
+The tanh(z) function is a rescaled version of the sigmoid, and its output range is
+Note that unlike some other venues (including the OpenClassroom videos, and parts of CS229), we are not using the convention
+here of x0 = 1. Instead, the intercept term is handled separately by the parameter b.
+Finally, one identity that'll be useful later: If f(z) = 1 / (1 + exp(  z)) is the sigmoid
+function, then its derivative is given by f'(z) = f(z)(1  f(z)).
+(If f is the tanh function, then its derivative is given by
+f'(z) = 1  (f(z))2.) You can derive this yourself using the definition of
+A neural network is put together by hooking together many of our simple
+"neurons," so that the output of a neuron can be the input of another. For
+In this figure, we have used circles to also denote the inputs to the network. The circles
+labeled "+1" are called bias units, and correspond to the intercept term.
+The leftmost layer of the network is called the input layer, and the
+rightmost layer the output layer (which, in this example, has only one
+node). The middle layer of nodes is called the hidden layer, because its
+values are not observed in the training set. We also say that our example
+neural network has 3 input units (not counting the bias unit), 3 
+denote the number of layers in our network; thus nl = 3 in our example. We label layer l as
+Ll, so layer L1 is the input layer, and layer the output layer.
+ to denote the parameter (or weight) associated with the connection
+between unit j in layer l, and unit i in layer l + 1. (Note the order of the indices.)
+Also, is the bias associated with unit i in layer l + 1.
+Note that bias units don't have inputs or connections going into them, since they always output
+the value +1. We also let sl denote the number of nodes in layer l (not counting the bias unit).
+We will write to denote the activation (meaning output value) of
+unit i in layer l. For l = 1, we also use to denote the i-th input.
+network defines a hypothesis hW,b(x) that outputs a real number. Specifically, the
+We call this step forward propagation. More generally, recalling that we also use a(1) = x to also denote the values from the input layer,
+then given layer l's activations a(l), we can compute layer l + 1's activations a(l + 1) as:
+We have so far focused on one example neural network, but one can also build neural
+networks with other architectures (meaning patterns of connectivity between neurons), including ones with multiple hidden layers.
+where layer is the input layer, layer is the output layer, and each
+layer is densely connected to layer . In this setting, to compute the
+output of the network, we can successively compute all the activations in layer
+, then layer , and so on, up to layer , using the equations above that describe the forward propagation step. This is one
+Neural networks can also have multiple output units. For example, here is a network
+with two hidden layers layers L2 and L3 and two output units in layer L4:
+where . This sort of network is useful if there're multiple
+outputs that you're interested in predicting. (For example, in a medical
+diagnosis application, the vector x might give the input features of a
+patient, and the different outputs yi's might indicate presence or absence
+Neural Networks | Backpropagation Algorithm | Gradient checking and advanced optimization | Autoencoders and Sparsity | Visualizing a Trained Autoencoder | Sparse Autoencoder Notation Summary | Exercise:Sparse Autoencoder

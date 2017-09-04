@@ -1,0 +1,12 @@
+ Deep learning is proven to be a powerful tool to build models for language (one-dimensional) and image (two-dimensional) understanding. Tremendous efforts have been devoted to these areas, however, it is still at the early stage to apply deep learning to 3D data, despite their great research values and broad real-world applications. In particular, existing methods poorly serve the three-dimensional data that drives a broad range of critical applications such as augmented reality, autonomous driving, graphics, robotics, medical imaging, neuroscience, and scientific simulations. These problems have drawn the attention of researchers in different fields such as neuroscience, computer vision, and graphics. 
+ The goal of this workshop is to foster interdisciplinary communication of researchers working on 3D data (Computer Vision and Computer Graphics) so that more attention of broader community can be drawn to 3D deep learning problems. Through those studies, new ideas and discoveries are expected to emerge, which can inspire advances in related fields. 
+ This workshop is composed of invited talks, oral presentations of outstanding submissions and a poster session to showcase the state-of-the-art results on the topic. In particular, a panel discussion among leading researchers in the field is planned, so as to provide a common playground for inspiring discussions and stimulating debates.
+ The workshop will be held on Dec 9 at NIPS 2016 in Barcelona, Spain. 
+ 08:45 - 09:15Thomas BroxPDFLearning 3D representations, disparity estimation, and structure from motion
+ 10:30 - 11:00Hao SuPDF3D object reconstruction and abstraction by deep learning
+ 11:00 - 11:30Jiajun WuPDFLearning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling
+ 11:30 - 12:00Reza ZadehPDFFusionNet: 3D Object Classification Using Multiple Data Representations
+ 14:30 - 15:00Michael BronsteinPDFLearning deformable 3D correspondence with intrinsic convolutional neural networks
+ 15:00 - 15:30Andrew BrockPPTGenerative and Discriminative Voxel Modeling with Convolutional Neural Networks
+ 16:00 - 16:30Abhinav GuptaKEYRepresenting 3D: From Surface Normals to Voxels
+ 16:30 - 17:00Alexandr NotchenkoPDFSparse 3D Convolutional Neural Networks for Large-Scale Shape Retrieval

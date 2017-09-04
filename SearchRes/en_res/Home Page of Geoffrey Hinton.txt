@@ -1,0 +1,13 @@
+Team Toronto does basic research on ways to improve neural network learning
+techniques. I also do pro bono work as the Chief Scientific Adviser of the new
+I am also an Emeritus Professor at the University of Toronto.
+summer students or visitors at the University of Toronto. I will not be the sole advisor of any new
+with Prof. Roger Grosse or soon to be Prof. Jimmy Ba.
+Results of the 2012 competition to recognize 1000 different types of object
+How George Dahl won the competition to predict the activity of potential drugs
+How Vlad Mnih won the competition to predict job salaries from job advertisements
+How Laurens van der Maaten won the competition to visualize a dataset of potential drugs
+Tassa, Y., Szepesvari, D., Kavukcuoglu, K. and Hinton, G. E. (2016)
+Vinyals, O., Kaiser, L., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. E. (2014) 
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I. and Salakhutdinov, R. (2014)
+In IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) Vancouver, 2013.

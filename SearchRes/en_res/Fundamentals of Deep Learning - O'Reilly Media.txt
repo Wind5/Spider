@@ -1,0 +1,4 @@
+With the reinvigoration of neural networks in the 2000s, deep learning has become an extremely active area of research, one that’s paving the way for modern machine learning. In this practical book, author Nikhil Buduma provides examples and clear explanations to guide you through major concepts of this complicated field. 
+Companies such as Google, Microsoft, and Facebook are actively growing in-house deep-learning teams. For the rest of us, however, deep learning is still a pretty complex and difficult subject to grasp. If you’re familiar with Python, and have a background in calculus, along with a basic understanding of machine learning, this book will get you started.
+Manage problems that arise as you begin to make networks deeper
+ © 2017 O’Reilly Media, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.

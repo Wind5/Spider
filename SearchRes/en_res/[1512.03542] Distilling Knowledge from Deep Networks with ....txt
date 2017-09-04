@@ -1,0 +1,5 @@
+Abstract: Exponential growth in Electronic Healthcare Records (EHR) has resulted in new
+Deep Learning models have shown superior performance for robust prediction in
+features from deep learning models such as Stacked Denoising Autoencoder and
+time-series dataset show that our method obtains similar or better performance
+than the deep learning models, and it provides interpretable phenotypes for

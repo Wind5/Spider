@@ -1,0 +1,39 @@
+Theano  CPU/GPU symbolic expression compiler in python (from MILA lab at University of Montreal)
+Torch  provides a Matlab-like environment for state-of-the-art machine learning algorithms in lua (from Ronan Collobert, Clement Farabet and Koray Kavukcuoglu)
+Pylearn2  Pylearn2 is a library designed to make machine learning research easy.
+Tensorflow  TensorFlow™ is an open source software library for numerical computation using data flow graphs.
+MXNet  MXNet is a deep learning framework designed for both efficiency and flexibility.
+Caffe -Caffe is a deep learning framework made with expression, speed, and modularity in mind.Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+Lasagne  Lasagne is a lightweight library to build and train neural networks in Theano.
+Deep Learning Tutorials  examples of how to do Deep Learning with Theano (from LISA lab at University of Montreal)
+CNTK  Computational Network Toolkit  is a unified deep-learning toolkit by Microsoft Research.
+MatConvNet  A MATLAB toolbox implementing Convolutional Neural Networks (CNNs) for computer vision applications. It is simple, efficient, and can run and learn state-of-the-art CNNs.
+DeepLearnToolbox  A Matlab toolbox for Deep Learning (from Rasmus Berg Palm)
+BigDL. A distributed open-source Apache Spark deep learning library designed for efficient scale-out to multiple nodes. CPU-optimized via MKL. Scala and Python support. (Developed and supported by Intel Corp). https://software.intel.com/bigdl. https://github.com/intel-analytics/BigDL
+Cuda-Convnet  A fast C++/CUDA implementation of convolutional (or more generally, feed-forward) neural networks. It can model arbitrary layer connectivity and network depth. Any directed acyclic graph of layers will do. Training is done using the back-propagation algorithm.
+Deep Belief Networks. Matlab code for learning Deep Belief Networks (from Ruslan Salakhutdinov).
+RNNLIB-RNNLIB is a recurrent neural network library for sequence learning problems. Applicable to most types of spatiotemporal data, it has proven particularly effective for speech and handwriting recognition.
+matrbm. Simplified version of Ruslan Salakhutdinovs code, by Andrej Karpathy (Matlab).
+deeplearning4j Deeplearning4J is an Apache 2.0-licensed, open-source, distributed neural net library written in Java and Scala.
+Estimating Partition Functions of RBMs. Matlab code for estimating partition functions of Restricted Boltzmann Machines using Annealed Importance Sampling (from Ruslan Salakhutdinov).
+Learning Deep Boltzmann Machines Matlab code for training and fine-tuning Deep Boltzmann Machines (from Ruslan Salakhutdinov).
+The LUSH programming language and development environment, which is used @ NYU for deep convolutional networks
+Eblearn.lsh is a LUSH-based machine learning library for doing Energy-Based Learning. It includes code for Predictive Sparse Decomposition and other sparse auto-encoder methods for unsupervised learning. Koray Kavukcuoglu provides Eblearn code for several deep learning papers on this page.
+MShadow  MShadow is a lightweight CPU/GPU Matrix/Tensor Template Library in C++/CUDA. The goal of mshadow is to support efficient, device invariant and simple tensor library for machine learning project that aims for both simplicity and performance. Supports CPU/GPU/Multi-GPU and distributed system.
+CXXNET  CXXNET is fast, concise, distributed deep learning framework based on MShadow. It is a lightweight and easy extensible C++/CUDA neural network toolkit with friendly Python/Matlab interface for training and prediction.
+Nengo-Nengo is a graphical and scripting based software package for simulating large-scale neural systems.
+Eblearn is a C++ machine learning library with a BSD license for energy-based learning, convolutional networks, vision/recognition applications, etc. EBLearn is primarily maintained by Pierre Sermanet at NYU.
+cudamat is a GPU-based matrix library for Python. Example code for training Neural Networks and Restricted Boltzmann Machines is included.
+Gnumpy is a Python module that interfaces in a way almost identical to numpy, but does its computations on your computers GPU. It runs on top of cudamat.
+The CUV Library (github link) is a C++ framework with python bindings for easy use of Nvidia CUDA functions on matrices. It contains an RBM implementation, as well as annealed importance sampling code and code to calculate the partition function exactly (from AIS lab at University of Bonn).
+3-way factored RBM and mcRBM is python code calling CUDAMat to train models of natural images (from MarcAurelio Ranzato).
+Matlab code for training conditional RBMs/DBNs and factored conditional RBMs (from Graham Taylor).
+mPoT is python code using CUDAMat and gnumpy to train models of natural images (from MarcAurelio Ranzato).
+neuralnetworks is a java based gpu library for deep learning algorithms.
+Elektronn is a deep learning toolkit that makes powerful neural networks accessible to scientists outside the machine learning community.
+OpenNN is an open source class library written in C++ programming language which implements neural networks, a main area of deep learning research.
+Apache Singa is an open source deep learning library that provides a flexible architecture for scalable distributed training. It is extensible to run over a wide range of hardware, and has a focus on health-care applications.
+Lightnet  is a lightweight, versatile and purely Matlab-based deep learning framework. The aim of the design is to provide an easy-to-understand, easy-to-use and efficient computational platform for deep learning research.
+SimpleDNN is a machine learning lightweight open-source library written in Kotlin whose purpose is to support the development of feed-forward and recurrent Artificial Neural Networks.
+If your software belongs here, email us and let us know.
+ Last modified on August 23, 2017, at 6:55 am by Simon

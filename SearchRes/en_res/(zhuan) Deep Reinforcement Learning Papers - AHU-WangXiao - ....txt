@@ -1,0 +1,246 @@
+A list of recent papers regarding deep reinforcement learning. The papers are organized based on manually-defined bookmarks. They are sorted by time to see the recent papers first. Any suggestions and pull requests are welcome.
+Safe and Efficient Off-Policy Reinforcement Learning, R. Munos et al., arXiv, 2016.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks, R. Houthooft et al., arXiv, 2016.
+Control of Memory, Active Perception, and Action in Minecraft, J. Oh et al., ICML, 2016.
+Dynamic Frame skip Deep Q Network, A. S. Lakshminarayanan et al., IJCAI Deep RL Workshop, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Benchmarking Deep Reinforcement Learning for Continuous Control, Y. Duan et al., ICML, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection, S. Levine et al., arXiv, 2016.
+Continuous Deep Q-Learning with Model-based Acceleration, S. Gu et al., ICML, 2016.
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization, C. Finn et al., arXiv, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks, J. N. Foerster et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Increasing the Action Gap: New Operators for Reinforcement Learning, M. G. Bellemare et al., AAAI, 2016.
+Memory-based control with recurrent neural networks, N. Heess et al., NIPS Workshop, 2015.
+How to Discount Deep Reinforcement Learning: Towards New Dynamic Strategies, V. François-Lavet et al., NIPS Workshop, 2015.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+Strategic Dialogue Management via Deep Reinforcement Learning, H. Cuayáhuitl et al., NIPS Workshop, 2015.
+MazeBase: A Sandbox for Learning from Games, S. Sukhbaatar et al., arXiv, 2016.
+Learning Simple Algorithms from Examples, W. Zaremba et al., arXiv, 2015.
+Dueling Network Architectures for Deep Reinforcement Learning, Z. Wang et al., arXiv, 2015.
+Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning, E. Parisotto, et al., ICLR, 2016.
+Better Computer Go Player with Neural Network and Long-term Prediction, Y. Tian et al., ICLR, 2016.
+Deep Reinforcement Learning with an Action Space Defined by Natural Language, J. He et al., arXiv, 2015.
+Deep Reinforcement Learning in Parameterized Action Space, M. Hausknecht et al., ICLR, 2016.
+Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control, F. Zhang et al., arXiv, 2015.
+ADAAPT: A Deep Architecture for Adaptive Policy Transfer from Multiple Sources, J. Rajendran et al., arXiv, 2015.
+Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, S. Mohamed and D. J. Rezende, arXiv, 2015.
+Deep Reinforcement Learning with Double Q-learning, H. van Hasselt et al., arXiv, 2015.
+Recurrent Reinforcement Learning: A Hybrid Approach, X. Li et al., arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Language Understanding for Text-based Games Using Deep Reinforcement Learning, K. Narasimhan et al., EMNLP, 2015.
+Giraffe: Using Deep Reinforcement Learning to Play Chess, M. Lai, arXiv, 2015.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Learning Continuous Control Policies by Stochastic Value Gradients, N. Heess et al., NIPS, 2015.
+Learning Deep Neural Network Policies with Continuous Memory States, M. Zhang et al., arXiv, 2015.
+Deep Recurrent Q-Learning for Partially Observable MDPs, M. Hausknecht and P. Stone, arXiv, 2015.
+Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences, H. Mei et al., arXiv, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+Maximum Entropy Deep Inverse Reinforcement Learning, M. Wulfmeier et al., arXiv, 2015.
+High-Dimensional Continuous Control Using Generalized Advantage Estimation, J. Schulman et al., ICLR, 2016.
+End-to-End Training of Deep Visuomotor Policies, S. Levine et al., arXiv, 2015.
+DeepMPC: Learning Deep Latent Features for Model Predictive Control, I. Lenz, et al., RSS, 2015.
+Massively Parallel Methods for Deep Reinforcement Learning, A. Nair et al., ICML Workshop, 2015.
+Human-level control through deep reinforcement learning, V. Mnih et al., Nature, 2015.
+Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et al., NIPS, 2014.
+Playing Atari with Deep Reinforcement Learning, V. Mnih et al., NIPS Workshop, 2013.
+Safe and Efficient Off-Policy Reinforcement Learning, R. Munos et al., arXiv, 2016.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Control of Memory, Active Perception, and Action in Minecraft, J. Oh et al., ICML, 2016.
+Dynamic Frame skip Deep Q Network, A. S. Lakshminarayanan et al., IJCAI Deep RL Workshop, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Continuous Deep Q-Learning with Model-based Acceleration, S. Gu et al., ICML, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks, J. N. Foerster et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Increasing the Action Gap: New Operators for Reinforcement Learning, M. G. Bellemare et al., AAAI, 2016.
+How to Discount Deep Reinforcement Learning: Towards New Dynamic Strategies, V. François-Lavet et al., NIPS Workshop, 2015.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+Strategic Dialogue Management via Deep Reinforcement Learning, H. Cuayáhuitl et al., NIPS Workshop, 2015.
+Learning Simple Algorithms from Examples, W. Zaremba et al., arXiv, 2015.
+Dueling Network Architectures for Deep Reinforcement Learning, Z. Wang et al., arXiv, 2015.
+Deep Reinforcement Learning with an Action Space Defined by Natural Language, J. He et al., arXiv, 2015.
+Deep Reinforcement Learning in Parameterized Action Space, M. Hausknecht et al., ICLR, 2016.
+Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control, F. Zhang et al., arXiv, 2015.
+Deep Reinforcement Learning with Double Q-learning, H. van Hasselt et al., arXiv, 2015.
+Recurrent Reinforcement Learning: A Hybrid Approach, X. Li et al., arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Language Understanding for Text-based Games Using Deep Reinforcement Learning, K. Narasimhan et al., EMNLP, 2015.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Deep Recurrent Q-Learning for Partially Observable MDPs, M. Hausknecht and P. Stone, arXiv, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+Massively Parallel Methods for Deep Reinforcement Learning, A. Nair et al., ICML Workshop, 2015.
+Human-level control through deep reinforcement learning, V. Mnih et al., Nature, 2015.
+Playing Atari with Deep Reinforcement Learning, V. Mnih et al., NIPS Workshop, 2013.
+Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks, R. Houthooft et al., arXiv, 2016.
+Benchmarking Deep Reinforcement Learning for Continuous Control, Y. Duan et al., ICML, 2016.
+Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection, S. Levine et al., arXiv, 2016.
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization, C. Finn et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Memory-based control with recurrent neural networks, N. Heess et al., NIPS Workshop, 2015.
+MazeBase: A Sandbox for Learning from Games, S. Sukhbaatar et al., arXiv, 2016.
+ADAAPT: A Deep Architecture for Adaptive Policy Transfer from Multiple Sources, J. Rajendran et al., arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Learning Continuous Control Policies by Stochastic Value Gradients, N. Heess et al., NIPS, 2015.
+High-Dimensional Continuous Control Using Generalized Advantage Estimation, J. Schulman et al., ICLR, 2016.
+End-to-End Training of Deep Visuomotor Policies, S. Levine et al., arXiv, 2015.
+Safe and Efficient Off-Policy Reinforcement Learning, R. Munos et al., arXiv, 2016.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Control of Memory, Active Perception, and Action in Minecraft, J. Oh et al., ICML, 2016.
+Dynamic Frame skip Deep Q Network, A. S. Lakshminarayanan et al., IJCAI Deep RL Workshop, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks, J. N. Foerster et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Increasing the Action Gap: New Operators for Reinforcement Learning, M. G. Bellemare et al., AAAI, 2016.
+How to Discount Deep Reinforcement Learning: Towards New Dynamic Strategies, V. François-Lavet et al., NIPS Workshop, 2015.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+Strategic Dialogue Management via Deep Reinforcement Learning, H. Cuayáhuitl et al., NIPS Workshop, 2015.
+Learning Simple Algorithms from Examples, W. Zaremba et al., arXiv, 2015.
+Dueling Network Architectures for Deep Reinforcement Learning, Z. Wang et al., arXiv, 2015.
+Better Computer Go Player with Neural Network and Long-term Prediction, Y. Tian et al., ICLR, 2016.
+Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning, E. Parisotto, et al., ICLR, 2016.
+Deep Reinforcement Learning with an Action Space Defined by Natural Language, J. He et al., arXiv, 2015.
+Deep Reinforcement Learning in Parameterized Action Space, M. Hausknecht et al., ICLR, 2016.
+Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control, F. Zhang et al., arXiv, 2015.
+ADAAPT: A Deep Architecture for Adaptive Policy Transfer from Multiple Sources, J. Rajendran et al., arXiv, 2015.
+Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, S. Mohamed and D. J. Rezende, arXiv, 2015.
+Deep Reinforcement Learning with Double Q-learning, H. van Hasselt et al., arXiv, 2015.
+Recurrent Reinforcement Learning: A Hybrid Approach, X. Li et al., arXiv, 2015.
+Language Understanding for Text-based Games Using Deep Reinforcement Learning, K. Narasimhan et al., EMNLP, 2015.
+Giraffe: Using Deep Reinforcement Learning to Play Chess, M. Lai, arXiv, 2015.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Deep Recurrent Q-Learning for Partially Observable MDPs, M. Hausknecht and P. Stone, arXiv, 2015.
+Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences, H. Mei et al., arXiv, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+Massively Parallel Methods for Deep Reinforcement Learning, A. Nair et al., ICML Workshop, 2015.
+Human-level control through deep reinforcement learning, V. Mnih et al., Nature, 2015.
+Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et al., NIPS, 2014.
+Playing Atari with Deep Reinforcement Learning, V. Mnih et al., NIPS Workshop, 2013.
+Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks, R. Houthooft et al., arXiv, 2016.
+Benchmarking Deep Reinforcement Learning for Continuous Control, Y. Duan et al., ICML, 2016.
+Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection, S. Levine et al., arXiv, 2016.
+Continuous Deep Q-Learning with Model-based Acceleration, S. Gu et al., ICML, 2016.
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization, C. Finn et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Memory-based control with recurrent neural networks, N. Heess et al., NIPS Workshop, 2015.
+Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, S. Mohamed and D. J. Rezende, arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Learning Continuous Control Policies by Stochastic Value Gradients, N. Heess et al., NIPS, 2015.
+Learning Deep Neural Network Policies with Continuous Memory States, M. Zhang et al., arXiv, 2015.
+High-Dimensional Continuous Control Using Generalized Advantage Estimation, J. Schulman et al., ICLR, 2016.
+End-to-End Training of Deep Visuomotor Policies, S. Levine et al., arXiv, 2015.
+DeepMPC: Learning Deep Latent Features for Model Predictive Control, I. Lenz, et al., RSS, 2015.
+Strategic Dialogue Management via Deep Reinforcement Learning, H. Cuayáhuitl et al., NIPS Workshop, 2015.
+MazeBase: A Sandbox for Learning from Games, S. Sukhbaatar et al., arXiv, 2016.
+Deep Reinforcement Learning with an Action Space Defined by Natural Language, J. He et al., arXiv, 2015.
+Language Understanding for Text-based Games Using Deep Reinforcement Learning, K. Narasimhan et al., EMNLP, 2015.
+Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences, H. Mei et al., arXiv, 2015.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Control of Memory, Active Perception, and Action in Minecraft, J. Oh et al., ICML, 2016.
+Dynamic Frame skip Deep Q Network, A. S. Lakshminarayanan et al., IJCAI Deep RL Workshop, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection, S. Levine et al., arXiv, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Increasing the Action Gap: New Operators for Reinforcement Learning, M. G. Bellemare et al., AAAI, 2016.
+Memory-based control with recurrent neural networks, N. Heess et al., NIPS Workshop, 2015.
+How to Discount Deep Reinforcement Learning: Towards New Dynamic Strategies, V. François-Lavet et al., NIPS Workshop, 2015.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+Dueling Network Architectures for Deep Reinforcement Learning, Z. Wang et al., arXiv, 2015.
+Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning, E. Parisotto, et al., ICLR, 2016.
+Better Computer Go Player with Neural Network and Long-term Prediction, Y. Tian et al., ICLR, 2016.
+Deep Reinforcement Learning in Parameterized Action Space, M. Hausknecht et al., ICLR, 2016.
+Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control, F. Zhang et al., arXiv, 2015.
+Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, S. Mohamed and D. J. Rezende, arXiv, 2015.
+Deep Reinforcement Learning with Double Q-learning, H. van Hasselt et al., arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Giraffe: Using Deep Reinforcement Learning to Play Chess, M. Lai, arXiv, 2015.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Learning Continuous Control Policies by Stochastic Value Gradients, N. Heess et al., NIPS, 2015.
+Deep Recurrent Q-Learning for Partially Observable MDPs, M. Hausknecht and P. Stone, arXiv, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+High-Dimensional Continuous Control Using Generalized Advantage Estimation, J. Schulman et al., ICLR, 2016.
+End-to-End Training of Deep Visuomotor Policies, S. Levine et al., arXiv, 2015.
+Massively Parallel Methods for Deep Reinforcement Learning, A. Nair et al., ICML Workshop, 2015.
+Human-level control through deep reinforcement learning, V. Mnih et al., Nature, 2015.
+Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et al., NIPS, 2014.
+Playing Atari with Deep Reinforcement Learning, V. Mnih et al., NIPS Workshop, 2013.
+Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks, R. Houthooft et al., arXiv, 2016.
+Benchmarking Deep Reinforcement Learning for Continuous Control, Y. Duan et al., ICML, 2016.
+Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection, S. Levine et al., arXiv, 2016.
+Continuous Deep Q-Learning with Model-based Acceleration, S. Gu et al., ICML, 2016.
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization, C. Finn et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Memory-based control with recurrent neural networks, N. Heess et al., NIPS Workshop, 2015.
+Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control, F. Zhang et al., arXiv, 2015.
+Learning Continuous Control Policies by Stochastic Value Gradients, N. Heess et al., NIPS, 2015.
+Learning Deep Neural Network Policies with Continuous Memory States, M. Zhang et al., arXiv, 2015.
+High-Dimensional Continuous Control Using Generalized Advantage Estimation, J. Schulman et al., ICLR, 2016.
+End-to-End Training of Deep Visuomotor Policies, S. Levine et al., arXiv, 2015.
+DeepMPC: Learning Deep Latent Features for Model Predictive Control, I. Lenz, et al., RSS, 2015.
+Safe and Efficient Off-Policy Reinforcement Learning, R. Munos et al., arXiv, 2016.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Control of Memory, Active Perception, and Action in Minecraft, J. Oh et al., ICML, 2016.
+Dynamic Frame skip Deep Q Network, A. S. Lakshminarayanan et al., IJCAI Deep RL Workshop, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks, J. N. Foerster et al., arXiv, 2016.
+Asynchronous Methods for Deep Reinforcement Learning, V. Mnih et al., arXiv, 2016.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Increasing the Action Gap: New Operators for Reinforcement Learning, M. G. Bellemare et al., AAAI, 2016.
+How to Discount Deep Reinforcement Learning: Towards New Dynamic Strategies, V. François-Lavet et al., NIPS Workshop, 2015.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+MazeBase: A Sandbox for Learning from Games, S. Sukhbaatar et al., arXiv, 2016.
+Dueling Network Architectures for Deep Reinforcement Learning, Z. Wang et al., arXiv, 2015.
+Better Computer Go Player with Neural Network and Long-term Prediction, Y. Tian et al., ICLR, 2016.
+Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning, E. Parisotto, et al., ICLR, 2016.
+Deep Reinforcement Learning with an Action Space Defined by Natural Language, J. He et al., arXiv, 2015.
+Deep Reinforcement Learning in Parameterized Action Space, M. Hausknecht et al., ICLR, 2016.
+Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning, S. Mohamed and D. J. Rezende, arXiv, 2015.
+Deep Reinforcement Learning with Double Q-learning, H. van Hasselt et al., arXiv, 2015.
+Continuous control with deep reinforcement learning, T. P. Lillicrap et al., ICLR, 2016.
+Language Understanding for Text-based Games Using Deep Reinforcement Learning, K. Narasimhan et al., EMNLP, 2015.
+Giraffe: Using Deep Reinforcement Learning to Play Chess, M. Lai, arXiv, 2015.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Deep Recurrent Q-Learning for Partially Observable MDPs, M. Hausknecht and P. Stone, arXiv, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+Massively Parallel Methods for Deep Reinforcement Learning, A. Nair et al., ICML Workshop, 2015.
+Human-level control through deep reinforcement learning, V. Mnih et al., Nature, 2015.
+Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et al., NIPS, 2014.
+Playing Atari with Deep Reinforcement Learning, V. Mnih et al., NIPS Workshop, 2013.
+Mastering the game of Go with deep neural networks and tree search, D. Silver et al., Nature, 2016.
+Better Computer Go Player with Neural Network and Long-term Prediction, Y. Tian et al., ICLR, 2016.
+Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et al., NIPS, 2014.
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization, C. Finn et al., arXiv, 2016.
+Maximum Entropy Deep Inverse Reinforcement Learning, M. Wulfmeier et al., arXiv, 2015.
+Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning, E. Parisotto, et al., ICLR, 2016.
+ADAAPT: A Deep Architecture for Adaptive Policy Transfer from Multiple Sources, J. Rajendran et al., arXiv, 2015.
+Unifying Count-Based Exploration and Intrinsic Motivation, M. G. Bellemare et al., arXiv, 2016.
+Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks, R. Houthooft et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.
+Deep Exploration via Bootstrapped DQN, I. Osband et al., arXiv, 2016.
+Action-Conditional Video Prediction using Deep Networks in Atari Games, J. Oh et al., NIPS, 2015.
+Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models, B. C. Stadie et al., arXiv, 2015.
+Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks, J. N. Foerster et al., arXiv, 2016.
+Multiagent Cooperation and Competition with Deep Reinforcement Learning, A. Tampuu et al., arXiv, 2015.
+Deep Successor Reinforcement Learning, T. D. Kulkarni et al., arXiv, 2016.
+Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks, R. Krishnamurthy et al., arXiv, 2016.
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation, T. D. Kulkarni et al., arXiv, 2016.

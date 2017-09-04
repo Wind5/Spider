@@ -1,0 +1,13 @@
+The NVIDIA Deep Learning GPU Training System (DIGITS) puts the power of deep learning into the hands of engineers and data scientists. DIGITS can be used to rapidly train the highly accurate deep neural network (DNNs) for image classification, segmentation and object detection tasks.
+DIGITS simplifies common deep learning tasks such as managing data, designing and training neural networks on multi-GPU systems, monitoring performance in real time with advanced visualizations, and selecting the best performing model from the results browser for deployment. DIGITS is completely interactive so that data scientists can focus on designing and training networks rather than programming and debugging.
+DIGITS is available as a Amazon Machine Image (AMI) for on-demand usage. Get started instantly by clicking the button below. Visit the GPU-accelerated cloud images to learn more. (DIGITS 5 AMI coming soon)
+Train Image Segmentation neural networks to partition images into regions such as tumors from healthy tissue, and buildings and cars from free space
+Decrease training time and improve model accuracy by starting with pre-trained models such as AlexNet, GoogLeNet and others from the DIGITS Model Store
+DIGITS 6 adds support for TensorFlow deep learning framework. Engineers and Data Scientists can improve productivity by designing TensorFlow models within DIGITS and using it’s convenient interactive workflow to manage datasets, training, and monitor model accuracy in realtime.
+For an overview of DIGITS 6 with TensorFlow, read the following blog post on Generative Adversarial Network using DIGITS.
+DIGITS 6 Release Candidate is available now on Docker Hub for testing and feedback. General availability will be in September as a free download for the members of the NVIDIA Developer Program. Sign up below to be notified when it is ready for download.
+Design, train and visualize deep neural networks for image classification, segmentation and object detection
+ Download pre-trained models such as AlexNet, GoogLeNet and LeNet from the DIGITS Model Store
+Perform hyperparameter sweep of learning rate and batch size for improved model accuracy
+Schedule, monitor, and manage neural network training jobs, and analyze accuracy and loss in real time
+DIGITS is an open source project. Customize and extend DIGITS to suit your applications and share your experience using DIGITS on the DIGITS user group.

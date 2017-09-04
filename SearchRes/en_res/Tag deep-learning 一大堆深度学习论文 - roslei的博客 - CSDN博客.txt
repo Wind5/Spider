@@ -1,0 +1,23 @@
+posted to 2015 ai deep-learning game neural-network q-learning reinforcement-learning by ddahlem  on
+ 2016-04-22 13:37:41  along with 19 people and 2 groups
+In Computer Vision and Pattern Recognition Workshops (CVPRW), 2015 IEEE Conference on (June 2015), pp. 27-35, doi:10.1109/cvprw.2015.7301269
+In Engineering in Medicine and Biology Society (EMBC), 2015 37th Annual International Conference of the IEEE (August 2015), pp. 743-746, doi:10.1109/embc.2015.7318469
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+In Proceedings of the 27th International Conference on Machine Learning (ICML-10) (2010), pp. 735-742
+Pattern Analysis and Machine Intelligence, IEEE Transactions on, Vol. 35, No. 8. (August 2013), pp. 1798-1828, doi:10.1109/tpami.2013.50
+ 2013-08-17 18:43:26  along with 4 people and 1 group
+posted to computer_vision deep-learning feature-detection image_recognition machine-learning unsupervised-learning by tomhebbron on
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+posted to collaborative-learning course-design deep-learning group-work-in-education information-technology information-technology----study-teaching-higher peer-assessment researchsoft-skills teaching-methods----research universities-colleges----curricula by jxchryst on
+Foundations and Trends® in Machine Learning, Vol. 2, No. 1. (January 2009), pp. 1-127, doi:10.1561/2200000006
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, Vol. 352, No. 1358. (29 August 1997), pp. 1177-1190, doi:10.1098/rstb.1997.0101
+ the group Machine Perception & Cognitive Robotics at FAU on 2015-04-12 11:04:29 along
+ 论文研读--Learning Deep Feature Representations with Domain Guided Dropout for Person Re-identification

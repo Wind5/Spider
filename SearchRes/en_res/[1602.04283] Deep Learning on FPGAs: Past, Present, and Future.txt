@@ -1,0 +1,16 @@
+Abstract: The rapid growth of data size and accessibility in recent years has
+intelligence. Instead of engineering algorithms by hand, the ability to learn
+composable systems automatically from massive amounts of data has led to
+speech recognition, and natural language processing. The most popular class of
+techniques used in these domains is called deep learning, and is seeing
+amounts of data and compute power to train, and are limited by the need for
+model sizes. While the current solution has been to use clusters of graphics
+processing units (GPU) as general purpose processors (GPGPU), the use of field
+trends in design tools for FPGAs have made them more compatible with the
+community, making FPGAs more accessible to those who build and deploy models.
+Since FPGA architectures are flexible, this could also allow researchers the
+ability to explore model-level optimizations beyond what is possible on fixed
+architectures such as GPUs. As well, FPGAs tend to provide high performance per
+watt of power consumption, which is of particular importance for application
+and innovations that make these technologies a natural fit, and motivates a
+discussion on how FPGAs may best serve the needs of the deep learning community

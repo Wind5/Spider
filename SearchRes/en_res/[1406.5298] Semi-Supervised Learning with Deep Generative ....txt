@@ -1,0 +1,3 @@
+Abstract: The ever-increasing size of modern data sets combined with the difficulty of
+develop new models that allow for effective generalisation from small labelled
+data sets to large unlabelled ones. Generative approaches have thus far been

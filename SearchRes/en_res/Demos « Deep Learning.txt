@@ -1,0 +1,2 @@
+Showcasing a Stacked Denoising Auto-Encoder trained on stochastic transformations of NIST special database 19 (62 classes, upper, lower case characters and digits).
+ Last modified on December 18, 2014, at 9:40 am by Caglar Gulcehre

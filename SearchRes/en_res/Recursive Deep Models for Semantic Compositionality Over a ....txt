@@ -1,0 +1,14 @@
+This website provides a live demo for predicting the sentiment of movie reviews.
+Most sentiment prediction systems work just by looking at words in isolation, giving positive points for positive words and negative points for negative words and then summing up these points. That way, the order of words is ignored and important information is lost.
+In constrast, our new deep learning model actually builds up a representation of whole sentences based on the sentence structure. It computes the sentiment based on how words compose the meaning of longer phrases.
+This way, the model is not as easily fooled as previous models. For example, our model learned that funny and witty are positive but the following sentence is still negative overall:
+ This movie was actually neither that funny, nor super witty.
+The underlying technology of this demo is based on a new type of Recursive Neural Network that builds on top of grammatical structures.
+You can also browse the Stanford Sentiment Treebank, the dataset on which this model was trained.
+The model and dataset are described in an upcoming EMNLP paper.
+Of course, no model is perfect. You can help the model learn even more by labeling sentences we think would help the model or those you try in the live demo.
+Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way.
+Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition.
+To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality.
+To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effect of contrastive conjunctions as well as negation and its scope at various tree levels for both positive and negative phrases.
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts

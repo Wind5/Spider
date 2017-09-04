@@ -1,0 +1,20 @@
+Scene recognition is one of the hallmark tasks of computer vision, allowing defining a context for object recognition. Here we introduce a new scene-centric database called Places, with 205 scene categories and 2.5 millions of images with a category label. Using convolutional neural network (CNN), we learn deep scene features for scene recognition tasks, and establish new state-of-the-art performances on scene-centric benchmarks. Here we provide the Places Database and the trained CNNs for academic research and education purposes.
+ NEW (July 1, 2017)Journal extension of Places paper is accepted to IEEE Transaction on Pattern Analysis and Machine Intelligence, with more detailed analysis on the Places Database and the Places-CNNs.
+ Places2, the 2rd generation of the Places Database, is available for use, with more images and scene categories. CNNs trained on Places365 (new Places2 data) are also released.
+ Scene Parsing Challenge 2016 and Places Challenge 2016 are hosted at ECCV'16.
+Places205-VGG and Places205-GoogLeNet are available to download in the Places CNNs.
+Register to download data and submit prediction results at here. 
+UnitVisSeg Toolkit: The toolkit for visualizing and segmenting units in the deep CNNs..
+Class Activation Mapping: The technique used to generate the heatmap (class-specific saliency map) in the scene recognition demo.
+Minimal Image Generation: the code used to generate the minimal images in ICLR'15 paper
+Scene attribute detectors: 102 SUN scene attribute detectors using FC7 feature of Places205-AlexNet.
+Sample Code of Unit Segmentation: Sample matlab code to use synthetic receptive field of unit to segment image and visualize the activated image regions.
+Places205: An image dataset which contains 2,448,873 images from 205 scene categories.
+Scene Recognition Demo: Input a picture of a place or scene and see how our Places-CNN predicts it.
+Indoor/Outdoor label: the label of indoor and outdoor for each of the 205 place categories. You could use the labels of the top5 predicted place categories from the Places-CNN to vote if the given image is indoor or outdoor. The indoor and outdoor classification accuracy is more than 95%.
+Please cite the paper if you use the database or the Places-CNNs.
+B. Zhou, A. Lapedriza, J. Xiao, A. Torralba, and A. Oliva. Learning Deep Features for Scene Recognition using Places Database. Advances in Neural Information Processing Systems 27 (NIPS), 2014. PDF Supplementary Materials
+B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba. Object Detectors Emerge in Deep Scene CNNs.
+International Conference on Learning Representations (ICLR) oral, 2015. [PDF] [Slide] [Unit Receptive Field Segmentation Code] [Minimal Image Code]
+B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba. Learning Deep Features for Discriminative Localization.
+Scene attribute prediction used in the demo are trained from the data of SUN attribute database. This work is partly supported by the National Science Foundation under Grant No. 1016862, and by the McGovern Institute Neurotechnology Program (MINT) to A.O, ONR MURI N000141010933 to A.T, as well as MIT Big Data Initiative at CSAIL, Google, Xerox and Amazon Awards, and a hardware donation from NVIDIA Corporation, to A.O and A.T., and Intel and Google awards to J.X. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation and other funding agencies. The annotation can be used under the Creative Common License (Attribution CC BY). The copyright of all the images belongs to the image owners.

@@ -1,0 +1,26 @@
+ DLPAL S and DLPAL PRONow you can download a free two-month fully functional trial of DLPAL S and generate
+ It is now the right time to move to the next level of intelligent trading, all for free.DLPAL allows you to compete with quantitative hedge funds at the fraction of the cost.
+ DLPAL identifies short-term trading strategies in historical price data that fulfill user-defined performance statistics and 
+ risk/reward parameters. The program uses primitive attributes of price action, the open, high, low and close, to extract feature types in an unsupervised learning mode. The program then uses the extracted features in 
+ supervised learning mode to identify strategies and systems of strategies that fulfill the user objectives. Historical attribute files are also created for use with supervised machine learning classifiers (PRO version.)
+ Save time from programming and concentrate on trading. Hedge funds would prefer that you spend your time programming instead of 
+ exploiting market anomalies and opportunities. This is how they make billions.DLPAL does not require any programming. Actually this program will write code you can immediately use. DLPAL generates code for strategies and systems for the Quantopian platform, Tradestation (EasyLanguage), Multicharts (EasyLanguage), NinjaTrader 7 and Amibroker AFL. Testing 
+ trading strategies derived from price action using advanced machine learning is just a copy and paste away. 
+ MANY TRADERS ARE STILL STRUGGLING WITH METHODS THAT NO LONGER WORK IN THE MARKETS.With DLPAL
+ you can compete with the quant departments of large hedge funds that have been making billions in trading profits because of their ability to quickly identify and exploit anomalies in price action.
+ Identifying and exploiting anomalies in price action fast is the key to profitable trading. DLPAL
+ is based on a proprietary deep learning algorithm that produces the same output each time it encounters the same market conditions. The determinism in the algo operation and the absence of stochasticity are in compliance with the standards of scientific testing and analysis. DLPAL minimizes data-mining and data-snooping bias through the use of proprietary unsupervised learning method for feature extraction and selection. Several functions are available for validation of the results including a randomization tool for ranking the performance of strategies.
+ DLPAL PRO offers three main functions and several useful toolsThe User can search for strategies in historical data of any timeframe, group them into systems and generate code. DLPAL
+ can also be used as a scanner of EOD data to determine whether new opportunities have developed. In addition, the program can calculate directional move probabilities for any number of securities in EOD and higher timeframes. DLPAL PRO generates historical data files with attributes for use with supervised machine learning classification.
+ Read below what some of our customers have to say about our softwareClick here for results of customer survey
+ "I really appreciate the support you have given me... It's the fastest and 
+ best support I have had from any stock-related program.",  P.G., Sweden"I have been using the software and marvel at the features available within it. Bravo to the Development Team and 
+ Coders!", A.B., MI"I just wanted to say thank you and to mention that the  software is working brilliantly for me.", A.F., Italy.
+ "Your product is unique and, in my view, quite valuable", J.F., CA"I've enjoyed all of Mike's [Harris] books and use of his software and I'm grateful for Mike [Harris] sharing his knowledge on 
+ price pattern generation.", P. K., Australia"I have been using the software and am very impressed with it.", M.P., United Kingdom
+ "I recommend the software because it does what it says in the label, honest!", E. P., United Kingdom
+ "Thanks for your help and I want you to know that I am very impressed with the software and your support.", B.W., NC
+ "Thanks for an excellent software product, and a different view on trading the markets.", M. B., United Kingdom"I would not miss it for my trading. I also would like to thank you for your first 
+ class support...For me the software works and I'm happy that I have bought the software.", W.S. Germany
+ Commodity Futures, Trading Commission Futures, Derivatives and Options trading has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the futures and options markets. Don't trade with money you can't afford to lose. This website is neither a solicitation nor an offer to Buy/Sell futures or options. The past performance of any trading system or methodology is not necessarily indicative of future results. 
+ - HYPOTHETICAL OR SIMULATED PERFORMANCE RESULTS HAVE CERTAIN LIMITATIONS. UNLIKE AN ACTUAL PERFORMANCE RECORD, SIMULATED RESULTS DO NOT REPRESENT ACTUAL TRADING. ALSO, SINCE THE TRADES HAVE NOT BEEN EXECUTED, THE RESULTS MAY HAVE UNDER-OR-OVER COMPENSATED FOR THE IMPACT, IF ANY, OF CERTAIN MARKET FACTORS, SUCH AS LACK OF LIQUIDITY. SIMULATED TRADING PROGRAMS IN GENERAL ARE ALSO SUBJECT TO THE FACT THAT THEY ARE DESIGNED WITH THE BENEFIT OF HINDSIGHT. NO REPRESENTATION IS BEING MADE THAT ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PROFIT OR LOSSES SIMILAR TO THOSE SHOWN

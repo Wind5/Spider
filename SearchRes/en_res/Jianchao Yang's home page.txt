@@ -1,0 +1,63 @@
+ I am a Research Scienist at Snapchat located on Venice beach in Los Angeles. Before joining 
+ Snapchat, I was a Research Scientist at Adobe Research in San Jose, California. I got my M.S. 
+ and Ph.D. degrees from the ECE department of University of Illinois at Urbanan-Champaign (UIUC) 
+ in 2010 and 2011, both under supervision of Professor Thomas Huang at Beckman Institute. Before 
+ that, I received my Bachelor's degree with honor in the EEIS department from University of 
+ My research interests are in the broad area of computer vision, machine learning, and image 
+ processing. Specifically, I have extensive experience in the following research areas: 
+ object recognition and detection, facial analysis, deep learning, subspace learning,
+ supervised and unsupervised learning, sparse coding and sparse representation, image and 
+ Zhangyang Wang, Jianchao Yang, Hailin Jin, Eli Shechtman, Aseem Agarwala, Jonathan Brandt, Thomas Huang. 
+ ACM International Conference on Multimedia (ACM MM) full paper, 2015.
+ Xiaodan Liang, Si Liu, Xiaohui Shen, Jianchao Yang, Luoqi Liu, Liang Lin, Shuicheng Yan. 
+ IEEE Transactions on Pattern Analysis and Macine Intelligence (TPAMI), Volume 37, Issue 12, Dec. 2015.
+ Zhangyang Wang, Yingzhen Yang, Zhaowen Wang, Shiyu Chang, Jianchao Yang, and Thomas Huang. 
+ IEEE Transactions on Image Processing (TIP), Volume 24, Number 11, Nov. 2015.
+ IEEE Transactions on Image Processing (TIP), Volume 24, Issue 12, Aug. 2015.
+ Parsing based on parselets: A unified deformable mixture model for human parsing.
+ Jian Dong, Qiang Chen, Zhongyang Huang, Jianchao Yang, Shuicheng Yan. 
+ IEEE Transactions on Pattern Analysis and Macine Intelligence (TPAMI), Volume 38, Issue 1, April 2015.
+ IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+ IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+ IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+ Si Liu, Xiaodan Liang, Luoqi Liu, Xiaohui Shen, Jianchao Yang, Changsheng Xu, Liang Lin, Xiaochun Chao, Shuicheng Yan. 
+ IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+ Image sentiment analysis using progressively trained and domain transferred deep networks.
+ Xin Lu, Zhe Lin, Hailin Jin, Jianchao Yang, James Z. Wang. 
+ Guang Chen, Jianchao Yang, Hailin Jin, Jon Brandt, Eli Shechtman, Aseem Agarwala, Xu Han. 
+IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2014. 
+ Investigating haze-relevant features in a learning framework for image dehazing. 
+ IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2014. 
+ Jian Dong, Qiang Chen, Xiaohui Shen, Jianchao Yang, Shuicheng Yan. 
+IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2014. 
+ Zhaowen Wang, Jianchao Yang, Nasser Nasrabadi, and Thomas Huang. 
+Text localization in natural images using stroke feature transform and text covariance descriptors. [PDF] 
+ Weilin Huang, Zhe Lin, Jianchao Yang, and Jue Wang. 
+ Haoxiang Li, Gang Hua, Zhe Lin, Jonathan Brandt, and Jianchao Yang. 
+ Haoxiang Li, Gang Hua, Zhe Lin, Jonathan Brandt, and Jianchao Yang. 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013. 
+ Brandon Smith, Li Zhang, Jonathan Brandt, Zhe Lin, and Jianchao Yang. 
+ Jianchao Yang, Zhaowen Wang, Zhe Lin, Xianbiao Shu, and Thomas Huang. 
+ Jianchao Yang, Bin Cheng, Shuicheng Yan, Yun Fu, and Thomas Huang. 
+In "Graph embedding for pattern analysis", Springer, 2012, Yun Fu and Yunqian Ma (Editor).
+Photo stream alignment and summarization for collaborative photo collection and sharing. 
+ Jianchao Yang, Jiebo Luo, Jie Yu, and Thomas Huang. 
+IEEE Transactions on Multimedia (TMM), vol. 14, issue 6, pages 1642-1651, 2012. 
+ Jianchao Yang, Zhaowen Wang, Zhe Lin, and Thomas Huang. 
+IEEE Transactions on Image Processing (TIP), vol. 21, issue 8, pages 3467-3478, 2012. 
+Close the loop: Joint blind image restoration and recognition with sparse representation prior. [PDF]
+ Haichao Zhang, Jianchao Yang, Yanning Zhang, Nasser Nasrabadi, and Thomas Huang. 
+ Jianchao Yang, John Wright, Thomas Huang, and Yi Ma. 
+IEEE Transactions on Image Processing (TIP), vol. 19, issue 11, 2010. 
+ Bin Cheng, Jianchao Yang, Shuicheng Yan, and Thomas Huang. 
+IEEE Transactions on Image Processing (TIP), vol. 19, no. 4, 2010. 
+ Haichao Zhang, Jianchao Yang, Yanning Zhang, and Thomas Huang. 
+ Jinjun Wang, Jianchao Yang, Kai Yu, Fengjun Lv, and Thomas Huang. 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010. 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010. 
+Linear spatial pyramid matching uisng sparse coding for image classification. 
+ Jianchao Yang, Kai Yu, Yihong Gong, and Thomas Huang. 
+IEEE Transactions on Image Processing (TIP), vol. 18, no. 2, 2009. 
+ Jianchao Yang, John Wright, Thomas Huang, and Yi Ma. 
+ Jianchao Yang, Shuicheng Yan, Yun Fu, Xuelong Li, and Thomas Huang. 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2008. 

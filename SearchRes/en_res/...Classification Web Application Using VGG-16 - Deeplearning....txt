@@ -1,0 +1,39 @@
+Neural networks are setting new accuracy records for image recognition. This page describes how to build a web-based application to use a well-known network, VGG-16, for inference to classify images uploaded by the app’s users.
+Since 2010, ImageNet has hosted an annual challenge where research teams present solutions to image classification and other tasks by training on the ImageNet dataset. ImageNet currently has millions of labeled images; it’s one of the largest high-quality image datasets in the world. The Visual Geometry group at the University of Oxford did really well in 2014 with two network architectures: VGG-16, a 16-layer convolutional Neural Network, and VGG-19, a 19-layer Convolutional Neural Network.
+VGG-16 also performed well on two other image classification benchmarks: VOC and Caltech. Those results are here.
+The first step in working with neural networks is training. During training, the network is fed input data (images, in this case), and the net’s output, or guesses, are compared to the expected results (the images’ labels). With each run through the data, the network’s weights are modified to decrease the error rate of the guesses; that is, they are adjusted so that the guesses better match the proper label of an image. (Training a large network on millions of images can take a lot of computing resources, thus the interest of distributing pre-trained nets like this.)
+Once trained, the network can be used for inference, or making predictions about the data it sees. Inference happens to be a much less compute-intensive process. For VGG-16 and other architectures, developers can download and use pre-trained models without having to master the skills necessary to tune and train those models. Loading the pre-trained models and using the model for prediction is relatively straightforward and described here.
+Loading the pre-trained models for further training is a process we will describe in a later tutorial.
+As of 0.9.0 (0.8.1-SNAPSHOT) Deeplearning4j has a new native model zoo. Read about the deeplearning4j-zoo module for more information on using pretrained models. Here, we load a pretrained VGG-16 model initialized with weights trained on ImageNet:
+Deeplearning4j also comes with a model import tool for Keras. Our model importer will convert your Keras configuration and weights into the Deeplearning4j format. DL4J supports importation of both Sequential and standard functional Model classes. Code to import a model may look like:
+If you want to import a pre-trained model for inference only, then you should set enforceTrainingConfig=false. Unsupported training-only configurations generate warnings, but model import will proceed.
+With data ingest and pre-processing, you can choose a manual process or the helper functions. The helper functions for VGG-16 style image processing are TrainedModels.VGG16.getPreProcessor and VGG16ImagePreProcessor(). (Remember that the images must be processed in the same way for inference as they were processed for training.)
+Mean subtraction can be done manually or with the helper functions.
+Code Examples for scaling images to 224 height 224 width, 3 layers
+Once your network is loaded, you should verify that it works as expected. Note that ImageNet was not designed for face recognition. It is better to test with a picture of an elephant, a dog, or a cat.
+If you want to compare the results with Keras output, load the model in Keras and DeepLearning4J and compare the output of each. It should be quite similar. If Keras outputs a 35.00094% likelihood that the image is Elephant while DeepLearning4j outputs a 35.00104% likelihood that the image is Elephant, that is probably a rounding error rather than a true divergence in models.
+ //print top 5 predictions for each image in the dataset
+Once you’ve loaded and tested the model, save it using DeepLearning4J’s ModelSerializer. Loading a model from ModelSerializer is less resource intensive than loading from Keras. Our advice is to load once, then save in the DeepLearning4J format for later re-use.
+The following HTML for a form element will present the user with a page to select and upload or “post” an image to our server. This one itself is not hooked. (WIP!)
+The action attribute of the form element is the URL that the user-selected image will be posted to.
+We used Spark Java for the web application as it was straightforward. Just add the Spark Java code to a class that’s already written. There are many other choices available.
+Whichever Java web framework you choose, the following steps are the same.
+Make sure the file upload works, write some Java that tests for access to the file as a Java File object, or the string for the Path.
+Connect the web app functionality as input into the neural network
+When this class is running, it will launch a Jetty webserver listening on port 4567.
+Starting the web app will take as much time as it takes to load the neural network. VGG-16 takes about four minutes to load.
+Once running, it uses incrementally more RAM in about 60MB chunks until it hits 4G and garbage collection cleans things up. We ran VGG-16 on an AWS t2-large instance, testing it for about a week. It was stable. It may be possible to use an even smaller AMI.
+ uploadDir.mkdir(); // create the upload directory if it doesn't exist
+ // form this string displays an html form to select and upload an image
+ // test request, the url /hello should return "hello world"
+ // Request for VGGpredict returns the form to submit an image
+ // a Post request (note the form uses http post) for
+ try (InputStream input = req.raw().getPart("uploaded_file").getInputStream()) { // getPart needs to use same "name" as input field in form
+ // The user submitted file is tempFile, convert to Java File "file"
+ // delete the physical file, if left our drive would fill up over time
+ // convert 1000 length numeric index of probabilities per label
+ // to sorted return top 5 convert to string using helper function VGG16.decodePredictions
+ // return results along with form to run another inference
+ //return "<h1>Your image is: '" + tempFile.getName(1).toString() + "' </h1>";
+Here are the results given on a photo of one of the Skymind cats, which VGG-16 has probably never seen before. (He’s very shy is why.)
+For this dog found on the internet, which VGG-16 may have seen during training, the results are quite precise.

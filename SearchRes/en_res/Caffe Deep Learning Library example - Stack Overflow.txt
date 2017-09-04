@@ -1,0 +1,15 @@
+bar = blob.mutable_gpu_data(); // no data copied when we are still on GPU.
+foo = blob.cpu_data(); // data copied gpu->cpu, since the gpu side has modified the data
+foo = blob.gpu_data(); // no data copied since both have up-to-date contents
+It assumes you've already declared a Blob object and populated with data. What the data represents is irrelevant. The actual declaration of the Blob object and its initialization are missing from this snippet.
+// Assuming that data are on the CPU initially, and we have a blob.
+Since the data populating the blob resides in CPU memory, making use of it on a GPU device requires a transfer.
+But if you're getting copying that same data to somewhere else on CPU memory, the Blob object won't have to perform the expensive copy operations required for CPU<->GPU transfers.
+foo = blob.cpu_data(); // no data copied since both have up-to-date contents.
+Initializing the 'bar' object with data residing in GPU memory. It's already copied them once. No need to repeat the costly copy operations.
+bar = blob.mutable_gpu_data(); // no data copied when we are still on GPU.
+The Blob class keeps track of whether the CPU and CPU copies are identical or if one was modified, requiring a renewed copy in order to keep them identical.
+foo = blob.cpu_data(); // data copied gpu->cpu, since the gpu side has modified the data
+foo = blob.gpu_data(); // no data copied since both have up-to-date contents
+Now we're just going back and forth and seeing what will trigger a copy and will fall back on a cached copy of the data.
+ 5When does Caffe make copies of the data?2.mat files as input for caffe deep learning network4Deep learning Training dataset with Caffe1Deep Learning Caffe Save Test output labels6deep learning - a number of naive questions about caffe4Hard to understand Caffe MNIST example3what does C-contiguous fashion mean in caffe blob storage?1Deep Learning caffe - classification of data leads to NaN1Finetuning Caffe Deep Learning Check failed: error == cudaSuccess out of memory2Deep learning using Caffe - Python

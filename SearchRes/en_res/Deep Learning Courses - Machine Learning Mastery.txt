@@ -1,0 +1,70 @@
+Thankfully, a number of universities have opened up their deep learning course material for free, which can be a great jump-start when you are looking to better understand the foundations of deep learning.
+In this post you will discover the deep learning courses that you can browse and work through to develop and cement your understanding of the field.
+This is a long post that deep links into many videos. It is intended for you to bookmark, browse and jump into specific topics across courses rather than pick one course and complete it end-to-end.
+We will take a quick look at the following 6 deep learning courses.
+There is also a Other Courses section at the end to gather additional video courses that are not free, broken or smaller in scope and dont neatly fit into this summary review.
+There are a lot of courses and a lot of great free material out there.
+Your impulse will be to get serious and pick the best course and work through all of the material. You will almost certainly fail.
+The material is tough and you will need to take your time and get multiple different perspectives on each topic.
+The very best way to really get into this material is to work through it topic by topic and draw from across all of the courses until you really understand a topic, before moving onto the next topic.
+You do not need to understand all topics and you do not need to use a single source to understand a single topic.
+Bookmark this page, then browse, sample and dip into the material you need, when you need it as you learn how to implement actual real deep learning models in code using a platform like Keras.
+Take my free 2-week email course and discover MLPs, CNNs and LSTMs (with sample code).
+Click to sign-up now and also get a free PDF Ebook version of the course.
+This is a machine learning course that focuses on deep learning taught at Oxford by Nando de Freitas.
+I really like this course. I watched all of the videos on double time and took notes. It provides a good foundation in theory and covers modern deep learning topics such as LSTMs. Code examples are shown in Torch.
+I noted that the syllabus differed from the actual video lectures available and the YouTube playlist listed the lectures out of order, so below is the list of 2015 video lectures in order.
+Deep Learning Lecture 4: Regularization, model complexity and data complexity (part 1)
+Deep Learning Lecture 5: Regularization, model complexity and data complexity (part 2)
+Deep Learning Lecture 9: Neural networks and modular design in Torch
+Deep Learning Lecture 14: Karol Gregor on Variational Autoencoders and Image Generation
+The highlight for me was Alex Graves talk on RNNs (Lecture 13). A smart guy doing great work. I was reading a lot of Alexs papers at the time I watch this video so I may be biased.
+This is a mini course collaboration between Arpan Chakraborty from Udacity and Vincent Vanhoucke, a Principal Scientist at Google.
+The course is free, hosted on Udacity and focuses on TensorFlow. It is a small piece of the broader Machine Learning Engineer Nanodegree by Google hosted on Udacity.
+You must sign-up to Udacity, but once you sign-in you can access this course for free.
+All course videos are on YouTube, but (intentionally) really hard to find with poor naming and linking. If anyone knows of a pirate playlist with all of the videos, please post it in the comments.
+The course is short but is broken up into many short videos and the Udacity interface is nice. Vincent seems to present in all of the videos I looked at (which is great) and videos are shown in the YouTube interface.
+There is also a discussion form where you can ask and answer questions, driven by the slick discourse software.
+My preference was to dip into videos that interested me rather than completing the whole course or doing any of the course work.
+A deep learning supper school was held in 2015 at the University of Montreal.
+According to the website, the summer school was aimed at graduate students and industrial engineers and researchers who already have some basic knowledge of machine learning.
+There were at least 30 talks (there are 30 videos) from notable researchers in the field of deep learning on a range of topics from introductory material to state of the art research.
+These videos are are a real treasure trove. Take your time and pick your topics carefully. All videos are hosted on the VideoLectures.net site, which has an good enough interface, but not as clean as YouTube.
+Many (all?) talks had PDF slides linked below the video, and more information is available from the schedule page on the official website.
+Heres the full list of lecture topics with links to the videos. Ive tried to list related videos together (e.g. part 1, part 2).
+It looks like there will be a 2016 summer school and hopefully there will be videos.
+This is a deep learning course focusing on natural language processing (NLP) taught by Richard Socher at Stanford.
+An interesting note is that you can access PDF versions of student reports, work that might inspire you or give you ideas.
+The YouTube playlist has poorly named files and some missing lectures. The 2016 videos are not all uploaded yet. Below is a list of the 2015 lectures and the links to the videos. Much easier for just jumping into a specific topic.
+Lecture 3: Advanced word vector representations: language models, softmax, single layer networks
+Lecture 5: Project Advice, Neural Networks and Back-Prop (in full gory detail)
+Lecture 6: Practical tips: gradient checks, overfitting, regularization, activation functions, details
+Lecture 7: Recurrent neural networks for language modeling and other tasks
+Lecture 10: Recursive neural networks for different tasks (e.g. sentiment analysis)
+This is great material if you are into deep learning for NLP, an area where it really excels.
+This course focuses on the use of deep learning for computer vision applications with convolutional neural networks.
+It is another course taught at Stanford, this time by Andrej Karpathy and others.
+Unfortunately, the course videos were taken down, but some clever people have found ways to put them back up in other places. See the playlists in the resources section below.
+I regret to inform that we were forced to take down CS231n videos due to legal concerns. Only 1/4 million views of society benefit served 🙁
+Below are the video lectures for the 2016 course, but Im not sure how long the links will last. Leave a comment and let me know if you discover the links turned bad and Ill fix them up.
+This is a course on neural networks taught by Hugo Larochelle at the University in Sherbrooke in Québec.
+The videos are one-on-one rather than lectures and there are many small videos for each topic rather than large one hour info dumps.
+I think this might be a better format than the traditional lectures, but Im not completely won over yet. A difficulty is there are 92 videos (!!!) to browse and it can be hard to find specific videos to watch.
+My recommendation is to use the main course home page to browse the topics and then use those links into the specific videos. The YouTube playlist has far too many videos to browse and understand. The paradox of choice will kill you.
+Below are some additional video courses that are either not free, difficult to access or smaller in scope.
+Neural Networks for Machine Learning at Coursera by the University of Toronto (awesome, but no longer free)
+In this post you have discover a number of world class video courses on deep learning covering, theory, computer vision, natural language processing and more.
+Browse and dip into lectures by topic and do not try to take on a whole course. Learn one thing rather than try and learn everything.
+Take your time, bookmark this page so you can come back, and have fun.
+Do you know of some other video courses on deep learning that I have not listed?
+Let me know in the comments and I will update the list.
+Dr. Jason Brownlee is a husband, proud father, academic researcher, author, professional developer and a machine learning practitioner. He is dedicated to helping developers get started and get good at applied machine learning.
+Machine learning appears more or less a statistical learning only. If that is true then why there is so much of importance for machine learning now.
+Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. This is so called definition of machine learning this increases my curiosity in understanding where exactly our algorithm starts learning from the past and predicts future output.
+For example in a simple linear regression we are using m examples and then extracts feature manually ,finally we are developing models based on selected feature, with many iteration we are trying to get best model. My question is In this case where lies the core learning ?
+If we need to go exactly as per the definition only we need a feed a dataset to an algorithm , it should create its own feature (through some extent we can say recommender system in this) and it learns from the past data. In course of time it should improves its performance automatically by tuning its model.
+Is there an learning which will improve its performance by itself?
+Kindly enlighten me further on this I may be wrong on my view also.
+Alex Graves gave some brief introduction for hallucination in LSTM. This video #13 describes how the neural network can learn when its appropriate to read, write, or erase the data it has learned. I think this is a good example of a model that can learn to learn.
+I teach a top-down and results-first approach. I would advise you to first learn how to work through a problem end-to-end using deep learning, then dive deeper into the theory of these courses.
+My book might be a good place for you to start if you like my approach:

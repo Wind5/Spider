@@ -1,0 +1,126 @@
+Beng Chin is a Distinguished Professor of Computer Science and Director of IDMI
+at the National University of Singapore (NUS), and an adjunct Chang Jiang
+Professor at Zhejiang University. He obtained his BSc (1st Class Honors) and
+PhD from Monash University, Australia, in 1985 and 1989 respectively. His
+applications. Beng Chin has served as a PC member for international
+conferences such as ACM SIGMOD, VLDB, IEEE ICDE, WWW, and SIGKDD, and as Vice
+PC Chair for ICDE00,04,06, co-PC Chair for SSD93 and DASFAA05, PC Chair for
+ACM SIGMOD07, Core DB PC chair for VLDB08, and PC co-Chair for IEEE ICDE12.
+He was an editor of VLDB Journal and IEEE Transactions on Knowledge and Data
+Engineering (TKDE)(2009-2012), and a co-chair of the ACM SIGMOD Jim Gray Best
+Thesis Award committee. He is serving as a co-Editor-in-Chief of Elseviers
+Journal of Big Data Research, an editor of IEEE Transactions on Cloud Computing
+and Springers Distributed and Parallel Databases, and a PC co-Chair of IEEE
+Big Data15 (2015). He is also serving as a Trustee Board Member and President
+of VLDB Endowment, and an Advisory Board Member of ACM SIGMOD. He co-founded
+Beng Chin is the recipient of ACM SIGMOD 2009 Contributions award, a co-winner
+of the 2011 Singapore Presidents Science Award, the recipient of 2012 IEEE
+Computer Society Kanai award, 2013 NUS Outstanding Researcher Award, and 2014
+IEEE TCDE CSEE Impact Award. He is a recipient of VLDB14 Best Paper award. He
+Apache SINGA is a general distributed deep learning platform for training big deep
+learning models over large datasets. It is designed with an intuitive
+programming model based on the layer abstraction. A variety of popular deep
+machine (RBM), and recurrent neural networks (RNN). Many built-in layers are
+different neural net partitioning schemes to parallelize the training of large
+partitioning. We will introduce the design and implementation of the system in
+this talk. Sample applications will also be demonstrated to help audiences
+Dr. Chonho Lee works as a research fellow at School of Computing, NUS. He received
+his Ph.D in Computer Science from University of Massachusetts, Boston. He has
+current research interests include big data analytics in health-care area. He has
+disease patients to help doctors diagnose the amount and time of L-dopa dosage.
+He recently joins SINGA team and tries to design predictive analytics model
+What is a systematic way to efficiently apply a wide spectrum of advanced ML
+programs to industrial scale problems, using Big Models (up to 100s of billions
+of parameters) on Big Data (up to terabytes or petabytes)? Modern
+ML programs. The variety of approaches tends to pull systems and algorithms
+design in different directions, and it remains difficult to find a universal
+platform applicable to a wide range of ML programs at scale. We propose a
+model-parallel challenges in large-scale ML, by observing that many ML programs
+and dynamic scheduling based on ML program structure. We demonstrate the
+ML algorithms, showing that Petuum allows ML programs to run in much less
+time and at considerably larger model sizes, even on modestly-sized compute
+Dr. Qirong Ho is a scientist at the Institute for Infocomm Research, A*STAR,
+distributed cluster software systems for Machine Learning at Big Data scales,
+with a view towards correctness and performance guarantees. In addition, Dr. Ho
+user personalization and interest prediction  as well as social media
+analysis on hyperlinked documents with text and network data. Dr. Ho received
+his PhD in 2014, under Eric P. Xing at Carnegie Mellon Universitys Machine
+Learning Department. He is a recipient of the Singapore A*STAR National Science
+Search Undergraduate and PhD fellowships, and is a recipient of the SIGKDD 2015
+Recent years have witnessed the booming advances of deep learning techniques and their
+influences to a wide range of multimedia applications, including image classification and
+image retrieval. The boom of deep learning partly thanks to the advances of new GPU
+technologies with increasing parallel computation powers. In this talk I will address some
+open issues with state-of-the-art deep learning techniques for image classification and
+image retrieval: (i) large-scale training of Deep Convolutional Neural Networks using
+multiple GPUs; and (ii) effective adaptation of deep learning techniques to resolve content-
+based image retrieval tasks with pre-trained deep learning models on image classification
+Dr. Steven Hoi is an Associate Professor in the School of Information Systems (SIS),
+Singapore Management University (SMU), Singapore. Prior to joining SMU, he was a tenured
+Associate Professor at the School of Computer Engineering of the Nanyang Technological
+University (NTU), Singapore. He received his Bachelor degree from Tsinghua University, and
+his Master and Ph.D degrees from the Chinese University of Hong Kong. His research
+interests include large-scale machine learning with application to tackling big data analytics
+challenges across a wide range of real-world applications, including multimedia retrieval,
+social media, web search and information retrieval, computer vision and pattern
+recognition, computational finance, cyber security, mobile and software data mining, etc.
+He has published over 100 papers in premier conferences and journals, and served as an
+organizer, area chair, senior PC, TPC member, editors, and referee for many top conferences
+Deep neural networks have achieved great success on many vision tasks. Compared
+researchers increase the representation capacity to fit a large amount of
+training data by adding more convolution layers and pooling layers. In this
+talk, I am going to introduce two alternative methods: one is to learn spatial
+dependency between image regions using a DAG-RNN network; the other one learns
+of categories. Both methods can produce richer and deeper neural networks to
+Wang Gang is an Assistant Professor with the School of Electrical & Electronic
+scientist in ADSC, AStar. He received his B.S. degree from Harbin Institute of
+Technology in Electrical Engineering in 2005 and the PhD degree in Electrical
+During his PhD study, he is a recipient of the prestigious Harriett & Robert
+Perry Fellowship (2009-2010) and CS/AI award (2009) at UIUC. His research
+Deep Neural Network (DNN) has been found to yield superior performance compared
+to the conventional Gaussian Mixture Model (GMM) based systems for automatic
+speech recognition. However, DNN has been used pretty much as a black box
+without much insights as to what the DNN has learned. This talk will present a
+novel approach for interpreting the DNN model, which is based on analysing the
+activity space where interpretable regions can be defined. This technique can
+be used to facilitate the understanding and comparison of the hidden activity
+Dr. Sim Khe Chai is an Assistant Professor at the School of Computing (SoC),
+National University of Singapore (NUS). Previously, he was a research engineer
+at the Institute for Infocomm Research (I2R), one of the research institutes of
+Agency for Science, Technology and Research (A*STAR). He received the B.A. and
+M.Eng degrees in Electrical and Information Sciences from the University of
+Cambridge, England in 2001. He worked on the Application Programming Interface
+(API) for Hidden Markov Model Toolkit (HTK) (known as the ATK) for his
+Undergraduate final year project under the supervision of Prof. Steve Young. He
+was then awarded the Gates Cambridge Scholarship to persue the course of
+Computer Speech, Text and Internet Technology (CSTIT) at the same university.
+Rank-One Matrices in 2002 under the supervision of Prof. Mark Gales. He joined
+year as a research student, supervised by Prof. Mark Gales. He received his
+Ph.D degree in July 2006. He is also an alumnus of Churchill College. His main
+modelling for automatic speech recognition. He also worked on the DARPA funded
+2005-2006. He was also in the IIR team which participated in the NIST 2007
+Evaluation (SRE). He is a recepient of the Google Faculty Research Award 2014.
+It has been shown that news events influ- ence the trends of stock price
+rely on shallow features (such as bags-of-words, named entities and noun
+and hence cannot represent complete and exact events. Recent advances in
+struc- tured events from web-scale data. We propose to adapt Open IE
+Both linear and nonlinear mod- els are employed to empirically investigate
+the hidden and complex relationships be- tween events and the stock
+trained on S&P 500 stock historical data. We further use deep learning to
+from 60% to 66%, and significantly enhance the accuracy of individual
+Yue Zhang is currently an assistant professor at Singapore University of
+Technology and Design. Before joining SUTD in July 2012, he worked as a
+received his DPhil and MSc degrees from University of Oxford, UK, and his
+analysis intensively. Yue Zhang serves as the reviewer for top journals
+He is also PC member for conferences such as ACL, COLING, EMNLP, NAACL,
+EACL, AAAI and IJCAI. Recently, he was the area chairs of CLING 2014,
+Abstract: Attendees will be guided to train example deep learning models on their
+own machines using Apache SINGA. Particularly, we will train a convolutional neural network
+Each model is representative for one model category. Distributed training will also
+Note: Attendees are expected to bring your own laptops. You can download the
+before the workshop, which have installed the dependent libraries of SINGA.
+Biography: Sheng Wang is a fifth year PhD student in the Department of Computer
+Science, National University of Singapore. His research interests include log-structured systems,
+especially in indexing, query processing and data management. He is now a committer of
+Biography: Wei Wang is a fifth year PhD student in the Department of Computer
+data retrieval and distributed deep learning training. He is now a committer of

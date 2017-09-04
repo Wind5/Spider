@@ -1,0 +1,4 @@
+Abstract: Despite its nonconvex nature, $\ell_0$ sparse approximation is desirable in
+approximation problem with the tool of deep learning, by proposing Deep
+$\ell_0$ Encoders. Two typical forms, the $\ell_0$ regularized problem and the
+and pooling functions. Enforcing such structural priors acts as an effective

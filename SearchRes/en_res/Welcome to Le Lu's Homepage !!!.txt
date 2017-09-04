@@ -1,0 +1,162 @@
+Detection and Segmentation datasets from our MICCAI 2014, 2015 papers are available for download! https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes
+Pancreas Segmentation datasets from our MICCAI 2015 paper are available for download!  https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT
+New GTC 2017 talk on "Building Truly Large-Scale Medical Image Databases: Deep Label Discovery and Open-Ended Recognition" (May 10, 2017, S7595), media link 
+have moved to National Institutes of Health, Clinical Center, Radiology and
+understanding and semantic parsing to fit into revolutionary  clinical workflow practices.
+& validation via large scale clinical imaging datasets; and mapping the
+and video computing (from 2D/3D to 3D and 4D) towards medical imaging.
+Recently, I won the Best Summer Intern Mentor Award 2013, NIH Clinical Center
+(only one from my institute); and  the Postbac Mentor of the Year Award
+was a Senior Staff Scientist, Image Analytics and Informatics, at Siemens
+Corporate Research, from Nov. 2011 until Jan. 2013. I was a Staff Scientist at
+Siemens Computer Aided Diagnosis (CAD) Group, Siemens Medical Solutions at Malvern, Pennsylvania,
+from Nov. 2009 to Oct. 2011. I worked as a Research Scientist in Siemens
+Corporate Research (SCR), a Division of Siemens Corporation, Princeton, New Jersey
+from Oct. 2006 to Oct. 2009, closely collaborating with CAD group. I enjoyed
+working with a number of excellent Siemens colleagues and interns for a very
+productive period of time (6.28 years). Our efforts result in 10+ deployed
+and my advisor is Prof. Gregory D. Hager. I also worked closely with Prof.
+Laurant Younes and Prof. Rene Vidal at Hopkins. I interned twice at Microsoft
+Research Beijing and Redmond during 2000~2001, and 2004 summer with Dr. Harry
+(Heung-Yeung) Shum and Dr. Kentaro Toyama, respectively. I was a graduate
+student (1996-1999) with Dr. Zhanyi Hu at NLPR, CAS, Beijing, China.
+Incoming Springer Book on Deep Learning and CNN for Medical Imaging Computing (Leading Co-editor, cover)
+CVPR 2017 Workshop on Medical Computer Vision (MCV) and Health Informatics, invited talks only, Honolulu, HI, July, 2016
+Data is Possible for Medical Image Analysis, invited talks only, Las Vegas, NV, July 1st, 2016
+IEEE CVPR Medical Computer Vision Workshop, 2015, 2012; NIPS workshop on
+ Talk at GTC, GTCx and GTC-DC http://registration.gputechconf.com/quicklink/7L1Rg10, April 6th, 2016, Silicon Valley, CA, USA (pdf)
+(Summary of my Siemens work in 2006~2013, still with some insights: pdf)
+ MICCAI 2015 PC Meeting Symposium: Heterogeneous Cascades Go Deeper via
+ Integrating Shallow and Deep Models, May 18th, 2015, Munich, Germany
+ Shallow and Deep Models, Sept. 2014, Cambridge, MA, USA (ppt)
+ I Gave a Tech Talk at Google in May 2006! The video was an overview of my
+ recognition and tracking. During the past year, some parts have been updated.
+Efficient Particle Filtering using RANSAC (FPIV 2004, IVC 2006)    
+    109, Jiamin Liu, David Wang, Le Lu, Zhuoshi Wei, L. Kim, E. Turkbey, B. Sahiner, N. Petrick, Ronald Summers, "DETECTION AND DIAGNOSIS OF COLITIS ON COMPUTED TOMOGRAPHY USING DEEP CONVOLUTIONAL NEURAL NETWORKS", Journal of Medical Physics, (accepted), 2017 
+    108, R. Cheng, H. Roth, N. Lay, Le Lu, B. Turkbey,  W. Gander, E. McCreedy, P. Choyke, R. Summers, M. McAuliffe, "Automatic MR prostate segmentation by deep learning with holistically-nested networks", Journal of Medical Imaging, (accepted), 2017 
+    107, Ling Zhang*, Le Lu, Isabella Nogues*, Ronald Summers, Shaoxiong Liu, Jianhua Yao, "DeepPap: Deep Convolutional Networks for Cervical Cell Classification", IEEE J. of Biomedical and Health Informatics (in press), 2017
+    106, Yifan Peng, Xiaosong Wang, Le Lu, Mohammadhadi Bagheri, Ronald Summers, Zhiyong Lu, "DeepText Mining Radiology Reports for Deep Learning Radiology Images", American Medical Informatics Association (AMIA) Annual Symposium (Oral), Nov. 2017
+    105, Adam Harrison*, Ziyue Xu, Kevin George*, Le Lu, Ronald Summers, Daniel Mollura, "Progressive and Multi-Path Holistically Nested Neural Networks for Pathological Lung Segmentation from CT Images", MICCAI (accepted, MICCAI Travel Award, Patent pending), 2017
+    103, Jinzheng Cai*, Le Lu, Yuanpu Xie, Fuyong Xing, Lin Yang, "Improving Deep Pancreas Segmentation in CT and MRI Images via Recurrent Neural Contextual Learning and Direct Loss Function", MICCAI (accepted), 2017
+    102, Xiaosong Wang*, Yifan Peng*, Le Lu, Zhiyong Lu, M. Bagheri, Ronald Summers, "ChestX-ray8:
+Classification and Localization of Common Thorax Diseases", IEEE CVPR (Spotlight, V2, pdf), 2017 (pp.1-19)
+    101, Xiaosong Wang*, Le Lu, Hoo-chang Shin*, Lauren Kim, M. Bagheri, Isabella Nogues*, Jianhua Yao, R. Summers, "Unsupervised Joint Mining of Deep Features and Image Labels for Large-scale Radiology Image Categorization and Scene Recognition", IEEE WACV, 2017 (pdf, ppt) (pp.1-14).
+    100, R. Cheng, N. Lay, F. Mertan, B. Turkbey, H. Roth, Le Lu, W. Gander, E. McCreedy, T. Pohida, P. Choyke, M. McAuliffe, R. Summers, "DEEP LEARNING WITH ORTHOGONAL VOLUMETRIC HED SEGMENTATION AND 3D SURFACE RECONSTRUCTION MODEL OF PROSTATE MRI", IEEE ISBI (Oral, pdf), 2017.
+    99, Ling Zhang*, Milan Sonka, Le Lu, Ronald Summers, Jianhua Yao, "COMBINING FULLY CONVOLUTIONAL NETWORKS AND GRAPH-BASED APPROACH FOR AUTOMATED SEGMENTATION OF CERVICAL CELL NUCLEI", IEEE ISBI (Oral, pdf), April 2017.
+    98, Jiamin Liu, K. Chellamuthu, J. Yao, M. Bagheri, Le Lu, Veit Sandfort, Ronald Summers, "Atherosclerotic
+Tomography Scans Using Convolutional Neural Networks", IEEE ISBI (Oral, pdf), April 2017.
+    97, R. Cheng, H. Roth, N. Lay, Le Lu, B. Turkbey,  W. Gander, E. McCreedy, P. Choyke, R. Summers, M. McAuliffe, "Automatic MR prostate segmentation by deep learning with holistically-nested networks", SPIE Medical Imaging, Feb. 2017.
+    96, Jiamin Liu, Le Lu, J. Yao, M. Bagheri, Ronald Summers, "Pelvic artery calcification detection on CT scans using convolutional neural networks", SPIE Medical Imaging (Oral), Feb. 2017.
+    95, Mingchen Gao*, Ziyue Xu, Le Lu, Adam P. Harrison*, Ronald Summers, Daniel Mollura, "Holistic
+Networks: Multi-label Learning and Unordered Pooling", in submission, arXiv 1701.05616 January 2017.
+    94, Adam Harrison*, Ziyue Xu, Le Lu, Ronald Summers, Daniel Mollura, "PROGRESSIVE AND MULTI-PATH HOLISTICALLY NESTED NETWORKS FOR SEGMENTATION", US Patent Application, 62/516,948.
+    93, Xiaosong Wang*, Ke Yan*, Le Lu, Ronald Summers, "DETECTION OF RADIOLOGY IMAGE FINDINGS USING LARGE-SCALE CLINICAL LESION ANNOTATIONS", US Patent Application, 62/514,223.
+    92, Le Lu, Holger Roth*, Adam Harrison*, Ronald Summers, "SPATIAL
+AUTOMATED ORGAN LOCALIZATION AND SEGMENTATION IN 3D MEDICAL SCANS", US Patent Application, 62/450,681.
+    91, Xiaosong Wang*, Yifan Peng*, Le Lu, Zhiyong Lu, Ronald Summers, "METHOD
+    R15, Ke Yan*, Xiaosong Wang*, Le Lu, Ronald Summers, "DETECTION OF RADIOLOGY IMAGE FINDINGS USING LARGE-SCALE CLINICAL LESION ANNOTATIONS", RSNA 2017.
+    90, H. Shin*, H. Roth*, M. Chen*, Le Lu, Z. Xu, I. Nogues, J. Yao, D. Mollura, R. Summers, "Deep
+Architectures, Dataset Characteristics and Transfer Learning", IEEE Trans. on Medical Imaging, May 2016 (pdf).
+Lu, Jiamin Liu, Jianhua Yao, Ari Seff, Cherry Kevin, Lauren Kim, Ronald
+    88, Amal Farag*, Le Lu, Holger Roth*, Jiamin Liu, Evrim Turkbey, Ronald Summers, "A Bottom-up Approach for Pancreas Segmentation Using Cascaded Superpixels and (Deep) Image Patch Labeling", IEEE Trans. on Image Processing, 2016 (accepted, pdf).
+Le Lu, Lauren Kim, Ari Seff*, Jianhua Yao, Ronald Summers, "Interleaved
+Text/Image Deep Mining on a Large-Scale Radiology Image Database for Automated
+Jianhua Yao, Le Lu, Lauren Kim, Ronald Summers, "Mediastinal Lymph Node Detection and Station Mapping on Chest CT Using Spatial Priors and Random Forest", Journal of Medicial Physics,
+    85, Divya Narayanan; Jiamin Liu; Lauren Kim; Kevin Chang; Le Lu; Jianhua Yao; Evrim Turkbey; Ronald Summers, "Automated segmentation of the thyroid gland on thoracic CT scans by Multiatlas Label Fusion and Random Forest Classification", Journal of Medical Imaging,
+    84, Isabella Nogues*, Le Lu, Xiaosong Wang*, Holger Roth*, Gedas Bertasius, Nathan Lay, Jianbo Shi, Ronald Summers, "Automatic Lymph Node Cluster Segmentation using Holistically-Nested Networks and Structured Optimization", MICCAI, 2016 (early accept, MICCAI Travel Award, pdf).   
+    83, Holger Roth*, Le Lu, Amal Farag*, Andrew Sohn*, Ronald M. Summers, "Spatial Aggregation of Holistically-Nested Networks for Automated Pancreas Segmentation", MICCAI, 2016 (early accept, pdf, arXiv).
+    82, Jinzheng Cai, Le Lu, ZiZhao Zhang, Fuyong Xing, Lin Yang, "Pancreas Segmentation in MRI using Graph based Data Fusion with Convolutional Neural Networks", MICCAI, 2016 (pdf).
+    81, Mingchen Gao*, Ziyue Xu, Le Lu, Adam Harrison, Daniel Mollura, Ronald M. Summers, "Multi-label Deep Regression and Unordered Pooling for Holistic Interstitial Lung Disease Detection", MICCAI-MLMI, 2016 (pdf).
+    80, Xiaosong Wang*, Le Lu, Hoo-chang Shin*, Lauren Kim, Isabella Nogues, Jianhua Yao, Ronald M. Summers, "Unsupervised Category Discovery via Looped Deep Pseudo-Task Optimization Using a Large Scale Radiology Image Database",  arXiv:1603.07965 (arXiv).   
+    79, Hoo-chang Shin*, Kirk Roberts*, Le Lu, Dina Demner-Fushman, Jianhua Yao, Ronald M. Summers, "Learning to Read Chest X-Rays: Recurrent Neural Feedback Model for Automated Image Annotation", IEEE CVPR, 2016 (arXiv, pdf).
+    78, Le Lu, Dijia Wu, Nathan Lay, David Liu, Isabella Nogues*, Ronald M. Summers, "Accurate 3D Bone Segmentation in Challenging CT Images: Bottom-up Parsing and Contextualized Optimization", IEEE WACV, 2016 (pdf, Supp).
+    77, Mingchen. Chen*, Ziyue Xu, Le Lu, Aaron Wu, Isabella Nogues*, Ronald. M. Summers, Daniel Mollura, "SEGMENTATION LABEL PROPAGATION USING DEEP CONVOLUTIONAL NEURAL NETWORKS AND DENSE CONDITIONAL RANDOM FIELD", IEEE ISBI, 2016 (pdf).
+    76, Jiamin Liu, David Wang, Zhuoshi Wei, Le Lu, Lauren Kim, Evrim Turkbey, Ronald M. Summers,
+"COLITIS DETECTION ON COMPUTED TOMOGRAPHY USING REGIONAL CONVOLUTIONAL NEURAL NETWORKS", IEEE ISBI, 2016 (pdf).
+    75, Holger R. Roth, Yinong Wang, Jianhua Yao, Le Lu, Joseph E. Burns, Ronald M. Summers: Deep Convolutional Networks for Automated Detection of Posterior-Element Fractures on Spine CT, SPIE Medical Imaging, (arXiv) 2016  
+    74, R. Cheng, H. Roth, L. Lu, S. Wang, B. Turkbey, W. Gandler, E. McCreedy, H. Agarwal, P. Choyke, R. Summers, M. McAuliffe: Active Appearance Model and Deep Learning for More Accurate Prostate Segmentation on MRI, SPIE Medical Imaging, 2016  
+    73, Le Lu, Holger Roth*, Isabella Nogues*, Ronald M. Summers, Xiaosong Wang*, "INTEGRATING DEEP BOUNDARY AND APPEARANCE CONVOLUTIONAL NEURAL NETWORKS FOR BOTTOM-UP ORGAN SEGMENTATION", US Patent Application, 62/345,606, 2016.
+    72, Hoo-chang Shin*, Le Lu, Ronald M. Summers, "RECURRENT NEURAL FEEDBACK MODEL FOR AUTOMATED IMAGE
+    71, Le Lu, Xiaosong Wang*, Ronald M. Summers, "CATEGORY DISCOVERY AND IMAGE AUTO-ANNOTATION VIA
+Convolutional Neural Networks and Structured Optimization in CT images", RSNA 2016.
+and clinical factors affecting success rate of a novel holistic deep
+    R12, Xiaosong Wang*, et al., "Automated Annotation of a Large Scale Radiology Image Database Using Deep Learning", RSNA 2016. (RSNA Best Paper Award in the Category of "Imaging Informatics")
+    R11, Hoo-chang Shin*, et al., "Reading Chest X-Rays Using Deep Learning: Recurrent Neural Cascade Model for Automated Image Annotation", RSNA 2016.
+    R10, Mingchen Gao*, et al, "Multi-label Deep Convolutional Neural Networks for Holistic Interstitial Lung Disease Detection", RSNA 2016.
+    R9, Mingchen Gao*, et al, "Segmentation Label Propagation using Deep Convolutional Neural Networks and Dense Conditional Random Field", RSNA 2016. 
+Lu, Dijia Wu, Noha El-zehiry, Yefeng Zheng, Kevin S. Zhou, Dinggang Shen,
+Brandon Peplinski, Lauren Kim, Shijun Wang, Le Lu, Weidong Zhang, Jianfei Liu,
+    68, Amal Farag*, Le Lu, Holger Roth*, Jianmin Liu, Evrim Turkbey, Ronald Summers, "A Bottom-up Approach for Pancreas Segmentation Using Cascaded Superpixels and (Deep) Image Patch Labeling", arXiv:1505.06236, 2015.
+Lu, Amal Farag*, Hoo-chang Shin*, Jiamin Liu, Evrim Turkbey, Ronald Summers,
+    66, Ari Seff*, Le Lu, Adrian Barbu, Holger
+Boundary Cues for Computer-Aided Lymph Node Detection", MICCAI 2015, Munich, Germany (pdf).
+    65, Adrian Barbu, Le Lu, Holger Roth, Ari Seff, Ronald M. Summers, "An Analysis of Robust Cost Functions for Deep CNN in Computer-aided Diagnosis", MICCAI DLMIA workshop 2015, Munich, Germany.
+    64, Mingchen Gao, Ulas Bagci, Mario Buty, Aaron Wu, Hoo-chang Shin, Holger Roth, Adiren Depeursinge, Ronald M. Summers, Ziyue Xu, Daniel Mollura, "Holistic Classification of CT Attentuation Patterns for Interstitial Lung Dieseases via Deep CNNs", MICCAI DLMIA workshop 2015, Munich, Germany.
+    63, Hoo-chang Shin*, Le Lu, Lauren Kim,
+Mining on a Large-Scale Radiology Image Database", IEEE CVPR, 2015 (pdf, pdf_supp,
+Christopher Tai-Yi Lee*, Hoo-Chang Shin*, Ari Seff*, Lauren Kim, Jianhua Yao,
+Narayanan, Kevin Chang, Lauren Kim, Evrim Turkbey, Le Lu, Jianhua Yao, Ronald
+    59, Holger Roth*, Le Lu, Jiamin Liu, Jianhua Yao, Ari Seff,
+Chang, Lauren Kim, Evrim Turkbey, Le Lu, Jianhua Yao, Ronald Summers, "Automated
+Segmentation of Thyroid Gland on CT Images with Multi-atlas Label Fusion and
+    R8, Ari Seff*, Le Lu, Ronald M. Summers, "Leveraging Mid-Level Semantic Boundary Cues for Computer-Aided Lymphadenopathy Detection", RSNA 2015 (Oral)
+Lu, Amal Farag*, Hoo-chang Shin*, Jiamin Liu, Lauren Kim, Ronald Summers, "Automated Pancreas Segmentation in CT using Multi-Level Deep Convolutional Networks", RSNA 2015 (Oral)
+Kevin Cherry, Holger Roth, Jiamin Liu, Shijun Wang, Evrim Turkbey, Ronald
+Summers, "2D View Aggregation for Lymph Node Detection using a Shallow
+    56, Holger Roth*, Le Lu, Ari Seff, Kevin Cherry, Shijun Wang,
+Jiamin Liu, Evrim Turkbey, Ronald Summers, "A New 2.5D Representation for Lymph Node Detection using
+Random Sets of Deep Convolutional Neural Network Observations", accepted, MICCAI 2014,
+Zhao, Joanne Hoffman, Jianhua Yao, Le Lu, Evrim Turkbey, Christine Kim, Ronald
+    51, Le Lu, Jianhua Yao, Evrim Turkbey, Ronald M. Summers, "Multilevel
+48, Quan Wang*, Dijia Wu, Le Lu, Meizhu Liu, S. Kevin Zhou, "Semantic
+using Multilevel Image Features on Large-Scale Evaluation", MCV'2013: Medical Computer Vision Workshop,
+Marginal Artery Segmentation on CT Angiography by Multiple Cue Fusion", MICCAI'2013
+44, Evrim Turkbey, Le Lu, JianHua Yao, Zhuoshi Wei, Ronald D.
+Detection of Colitis in Computed Tomography Examinations", Oral presentation, RSNA 201343,
+J.E. Burns, K.A. Kurdziel, P.L. Choyke, Le Lu, et al., "Detection Vertebral Degenerative Diesease on 18F-NaF PET/CT Using a Novel Cortical Shell
+    42, Chi Li*, Le Lu, Gregory D. Hager, Jianyu Tang, Hanzi
+Explicit Stereo Depth, ACCV'2012: The 11th Asian Conference on Computer Vision, Volume 3,
+   41, Jun Ma*, Le Lu, Hierarchical Segmentation and
+Spinal Canal Segmentation Using Cascaded Random Walks, Qian Wang*, Le Lu, Dijia Wu, S.
+Context Based Multi-Object Segmentation in 3D Images, Quan Wang*, Dijia Wu, Meizhu Liu, Le
+Lu, S. Kevin Zhou, US Patent 9,218,524 CN104956397A, EP2929509A2, US9218524,WO2014089455A2, WO2014089455A3.
+    38, Hanzi Wang, Chi Li*, Jianyu Tang*, Le Lu, Gregory D. Hager, ZL 2012 1 0073384.0
+37, Meizhu Liu*, Le Lu, Xiaojing Ye, Shipeng Yu, Heng Huang, Coarse-to-fine Classification
+using Parametric and Nonparametric Models for Computer-Aided Diagnosis, CIKM'2011: 20th ACM Conference on Information and
+Wolf, Marcos Salganicoff, Robust Large Scale Prone-Supine Polyp Matching Using Local
+Features: A Metric Learning Approach, MICCAI'2011: 14th International Conference on Medical Image
+Regression Using Probabilistic Segmentation Features in CT Images, CVPR'2011: IEEE Conference
+Low-Rank PSD Matrices for Metric Learning with Applications in Computer Aided
+Matthias Wolf, Marcos Salganicoff, US Patent 8,885,898 B2#, granted in Nov. 2014
+Yoshihisa Shinagawa, Kim Boyer, Arun Krishnan and Marcos Salganicoff, "Stratified Learning of Local Anatomical Context for Lung Nodules in CT
+Bi, Le Lu, Marcos Salganicoff, Yoshihisa Shinagawa, and Dijia Wu*, Non-Provisional US Patent Application 12/880,385,
+Bi, Shipeng Yu, Zhigang Peng, Arun Krishnan and Xiang Sean Zhou, "A Hierarchical Learning Approach for 3D Tubular
+24, Le Lu, Matthias Wolf, Jianming Liang, Murat Dundar, Jinbo Bi and
+Intervention, vol. 1, pp. 1009-1016, September 20-24, 2009, London, UK. 
+Salganicoff, and Dorin Comaniciu, Non-provisional US Patent Granted, 8,184,888#, 2012, WO
+UTILISATEUR POUR UNE ANNOTATION, UNE SEGMENTATION, ET UNE MESURE DE POLYPE EN
+WOLF, S LAKARE, L BOGONI, M SALGANICOFF, D COMANICIU, WO Patent
+Jianming Liang, Marcos Salganicoff, and Dorin Comaniciu, "Accurate Polyp Segmentation for 3D CT Colonography Using
+Barbu, Le Lu, Luca Bogoni, Marcos Salganicoff, and Dorin Comaniciu, US
+16, Le Lu and Gregory D. Hager, "A Nonparametric Treatment on Location/Segmentation
+15, Le Lu and Gregory D. Hager, "Dynamic Background/Foreground Segmentation From Images and
+to 3D Face Tracking", Journal of Image and Vision Computing, vol 24, issue 6,
+Society Conference on Computer Vision and Pattern Recognition, June 2005, San
+Self-calibration", ACCV'2002: the 5th Asian Conference on Computer Vision, Jan. 2002, Melbourne,
+Australia (pdf, initially invited for a special issue of International Journal of
+Zhicheng Liu and Hong Chen, Model- and Exemplar-based Robust Head Pose
+Models versus Exemplars in computer Vision jointed with CVPR'2001, Dec. 2001, Hawaii,
+3, Le Lu and Zhanyi Hu, "A New Factorization Technique for
+Planar Motion Detection Method and the Robust Estimation of 1D Trifocal Tensor", ICPR'2000: The 15th
+1, Le Lu, Zhanyi Hu and Hung-Tat Tsui, "Sub-sequence Factorization - an
+False Positives located on the Ileo Cecal Valve: Evaluation of Performance on
+802 CTC Cases, RSNA: Radiology Society of North America Annual Meeting,
+Located on the Ileo Cecal Valve or Rectal Tube, ISVC: the 9th International
+Hoo-Chang Shin (NIH), Dr. Holger Roth (NIH), Mr. Ari Seff (NIH), Dr. Amal Farag
+(NIH); Dr. Mingchen Gao (NIH), Dr. Ziyue Xu (NIH), Dr. Adrian Barbu (FSU), Dr.
+Wolf, Dr. Bing Jian (Google), Dr. Jianming Liang (ASU), Dr. Shipeng Yu
+(Linkedin), Dr. Yiqiang Zhan (Siemens), Dr. Zhigang Peng (Siemens), Dr. Maneesh
+(2008, Microsoft Bing), Dr. Dijia Wu (2009, Google), Dr. Jun Ma (2009, Siemens
+Molecular Imaging), Dr. Meizhu Liu (2010, Yahoo! Labs), Chi Li (2011, JHU), Dr.
+Qian Wang (2012, STJU), Dr.  Quan Wang (2012, Amazon), Dr. David Allen
+(2013, UT Dallas), Mr. Chris Lee (2014, UMich), Ajay Gupta (FSU)

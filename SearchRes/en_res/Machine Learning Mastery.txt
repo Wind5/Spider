@@ -1,0 +1,9 @@
+ Master machine learning by using it on real life applications, even if you’re starting from scratch.
+Get the EXACT framework I used to cut my time working through predictive modeling problems in HALF, and STILL get better results.
+Hi, Im Dr. Jason Brownlee, the guy behind Machine Learning Mastery.
+I live in Australia with my wife and son and love to write and code.
+The academic approach used to teach machine learning makes me angry. Its so slow!
+I teach a top-down method laser focused on delivering results. Not research papers.
+ I love your blog and really appreciate you sharing your methodology. For the last few years, Ive approached coding and machine learning from the exact opposite angle.
+ I love your site by the way. Its one of the few ML sources Ive come across that explains things clearly rather than writing everything as if it were an academic paper.
+ Your site is addictive. I am not kidding. I feel like I am a kid in a candy store with so many Machine Learning links to follow from your own site.

@@ -1,0 +1,11 @@
+Abstract: It has long been conjectured that hypotheses spaces suitable for data that is
+compositional in nature, such as text or images, may be more efficiently
+represented with deep hierarchical networks than with shallow ones. Despite the
+date are limited. In particular, they do not account for the locality, sharing
+learning architecture to date. In this work we derive a deep network
+corresponds to CP (rank-1) decomposition, whereas a deep network corresponds to
+algebra, we prove that besides a negligible set, all functions that can be
+implemented by a deep network of polynomial size, require exponential size in
+order to be realized (or even approximated) by a shallow network. Since
+performance. The construction and theory developed in this paper shed new light
+on various practices and ideas employed by the deep learning community.

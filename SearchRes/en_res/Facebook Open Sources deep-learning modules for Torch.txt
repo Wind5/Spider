@@ -1,0 +1,15 @@
+ We review Facebook recently released Torch module for Deep Learning, which helps researchers train large scale convolutional neural networks for image recognition, natural language processing and other AI applications. 
+If you are a Torch user, and interested in large-scale deep learning, you may have tried the recently released deep learning modules by Facebook Artificial Intelligence Research. Their optimized deep-learning modules for Torch, fbcunn, is widely discussed.
+These modules are significantly faster than the default ones in Torch and have accelerated our research projects by allowing us to train larger neural nets in less time.
+Torch is a deep learning library for the Lua programming language and widely used in tech companies such as Google, Facebook and IBM. The recent release includes tools for training convolutional neural networks and other deep learning models.
+Containers that allow the user to parallelize the training on multiple GPUs
+An optimized Lookup Table that is often used for word embeddings and neural language models.
+Hierarchical SoftMax module to speed up training over extremely large number of classes. Now classifying 1 million classes is a practically viable strategy.
+Cross-map pooling often used for certain types of visual and text models.
+A GPU implementation of 1-bit SGD based on the paper by Frank Seide, et al.
+A significantly faster Temporal Convolution layer (1.5x to 10x faster compared to Torchs cunn implementations).
+The most important one of these released modules is a fast FFT-based convolutional layer running on NVIDIA GPU.  They claim that their FFT-based convolutional layer code is faster than any other publicly available code when used to train popular architectures. Their experiments show that it can be up to 23.5* faster than NVIDIAs CuDNN, which is a GPU-accelerated library for deep neural networks. The speedup is more considerable as the kernel size becomes larger (from 5*5).
+The code is based on NYU researchers published algorithm, performing convolutions as products in the Fourier domain. Instead of performing convolutions between two sets of 2-Dmatrics directly, they proposed to compute the Fourier transform of the matrices in each set first and perform pairwise convolution as products. Because of the large scale of feature maps, using FFTs accelerates training.
+Facebook Artificial Intelligence Research(FAIR) is founded in December 2013 and leaded by Yann LeCun. See the deep learning modules for Torch released by FAIR .
+KDnuggets Exclusive: Interview with Yann LeCun, Deep Learning Expert, Director of Facebook AI Lab
+ Cartoon: Machine Learning Class Adobe: Sr. Data Science Engineer Upcoming Meetings in AI, Analytics, Big Data,... Global AI Conference, New York City, October ... WCAI Analytics Accelerator Challenge Search Millions of Documents for Thousands of...

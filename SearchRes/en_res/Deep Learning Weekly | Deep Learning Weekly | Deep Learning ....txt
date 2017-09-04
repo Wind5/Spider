@@ -1,0 +1,7 @@
+Deep Learning Weekly - Issue #30: Most cited papers, black magic, self-driving cars in the browser and more... https://t.co/XBJrQlQZXQ Mark Cuban (@mcuban) March 7, 2017
+Great newsletter this week from @buss_jan @dl_weekly https://t.co/g4Bfi2uiUI Medha Agarwal (@mkhandel) March 20, 2017
+Nice Sub! Deep Learning Weekly - Issue 28: Deploying at scale, Quantum Physics, GANs in PyTorch, etc by @dl_weekly https://t.co/f0Mp4lLpuf Joe Rawlings (@JoeRawlings) February 15, 2017
+Google is eager to point out that its recent acquisition of Kaggle is part of its mission to 'democratize AI'. In this post we shine some light on the more sober strategic motivations behind that acquisitions and Google's overall strategy to dominate the AI space.
+A comprehensive deep learning curriculum starting with the mathematical, statistical and CS fundamentals and leading up to advanced materials such as Reinforcement Learning and Convolutional Neural Networks for image recognition.
+Deep Learning Weekly aims at being the premier news aggregator for all things deep learning. We keep tabs on major developments in industry be they new technologies, companies, product offerings or acquisitions so you don't have to. In addition our 'Learning' section features new content that makes difficult to understand areas in deep learning accessible to a wider audience and our 'Papers & Publications' section brings you the most exicting new research.
+If you have any thoughts or ideas how we might improve this newsletter we are interested in hearing them.

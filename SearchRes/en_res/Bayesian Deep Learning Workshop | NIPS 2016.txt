@@ -1,0 +1,68 @@
+ While deep learning has been revolutionary for machine learning, most modern deep learning models cannot represent their uncertainty nor take advantage of the well studied tools of probability theory. This has started to change following recent developments of tools and techniques combining Bayesian approaches with deep learning. The intersection of the two fields has received great interest from the community over the past few years, with the introduction of new deep learning models that take advantage of Bayesian techniques, as well as Bayesian models that incorporate deep learning elements [1-11].
+In fact, the use of Bayesian techniques in deep learning can be traced back to the 1990s’, in seminal works by Radford Neal [12], David MacKay [13], and Dayan et al. [14]. These gave us tools to reason about deep models’ confidence, and achieved state-of-the-art performance on many tasks. However earlier tools did not adapt when new needs arose (such as scalability to big data), and were consequently forgotten. Such ideas are now being revisited in light of new advances in the field, yielding many exciting new results.
+This workshop will study the advantages and disadvantages of such ideas, and will be a platform to host the recent flourish of ideas using Bayesian approaches in deep learning and using deep learning tools in Bayesian modelling. The historic context of key developments in the field will be explained in an invited talk, followed by a tribute talk to David MacKay’s work. Future directions for the field will be debated in a panel discussion.
+Update 02/03/2017: Our videos from the workshop are now available online.
+Xiaoyu Lu, Valerio Perrone, Leonard Hasenclever, Yee Whye Teh and Sebastian VollmerRelativistic Monte Carlo [paper]
+Ian OsbandRisk versus Uncertainty in Deep Learning: Bayes, Bootstrap and the Dangers of Dropout [paper]
+Neal Jean, Michael Xie and Stefano ErmonSemi-supervised deep kernel learning [paper]
+Jakub Tomczak and Max WellingImproving Variational Auto-Encoder using Householder Flow [paper]
+Eric Jang, Shixiang Gu and Ben PooleCategorical Reparameterization with Gumbel-Softmax [paper]
+Jonas Langhabel, Jannik Wolff and Raphael Holca-LamarreLearning to Optimise: Using Bayesian Deep Learning for Transfer Learning in Optimisation [paper]
+Jordan Burgess, James R. Lloyd, and Zoubin GhahramaniOne-Shot Learning in Discriminative Neural Networks [paper]
+Leonard Hasenclever, Stefan Webb, Thibaut Lienart, Sebastian Vollmer, Balaji Lakshminarayanan, Charles Blundell and Yee Whye TehDistributed Bayesian Learning with Stochastic Natural-gradient Expectation Propagation [paper]
+Kevin Chen, Anthony Gamst and Alden WalkerKnots in random neural networks [paper]
+Christian Leibig and Siegfried WahlDiscriminative Bayesian neural networks know what they do not know [paper]
+Wolfgang Roth and Franz PernkopfVariational Inference in Neural Networks using an Approximate Closed-Form Objective [paper]
+Jos van der Westhuizen and Joan LasenbyCombining sequential deep learning and variational Bayes for semi-supervised inference [paper]
+Daniel Hernandez-Lobato, Thang D. Bui, Yinzhen Li, Jose Miguel Hernandez-Lobato and Richard E. TurnerImportance Weighted Autoencoders with Uncertain Neural Network Parameters [paper]
+Dmitry Molchanov, Arseniy Ashuha and Dmitry VetrovDropout-based Automatic Relevance Determination [paper]
+Maruan Al-Shedivat, Andrew Gordon Wilson, Yunus Saatchi, Zhiting Hu and Eric P. XingScalable GP-LSTMs with Semi-Stochastic Gradients [paper]
+Eric Nalisnick, Lars Hertel and Padhraic SmythApproximate Inference for Deep Latent Gaussian Mixture Models [paper]
+Dilin Wang, Yihao Feng and Qiang LiuLearning to Draw Samples: With Application to Amortized MLE for Generative Adversarial Training [paper]
+Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez and Steffen UdluftLearning and Policy Search in Stochastic Dynamical Systems with Bayesian Neural Networks 
+Kurt Cutajar, Edwin V. Bonilla, Pietro Michiardi and Maurizio FilipponeAccelerating Deep Gaussian Processes Inference with Arc-Cosine Kernels [paper]
+Arthur Bražinskas, Serhii Havrylov and Ivan TitovEmbedding Words as Distributions with a Bayesian Skip-gram Model [paper]
+Mohammad Emtiyaz Khan and Wu LinVariational Inference on Deep Exponential Family by using Variational Inferences on Conjugate Models [paper]
+Akash Srivastava and Charles SuttonNeural Variational Inference for Latent Dirichlet Allocation [paper]
+Ajjen Joshi, Soumya Ghosh, Margrit Betke and Hanspeter PfisterHierarchical Bayesian Neural Networks for Personalized Classification [paper]
+Balaji Lakshminarayanan, Alexander Pritzel and Charles BlundellSimple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [paper]
+Jost Tobias Springenberg, Aaron Klein, Stefan Falkner and Frank HutterAsynchronous Stochastic Gradient MCMC with Elastic Coupling [paper]
+Chris J. Maddison, Andriy Mnih and Yee Whye TehThe Concrete Distribution: A Continuous Relaxation of Discrete Random Variables [paper]
+Ramon Oliveira, Pedro Tabacof and Eduardo ValleKnown Unknowns: Uncertainty Quality in Bayesian Neural Networks [paper]
+Mevlana Gemici, Danilo Rezende and Shakir MohamedNormalizing Flows on Riemannian Manifolds [paper]
+Pavel Myshkov and Simon JulierPosterior Distribution Analysis for Bayesian Inference in Neural Networks [paper]
+Yarin Gal, Riashat Islam and Zoubin GhahramaniDeep Bayesian Active Learning with Image Data [paper]
+Rui Shu, Hung Bui and Mohammad GhavamzadehBottleneck Conditional Density Estimators [paper]
+Stefan Webb and Yee Whye TehA Tighter Monte Carlo Objective with Renyi alpha-Divergence Measures [paper]
+Aaron Klein, Stefan Falkner, Jost Tobias Springenberg and Frank HutterBayesian Neural Networks for Predicting Learning Curves [paper]
+Tuan Anh Le, Atılım Güneş Baydin and Frank WoodNested Compiled Inference for Hierarchical Reinforcement Learning [paper]
+Robert Loftin and David RobertsOpen Problems for Online Bayesian Inference in Neural Networks [paper]
+Dustin Tran, Matt Hoffman, Kevin Murphy, Rif Saurous, Eugene Brevdo, and David BleiDeep Probabilistic Programming [paper]
+Matthew HoffmanMarkov Chain Monte Carlo for Deep Latent Gaussian Models [paper]
+Amar Shah and Zoubin GhahramaniSemi-supervised Active Learning with Deep Probabilistic Generative Models 
+Probabilistic deep models for classification and regression (such as extensions and application of Bayesian neural networks),
+Incorporating explicit prior knowledge in deep learning (such as posterior regularization with logic rules),
+Approximate inference for Bayesian deep learning (such as variational Bayes / expectation propagation / etc. in Bayesian neural networks),
+Applying non-parametric methods, one-shot learning, and Bayesian deep learning in general.
+A submission should take the form of an extended abstract (roughly 2 pages long) in PDF format using the NIPS style. Author names do not need to be anonymised and references may extend as far as needed beyond the 2 page upper limit. If research has previously appeared in a journal, workshop, or conference (including NIPS 2016 conference), the workshop submission should extend that previous work.
+Submissions will be accepted as contributed talks or poster presentations. Extended abstracts should be submitted by 1 November 2016; submission page is here. Final versions will be posted on the workshop website (and are archival but do not constitute a proceedings).
+To be considered for an ISBA@NIPS travel award an extended abstract must be submitted by 7 October 2016
+Extended abstract submission deadline: 1 November 2016 (submission page is here)
+The workshop is endorsed by the International Society for Bayesian Analysis (ISBA), which will also provide a Travel Award to a graduate student or a junior researcher.
+Several NIPS 2016 complimentary workshop registrations will be awarded to authors of accepted workshop submissions. These will be announced by 16 November 2016. Please register to the workshop early  award recipients will be reimbursed by NIPS for their workshop registration.
+ Congratulations to the recipients of the complimentary workshop registration: Eric Jang, Valerio Perrone, and Maruan Al-Shedivat.
+As part of the ISBA@NIPS 2016 initiative, the ISBA Program Council will grant two ISBA special Travel Awards of at most 700 USD. The organizers of ISBA endorsed workshops at NIPS will be invited to propose candidates for the competition.
+The recipients should be graduate students or junior researchers (up to five years after graduation) who will be presenting at the workshop.
+The recipients must be ISBA members at the time they receive the award.
+Submit an extended abstract, and send a current CV, ISBA membership status, and a brief (few sentences) description of your research as it relates to the theme of the workshop by 7 October 2016. Applications should be emailed to yg279 -at- cam.ac.uk with the subject "ISBA@NIPS Travel Award application". The winners will be recognized as ISBA@NIPS Travel Award recipients at the Workshops at NIPS and in the ISBA Bulletin.
+Rezende, D, Mohamed, S, and Wierstra, D, ‘’Stochastic backpropagation and approximate inference in deep generative models’’, 2014.
+Blundell, C, Cornebise, J, Kavukcuoglu, K, and Wierstra, D, ‘’Weight uncertainty in neural network’’, 2015.
+Hernandez-Lobato, JM and Adams, R, ’’Probabilistic backpropagation for scalable learning of Bayesian neural networks’’, 2015.
+Gal, Y and Ghahramani, Z, ‘’Dropout as a Bayesian approximation: Representing model uncertainty in deep learning’’, 2015.
+Gal, Y and Ghahramani, G, ‘’Bayesian convolutional neural networks with Bernoulli approximate variational inference’’, 2015.
+Kingma, D, Salimans, T, and Welling, M. ‘’Variational dropout and the local reparameterization trick’’, 2015.
+Balan, AK, Rathod, V, Murphy, KP, and Welling, M, ‘’Bayesian dark knowledge’’, 2015.
+Louizos, C and Welling, M, “Structured and Efficient Variational Deep Learning with Matrix Gaussian Posteriors”, 2016.
+Lawrence, ND and Quinonero-Candela, J, “Local distance preservation in the GP-LVM through back constraints”, 2006.
+Tran, D, Ranganath, R, and Blei, DM, “Variational Gaussian Process”, 2015.
+Dayan, P, Hinton, G, Neal, R, and Zemel, S, ‘’The Helmholtz machine’’, 1995.

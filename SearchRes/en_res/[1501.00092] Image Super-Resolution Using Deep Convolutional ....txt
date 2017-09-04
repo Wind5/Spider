@@ -1,0 +1,6 @@
+Abstract: We propose a deep learning method for single image super-resolution (SR). Our
+images. The mapping is represented as a deep convolutional neural network (CNN)
+that takes the low-resolution image as the input and outputs the
+methods can also be viewed as a deep convolutional network. But unlike
+optimizes all layers. Our deep CNN has a lightweight structure, yet
+extend our network to cope with three color channels simultaneously, and show

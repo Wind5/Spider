@@ -1,0 +1,103 @@
+My goal is to help you get started, make progress and kick butt with machine learning.
+I teach a top-down and results-first approach designed for developers and engineers.
+Access my best free tutorials on the blog or take the next step with my paid training material.
+You may be feeling overwhelmed. You may have a lot of questions.
+Take your time. Bookmark this page. Find the answers to your questions.
+What do you need help with? Here are some quick links:
+The benefit of machine learning are the predictions and the models that make predictions.
+To have skill at applied machine learning means knowing how to consistently and reliably deliver high-quality predictions on problem after problem. You need to follow a systematic process.
+Below is a 5-step process that you can follow to consistently achieve above average results on predictive modeling problems:
+Why you should be Spot-Checking Algorithms on your Machine Learning Problems
+How To Choose The Right Test Options When Evaluating Machine Learning Algorithms
+You need to know what algorithms are available for a given problem, how they work, and how to get the most out of them.
+Machine learning algorithms make up a big part of applied machine learning.
+There is a lot of benefit in studying machine learning algorithms and learning how to get the most out of them.
+Below is a simple 5-step process that you can use to study and learn any machine learning algorithm.
+Weka is a platform that you can use to get started in applied machine learning.
+It has a graphical user interface meaning that no programming is required and it offers a suite of state of the art algorithms.
+How to Normalize and Standardize Your Machine Learning Data in Weka
+How To Handle Missing Values In Machine Learning Data With Weka
+How to Perform Feature Selection With Machine Learning Data in Weka
+How To Estimate The Performance of Machine Learning Algorithms in Weka
+Python is one of the fastest growing platforms for applied machine learning.
+You can use the same tools like pandas and scikit-learn in the development and operational deployment of your model.
+Below are the steps that you can use to get started with Python machine learning:
+Step 3: Discover how to work through problems using machine learning in Python.
+How To Prepare Your Data For Machine Learning in Python with Scikit-Learn
+R is a platform for statistical computing and is the most popular platform among professional data scientists.
+Its popular because of the large number of techniques available, and because of excellent interfaces to these methods such as the powerful caret package.
+Step 1: Discover the R platform and why it is so popular.
+Step 3: Discover how to work through problems using machine learning in R.
+State-of-the-art results are coming from the field of deep learning and it is a sub-field of machine learning that cannot be ignored.
+Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras
+Object Recognition with Convolutional Neural Networks in the Keras Deep Learning Library
+Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras
+Text Generation With LSTM Recurrent Neural Networks in Python with Keras
+Long Short-Term Memory (LSTM) Recurrent Neural Networks are designed for sequence prediction problems and are a state-of-the-art deep learning technique for challenging prediction problems.
+A Gentle Introduction to Long Short-Term Memory Networks by the Experts
+The 5 Step Life-Cycle for Long Short-Term Memory Models in Keras
+How to Use the TimeDistributed Layer for Long Short-Term Memory Networks
+How to use an Encoder-Decoder LSTM to Echo Sequences of Random Integers
+It is popular because it is being used by some of the best data scientists in the world to win machine learning competitions.
+A Gentle Introduction to the Gradient Boosting Algorithm for Machine Learning
+Step 3: Discover how to get good at delivering results with XGBoost.
+How to Develop Your First XGBoost Model in Python with scikit-learn
+How to Tune the Number and Size of Decision Trees with XGBoost in Python
+Many datasets contain a time component, but the topic of time series is rarely covered in much depth from a machine learning perspective.
+Step 3: Discover how to get good at delivering results with Time Series Forecasting.
+How to Make Baseline Predictions for Time Series Forecasting with Python
+How to Check if Time Series Data is Stationary with Python
+How to Create an ARIMA Model for Time Series Forecasting with Python
+I strongly believe that the best thing to focus on is how to work through machine learning problems end-to-end (learn more).
+That being said, I think if youre not a strong programmer, that Weka is the best place to start because you can work through problems without writing a line of code (learn more).
+I think Python is excellent for developing models that can run in production, it is a growing platform (learn more).
+I think R might be the most powerful platform, but it requires learning a new programming language. I think the sweet spot for R is one-off projects and R&D projects (learn more).
+If pressed to answer, I would recommend that you start with Python (learn more).
+This means that you very quickly learn how to work through predictive modeling problems and deliver results.
+As part of this process, I teach a method of developing a portfolio of completed projects. This demonstrates your skill and gives you a platform from which to take on ever more challenging projects.
+It is this ability to deliver results and the projects that demonstrate that you can deliver results is what will get you a position.
+Business only use credentials as a shortcut, they want results more than anything else.
+I would love to help, but I just dont have the capacity.
+I do offer a structured and top-down approach to machine learning self-study. You can learn more about it here:
+I am happy to continue to answer any machine learning questions you might have by email (one question at a time please).
+Recently I have been focusing more attention on Python-based tools and libraries.
+Recently, it seems that Python may be emerging as a dominant platform. Skills in Python for machine learning are in great demand. I am just serving this need.
+Please ask your question in the comments of the blog post.
+Until then, contact me and let me know about the topic you want me to cover.
+My mission is to help you get started and get good at applied machine learning using a learn by doing philosophy. I teach using a top-down and results-first approach.
+If you want the bottom-up theory-first approach to machine learning, I would recommend a textbook or a multi-year graduate program. It is a path to theoretical machine learning and academia.
+That being said, it is generally recognized that eventually, you will need to know your away around the intersection of these fields:
+Dont make the beginners mistake of thinking you need to start here. Read this:
+I have a bunch of degrees in computer science and artificial intelligence and I have worked many years in the tech industry in teams where your code has to work and be maintainable.
+Academia was a bad fit for me, but I loved to research and to write. I think of myself as a good engineer that really wants to help other people get started and get good at machine learning, without wasting years of their life getting ready to get started.
+More about my belief and my mission to help you be awesome at machine learning.
+My best advice is to work on problems or with technology that most interests you.
+Practice Machine Learning with Datasets from the UCI Machine Learning Repository
+Consider working on some more advanced datasets from competitive machine learning:
+I think the best person to talk to about research topics is your research advisor.
+Yes, but understand that it was developed and provided for educational purposes.
+I take no responsibility for the code, what it might do or how you might use it.
+It takes too much time and mental space away from writing new tutorials and books, which is the most effective way I can help the most people.
+Sorry, I want to stay away from the whole recruiting thing.
+From what I have experienced, the great people are always fully engaged. Your job is to find them and offer them something more interesting.
+Sorry, I dont have the capacity to get involved in your project at the level you need or at a level to do a good job.
+I am happy to answer any specific questions you have about machine learning.
+Can you read, review, collaborate or help with my research paper?
+I no longer consider myself an academic. I cannot give you expert academic advice.
+I am happy to answer any specific questions you have about machine learning.
+My focus is industrial machine learning, I no longer have an opinion on schools and courses.
+Remember, you do not need a higher degree to do very well in applied machine learning.
+Im eager to help, but I just dont have the capacity to debug code for you.
+Consider aggressively cutting the code back to the minimum required. This will help you isolate the problem and focus on it.
+Consider cutting the problem back to just one or a few simple examples.
+Consider finding other similar code examples that do work and slowly modify them to meet your needs. This might expose your misstep.
+Im eager to help, but I just dont have the capacity.
+My material is generally intended for those that know their way around their own workstation and know how to install software.
+How to Setup a Python Environment for Machine Learning and Deep Learning with Anaconda
+How to Install a Python 3 Environment on Mac OS X for Machine Learning and Deep Learning
+How to Create a Linux Virtual Machine For Machine Learning Development With Python 3
+Im here to help you become awesome at applied machine learning.
+If you still have questions and need help, you have some options:
+Ebooks: I sell a catalog of Ebooks that show you how to get results with machine learning, fast.
+Blog: I write a lot about applied machine learning on the blog, try the search feature.
+Contact: You can contact me with your question, but one question at a time please.

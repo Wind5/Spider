@@ -1,0 +1,21 @@
+ Book chapter about the philosophy behind deep architecture model, motivating them in the context of Artificial Intelligence
+ Scaling Learning Algorithms towards AI | pdf | Bengio, Y. and LeCun, Y. Book chapter in "Large-Scale Kernel Machines" 
+ A fast learning algorithm for deep belief nets | pdf ps.gz html | Hinton, G. E., Osindero, S. and Teh, Y. Neural Computation (2006) 
+ Deep Belief Networks as a simple way of initializing a deep feed-forward neural network:
+ To recognize shapes, first learn to generate images | pdf | Hinton, G. E. Technical Report (2006) 
+ General study of the framework of initializing a deep feed-forward neural network using a greedy layer-wise procedure:
+ Greedy Layer-Wise Training of Deep Networks | pdf tech-report-pdf | Bengio, Y., Lamblin, P., Popovici, P., Larochelle, H. NIPS 2006 
+ An application of greedy layer-wise learning of a deep autoassociator for dimensionality reduction:
+ Reducing the dimensionality of data with neural networks | pdf support-pdf code | Hinton, G. E. and Salakhutdinov, R. R. Science 2006 
+ A way to use the greedy layer-wise learning procedure to learn a useful embeding for k nearest neighbor classification:
+ Learning a Nonlinear Embedding by Preserving Class Neighbourhood Structure | pdf | Salakhutdinov, R. R. and Hinton, G. E. AISTATS 2007 
+ Representational Power of Restricted Boltzmann Machines and Deep Belief Networks | pdf | Le Roux, N. and Bengio, Y. Technical Report 
+ Deep Narrow Sigmoid Belief Networks are Universal Approximators. | pdf | Sutskever, I. and Hinton, G. E. Neural Computation, Vol 20, pp 2629-2636.
+ A novel way of using greedy layer-wise learning for Convolutional Networks:
+ Unsupervised Learning of Invariant Feature Hierarchies with Applications to Object Recognition | pdf | Ranzato, M'A, Huang, F-J, Boureau, Y-L, and Le Cun, Y. CVPR 2007 
+ How to generalize Restricted Boltzmann Machines to types of data other than binary using exponential familly distribution:
+ Exponential Family Harmoniums with an Application to Information Retrieval | pdf ps | Welling, M., Rosen-Zvi, M. and Hinton, G. E. NIPS 2004 
+ An evaluation of deep networks on many datasets related to vision:
+ An Empirical Evaluation of Deep Architectures on Problems with Many Factors of Variation | pdf html | Larochelle, H., Erhan, D., Courville, A., Bergstra, J., Bengio, Y. ICML 2007 
+ Application of deep learning in the context of information retrieval:
+ Semantic Hashing | pdf | Salakhutdinov, R. R. and Hinton, G. E. IRGM 2007 

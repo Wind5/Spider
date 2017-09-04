@@ -1,0 +1,94 @@
+Neural Networks for Machine Learning by Geoffrey Hinton in Coursera (2012)
+Neural networks class by Hugo Larochelle from Université de Sherbrooke (2013)
+Vision and learning - computers and brains by Shimon Ullman, Tomaso Poggio, Ethan Meyers @ MIT (2013)
+Convolutional Neural Networks for Visual Recognition - Stanford by Fei-Fei Li, Andrej Karpathy (2015)
+Convolutional Neural Networks for Visual Recognition - Stanford by Fei-Fei Li, Andrej Karpathy (2016)
+Graduate Summer School: Deep Learning, Feature Learning by Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Andrew Ng, Nando de Freitas and several others @ IPAM, UCLA (2012)
+Deep Learning - Udacity/Google by Vincent Vanhoucke and Arpan Chakraborty (2016)
+Deep Learning - UWaterloo by Prof. Ali Ghodsi at University of Waterloo (2015)
+Bay area DL school by Andrew Ng, Yoshua Bengio, Samy Bengio, Andrej Karpathy, Richard Socher, Hugo Larochelle and many others @ Stanford, CA (2016) 20.Designing, Visualizing and Understanding Deep Neural Networks-UC Berkeley
+Deep Learning, Self-Taught Learning and Unsupervised Feature Learning By Andrew Ng
+Machine Learning Discussion Group - Deep Learning w/ Stanford AI Lab by Adam Coates
+Making Sense of the World with Deep Learning By Adam Coates
+The Next Generation of Neural Networks By Geoffrey Hinton at GoogleTechTalks
+The wonderful and terrifying implications of computers that can learn By Jeremy Howard at TEDxBrussels
+Unsupervised Deep Learning - Stanford by Andrew Ng in Stanford (2011)
+A beginners Guide to Deep Neural Networks By Natalie Hammel and Lorraine Yurshansky
+Deep Learning: Intelligence from Big Data by Steve Jurvetson (and panel) at VLAB in Stanford.
+Introduction to Artificial Neural Networks and Deep Learning by Leo Isikdogan at Motorola Mobility HQ
+You can also find the most cited deep learning papers from here
+Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures
+Policy Learning with Continuous Memory States for Partially Observed Robotic Control
+Microsoft - Jointly Modeling Embedding and Translation to Bridge Video and Language
+Mastering the Game of Go with Deep Neural Networks and Tree Search
+Air Freight - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG)
+Amsterdam Library of Object Images - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png)
+Annotated face, hand, cardiac & meat images - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf)
+Brown University Stimuli - A variety of datasets including geons, objects, and "greebles". Good for testing recognition algorithms. (Formats: pict)
+CAVIAR video sequences of mall and public space behavior - 90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG)
+CMU CIL's Stereo Data with Ground Truth - 3 sets of 11 images, including color tiff images with spectroradiometry (Formats: gif, tiff)
+CMU PIE Database - A database of 41,368 face images of 68 people captured under 13 poses, 43 illuminations conditions, and with 4 different expressions.
+CMU VASC Image Database - Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage)
+Caltech Image Database - about 20 images - mostly top-down views of small objects and toys. (Formats: GIF)
+Columbia-Utrecht Reflectance and Texture Database - Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp)
+Computational Colour Constancy Data - A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff)
+Content-based image retrieval database - 11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg)
+Densely Sampled View Spheres - Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff)
+Digital Embryos - Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request)
+El Salvador Atlas of Gastrointestinal VideoEndoscopy - Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif)
+FG-NET Facial Aging Database - Database contains 1002 face images showing subjects at different ages. (Formats: jpg)
+FVC2000 Fingerprint Databases - FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all).
+Face and Gesture images and image sequences - Several image datasets of faces and gestures that are ground truth annotated for benchmarking
+German Fingerspelling Database - The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg)
+Groningen Natural Image Database - 4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew)
+ICG Testhouse sequence - 2 turntable sequences from ifferent viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM)
+IEN Image Library - 1000+ images, mostly outdoor sequences (Formats: raw, ppm)
+INRIA's Syntim images database - 15 color image of simple objects (Formats: gif)
+INRIA's Syntim stereo databases - 34 calibrated color stereo pairs (Formats: gif)
+Image Analysis Laboratory - Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of "medical images". (Formats: homebrew)
+JAFFE Facial Expression Image Database - The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images.)
+JISCT Stereo Evaluation - 44 image pairs. These data have been used in an evaluation of stereo analysis, as described in the April 1993 ARPA Image Understanding Workshop paper ``The JISCT Stereo Evaluation'' by R.C.Bolles, H.H.Baker, and M.J.Hannah, 263--274 (Formats: SSI)
+MIT face images and more - hundreds of images (Formats: homebrew)
+Machine Vision - Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF)
+Mammography Image Databases - 100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew)
+Middlebury Stereo Data Sets with Ground Truth - Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm)
+Modis Airborne simulator, Gallery and data set - High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF)
+NIST Fingerprint and handwriting - datasets - thousands of images (Formats: unknown)
+NLM HyperDoc Visible Human Project - Color, CAT and MRI image samples - over 30 images (Formats: jpeg)
+National Design Repository - Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineerign designs. (Formats: gif,vrml,wrl,stp,sat)
+OSU (MSU) 3D Object Model Database - several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml)
+OSU (MSU/WSU) Range Image Database - Hundreds of real and synthetic images (Formats: gif, homebrew)
+OSU/SAMPL Database: Range Images, 3D Models, Stills, Motion Sequences - Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew)
+Otago Optical Flow Evaluation Sequences - Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew)
+ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/ - Real and synthetic image sequences used for testing a Particle Image Velocimetry application. These images may be used for the test of optical flow and image matching algorithms. (Formats: pgm (raw))
+Photometric 3D Surface Texture Database - This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF)
+SEQUENCES FOR OPTICAL FLOW ANALYSIS (SOFA) - 9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif)
+Sequences for Flow Based Reconstruction - synthetic sequence for testing structure from motion algorithms (Formats: pgm)
+Stereo Images with Ground Truth Disparity and Occlusion - a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff)
+Stuttgart Range Image Database - A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew)
+The AR Face Database - Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit))
+The MIT-CSAIL Database of Objects and Scenes - Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg)
+The RVL SPEC-DB (SPECularity DataBase) - A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF )
+The Xm2vts database - The XM2VTSDB contains four digital recordings of 295 people taken over a period of four months. This database contains both image and video data of faces.
+Traffic Image Sequences and 'Marbled Block' Sequence - thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF)
+U Bern Face images - hundreds of images (Formats: Sun rasterfile)
+U Oulu wood and knots database - Includes classifications - 1000+ color images (Formats: ppm)
+UCID - an Uncompressed Colour Image Database - a benchmark database for image retrieval with predefined ground truth. (Formats: tiff)
+UMass Vision Image Archive - Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew)
+USF Range Image Data with Segmentation Ground Truth - 80 image sets (Formats: Sun rasterimage)
+University of Oulu Physics-based Face Database - contains color images of faces under different illuminants and camera calibration conditions as well as skin spectral reflectance measurements of each person.
+University of Oulu Texture Database - Database of 320 surface textures, each captured under three illuminants, six spatial resolutions and nine rotation angles. A set of test suites is also provided so that texture segmentation, classification, and retrieval algorithms can be tested in a standard manner. (Formats: bmp, ras, xv)
+Usenix face database - Thousands of face images from many different sites (circa 994)
+View Sphere Database - Images of 8 objects seen from many different view points. The view sphere is sampled using a geodesic with 172 images/sphere. Two sets for training and testing are available. (Formats: ppm)
+Wiry Object Recognition Database - Thousands of images of a cart, ladder, stool, bicycle, chairs, and cluttered scenes with ground truth labelings of edges and regions. (Formats: jpg)
+Yale Face Database - 165 images (15 individuals) with different lighting, expression, and occlusion configurations.
+Yale Face Database B - 5760 single light source images of 10 subjects each seen under 576 viewing conditions (9 poses x 64 illumination conditions). (Formats: PGM)
+DeepMind QA Corpus - Textual QA corpus from CNN and DailyMail. More than 300K documents in total. Paper for reference.
+Chainer - A flexible framework of neural networks for deep learning
+Minerva - a fast and flexible tool for deep learning on multi-GPU
+Tensorflow - Open source software library for numerical computation using data flow graphs
+A chess AI that learns to play chess using deep learning.
+Reproducing the results of "Playing Atari with Deep Reinforcement Learning" by DeepMind
+Wiki2Vec. Getting Word2vec vectors for entities and word from Wikipedia Dumps
+AlphaGo - A replication of DeepMind's 2016 Nature publication, "Mastering the game of Go with deep neural networks and tree search"
+Have anything in mind that you think is awesome and would fit in this list? Feel free to send a pull request.

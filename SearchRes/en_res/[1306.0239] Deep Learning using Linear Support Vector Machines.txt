@@ -1,0 +1,7 @@
+to achieve state-of-the-art performance on a wide variety of tasks such as
+cross-entropy loss. In this paper, we demonstrate a small but consistent
+advantage of replacing the softmax layer with a linear support vector machine.
+Learning minimizes a margin-based loss instead of the cross-entropy loss. While
+there have been various combinations of neural nets and SVMs in prior art, our
+results using L2-SVMs show that by simply replacing softmax with linear SVMs
+gives significant gains on popular deep learning datasets MNIST, CIFAR-10, and

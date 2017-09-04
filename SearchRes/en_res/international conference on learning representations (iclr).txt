@@ -1,0 +1,83 @@
+Important: Local transmission of the Zika virus has been reported in Puerto
+Rico. While in most cases the symptoms of Zika are mild, women who
+are pregnant and women and men who may conceive a child in the near
+ 11:30 11:50 oral BlackOut: Speeding up Recurrent Neural Network Language Models With Very Large Vocabularies by Shihao Ji, Swaminathan Vishwanathan, Nadathur Satish, Michael Anderson, Pradeep Dubey 
+ 11:50 12:10 oral The Goldilocks Principle: Reading Childrens Books with Explicit Memory Representations by Felix Hill, Antoine Bordes, Sumit Chopra, Jason Weston 
+ 12:10 12:30 oral Towards Universal Paraphrastic Sentence Embeddings by John Wieting, Mohit Bansal, Kevin Gimpel, Karen Livescu 
+ 14:00 17:00 posters Workshop Track Posters (May 2nd) - Los Rosales Grand Salon C,D,E and Garita & Cariba Salons [Sponsored by Facebook] 
+The problem of building an autonomous robot has traditionally been viewed as one of integration: connecting together modular components, each one designed to handle some portion of the perception and decision making process. For example, a vision system might be connected to a planner that might in turn provide commands to a low-level controller that drives the robots motors. In this talk, I will discuss how ideas from deep learning can allow us to build robotic control mechanisms that combine both perception and control into a single system. This system can then be trained end-to-end on the task at hand. I will show how this end-to-end approach actually simplifies the perception and control problems, by allowing the perception and control mechanisms to adapt to one another and to the task. I will also present some recent work on scaling up deep robotic learning on a cluster consisting of multiple robotic arms, and demonstrate results for learning grasping strategies that involve continuous feedback and hand-eye coordination using deep convolutional neural networks.
+BIO: Sergey Levine is an assistant professor at the University of Washington. His research focuses on robotics and machine learning. In his PhD thesis, he developed a novel guided policy search algorithm for learning complex neural network control policies, which was later applied to enable a range of robotic tasks, including end-to-end training of policies for perception and control. He has also developed algorithms for learning from demonstration, inverse reinforcement learning, efficient training of stochastic neural networks, computer vision, and data-driven character animation.
+Sequential recurrent neural networks (RNNs) over finite alphabets are remarkably effective models of natural language. RNNs now obtain language modeling results that substantially improve over long-standing state-of-the-art baselines, as well as in various conditional language modeling tasks such as machine translation, image caption generation, and dialogue generation. Despite these impressive results, such models are a priori inappropriate models of language. One point of criticism is that language users create and understand new words all the time, challenging the finite vocabulary assumption. A second is that relationships among words are computed in terms of latent nested structures rather than sequential surface order (Chomsky, 1957; Everaert, Huybregts, Chomsky, Berwick, and Bolhuis, 2015).
+In this talk I discuss two models that explore the hypothesis that more (a priori) appropriate models of language will lead to better performance on real-world language processing tasks. The first composes sub word units (bytes, characters, or morphemes) into lexical representations, enabling more naturalistic interpretation and generation of novel word forms. The second, which we call recurrent neural network grammars (RNNGs), is a new generative model of sentences that explicitly models nested, hierarchical relationships among words and phrases. RNNGs operate via a recursive syntactic process reminiscent of probabilistic context-free grammar generation, but decisions are parameterized using RNNs that condition on the entire (top-down, left-to-right) syntactic derivation history, greatly relaxing context-free independence assumptions. Experimental results show that RNNGs obtain better results in generating language than models that don’t exploit linguistic structures.
+BIO: Chris Dyer is an assistant professor in the Language Technologies Institute and Machine Learning Department at Carnegie Mellon University. He obtained his PhD in Linguistics at the University of Maryland under Philip Resnik in 2010. His work has been nominated for—and occasionally received—best paper awards at EMNLP, NAACL, and ACL.
+videos, biological data, and so on. Most learning tasks can be framed
+as optimization problems which turn out to be non-convex and NP-hard
+to solve. This hardness barrier can be overcome by: (i) focusing on
+I will discuss the above in the context of: (i) unsupervised learning
+of moment matrices and tensors. Tensors are rich structures that can
+BIO: Anima Anandkumar is a faculty at the EECS Dept. at U.C.Irvine since
+August 2010. Her research interests are in the areas of large-scale
+and analysis of tensor algorithms for a variety of learning problems.
+She is the recipient of the Alfred. P. Sloan Fellowship, Microsoft
+Research Award at UCI, Best Thesis Award from the ACM SIGMETRICS
+society, IBM Fran Allen PhD fellowship, and best paper awards from the
+B.Tech in Electrical Engineering from IIT Madras in 2004 and her PhD
+from Cornell University in 2009. She was a postdoctoral researcher at
+MIT from 2009 to 2010, and a visiting faculty at Microsoft Research
+Deep learning is founded on composable functions that are structured to capture regularities in data and can have their parameters optimized by backpropagation (differentiation via the chain rule). Their recent success is founded on the increased availability of data and computational power. However, they are not very data efficient. In low data regimes parameters are not well determined and severe overfitting can occur. The solution is to explicitly handle the indeterminacy by converting it to parameter uncertainty and propagating it through the model. Uncertainty propagation is more involved than backpropagation because it involves convolving the composite functions with probability distributions and integration is more challenging than differentiation.
+We will present one approach to fitting such models using Gaussian processes. The resulting models perform very well in both supervised and unsupervised learning on small data sets. The remaining challenge is to scale the algorithms to much larger data.
+BIO: Neil Lawrence is Professor of Machine Learning at the University of Sheffield. His expertise is in probabilistic modelling with a particular focus on Gaussian processes and a strong interest in bridging the worlds of mechanistic and empirical models.
+Deep learning algorithms attempt to model high-level abstractions of the data using architectures composed of multiple non-linear transformations. A multiplicity of variants have been proposed and shown to be extremely successful in a wide variety of applications including computer vision, speech recognition as well as natural language processing. In this talk I’ll show how to make these representations more powerful by exploiting structure in the outputs, the loss function as well as in the learned embeddings.
+Many problems in real-world applications involve predicting several random variables that are statistically related. Graphical models have been typically employed to represent and exploit the output dependencies. However, most current learning algorithms assume that the models are log linear in the parameters. In the first part of the talk I’ll show a variety of algorithms that can learn arbitrary functions while exploiting the output dependencies, unifying deep learning and graphical models.
+Supervised training of deep neural nets typically relies on minimizing cross-entropy. However, in many domains, we are interested in performing well on metrics specific to the application domain. In the second part of the talk I’ll show a direct loss minimization approach to train deep neural networks, which provably minimizes the task loss. This is often non-trivial, since these loss functions are neither smooth nor decomposable and thus are not amenable to optimization with standard gradient-based methods. I’ll demonstrate the applicability of this general framework in the context of maximizing average precession, a structured loss commonly used to evaluate ranking problems.
+Deep learning has become a very popular approach to learn word, sentence and/or image embeddings. Neural embeddings have shown great performance in tasks such as image captioning, machine translation and paraphrasing. In the last part of my talk I’ll show how to exploit the partial order structure of the visual semantic hierarchy over words, sentences and images to learn order embeddings. I’ll demonstrate the utility of these new representations for hypernym prediction and image-caption retrieval.
+BIO: Raquel Urtasun is an Assistant Professor in the Department of Computer Science at the University of Toronto and a Canada Research Chair in Machine Learning and Computer Vision. Prior to this, she was an Assistant Professor at the Toyota Technological Institute at Chicago (TTIC), an academic computer science institute affiliated with the University of Chicago. She received her Ph.D. degree from the Computer Science department at Ecole Polytechnique Federal de Lausanne (EPFL) in 2006 and did her postdoc at MIT and UC Berkeley. Her research interests include machine learning, computer vision and robotics. Her recent work involves perception algorithms for self-driving cars, deep structured models and exploring problems at the intersection of vision and language. She is a recipient of a Ministry of Education and Innovation Early Researcher Award, two Google Faculty Research Awards, a Connaught New Researcher Award and a Best Paper Runner up Prize awarded at the Conference on Computer Vision and Pattern Recognition (CVPR). She is also Program Chair of CVPR 2018, an Editor of the International Journal in Computer Vision (IJCV) and has served as Area Chair of multiple machine learning and vision conferences (i.e., NIPS, UAI, ICML, ICLR, CVPR, ECCV, ICCV).
+ Do Deep Convolutional Nets Really Need to be Deep (Or Even Convolutional)?
+Gregor Urban, Krzysztof J. Geras, Samira Ebrahimi Kahou, Ozlem Aslan Shengjie Wang, Rich Caruana, Abdelrahman Mohamed, Matthai Philipose, Matt Richardson
+Edward Choi, Mohammad Taha Bahadori, Jimeng Sun, Elizabeth Searles, Catherine Coffey
+ Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+ Unsupervised Learning with Imbalanced Data via Structure Consolidation Latent Variable Model
+Edward Choi, Mohammad Taha Bahadori, Andy Schuetz, Walter F. Stewart, Joshua C. Denny, Bradley A. Malin, Jimeng Sun
+ RandomOut: Using a convolutional gradient norm to win The Filter Lottery
+Greg Diamos, Shubho Sengupta, Bryan Catanzaro, Mike Chrzanowski, Adam Coates, Erich Elsen, Jesse Engel, Awni Hannun, Sanjeev Satheesh
+ Close-to-clean regularization relates virtual adversarial training, ladder networks and others
+Jiatao Gu, Baotian Hu, Zhengdong Lu, Hang Li, Victor O.K. Li
+ Variational Inference for On-line Anomaly Detection in High-Dimensional Time Series
+Jun Yin, Xin Jiang, Zhengdong Lu, Lifeng Shang, Hang Li, Xiaoming Li
+ Learning Document Embeddings by Predicting N-grams for Sentiment Classification of Long Movie Reviews
+ Adaptive Natural Gradient Learning Based on Riemannian Metric of Score Matching
+Dario Amodei, Rishita Anubhai, Eric Battenberg, Carl Case, Jared Casper, Bryan Catanzaro, Jingdong Chen, Mike Chrzanowski, Adam Coates, Greg Diamos, Erich Elsen, Jesse Engel, Linxi Fan, Christopher Fougner, Tony Han, Awni Hannun, Billy Jun, Patrick LeGresley, Libby Lin, Sharan Narang, Andrew Ng, Sherjil Ozair, Ryan Prenger, Jonathan Raiman, Sanjeev Satheesh, David Seetapun, Shubho Sengupta, Yi Wang, Zhiqian Wang, Chong Wang, Bo Xiao, Dani Yogatama, Jun Zhan, Zhenyao Zhu
+ Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems
+ Learning stable representations in a changing world with on-line t-SNE: proof of concept in the songbird
+Stéphane Deny, Emily Mackevicius, Tatsuo Okubo, Gordon Berman, Joshua Shaevitz, Michale Fee
+Krzysztof J. Geras, Abdel-rahman Mohamed, Rich Caruana, Gregor Urban, Shengjie Wang, Ozlem Aslan, Matthai Philipose, Matthew Richardson, Charles Sutton
+Li Yao, Nicolas Ballas, Kyunghyun Cho, John R. Smith, Yoshua Bengio
+ Deep Reinforcement Learning with an Action Space Defined by Natural Language
+Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng, Mari Ostendorf
+Arvind Neelakantan, Luke Vilnis, Quoc V. Le, Ilya Sutskever, Lukasz Kaiser, Karol Kurach, James Martens
+Evan Archer, Il Memming Park, Lars Buesing, John Cunningham, Liam Paninski
+ Training Convolutional Neural Networks with Low-rank Filters for Efficient Image Classification
+Yani Ioannou, Duncan Robertson, Jamie Shotton, roberto Cipolla, Antonio Criminisi, Jamie Shotton
+Tim Rocktäschel, Edward Grefenstette, Karl Moritz Hermann, Tomáš Kočiský, Phil Blunsom
+ Particular object retrieval with integral max-pooling of CNN activations [code]
+ The Goldilocks Principle: Reading Childrens Books with Explicit Memory Representations
+ Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks [code] [data]
+Jason Weston, Antoine Bordes, Sumit Chopra, Sasha Rush, Bart van Merrienboer, Armand Joulin, Tomas Mikolov
+Jesse Dodge, Andreea Gane, Xiang Zhang, Antoine Bordes, Sumit Chopra, Alexander Miller, Arthur Szlam, Jason Weston
+ Better Computer Go Player with Neural Network and Long-term Prediction
+ A Test of Relative Similarity for Model Selection in Generative Models
+ Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications
+Yong-Deok Kim, Eunhyeok Park, Sungjoo Yoo, Taelim Choi, Lu Yang, Dongjun Shin
+Timothy Lillicrap, Jonathan Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
+César Lincoln Mattos, Zhenwen Dai, Andreas Damianou, Jeremy Forth, Guilherme Barreto, Neil Lawrence
+ Convergent Learning: Do different neural networks learn the same representations?
+Andrei Rusu, Sergio Gomez, Caglar Gulcehre, Guillaume Desjardins, James Kirkpatrick, Razvan Pascanu, Volodymyr Mnih, Koray Kavukcuoglu, Raia Hadsell
+George Toderici, Sean OMalley, Damien Vincent, Sung Jin Hwang, Michele Covell, Shumeet Baluja, Rahul Sukthankar, David Minnen
+ BlackOut: Speeding up Recurrent Neural Network Language Models With Very Large Vocabularies [code]
+ Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+ Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks [code]
+ Digging Deep into the layers of CNNs: In Search of How CNNs Achieve View Invariance
+ An Exploration of Softmax Alternatives Belonging to the Spherical Loss Family
+ Reasoning in Vector Space: An Exploratory Study of Question Answering
+Moontae Lee, Xiaodong He, Wen-tau Yih, Jianfeng Gao, Li Deng, Paul Smolensky
+Talks should be no longer than 17 minutes, leaving 2-3 minutes for questions by the audience. The author who will be giving the talk must find the oral session chair in advance, to test the use of his/her personal laptop for presenting the slides.

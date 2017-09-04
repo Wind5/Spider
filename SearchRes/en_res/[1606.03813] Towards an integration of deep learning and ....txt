@@ -1,0 +1,10 @@
+artificial neural networks tend to eschew precisely designed codes, dynamics or
+circuits in favor of brute force optimization of a cost function, often using
+have emerged within machine learning that create an opportunity to connect
+used, including dedicated systems for attention, recursion and various forms of
+procedures have become more complex and are varied across layers and over time.
+Here we think about the brain in terms of these ideas. We hypothesize that (1)
+the brain optimizes cost functions, (2) these cost functions are diverse and
+problems posed by behavior. Such a heterogeneously optimized system, enabled by
+a series of interacting cost functions, serves to make learning data-efficient
+and precisely targeted to the needs of the organism. We suggest directions by

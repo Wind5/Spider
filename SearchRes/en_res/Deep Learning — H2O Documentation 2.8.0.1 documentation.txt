@@ -1,0 +1,119 @@
+artificial neural network that is trained with stochastic gradient descent using
+back-propagation. The network can contain a large number of hidden layers
+training, dropout, L1 or L2 regularization, checkpointing and grid search enable
+high predictive accuracy. Each compute node trains a copy of the global model
+contributes periodically to the global model via model averaging across the
+of which are only accessible via the expert mode, and their default
+values should be fine for most use cases. Please read the following
+Name of the model to be trained. Will be auto-generated if omitted.
+The dependent or target variable of interest. Can be numerical or
+This field will auto populate a list of the columns from the data
+set in use. The user-selected set of columns are the features
+that will be omitted from the model. Additionally - users can
+A unique data set with the same shape and features as the
+training data to be used in model validation (i.e., production of
+model. This option allows users to build a new model as a
+continuation of a previously generated model (e.g., by a grid search).
+If given, store the best model so far under this key. Model performance is
+measured by MSE for regression and overall error rate for classification
+values is fine for many problems, but best results on complex
+The activation function (non-linearity) to be used the neurons in the
+Rectifier: Chooses the maximum of (0, x) where x is the input value.
+The number and size of each hidden layer in the model.
+For example, if a user specifies 100,200,100 a model with 3 hidden
+layers will be produced, and the middle hidden layer will have 200
+The number of passes over the training dataset to be carried out.
+It is recommended to start with lower values for initial grid searches.
+This value can be modified during checkpoint restarts and allows continuation
+The number of training data rows to be processed per iteration. Note that
+independent of this parameter, each row is used immediately to update the model
+frequency at which scoring and model cancellation can happen. For example, if
+it is set to 10,000 on H2O running on 4 nodes, then each node will
+process 2,500 rows per iteration, sampling randomly from their local data.
+Then, model averaging between the nodes takes place, and scoring can happen
+(dependent on scoring interval and duty factor). Special values are 0 for
+one epoch per iteration and -1 for processing the maximum amount of data
+will be trained per iteration on N nodes, otherwise one epoch.
+when running on one node, turning off load balancing and providing
+a small dataset that fits in one chunk). In general, the
+still lead to some weak sense of determinism in the model.
+If the model is built on a topology with many local minima or
+long plateaus, it is possible for a constant learning rate to produce
+learning rates per layer. When the gradient is being estimated in
+a long valley in the optimization landscape, a large learning rate
+can cause the gradient to oscillate and move in the wrong
+It is similar to momentum and relates to the memory to prior weight updates.
+This parameter is only active if adaptive learning rate is enabled.
+This parameter is only active if adaptive learning rate is enabled.
+When adaptive learning rate is disabled, the magnitude of the weight
+generally called delta, is only available at the output layer. To
+This parameter is only active if adaptive learning rate is disabled.
+local minima in the optimization landscape. The annealing rate is the
+inverse of the number of training samples it takes to cut the learning rate in half
+(e.g., 1e-6 means that it takes 1e6 training samples to halve the learning rate).
+This parameter is only active if adaptive learning rate is disabled.
+rate across layers. For example, assume the rate parameter is set
+to 0.01, and the rate decay parameter is set to 0.5. Then the
+hidden layer will be 0.01, the learning rate for the weights
+connecting the first and the second hidden layer will be 0.005,
+and the learning rate for the weights connecting the second and
+third hidden layer will be 0.0025, etc. This parameter is only
+gradient information at various points to build a polynomial approximation that
+This parameter is only active if adaptive learning rate is disabled.
+A fraction of the features for each training row to be omitted from training in order
+A fraction of the inputs for each hidden layer to be omitted from training in order
+to improve generalization. Defaults to 0.5 for each hidden layer if omitted.
+A regularization method that constrains the absolute value of the weights and
+has the net effect of dropping some weights (setting them to zero) from a model
+A maximum on the sum of the squared incoming weights into
+any one neuron. This tuning parameter is especially useful for unbound
+The distribution from which initial weights are to be drawn. The default
+option is an optimized initialization that considers the size of the network.
+The uniform option uses a uniform distribution with a mean of 0 and a given
+The scale of the distribution function for Uniform or Normal distributions.
+scale. For Normal, the values are drawn from a Normal distribution
+hypotheses, and the outputs can be interpreted as the probability that each
+hypothesis is true. Cross entropy is the recommended loss function when the
+It strongly penalizes error in the prediction of the actual class label.
+Mean Square Used when the model output are continuous real values, but can
+be used for classification as well (where it emphasizes the error on all
+The minimum time (in seconds) to elapse between model scoring. The actual
+interval is determined by the number of training samples per iteration and the scoring duty cycle.
+The number of training dataset points to be used for scoring. Will be
+The number of validation dataset points to be used for scoring. Can be
+randomly sampled or stratified (if balance classes is set and score
+validation sampling is set to stratify). Use 0 for selecting the entire
+Maximum fraction of wall clock time spent on model scoring on training and validation samples,
+and on diagnostics such as computation of feature importances (i.e., not on training).
+The stopping criteria in terms of classification error (1-accuracy) on the
+training data scoring dataset. When the error is at or below this threshold,
+The stopping criteria in terms of regression error (MSE) on the training
+data scoring dataset. When the error is at or below this threshold, training
+For classification models, the maximum size (in terms of classes) of the
+confusion matrix for it to be printed. This option is meant to avoid printing
+The maximum number (top K) of predictions to use for hit ratio
+When classes are balanced, limit the resulting dataset size to the
+Method used to sample the validation dataset for scoring, see Score Validation Samples above.
+Gather diagnostics for hidden layers, such as mean and RMS values of learning
+Increase training speed on small datasets by splitting it into many chunks
+Run on a single node for fine-tuning of model parameters. Can be useful for
+Enable shuffling of training data (on each node). This option is
+recommended if training data is replicated on N nodes, and the
+is close to N times the dataset size, where all nodes train will (almost) all
+the data. It is automatically enabled if the number of training
+samples per iteration is set to -1 (or to N times the dataset size or larger).
+The model view page displays information about the Deep Learning model being trained.
+Units The number of units (or artificial neurons) in the layer
+will have one input and one output layer. Hidden layers are
+weights dropped from training at that layer. Note that dropout is
+If a validation set was given, the scoring results are displayed for
+the validation set (or a sample thereof). Otherwise, scoring is performed on
+observations in a particular class relative to the number of predicted
+class label assigned to an observation is in the top K classes
+predicted by the model. For instance, in a four class classifier
+on values A, B, C, D, a particular observation is predicted to be
+class A with a probability of .6 of being A, .2 probability of
+being B, a .1 probability of being C, and a .1 probability of
+being D. If the true class is B, the observation will be counted
+in the hit rate for K=2, but not in the hit rate of K=1.
+difficult to compute for Neural Net models. Gedeons method is implemented here.

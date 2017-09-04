@@ -1,0 +1,58 @@
+This project does not have any current developer. We will continue
+to review pull requests and merge them when appropriate, but do not
+There are other machine learning frameworks built on top of Theano that
+If youre a Pylearn2 developer and you find a bug, please write a unit test for it so
+Pylearn2 is a machine learning library. Most of its functionality is built on top of
+This means you can write Pylearn2 plugins (new models, algorithms, etc) using
+mathematical expressions, and Theano will optimize and stabilize those expressions for
+you, and compile them to a backend of your choice (CPU or GPU).
+Researchers add features as they need them. We avoid getting bogged down by too
+All models/algorithms published by the LISA lab should have reference implementations
+Pylearn2 may wrap other libraries such as scikit-learn when this is practical
+Pylearn2 differs from scikit-learn in that Pylearn2 aims to provide great flexibility
+and make it possible for a researcher to do almost anything, while scikit-learn
+aims to work as a black box that can produce good results even if the user does not
+Small framework for all what is needed for one normal MLP/RBM/SDA/Convolution experiments.
+Using one sub-component of the library does not force you to use / learn to use all of
+Remain approachable enough to be used in the classroom (IFT6266 at the University of Montreal).
+To make Pylearn2 available in your Python installation, run the following command in the
+top-level pylearn2 directory (which should have been created by the previous command):
+You may need to use sudo to invoke this command with administrator privileges.
+If you do not have such access (or would rather not add Pylearn2 to the global
+site-packages for whatever reason), you can install the relevant links inside the
+This command will also compile the Cython extensions required for e.g.
+Alternatively, you can make Pylearn2 available by adding the installation directory to your
+alone wont compile the Cython extensions (you will need to make sure the extension .so
+files are built and accessible within the source tree, e.g. with
+For some tutorials and tests you will also need to set your PYLEARN2_DATA_PATH variable.
+On Linux, the best way to do this is to add a line to your ~/.bashrc file:
+Note that this is only an example, and if you are not in the LISA lab, you will need to
+choose a directory path that is valid on your filesystem. Simply choose a path where
+it will be convenient for you to store datasets for use with Pylearn2.
+Pylearn2 in a box uses Vagrant to easily create a new VM installed with Pylearn2 and the necessary packages.
+Start the VM by running vagrant up in the directory from step 3
+Pylearn2 includes code for accessing several standard datasets, such as MNIST and CIFAR-10.
+However, if you wish to use one of these datasets, you must download the dataset itself
+for loading some datasets, such as the Unsupervised and Transfer Learning Challenge datasets
+Pylearn2 is released under the 3-claused BSD license, so it may be used for commercial purposes.
+The license does not require anyone to cite Pylearn2, but if you use Pylearn2 in published research
+Pylearn2 is primarily developed by academics, and so citations matter a lot to
+us. As an added benefit, you increase Pylearn2s exposure and potential user
+(and developer) base, which is to the benefit of all users of Pylearn2. Thanks
+YAML for Pylearn2  A tutorial on YAML tags employed by Pylearn2.
+IPython Notebook Tutorials  At this point, you might want to work through the ipython notebooks in the scripts/tutorials
+A First Experiment with Pylearn2  A brief introduction to running experiments.
+Your models in Pylearn2  A tutorial on porting Theano code to Pylearn2
+Overview  A detailed but high-level overview of how Pylearn2 works. This is the
+place to start if you want to really learn the library.
+Working with computer clusters  The tools we use at LISA for running Pylearn2 jobs on HPC clusters.
+Working with large datasets in Pylearn2  A guide on how to deal with large datasets.
+Pylearn2 Vision  Some more detailed elaboration of some points of the Pylearn2 vision.
+F.A.Q.  Please read the FAQ section before posting to mailing-lists.
+Register and post to pylearn-users for general inquiries and support questions or if you want to talk to other users.
+Register and post to pylearn-dev if you want to talk to the developers. We dont bite.
+Register to pylearn2-github if you want to receive an email for all changes to the GitHub
+Come visit us in Montreal! Most of the developers are students in the LISA group at the University of Montreal.
+Pylearn2 API Change Best Practices Guide  the best practices guide you should follow when changing any API in the library
+Pylearn2 Pull Request Checklist  Things you should check your pull request for before review.
+Data specifications, spaces, and sources  the interface different elements use to request and provide data

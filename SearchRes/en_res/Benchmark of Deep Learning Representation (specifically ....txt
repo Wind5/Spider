@@ -1,0 +1,37 @@
+effectiveness of deep learning representations on a wide range of visual recognition tasks/datasets. Some structured output recognition (e.g. pose landmark detection, etc.), RGB-D and/or temporal input are not included at the moment.
+--- The results quoted on this page are no longer an accurate reflection of the current state-of-the-art for
+all the databases we investigated in our 2014 paper. Excitingly, the rate of progress in the field is just too
+rapid for us, given our resources, to maintain up-to-date numbers. However, we have decided to
+keep this webpage online as it gives a snapshot of where computer vision methods stood in relation to
+[*] Y. LeCun, L. Bottou, Y. Bengio, P. Haffner "Gradient-based learning applied to document recognition" Proc. IEEE 1998 
+[+] K. Fukushima Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position" Biological Cybernetics 1990 
+[0] A. Krizhevsky, I. Sutskever, G. E. Hinton "ImageNet Classification with Deep Convolutional Neural Networks" NIPS 2012 
+[1] A. S. Razavian, H. Azizpour, J. Sullivan, S. Carlsson "CNN features off-the-shelf: An astounding baseline for recognition", CVPR 2014, DeepVision workshop
+[2] R. Girshick, J. Donahue, T. Darrell, J. Malik "Rich feature hierarchies for accurate object detection and semantic segmentation", CVPR 2014 
+[3] Y. Gong, L. Wang, R. Guo, S. Lazebnik "Multi-scale Orderless Pooling of Deep Convolutional Activation Features" arXiv report 2014 
+[4] J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, T. Darrell "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition" ICML 2014 
+[5] M. Oquab, L. Bottou, I. Laptev and J. Sivic "Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks" CVPR 2014 
+[6] M. D. Zeiler, R. Fergus, "Visualizing and Understanding Convolutional Networks" arXiv 2013 
+[7] N. Zhang, M. Paluri, M. Ranzato, T. Darrell, L. Bourdev "PANDA: Pose Aligned Networks for Deep Attribute Modeling" CVPR 2014 
+[8] Y. Taigman, M. Yang, M. Ranzato, L. Wolf "DeepFace: Closing the Gap to Human-Level Performance in Face Verification" CVPR 2014 
+[9] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, Y. LeCun "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks" ICLR 2014 
+[10] K. Chatfield, K. Simonyan, A. Vedaldi, and A. Zisserman "Return of the Devil in the Details: Delving Deep into Convolutional Nets" arXiv 2014 
+[11] W. Y. Zou, X. Wang, M. Sun, Y. Lin "Generic Object Detection with Dense Neural Patterns and Regionlets" arXiv 2014 
+[12] S. Branson, G. Van Horn, S. Belongie, P. Perona "Bird Species Categorization Using Pose Normalized Deep Convolutional Nets" arXiv 2014 
+[13] K. He, X. Zhang, Sh. Ren, J. Sun "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition" arXiv 2014 
+[14] H. Azizpour, A. S. Razavian, J. Sullivan, A. Maki, S. Carlsson "From Generic to Specific Deep Representations for Visual Recognition" arXiv 2014
+Evidence is mounting that CNNs are currently the most efficient and successful way to learn visual representations. This paper address the questions on why CNN representations are so effective and how to improve them if one wants to maximize performance for a single task or a range of tasks. We assess experimentally the importance of different aspects of learning and choosing a CNN representation to its performance on a diverse set of visual recognition tasks. In particular, we investigate how altering the parameters in a network's architecture and its training impacts the representation's ability to specialize and generalize. We also study the effect of fine-tuning a generic network towards a particular task. Extensive experiments indicate the trends; (a) increasing specialization increases performance on the target task but can hurt the ability to generalize to other tasks and (b) the less specialized the original network the more likely it is to benefit from fine-tuning. As by-products we have learnt several deep CNN image representations which when combined with a simple linear SVM classifier or similarity measure produce the best performance on 12 standard datasets measuring the ability to solve visual recognition tasks ranging from image classification to image retrieval.
+ network as a generic image representation to tackle the diverse range of recognition tasks of object image classification,
+ detection and image retrieval applied to a diverse set of datasets. We selected these
+ from the original task and data the OverFeat[9] network was
+ results compared to the highly tuned state-of-the-art systems in all the visual classification tasks
+ on various datasets. The results strongly suggest that features obtained from deep learning with
+ Reproducability crash scripts: The following scripts are provided only for reproducing results reported in [1]. The clean github project for reproducing all the results including the whole pipeline will be released later.
+ scripts and features to reproduce the results of [1] on MIT67 dataset (Scene Image Classification): 1.3G 
+ jittered images to reproduce the features above on MIT67 dataset (Scene Image Classification): 3.6G
+ script and features to reproduce the results of [1] on Holidays dataset (Instance Retrieval): 165M
+ jittered images to reproduce the features above on Holidays dataset (Instance Retrieval): 119M
+ We would like to gratefully acknowledge the support of NVIDIA Corporation with the donation of multiple Tesla K40 GPUs used for this research. This would have been impossible without their generous donation.
+ We would like to thank the following people for their helpful comments: Dr. Atsuto Maki, Dr. Pierre Sermanet, Dr. Ivan Laptev, Dr. Ross Girshick, and Dr. Relja Arandjelovic
+contact Hossein Azizpour and/or Ali S. Razavian via the e-mail address: familyname@kth.se if you see any inconsistencies in the web-page (tables, references, resources, etc.) or have questions/remarks
+ with precise information of the content to be updated or modified. Thanks!

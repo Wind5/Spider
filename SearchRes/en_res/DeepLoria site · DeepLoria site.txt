@@ -1,0 +1,107 @@
+Adji Bousso Dieng is a PhD student at Columbia University, supervised by Prof. David Blei and John Paisley.
+Adji gave a talk on April, 28th about her work on TopicRNN and variational inference.
+Thomas Kipf is a PhD student in Deep Learning for Network Analysis at the University of Amsterdam, supervised by Prof. Max Welling.
+He gave two talks on March, 21st and March, 23rd 2017 on Graph Convolutional Networks.
+Sander Dieleman (Google DeepMind) gave a talk on May, 17th, 2016
+on the occasion of the 40th Anniversary of the LORIA laboratory.
+Yann Lecun (Head of Facebook Research) gave a talk in our laboratory on April, 12th, 2016
+on the occasion of the 40th Anniversary of the LORIA laboratory.
+CS231 Stanford lecture of A. Karpathy material: covers topics like CNN, RNN, LSTM, some pretty recent things about captioning (CNN + RNN), deep dream, etc.. with lots of python codes
+1601.03651 Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation
+1602.05179 Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation
+1605.09090 Learning Natural Language Inference using Bidirectional LSTM model and Inner-Attention
+1606.05804 Generalizing to Unseen Entities and Entity Pairs with Row-less Universal Schema
+1607.01426 Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks
+1607.02467 Log-Linear RNNs: Towards Recurrent Neural Networks with Flexible Prior Knowledge
+1607.04853 An Empirical Evaluation of various Deep Learning Architectures for Bi-Sequence Classification Tasks
+1608.00466 Learning Semantically Coherent and Reusable Kernels in Convolution Neural Nets for Sentence Classification
+1608.01448 Word Segmentation on Micro-blog Texts with External Lexicon and Heterogeneous Data
+1608.02904 TweeTime: A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
+1608.07323 Speech Is 3x Faster than Typing for English and Mandarin Text Entry on Mobile Devices
+1609.04836 On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima
+1609.05866 A Cheap Linear Attention Mechanism with Fast Lookups and Fixed-Size Representations
+1609.07317 Language as a Latent Variable: Discrete Generative Models for Sentence Compression
+1609.08144 Googles Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
+1609.09025 Learning to Push by Grasping: Using multiple tasks for effective learning
+1609.09028 Stance Classification in Rumours as a Sequential Task Exploiting the Tree Structure of Social Media Conversations
+1610.00369 Sentiment Analysis on Bangla and Romanized Bangla Text (BRBT) using Deep Recurrent models
+1610.00765 Grounding the Lexical Sets of Causative-Inchoative Verbs with Word Embedding
+1610.01030 Applications of Online Deep Learning for Crisis Response Using Social Media Information
+1610.02415 Automatic chemical design using a data-driven continuous representation of molecules
+1610.03106 Supervised Term Weighting Metrics for Sentiment Analysis in Short Text
+1610.03164 Navigational Instruction Generation as Inverse Reinforcement Learning with Neural Machine Translation
+1610.03342 From phonemes to images: levels of representation in a recurrent neural model of visually-grounded language learning
+1610.03771 SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban Neighbourhoods
+1610.04345 A Language-independent and Compositional Model for Personality Trait Recognition from Short Texts
+1610.04989 Cached Long Short-Term Memory Neural Networks for Document-Level Sentiment Classification
+1610.05555 Online Contrastive Divergence with Generative Replay: Experience Replay without Storing Data
+1610.05755 Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data
+1610.06540 Jointly Learning to Align and Convert Graphemes to Phonemes with Neural Attention Models
+1610.07363 Learning Reporting Dynamics during Breaking News for Rumour Detection in Social Media
+1610.07432 Virtual Embodiment: A Scalable Long-Term Strategy for Artificial Intelligence Research
+1610.07708 Knowledge will Propel Machine Understanding of Content: Extrapolating from Current Examples
+1610.07844 Improving historical spelling normalization with bi-directional LSTMs and multi-task learning
+1610.08095 Modeling Ambiguity, Subjectivity, and Diverging Viewpoints in Opinion Question Answering Systems
+1610.08815 A Deeper Look into Sarcastic Tweets Using Deep Convolutional Neural Networks
+1610.09225 Sentiment Analysis of Twitter Data for Predicting Stock Market Movements
+1610.09722 Represent, Aggregate, and Constrain: A Novel Architecture for Machine Reading from Noisy Sources
+1611.00456 Measuring Asymmetric Opinions on Online Social Interrelationship with Language and Network Features
+1611.00801 A FOFE-based Local Detection Approach for Named Entity Recognition and Mention Detection
+1611.01587 A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+1611.03218 Learning to Play Guess Who? and Inventing a Grounded Language as a Consequence
+1611.03599 UTCNN: a Deep Learning Model of Stance Classificationon on Social Media Text
+1611.03641 Improving Reliability of Word Similarity Evaluation by Redesigning Annotation Task and Performance Measure
+1611.03852 A Connection between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models
+1611.04741 A Neural Architecture Mimicking Humans End-to-End for Natural Language Inference
+1611.05104 A Way out of the Odyssey: Analyzing and Combining Recent Insights for LSTMs
+1611.06204 Visualizing and Understanding Curriculum Learning for Long Short-Term Memory Networks
+1611.07174 Deep Recurrent Convolutional Neural Network: Improving Performance For Speech Recognition
+1612.00913 End-to-End Joint Learning of Natural Language Understanding and Dialogue Manager
+1612.01404 Mapping the Dialog Act Annotations of the LEGO Corpus into the Communicative Functions of ISO 24617-2
+1612.01556 The Evolution of Sentiment Analysis - A Review of Research Topics, Venues, and Top Cited Papers
+1612.01627 Sequential Match Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots
+1612.02695 Towards better decoding and language model integration in sequence to sequence models
+1612.02734 Learning in the Machine: Random Backpropagation and the Learning Channel
+1612.04403 You Are What You Eat Listen to, Watch, and Read
+1612.04499 Mining Compatible/Incompatible Entities from Question and Answering via Yes/No Answer Classification using Distant Label Expansion
+1612.04629 How Grammatical is Character-level Neural Machine Translation? Assessing MT Quality with Contrastive Translation Pairs
+1612.06671 Inferring the location of authors from words in their texts
+1612.07843 "What is Relevant in a Text Document?": An Interpretable Machine Learning Approach
+1612.09113 Deep Semi-Supervised Learning with Linguistically Motivated Sequence Labeling Task Hierarchies
+1701.00145 Expanding Subjective Lexicons for Social Media Mining with Embedding Subspaces
+1701.00289 Integrating sentiment and social structure to determine preference alignments: The Irish Marriage Referendum
+1701.00464 Conceptual Spaces for Cognitive Architectures: A Lingua Franca for Different Levels of Representation
+1701.01574 Real Multi-Sense or Pseudo Multi-Sense: An Approach to Improve Word Representation
+1701.03578 Efficient Transfer Learning Schemes for Personalized Language Modeling using Recurrent Neural Network
+1701.04722 Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks
+1701.05130 On the Performance of Network Parallel Training in Artificial Neural Networks
+1702.01923 Comparative Study of CNN and RNN for Natural Language Processing
+1702.04488 Transfer Learning for Low-Resource Chinese Word Segmentation with a Novel Neural Network
+1702.08591 The Shattered Gradients Problem: If resnets are the answer, then what is the question?
+1702.08690 Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning
+1703.04650 Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks
+1703.04816 FastQA: A Simple and Efficient Neural Architecture for Question Answering
+1703.04826 Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+1703.04887 Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets
+1703.06676 I2T2I: Learning Text to Image Synthesis with Textual Data Augmentation
+1703.08864 Learning Simpler Language Models with the Delta Recurrent Neural Network Framework
+1703.09039 Efficient Processing of Deep Neural Networks: A Tutorial and Survey
+1703.09902 Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation
+1703.10960 Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders
+1704.00939 Fortia-FBK at SemEval-2017 Task 5: Bullish or Bearish? Inferring Sentiment towards Brands from Financial News Headlines
+1704.06125 BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs
+1705.02364 Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+1705.10900 Does the Geometry of Word Embeddings Help Document Classification? A Case Study on Persistent Homology Based Representations
+1706.00139 Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+1706.01350 On the Emergence of Invariance and Disentangling in Deep Representations
+1706.06714 Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation
+1706.06996 Language That Matters: Statistical Inferences for Polarity Identification in Natural Language
+1706.08032 A Deep Neural Architecture for Sentence-level Sentiment Classification in Twitter Social Networking
+1706.08476 Generative Encoder-Decoder Models for Task-Oriented Spoken Dialog Systems with Chatting Capability
+1707.07585 Stock Prediction: a method based on extraction of news features and recurrent neural networks
+1707.09448 Sentiment Analysis on Financial News Headlines using Training Dataset Augmentation
+DeepLoria is a workgroup dedicated to the applications of deep learning in the LORIA laboratory.
+It is composed of about 85 researchers from LORIA and outside who interact together through a mailing list
+and post deep learning-related documents on this website, an intranet and a git server
+The DeepLoria group also organizes events at LORIA, and is coordinated by a small committee:
+if you have an INRIA account, otherwise, please send me an email.

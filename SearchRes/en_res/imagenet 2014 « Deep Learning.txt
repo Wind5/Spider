@@ -1,0 +1,2 @@
+Imagenet 2014 competition is one of the largest and the most challenging computer vision challenge. This challenge is held annually and each year it attracts top machine learning and computer vision researchers. Neural networks, specifically convolutional neural networks again made a big impact on the result of this years challenge [1]. Googles approach won the []
+September 19th, 2014 | Tags: competitions, GoogLeNet, image recognition, imagenet 2014 | Category: anouncements, competitions | Comments are closed 

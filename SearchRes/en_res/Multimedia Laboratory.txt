@@ -1,0 +1,27 @@
+ Deep learning is one of the most fascinating learning techniques. MMLAB formulates novel deep models for various vision 
+tasks such as face recognition, face alignment, pedestrian detection, and person parsing. 
+ Automatically understanding the behaviors of crowd from video sequences is of great interest to the computer vision community, 
+and has drawn more and more attentions in recent years. It has important applications to event recognition, traffic flow estimation, 
+ Artists have a fascinating ability to capture the most distinctive characteristics of human faces and depict them on sketches. 
+Although sketches are very different from photos in style and appearance, human beings often can easily recognize a person from his sketch. 
+We design computer programs to also have such amazing abilities. Read More
+ MMLAB develops fast and effective computing algorithms which can automatically conduct aesthetic assessment of large 
+scale photo datasets inspired by the criteria and skills adopted by professional photographers. Read More
+ We target on greatly improving user experience of web-based image search engines with extremely simple user interaction. 
+It interprets users’ search intention with the minimum feedback effort: only one click on the query image from a pool 
+ MMLAB develops novel algorithms for automatically locating facial keypoints, aligning face images, and identifying or verifying a person from a digital image or a video stream. Read More
+ The Multimedia Laboratory of the Department of Information Engineering is established by Prof. Xiaoou Tang in July 2001. 
+We won the CVPR 2009 Best Paper Award. This is the first one ever from Asia. Read more K. He, J. Sun, and X. Tang, "Single Image Haze Removal Using Dark Channel Prior ," CVPR, 2009
+Dahua Lin with his paper "Construction of Dependent Dirichlet Processes based on Poisson Processes", NIPS, 2010
+Dong Xu with his paper "Visual Event Recognition in Videos by Learning from Web Data", CVPR, 2010
+Huan Wang with his paper "Exact Recovery of Sparsely-Used Dictionaries", COLT, 2012 
+Shuicheng Yan with his papers "Dynamic Captioning: Video Accessibility Enhancement for Hearing Impairment" in ACM MM, 2010; "Automated Assembly of Shredded Pieces from Multiple Photos" in ICME, 2010; "Wow! You Are So Beautiful Today!", ACM MM, 2013; "Attributes-augmented Semantic Hierarchy for Image Retrieval", ACM MM, 2013 
+Lab members that pursue oversea studies: MIT (4 students), Standford (2 students), Cambridge (1 student), Columbia (2 students), CMU (2 students). 
+Our work with Microsoft Research Asia (MSRA) are now being used by two major Microsoft products.
+ Chaochao Lu's Mphil thesis titled "Face Verification in the Wild", supervised by Prof. Tang, is selected as the winner of Faculty's Outstanding Thesis Award 2015, congratulations!
+ Bolei Zhou, M.Phil. Student graduated in 2012 (supervised by Prof. Xiaoou Tang), has won the 2016-2017 Facebook Graduate Fellowship Award! Congratulations to Bolei! He is pursuing his Ph.D. at MIT.
+ Congratulation to Chaochao Lu for winning the outstanding student paper award of AAAI 2015! The paper is Surpassing Human-Level Face Verification Performance on LFW with GaussianFace
+ Congratulations to Dacheng Tao, for being elected to IEEE Fellow! Dacheng is now the second former MMlab students elected to IEEE Fellow, after Xuelong Li.
+ Yi Shuai, a HKPF supervised by Prof. Xiaogang Wang , has won the 2014 Microsoft Research Asia fellowship award! Congratulations to Shuai!
+ Our team CUHK DeepID-Net won 2nd place at 2014's ImageNet Large-Scale Visual Recognition Challenge in detection tasks! This year 38 entrants from 13 countries participated in the challenge.
+This site was built using Bootstrap, a front-end framework for web development. Thanks to the following site developers and all lab members that contribute their suggestions and information

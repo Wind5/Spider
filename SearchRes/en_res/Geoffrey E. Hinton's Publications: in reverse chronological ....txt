@@ -1,0 +1,122 @@
+Ali Eslami, S. M., Nicolas Heess, N., Theophane Weber, T., Tassa, Y., Szepesvari, D., Kavukcuoglu, K. and Hinton, G. E.
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I. and Salakhutdinov, R.
+Vinyals, O., Kaiser, L., Koo, T., Petrov, S., Sutskever, I., & Hinton, G. E. 
+Proc. ICML 2013 Workshop on Deep Learning for Audio,Speech and Language Processing}, Atlanta, USA.
+In IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) Vancouver, 2013.
+Improving Deep Neural Networks for LVCSR Using Rectified Linear Units and Dropout
+In IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) Vancouver, 2013.
+M.D. Zeiler, M. Ranzato, R. Monga, M. Mao, K. Yang, Q.V. Le,
+P. Nguyen, A. Senior, V. Vanhoucke, J. Dean, G. Hinton 
+In IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) Vancouver, 2013.
+New types of deep neural network learning for speech recognition and related applications: An overview
+In IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) Vancouver, 2013.
+IEEE Trans. Pattern Analysis and Machine Intelligence, Vol 35(9), pp 2206-2222.
+Advances in Neural Information Processing 25, MIT Press, Cambridge, MA 
+Advances in Neural Information Processing 25, MIT Press, Cambridge, MA 
+Modeling the joint density of two images under a variety of transformations.
+Discovering Binary Codes for Fast Document Retrieval by Learning Deep Generative Models.
+Dahl, G. E., Ranzato, M., Mohamed, A. and Hinton, G. E.
+Deng, L., Seltzer, M., Yu, D., Acero, A., Mohamed A. and Hinton, G.
+Y. Bengio, D. Schuurmans, J. lafferty, C. K. I. Williams, and
+Y. Bengio, D. Schuurmans, J. lafferty, C. K. I. Williams, and
+Palatucci, M, Pomerleau, D. A., Hinton, G. E. and Mitchell, T.
+Y. Bengio, D. Schuurmans, J. lafferty, C. K. I. Williams, and
+Schmah, T., Hinton, G.~E., Zemel, R., Small, S. and Strother, S. 
+Improving a statistical language model by modulating the effects of context words.
+Modeling image patches with a directed hierarchy of Markov random fields. 
+J.C. Platt and D. Koller and Y. Singer and S. Roweis (eds.),
+Using Deep Belief Nets to Learn Covariance Kernels for Gaussian Processes.
+J.C. Platt and D. Koller and Y. Singer and S. Roweis (eds.),
+Proceedings of the SIGIR Workshop on Information Retrieval and Applications of Graphical Models, Amsterdam.
+Cook, J. A., Sutskever, I., Mnih, A. and Hinton , G. E.
+Science, Vol. 313. no. 5786, pp. 504 - 507, 28 July 2006.
+Goldberger, J., Roweis, S., Salakhutdinov, R and Hinton, G. E. 
+Advances in Neural Information Processing Systems, 17, MIT Press, Cambridge, MA
+Advances in Neural Information Processing Systems, 17, MIT Press, Cambridge, MA
+Advances in Neural Information Processing Systems, 17, MIT Press, Cambridge, MA
+Advances in Neural Information Processing Systems, 16, MIT Press, Cambridge, MA
+Teh, Y. W, Welling, M., Osindero, S. and Hinton G. E.
+Friston, K.J., Penny, W., Phillips, C., Kiebel, S., Hinton, G. E., and
+Relative Density Nets: A New Way to Combine Backpropagation with HMM's.
+A Desktop Input Device and Interface for Interactive 3D Character Animation.
+Hinton G. E., Welling, M., Teh, Y. W, and Osindero, S.
+Using Free Energies to Represent Q-values in a Multiagent Reinforcement learning Task
+Advances in Neural Information Processing Systems 13, MIT Press, Cambridge, MA
+Advances in Neural Information Processing Systems 13, MIT Press, Cambridge, MA
+Learning Distributed Representations of Concepts from Relational Data Using Linear Relational Embedding
+In Advances in Neural Information Processing Systems 12, MIT Press, Cambridge,
+In Advances in Neural Information Processing Systems 12, MIT Press, Cambridge,
+Learning Distributed Representations by Mapping Concepts and Relations into a Linear Space
+ICML-2000, Proceedings of the Seventeenth International Conference on Machine Learning, Langley P. (Ed.), 711-718, Stanford University,
+Proceedings of the Ninth International Conference on Artificial Neural Networks 
+A view of the EM algorithm that justifies incremental, sparse, and other variants
+ D. S. Touretzky and T. K. Leen (Eds), pp 843-850 MIT Press, Cambridge
+Hinton, G. E., Dayan, P., Frey, B. J. and Neal, R.
+Dayan, P., Hinton, G. E., Neal, R., and Zemel, R. S.
+Hinton, G. E., Dayan, P., To, A. and Neal R. M.
+ Advances in Neural Information Processing Systems 6. J. D. Cowan, G. Tesauro and J.
+ Advances in Neural Information Processing Systems 6. J. D. Cowan, G. Tesauro and J.
+ A modified gating network for the mixtures of experts architectures.
+Williams, C. K. I., Revow, M. and Hinton, G. E. 
+Using mixtures of deformable models to capture variations in the shapes of hand-printed
+Keeping neural networks simple by minimizing the description length of the weights
+ Sixth ACM Conference on Computational Learning Theory, Santa Cruz, July 1993.
+ Advances in Neural Information Processing Systems 5. S. J. Hanson, J. D. Cowan and C. L.
+Glove-Talk: A neural network interface between a data-glove and a speech synthesizer. 
+Hinton, G. E., Williams, C. K. I., and Revow, M. 
+ Artificial Neural Networks II: Proceedings of ICANN-92. I. Aleksander and J. Taylor
+Hinton, G. E., Williams, C. K. I., and Revow, M. 
+ Advances in Neural Information Processing Systems 4. J. E. Moody, S. J. Hanson and R. P.
+A self-organizing neural network that discovers surfaces in random-dot stereograms. 
+ Advances in Neural Information Processing Systems 3. R. P. Lippmann, J. E. Moody, and D.
+ Mean field networks that learn to discriminate temporally distorted strings. 
+ Touretzky, D. S., Elman, J. L., Sejnowski, T. J. and Hinton, G. E. (Eds.) Connectionist
+ Models: Proceedings of the 1990 Connectionist Summer School. Morgan Kauffman: San Mateo,
+Touretzky, D. S., (Ed.) Advances in Neural Information Processing Systems 2, Morgan
+Touretzky, D. S., (Ed.) Advances in Neural Information Processing Systems 2, Morgan
+ Touretzky, D. S., (Ed.) Advances in Neural Information Processing Systems 2, Morgan
+ Touretzky, D. S., Elman, J. L., Sejnowski, T. J. and Hinton, G. E. (Eds.) Connectionist
+ Models: Proceedings of the 1990 Connectionist Summer School. Morgan Kauffman: San Mateo,
+ Touretzky, D. S., (Ed.)  Neural Information Processing Systems 1, Morgan Kaufmann:
+ In D. Z. Anderson, editor, Neural Information Processing Systems, pages 358--366, American
+ Learning translation invariant recognition in a massively parallel network. 
+ In Goos, G. and Hartmanis, J., editors, PARLE: Parallel Architectures and Languages
+(against the advice of the referees) because the chairman of the organizing committee thought it might
+[Commentary by John Maynard Smith in the News and Views section
+Kienker, P. K., Sejnowski, T. J., Hinton, G. E., and Schumacher, L. E. 
+Sejnowski, T. J., Kienker, P. K., and Hinton, G. E. 
+ In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing:
+ Explorations in the Microstructure of Cognition. Volume 1: Foundations, MIT Press,
+ In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing:
+ Explorations in the Microstructure of Cognition. Volume 1: Foundations, MIT Press,
+ In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing:
+ Explorations in the Microstructure of Cognition. Volume 1: Foundations, MIT Press,
+ In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing:
+ Explorations in the Microstructure of Cognition. Volume 1: Foundations, MIT Press,
+Rumelhart, D. E., Hinton, G. E., and Williams, R. J. 
+ In Rumelhart, D. E. and McClelland, J. L., editors, Parallel Distributed Processing:
+ Explorations in the Microstructure of Cognition. Volume 1: Foundations, MIT Press, Cambridge, MA. pp 318-362.
+Rumelhart, D. E., Smolensky, P., McClelland, J. L., and Hinton, G.
+ Parallel distributed models of schemata and sequential thought processes. 
+ In McClelland, J. L. and Rumelhart, D. E., editors, Parallel Distributed Processing:
+ Psychological and Biological Models, MIT Press, Cambridge, MA. pp 7-57.
+Ackley, D. H., Hinton, G. E., and Sejnowski, T. J. 
+ Symbols among the neurons: Details of a connectionist inference architecture. 
+ Proceedings of the Ninth International Joint Conference on Artificial Intelligence, Los
+ Proceedings of the Ninth International Joint Conference on Artificial Intelligence, Los
+ Proceedings of the IEEE conference on Computer Vision and Pattern Recognition, San
+Hammond, N., Hinton, G.E., Barnard, P., Long, J. and Whitefield, A
+ Evaluating the interface of a document processor: A comparison of expert judgement and
+ Proceedings of the First IFIP Conference on Human-Comuter Interaction, North-Holland
+ In Whiting, H., editor, Human Motor Actions: Bernstein Reassessed, North-Holland, New
+Ballard, D. H., Hinton, G. E., and Sejnowski, T. J. 
+ Proceedings of the IEEE conference on Computer Vision and Pattern Recognition, Washington
+ Massively parallel architectures for A.I.: Netl, Thistle, and Boltzmann machines. 
+ In Hinton, G. E. and Anderson, J. A, editors, Parallel Models of Associative Memory,
+ In Hinton, G. E. and Anderson, J. A., editors, Parallel Models of Associative Memory,
+ A parallel computation that assigns canonical object-based frames of reference.
+ Proceedings of the Seventh International Joint Conference on Artificial Intelligence Vol
+ In Long, J. and Baddeley, A., editors, Attention and Performance IX, Erlbaum, Hillsdale,
+ Proceedings of the Seventh International Joint Conference on Artificial Intelligence Vol
+ Some demonstrations of the effects of structural descriptions in mental imagery. 
+Sloman, A., Owen, D. Hinton., G., Birch, F. and O'Gorman, F.

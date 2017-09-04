@@ -1,0 +1,254 @@
+ Y. Bengio, A. Courville, and P. Vincent, Representation Learning: A Review and New Perspectives, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 35, iss. 8, pp. 1798-828, 2013. doi:10.1109/TPAMI.2013.50 [BibTeX]
+ Y. Bengio and A. Courville, Deep Learning of Representations, in Handbook on Neural Information Processing, Springer, 2013, pp. 1-28. [BibTeX]
+ L. Bo, X. Ren, and D. Fox, Multipath Sparse Coding Using Hierarchical Matching Pursuit, 2013 IEEE Conference on Computer Vision and Pattern Recognition, pp. 660-667, 2013. doi:10.1109/CVPR.2013.91 [BibTeX]
+journal = {2013 IEEE Conference on Computer Vision and Pattern Recognition},
+ L. Bo and D. Fox, Attribute based object identification, 2013 IEEE International Conference on Robotics and Automation, pp. 2096-2103, 2013. doi:10.1109/ICRA.2013.6630858 [BibTeX]
+ D. Cire{c{s}}an and J. Schmidhuber, Multi-Column Deep Neural Networks for Offline Handwritten Chinese Character Classification, 2013. [BibTeX]
+title = {Multi-Column Deep Neural Networks for Offline Handwritten Chinese Character Classification},
+ D. Cire{c{s}}an, A. Giusti, L. M. Gambardella, and J. Schmidhuber, Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks, in Medical Image Computing and Computer Assisted Intervention (MICCAI2013), 2013. [BibTeX]
+author = {Cire{\c{s}}an, Dan and Giusti, Alessandro and Gambardella, Luca Maria and Schmidhuber, Jurgen},
+title = {Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks},
+ A. Coates, B. Huval, T. Wang, D. Wu, B. Catanzaro, and N. Andrew, Deep learning with COTS HPC systems, in Proceedings of the 30th International Conference on Machine Learning (ICML-13), 2013, pp. 1337-1345. [BibTeX]
+author={Coates, Adam and Huval, Brody and Wang, Tao and Wu, David and Catanzaro, Bryan and
+ A. C. Damianou and N. D. Lawrence, Deep Gaussian Processes, in Proceedings of the 16th International Conference on Artificial Intelligence and Statistics (AISTATS), 2013, pp. 207-215. [BibTeX]
+booktitle = {Proceedings of the 16th International Conference on Artificial Intelligence and Statistics ({AISTATS})},
+ A. Giusti, D. Cire{c{s}}an, J. Masci, and L. M. Gambardella, Fast Image Scanning with Deep Max-Pooling Convolutional Neural Networks, 2013. [BibTeX]
+author = {Giusti, Alessandro and Cire{\c{s}}an, Dan and Masci, Jonathan and Gambardella, Luca M},
+title = {Fast Image Scanning with Deep Max-Pooling Convolutional Neural Networks},
+ A. Graves, A. -R. Mohamed, and G. Hinton, Speech recognition with deep recurrent neural networks, in 2013 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2013, pp. 6645-6649. doi:10.1109/ICASSP.2013.6638947 [BibTeX]
+booktitle={2013 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+keywords={speech recognition;connectionist temporal classification;deep recurrent neural networks;end-to-end training methods;long short-term memory RNN architecture;sequential data;speech recognition;Acoustics;Noise;Recurrent neural networks;Speech recognition;Training;Vectors;deep neural networks;recurrent neural networks;speech recognition},
+ C. Gulcehre and Y. Bengio, Knowledge matters: Importance of prior information for optimization, 2013. [BibTeX]
+ Y. Kim, H. Lee, and E. M. Provost, Deep learning for robust feature generation in audiovisual emotion recognition, in Acoustics, Speech and Signal Processing (ICASSP), 2013 IEEE International Conference on, 2013, pp. 3687-3691. doi:10.1109/ICASSP.2013.6638346 [BibTeX]
+booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2013 IEEE International Conference on},
+ H. P. Martinez, Y. Bengio, and G. N. Yannakakis, Learning Deep Physiological Models of Affect, IEEE Computational Intelligence Magazine, vol. 8, iss. 2, pp. 20-33, 2013. [BibTeX]
+ J. Masci, A. Giusti, G. Fricout, D. Cire{c{s}}an, and J. Schmidhuber, A Fast Learning Algorithm for Image Segmentation with Max-Pooling Convolutional Networks, in Proceedings of IEEE International Conference on Image Processing (ICIP), 2013. [BibTeX]
+author = {Masci, Jonathan and Giusti, Alessandro and Fricout, Gabriel and Cire{\c{s}}an, Dan and Schmidhuber, J{\"u}rgen},
+booktitle = {Proceedings of IEEE International Conference on Image Processing ({ICIP})},
+title = {A Fast Learning Algorithm for Image Segmentation with Max-Pooling Convolutional Networks},
+ J. Schmidhuber, My First Deep Learning System of 1991+ Deep Learning Timeline 1962-2013, , 2013. [BibTeX]
+title={My First Deep Learning System of 1991+ Deep Learning Timeline 1962-2013},
+ L. Wan, M. Zeiler, S. Zhang, Y. L. Cun, and R. Fergus, Regularization of Neural Networks using DropConnect, in Proceedings of the 30th International Conference on Machine Learning (ICML-13), 2013, pp. 1058-1066. [BibTeX]
+author={Wan, Li and Zeiler, Matthew and Zhang, Sixin and Cun, Yann L and Fergus, Rob},
+ L. Xie and X. He, Picture tags and world knowledge: learning tag relations from visual semantic sources, in ACM Multimedia, 2013, pp. 967-976. [BibTeX]
+ K. Yao, G. Zweig, M. Hwang, Y. Shi, and D. Yu, Recurrent neural networks for language understanding, in Proceedings of Interspeech, 2013, pp. 104-108. [BibTeX]
+author={Yao, Kaisheng and Zweig, Geoffrey and Hwang, Mei-Yuh and Shi, Yangyang and Yu,
+ M. D. Zeiler and R. Fergus, Stochastic Pooling for Regularization of Deep Convolutional Neural Networks, in International Conference on Learning Representations (ICLR), 2013. [BibTeX]
+title = {Stochastic Pooling for Regularization of Deep Convolutional Neural Networks},
+ Q. Le, M. Ranzato, R. Monga, M. Devin, K. Chen, G. Corrado, J. Dean, and A. Ng, Building high-level features using large scale unsupervised learning, in International Conference in Machine Learning (ICML), 2012. [BibTeX]
+author = {Quoc Le and Marc'Aurelio Ranzato and Rajat Monga and Matthieu Devin and Kai Chen and Greg Corrado and Jeff Dean and Andrew Ng},
+ G. Alain, Y. Bengio, and S. Rifai, Regularized Auto-Encoders Estimate Local Statistics, Département dInformatique et de Recherche Opérationnelle, Université de Montréal 2012. [BibTeX]
+institution = {D{\'{e}}partement d'Informatique et de Recherche Op{\'{e}}rationnelle, Universit{\'{e}} de Montr{\'{e}}al},
+ P. Baldi and P. Sadowski, Deep Target Algorithms for Deep Learning, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2012. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ D. Cire{c{s}}an, A. Giusti, J. Schmidhuber, and others, Deep neural networks segment neuronal membranes in electron microscopy images, in Advances in Neural Information Processing Systems (NIPS), 2012, pp. 2852-2860. [BibTeX]
+ D. Cire{c{s}}an, U. Meier, and J. Schmidhuber, Multi-column deep neural networks for image classification, in 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012, pp. 3642-3649. [BibTeX]
+ D. C. Cire{c{s}}an, U. Meier, and J. Schmidhuber, Transfer learning for Latin and Chinese characters with Deep Neural Networks, in 2012 International Joint Conference on Neural Networks (IJCNN), 2012. [BibTeX]
+title={Transfer learning for Latin and Chinese characters with Deep Neural Networks},
+ G. E. Dahl, R. P. Adams, and H. Larochelle, Training restricted Boltzmann machines on word observations, , 2012. [BibTeX]
+ S. Dieleman and B. Schrauwen, Accelerating sparse restricted Boltzmann machine training using non-Gaussianity measures, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2012. [BibTeX]
+ A. Freytag, E. Rodner, P. Bodesheim, and J. Denzler, Beyond Classification  Large-scale Gaussian Process Inference and Uncertainty Prediction, , pp. 2-6, 2012. [BibTeX]
+author = {Freytag, Alexander and Rodner, Erik and Bodesheim, Paul and Denzler, Joachim},
+booktitle = {Proceedings of the $11^{th}$ Asian Conference on Computer Vision ({ACCV})},
+title = {Beyond Classification -- Large-scale {G}aussian Process Inference and Uncertainty Prediction},
+ I. J. Goodfellow, A. Courville, and Y. Bengio, Joint Training of Partially-Directed Deep Boltzmann Machines, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2012. [BibTeX]
+author = {Goodfellow, Ian J and Courville, Aaron and Bengio, Yoshua},
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ C. Haeusler and A. Susemihl, Temporal Autoencoding Restricted Boltzmann Machine, , 2012. [BibTeX]
+institution = {Neuroinformatics and Theoretical Neuroscience Group and Department of Artificial Intelligence, Bernstein Center for Computational Neuroscience Berlin, Germany},
+ G. Hinton, A Practical Guide to Training Restricted Boltzmann Machines, in Neural Networks: Tricks of the Trade, G. Montavon, G. Orr, and K. Müller, Eds., Springer Berlin Heidelberg, 2012, pp. 599-619. doi:10.1007/978-3-642-35289-8_32 [BibTeX] [Download PDF]
+ G. B. Huang and E. Learned-Miller, Learning hierarchical representations for face verification with convolutional deep belief networks, in 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012, pp. 2518-2525. doi:10.1109/CVPR.2012.6247968 [BibTeX]
+booktitle = {2012 IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},
+title = {Learning hierarchical representations for face verification with convolutional deep belief networks},
+ S. J. Hwang, K. Grauman, and F. Sha, Semantic Kernel Forests from Multiple Taxonomies, in Advances in Neural Information Processing Systems, 2012, pp. 1727-1735. [BibTeX]
+ Y. Jia, J. Abbott, J. Austerweil, T. Griffiths, and T. Darrell, Visually-Grounded Bayesian Word Learning, EECS Department, University of California, Berkeley, UCB/EECS-2012-202, 2012. [BibTeX] [Abstract]
+Learning the meaning of a novel noun from a few labeled objects is one of the simplest aspects of learning a language, but approximating human performance on this task is still a significant challenge for current machine learning systems. Current methods typically fail to find the appropriate level of generalization in a concept hierarchy for a given visual stimulus. Recent work in cognitive science on Bayesian models of word learning partially addresses this challenge, but it assumes that the labels of objects are given (hence no object recognition) and it has only been evaluated in small domains. We present a system for learning nouns directly from images, using probabilistic predictions generated by visual classifiers as the input to Bayesian word learning, and compare this system to human performance in an automated, large-scale experiment. The system captures a significant proportion of the variance in human responses. Combining the uncertain outputs of the visual classifiers with the ability to identify an appropriate level of abstraction that comes from Bayesian word learning allows the system to outperform alternatives that either cannot deal with visual stimuli or use a more conventional computer vision approach.
+Author = {Jia, Yangqing and Abbott, Joshua and Austerweil, Joseph and Griffiths, Thomas and Darrell, Trevor},
+Abstract = {Learning the meaning of a novel noun from a few labeled objects is one of the simplest aspects of learning a language, but approximating human performance on this task is still a significant challenge for current machine learning systems. Current methods typically fail to find the appropriate level of generalization in a concept hierarchy for a given visual stimulus. Recent work in cognitive science on Bayesian models of word learning partially addresses this challenge, but it assumes that the labels of objects are given (hence no object recognition) and it has only been evaluated in small domains. We present a system for learning nouns directly from images, using probabilistic predictions generated by visual classifiers as the input to Bayesian word learning, and compare this system to human performance in an automated, large-scale experiment. The system captures a significant proportion of the variance in human responses. Combining the uncertain outputs of the visual classifiers with the ability to identify an appropriate level of abstraction that comes from Bayesian word learning allows the system to outperform alternatives that either cannot deal with visual stimuli or use a more conventional computer vision approach.}
+ U. Koster, J. Sohl-Dickstein, and B. Olshausen, Modeling Laminar Recordings from Visual Cortex with Semi-Restricted Boltzmann Machines, in NIPS Workshop on Deep Learning and Unsupervised Feature Generation, 2012. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Generation},
+title = {Modeling Laminar Recordings from Visual Cortex with Semi-Restricted {Boltzmann} Machines},
+ A. Krizhevsky, I. Sutskever, and G. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, in Advances in Neural Information Processing Systems (NIPS), 2012, pp. 1106-1114. [BibTeX]
+ M. Längkvist and A. Loutfi, Not all signals are created equal : Dynamic Objective Auto-Encoder for Multivariate Data, NIPS Neural Information Processing Systems, 2012. [BibTeX]
+title = {Not all signals are created equal : Dynamic Objective Auto-Encoder for Multivariate Data},
+ W. Lee and M. S. Lewicki, Adaptive representations of scenes based on ICA mixture model, in NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+title = {Adaptive representations of scenes based on ICA mixture model},
+ A. R. Mahmood and R. S. Sutton, Online Representation Search and Its Interactions with Unsupervised Learning, in Advances in Neural Information Processing Systems (NIPS), 2012. [BibTeX]
+title = {Online Representation Search and Its Interactions with Unsupervised Learning},
+ J. Masci, U. Meier, D. Cire{c{s}}an, J. Schmidhuber, and G. Fricout, Steel defect classification with max-pooling convolutional neural networks, in The 2012 International Joint Conference on Neural Networks (IJCNN), 2012. [BibTeX]
+author={Masci, Jonathan and Meier, Ueli and Cire{\c{s}}an, Dan and Schmidhuber, J{\"u}rgen and Fricout, Gabriel},
+ G. Mesnil, Y. Dauphin, X. Glorot, S. Rifai, Y. Bengio, I. J. Goodfellow, E. Lavoie, X. Muller, G. Desjardins, D. Warde-Farley, and others, Unsupervised and Transfer Learning Challenge: a Deep Learning Approach., Journal of Machine Learning Research-Proceedings Track, vol. 27, pp. 97-110, 2012. [BibTeX]
+author={Mesnil, Gr{\'e}goire and Dauphin, Yann and Glorot, Xavier and Rifai, Salah and Bengio,
+Yoshua and Goodfellow, Ian J and Lavoie, Erick and Muller, Xavier and Desjardins, Guillaume and
+ G. Montufar and J. Morton, Kernels and Submodels of Deep Belief Networks, , 2012. [BibTeX]
+ H. Nakayama, Aggregating Descriptors with Local Gaussian Metrics, in NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+ B. Olshausen, Can deep learning provide deep insights about visual representation?, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2012. [BibTeX]
+title = {Can deep learning provide deep insights about visual representation?},
+ C. J. Pal and K. Hasan, Creating a Big Data Resource from the Faces of Wikipedia, in NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+ R. Pascanu, T. Mikolov, and Y. Bengio, On the difficulty of training recurrent neural networks, in Proceedings of The 30th International Conference on Machine Learning, 2012, pp. 1310-1318. [BibTeX]
+booktitle = {Proceedings of The 30th International Conference on Machine Learning},
+ R. Pascanu, T. Mikolov, and Y. Bengio, Understanding the exploding gradient problem, Computing Research Repository (CoRR), vol. abs/1211.5063, 2012. [BibTeX]
+ T. Raiko, H. Valpola, and Y. LeCun, Deep learning made easier by linear transformations in perceptrons, in International Conference on Artificial Intelligence and Statistics (AISTATS), 2012, pp. 924-932. [BibTeX]
+ R. Salakhutdinov and G. Hinton, An efficient learning procedure for deep Boltzmann machines, Neural Computation, vol. 24, iss. 8, pp. 1967-2006, 2012. [BibTeX]
+ H. Schulz and S. Behnke, Deep Learning: Layer-wise Learning of Feature Hierarchies, , vol. 26, iss. 4, pp. 357-363, 2012. [BibTeX]
+ L. Y. Shao, Linear-Nonlinear-Poisson Neurons Can Do Inference On Deep Boltzmann Machines, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2012. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ R. Socher, B. Huval, B. Bhat, C. D. Manning, and A. Ng, Convolutional-recursive deep learning for 3D object classification, in Advances in Neural Information Processing Systems (NIPS), 2012, pp. 665-673. [BibTeX]
+author={Socher, Richard and Huval, Brody and Bhat, Bharath and Manning, Christopher D and Ng,
+ R. Socher, B. Huval, C. D. Manning, and A. Y. Ng, Semantic compositionality through recursive matrix-vector spaces, in Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning, 2012, pp. 1201-1211. [BibTeX]
+author={Socher, Richard and Huval, Brody and Manning, Christopher D and Ng, Andrew Y},
+booktitle={Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+ Y. Tang, R. Salakhutdinov, and G. Hinton, Robust Boltzmann Machines for Recognition and Denoising, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2264-2271, 2012. doi:10.1109/CVPR.2012.6247936 [BibTeX]
+journal = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ M. Villegas, R. Paredes, and D. Vera, A $k$-NN Approach for Scalable Image Annotation Using General Web Data, in NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+title = {A $k$-{N}{N} Approach for Scalable Image Annotation Using General {W}eb Data},
+ B. A. White, A. E. Miller, and L. S. Davis, Classifier-as-a-Service: Online Query of Cascades and Operating Points, in NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+author = {White, Brandyn A and Miller, Andrew E and Davis, Larry S},
+ J. Xie, L. Xu, and E. Chen, Image denoising and inpainting with deep neural networks, in Advances in Neural Information Processing Systems, 2012, pp. 350-358. [BibTeX]
+ C. Xiong and J. J. Corso, Randomly Multi-view Clustering for Hashing, NIPS Workshop  Big Data Meets Computer Vision: First International Workshop on Large Scale Visual Recognition and Retrieval, 2012. [BibTeX]
+journal = {{NIPS} Workshop -- Big Data Meets Computer Vision: First International
+ M. D. Zeiler and R. Fergus, Differentiable Pooling for Hierarchical Feature Learning, , 2012. [BibTeX]
+ W. Zou, A. Ng, S. Zhu, and K. Yu, Deep learning of invariant features via simulated fixations in video, in Advances in Neural Information Processing Systems 25, 2012, pp. 3212-3220. [BibTeX]
+author={Zou, Will and Ng, Andrew and Zhu, Shenghuo and Yu, Kai},
+ D. Benbouzid, R. Busa-Fekete, and B. Kégl, MDDAG: learning deep decision DAGs in a Markov decision process setup, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+title={{MDDAG}: learning deep decision {DAGs} in a {Markov} decision process setup},
+ M. Blum, J. T. Springenberg, J. Wulfing, and M. Riedmiller, On the applicability of unsupervised feature learning for object recognition in RGB-D data, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+title={On the applicability of unsupervised feature learning for object recognition in {RGB-D} data},
+author={Blum, Manuel and Springenberg, Jost Tobias and Wulfing, J and Riedmiller, Martin},
+ O. Chapelle and D. Erhan, Improved Preconditioner for Hessian Free Optimization, in NIPS Workshop on Deep Learning and Learning Feature Hierarchies, 2011. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Learning Feature Hierarchies},
+ J. Chien and Y. Chang, Unsupervised Structural Learning of Word Topics and Sentence Topics, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+title = {Unsupervised Structural Learning of Word Topics and Sentence Topics},
+ K. Cho, T. Raiko, and A. Ilin, Gaussian-Bernoulli Deep Boltzmann Machine, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+ K. Cho, T. Raiko, A. Ilin, and J. Karhunen, A Two-stage Pretraining Algorithm for Deep Boltzmann Machines, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+author = {Cho, Kyunghyun and Raiko, Tapani and Ilin, Alexander and Karhunen, Juha},
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ D. C. Cire{c{s}}an, U. Meier, J. Masci, L. M. Gambardella, and J. Schmidhuber, Flexible, high performance convolutional neural networks for image classification, in Proceedings of the $22^{nd}$ International Joint Conference on Artificial Intelligence-Volume 2, 2011, pp. 1237-1242. [BibTeX]
+author={Cire{\c{s}}an, Dan C and Meier, Ueli and Masci, Jonathan and Gambardella, Luca M and Schmidhuber, J{\"u}rgen},
+booktitle={Proceedings of the $22^{nd}$ International Joint Conference on Artificial Intelligence-Volume 2},
+ D. Cire{c{s}}an, U. Meier, J. Masci, and J. Schmidhuber, A committee of neural networks for traffic sign classification, in Neural Networks (IJCNN), The 2011 International Joint Conference on, 2011, pp. 1918-1921. [BibTeX]
+author={Cire{\c{s}}an, Dan and Meier, Ueli and Masci, Jonathan and Schmidhuber, J{\"u}rgen},
+ D. C. Cire{c{s}}an, U. Meier, L. M. Gambardella, and J. Schmidhuber, Convolutional neural network committees for handwritten character classification, in 2011 International Conference on Document Analysis and Recognition (ICDAR), 2011, pp. 1135-1139. [BibTeX]
+author={Cire{\c{s}}an, Dan Claudiu and Meier, Ueli and Gambardella, Luca Maria and Schmidhuber, J{\"u}rgen},
+ D. Cire{c{s}}an, U. Meier, L. M. Gambardella, and J. Schmidhuber, Handwritten Digit Recognition with a Committee of Deep Neural Nets on GPUs, 2011. [BibTeX]
+author = {Cire{\c{s}}an, Dan and Meier, Ueli and Gambardella, Luca Maria and Schmidhuber, Jurgen},
+title = {Handwritten Digit Recognition with a Committee of Deep Neural Nets on GPUs},
+ M. Längkvist and A. Loutfi, Unsupervised feature learning for electronic nose data applied to Bacteria Identification in Blood., in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+title={Unsupervised feature learning for electronic nose data applied to Bacteria Identification in
+ Q. V. Le, A. Coates, B. Prochnow, and A. Y. Ng, On Optimization Methods for Deep Learning, in Proceedings of The 28th International Conference on Machine Learning (ICML), 2011, pp. 265-272. [BibTeX]
+author = {Le, Quoc V and Coates, Adam and Prochnow, Bobby and Ng, Andrew Y},
+booktitle = {Proceedings of The 28th International Conference on Machine Learning ({ICML})},
+ H. Lee, R. Grosse, R. Ranganath, and A. Y. Ng, Unsupervised learning of hierarchical representations with convolutional deep belief networks, Communications of the ACM, vol. 54, iss. 10, pp. 95-103, 2011. [BibTeX]
+author={Lee, Honglak and Grosse, Roger and Ranganath, Rajesh and Ng, Andrew Y},
+ U. Meier, D. C. Cire{c{s}}an, L. M. Gambardella, and J. Schmidhuber, Better digit recognition with a committee of simple neural nets, in International Conference on Document Analysis and Recognition (ICDAR), 2011, pp. 1250-1254. [BibTeX]
+author={Meier, Ueli and Cire{\c{s}}an, Dan Claudiu and Gambardella, Luca Maria and Schmidhuber, J{\"u}rgen},
+ R. Memisevic, On spatio-temporal sparse coding: Analysis and an algorithm, NIPS Workshop in Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+journal = {{NIPS} Workshop in Deep Learning and Unsupervised Feature Learning},
+ A-R. Mohamed, T. N. Sainath, G. Dahl, B. Ramabhadran, G. E. Hinton, and M. A. Picheny, Deep belief networks using discriminative features for phone recognition, in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2011), 2011, pp. 5060-5063. [BibTeX]
+author={Mohamed, A-R and Sainath, Tara N and Dahl, George and Ramabhadran, Bhuvana and Hinton, Geoffrey E and Picheny, Michael A},
+booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2011)},
+ G. Montavon, M. Braun, and K. -R. Müller, Importance of Cross-Layer Cooperation for Learning Deep Feature Hierarchies, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+title = {Importance of Cross-Layer Cooperation for Learning Deep Feature Hierarchies},
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ J. Nagi, F. Ducatelle, G. D. A. Caro, D. Cire{c{s}}an, U. Meier, A. Giusti, and L. M. Gambardella, Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition, , pp. 342-347, 2011. [BibTeX]
+author = {Nagi, Jawad and Ducatelle, Frederick and Caro, Gianni A Di and Cire{\c{s}}an, Dan and Meier, Ueli and Giusti, Alessandro and Gambardella, Luca Maria},
+title = {Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition},
+ Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng, Reading Digits in Natural Images with Unsupervised Feature Learning, , 2011. [BibTeX]
+author = {Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y},
+title = {Reading Digits in Natural Images with Unsupervised Feature Learning},
+ J. Ngiam, A. Khosla, M. Kim, J. Nam, H. Lee, and A. Y. Ng, Multimodal Deep Learning, in Proceedings of The 28th International Conference on Machine Learning (ICML), 2011, pp. 689-696. [BibTeX]
+author = {Ngiam, Jiquan and Khosla, Aditya and Kim, Mingyu and Nam, Juhan and Lee, Honglak and Ng, Andrew Y},
+booktitle = {Proceedings of The 28th International Conference on Machine Learning ({ICML})},
+ J. Schmidhuber, D. Cire{c{s}}an, U. Meier, J. Masci, and A. Graves, On fast deep nets for AGI vision, in Artificial General Intelligence, Springer, 2011, pp. 243-246. [BibTeX]
+author={Schmidhuber, Jurgen and Cire{\c{s}}an, Dan and Meier, Ueli and Masci, Jonathan and
+ H. Schulz and S. Behnke, Object-class segmentation using deep convolutional neural networks, in Proceedings of the DAGM Workshop on New Challenges in Neural Computation, 2011, pp. 58-61. [BibTeX]
+booktitle={Proceedings of the DAGM Workshop on New Challenges in Neural Computation},
+ R. Socher, C. C. Lin, A. Ng, and C. Manning, Parsing natural scenes and natural language with recursive neural networks, in Proceedings of the 28th International Conference on Machine Learning (ICML), 2011, pp. 129-136. [BibTeX]
+author={Socher, Richard and Lin, Cliff C and Ng, Andrew and Manning, Chris},
+ B. Uria, S. Renals, and K. Richmond, A Deep Neural Network for Acoustic-Articulatory Speech Inversion, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+booktitle = {{NIPS} Workshop on Deep Learning and Unsupervised Feature Learning},
+ V. Vanhoucke, A. Senior, and M. Z. Mao, Improving the speed of neural networks on CPUs, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+ Z. Wang and N. de Freitas, Predictive adaptation of hybrid Monte Carlo with Bayesian parametric bandits, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+ M. D. Zeiler, G. W. Taylor, and R. Fergus, Adaptive Deconvolutional Networks for Mid and High Level Feature Learning, in 2011 IEEE International Conference on Computer Vision (ICCV), 2011, pp. 2018-2025. [BibTeX]
+ W. Y. Zou, A. Y. Ng, and K. Yu, Unsupervised learning of visual invariance with temporal coherence, in NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. [BibTeX]
+ Y. Boureau, J. Ponce, and Y. LeCun, A Theoretical Analysis of Feature Pooling in Visual Recognition, in Proceedings of the 27th International Conference on Machine Learning (2010), 2010, pp. 111-118. [BibTeX]
+booktitle = {Proceedings of the 27th International Conference on Machine Learning (2010)},
+title = {A Theoretical Analysis of Feature Pooling in Visual Recognition},
+ Y. Boureau, F. Bach, Y. LeCun, and J. Ponce, Learning mid-level features for recognition, in Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on, 2010, pp. 2559-2566. [BibTeX]
+author = {Boureau, Y-Lan and Bach, Francis and LeCun, Yann and Ponce, Jean},
+booktitle = {Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on},
+ D. Cire{c{s}}an, U. Meier, L. M. Gambardella, and J. Schmidhuber, Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition, Neural Computation, vol. 22, iss. 12, pp. 3207-3220, 2010. [BibTeX]
+author = {Cire{\c{s}}an, Dan and Meier, Ueli and Gambardella, Luca Maria and Schmidhuber, Jurgen},
+title = {Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition},
+ G. E. Dahl, M. Ranzato, A. -, and G. E. Hinton, Phone Recognition with the Mean-Covariance Restricted Boltzmann Machine, in Advances in Neural Information Processing Systems 23, 2010, pp. 469-477. [BibTeX]
+editor = {J. Lafferty and C. K. I. Williams and J. Shawe-Taylor and R.S. Zemel and A. Culotta},
+ G. Desjardins, A. C. Courville, Y. Bengio, P. Vincent, and O. Delalleau, Tempered Markov chain Monte Carlo for training of restricted Boltzmann machines, in International Conference on Artificial Intelligence and Statistics (AISTATS), 2010, pp. 145-152. [BibTeX]
+title={Tempered {Markov} chain {Monte} {Carlo} for training of restricted {Boltzmann} machines},
+author={Desjardins, Guillaume and Courville, Aaron C and Bengio, Yoshua and Vincent, Pascal and
+ D. Erhan, A. Courville, and P. Vincent, Why Does Unsupervised Pre-training Help Deep Learning ?, Journal of Machine Learning Research, vol. 11, iss. 2007, pp. 625-660, 2010. [BibTeX]
+ K. Kavukcuoglu, M. Ranzato, and Y. LeCun, Fast inference in sparse coding algorithms with applications to object recognition, 2010. [BibTeX]
+title={Fast inference in sparse coding algorithms with applications to object recognition},
+ A. Krizhevsky, G. E. Hinton, and others, Factored 3-way restricted Boltzmann machines for modeling natural images, in International Conference on Artificial Intelligence and Statistics (AISTATS), 2010, pp. 621-628. [BibTeX]
+ M. Ranzato and G. E. Hinton, Modeling Pixel Means and Covariances using Factorized Third-order Boltzmann Machines, in 2010 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010, pp. 2551-2558. [BibTeX]
+ G. W. Taylor, R. Fergus, Y. LeCun, and C. Bregler, Convolutional learning of spatio-temporal features, in Proceedings of the European Confernce on Computer Vision (ECCV), Springer, 2010, pp. 140-153. [BibTeX]
+author={Taylor, Graham W and Fergus, Rob and LeCun, Yann and Bregler, Christoph},
+ J. Yang, K. Yu, and T. Huang, Supervised translation-invariant sparse coding, in 2010 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010, pp. 3517-3524. doi:10.1109/CVPR.2010.5539958 [BibTeX]
+ M. D. Zeiler, D. Krishnan, G. W. Taylor, and R. Fergus, Deconvolutional Networks, in IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), 2010, pp. 2528-2535. doi:10.1109/CVPR.2010.5539957 [BibTeX]
+author = {Zeiler, Matthew D and Krishnan, Dilip and Taylor, Graham W and Fergus, Rob},
+booktitle = {IEEE Computer Society Conference on Computer Vision and Pattern Recognition ({CVPR})},
+ D. Erhan, P. Manzagol, Y. Bengio, S. Bengio, and P. Vincent, The difficulty of training deep architectures and the effect of unsupervised pre-training, in International Conference on Artificial Intelligence and Statistics (AISTATS), 2009, pp. 153-160. [BibTeX]
+title={The difficulty of training deep architectures and the effect of unsupervised pre-training},
+author={Erhan, Dumitru and Manzagol, Pierre-Antoine and Bengio, Yoshua and Bengio, Samy and
+ I. Goodfellow, H. Lee, Q. V. Le, A. Saxe, and A. Y. Ng, Measuring invariances in deep networks, in Advances in Neural Information Processing Systems (NIPS), 2009, pp. 646-654. [BibTeX]
+author={Goodfellow, Ian and Lee, Honglak and Le, Quoc V and Saxe, Andrew and Ng, Andrew Y},
+ K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun, What is the best multi-stage architecture for object recognition?, in IEEE 12th International Conference on Computer Vision (ICCV), 2009, pp. 2146-2153. [BibTeX]
+author = {Jarrett, Kevin and Kavukcuoglu, Koray and Ranzato, Marc Aurelio and LeCun, Yann},
+title = {What is the best multi-stage architecture for object recognition?},
+ K. Kavukcuoglu, M. Ranzato, R. Fergus, and Y. LeCun, Learning invariant features through topographic filter maps, in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009, pp. 1605-1612. [BibTeX]
+author={Kavukcuoglu, Koray and Ranzato, Marc’Aurelio and Fergus, Rob and LeCun, Yann},
+ H. Larochelle, Y. Bengio, J. Louradour, and P. Lamblin, Exploring strategies for training deep neural networks, The Journal of Machine Learning Research, vol. 10, pp. 1-40, 2009. [BibTeX]
+author={Larochelle, Hugo and Bengio, Yoshua and Louradour, J{\'e}r{\^o}me and Lamblin, Pascal},
+ H. Lee, R. Grosse, R. Ranganath, and A. Y. Ng, Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations, in Proceedings of the $26^{th}$ Annual International Conference on Machine Learning (ICML), 2009, pp. 609-616. [BibTeX]
+author={Lee, Honglak and Grosse, Roger and Ranganath, Rajesh and Ng, Andrew Y},
+booktitle={Proceedings of the $26^{th}$ Annual International Conference on Machine Learning ({ICML})},
+ H. Lee, R. Raina, A. Teichman, and A. Y. Ng, Exponential Family Sparse Coding with Application to Self-taught Learning, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), 2009, pp. 1113-1119. [BibTeX]
+author={Lee, Honglak and Raina, Rajat and Teichman, Alex and Ng, Andrew Y},
+ R. Salakhutdinov and G. E. Hinton, Deep Boltzmann Machines, in International Conference on Artificial Intelligence and Statistics (AISTATS), 2009, pp. 448-455. [BibTeX]
+ J. Yang, K. Yu, Y. Gong, and T. Huang, Linear spatial pyramid matching using sparse coding for image classification, in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009, pp. 1794-1801. [BibTeX]
+author={Yang, Jianchao and Yu, Kai and Gong, Yihong and Huang, Thomas},
+ K. Yu, T. Zhang, and Y. Gong, Nonlinear Learning using Local Coordinate Coding, in Advances in Neural Information Processing Systems (NIPS), 2009, pp. 2223-2231. [BibTeX]
+ R. Collobert and J. Weston, A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning, in Proceedings of the 25th International Conference on Machine Learning, 2008, pp. 160-167. [BibTeX]
+title={A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning},
+ G. Desjardins and Y. Bengio, Empirical Evaluation of Convolutional RBMs for Vision, Département dInformatique et de Recherche Opérationnelle, Université de Montréal, 1327, 2008. [BibTeX] [Abstract]
+Convolutional Neural Networks (CNN) have had great success in machine learning tasks involving vision and represent one of the early successes of deep networks. Local receptive fields and weight sharing make their architecture ideally suited for vision tasks by helping to enforce a prior based on our knowledge of natural images. This same prior could also be applied to recent developments in the field of deep networks, in order to tailor these new architectures for artificial vision. In this context, we show how the Restricted Boltzmann Machine (RBM), the building block of Deep Belief Networks (DBN), can be adapted to operate in a convolutional manner. We compare their performance to standard fully-connected RBMs on a simple visual learning task and show that the convolutional RBMs (CRBMs) converge to smaller values of the negative likelihood function. Our experiments also indicate that CRBMs are more efficient than standard RBMs trained on small image patches, with the CRBMs having faster convergence.
+institution = {D{\'{e}}partement d'Informatique et de Recherche Op{\'{e}}rationnelle, Universit{\'{e}} de Montr{\'{e}}al},
+abstract = {Convolutional Neural Networks (CNN) have had great success in machine learning tasks involving vision and represent one of the early successes of deep networks. Local receptive fields and weight
+sharing make their architecture ideally suited for vision tasks by helping to enforce a prior based on our knowledge of natural images. This same prior could also be applied to recent developments in the field of deep networks, in order to tailor these new architectures for artificial vision. In this context, we show how the Restricted Boltzmann Machine (RBM), the building block of Deep Belief Networks (DBN), can be adapted to operate in a convolutional manner. We compare their performance to standard fully-connected RBMs on a simple visual learning task and show that the convolutional RBMs (CRBMs) converge to smaller values of the negative likelihood function. Our experiments also indicate that CRBMs are more efficient than standard RBMs trained on small image patches, with the CRBMs having faster convergence.}
+ A. Graves and J. Schmidhuber, Offline handwriting recognition with multidimensional recurrent neural networks, in Advances in Neural Information Processing Systems, 2008, pp. 545-552. [BibTeX]
+ R. Salakhutdinov and I. Murray, On the quantitative analysis of deep belief networks, in Proceedings of the 25th International Conference on Machine Learning, 2008, pp. 872-879. [BibTeX]
+ P. Vincent, H. Larochelle, Y. Bengio, and P. Manzagol, Extracting and Composing Robust Features with Denoising Autoencoders, in Proceedings of the 25th International Conference on Machine learning, 2008, pp. 1096-1103. [BibTeX]
+author={Vincent, Pascal and Larochelle, Hugo and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+ Y. Bengio, P. Lamblin, D. Popovici, and H. Larochelle, Greedy layer-wise training of deep networks, Advances in Neural Information Processing Systems (NIPS), vol. 19, pp. 153-160, 2007. [BibTeX]
+author={Bengio, Yoshua and Lamblin, Pascal and Popovici, Dan and Larochelle, Hugo},
+ Y. Boureau, Y. Le{C}un, and others, Sparse feature learning for deep belief networks, in Advances in Neural Information Processing Systems, 2007, pp. 1185-1192. [BibTeX]
+ G. E. Hinton, Learning multiple layers of representation, Trends in Cognitive Sciences, vol. 11, iss. 10, pp. 428-434, 2007. [BibTeX]
+ To recognize shapes, first learn to generate images, in Computational Neuroscience: Theoretical Insights into Brain Function, T. D. Paul Cisek and J. F. Kalaska, Eds., Elsevier, 2007, vol. 165, pp. 535-547. doi:10.1016/S0079-6123(06)65034-6 [BibTeX]
+title = "To recognize shapes, first learn to generate images ",
+ H. Lee, C. Ekanadham, and A. Ng, Sparse deep belief net model for visual area V2, in Advances in Neural Information Processing Systems (NIPS), 2007, pp. 873-880. [BibTeX]
+ R. Raina, A. Battle, H. Lee, B. Packer, and A. Y. Ng, Self-taught Learning: Transfer Learning from Unlabeled Data, in Proceedings of the 24th International Conference on Machine Learning, 2007, pp. 759-766. [BibTeX]
+author={Raina, Rajat and Battle, Alexis and Lee, Honglak and Packer, Benjamin and Ng, Andrew Y},
+ A. Graves, S. Fernández, F. Gomez, and J. Schmidhuber, Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks, in Proceedings of the 23rd International Conference on Machine Learning, 2006, pp. 369-376. [BibTeX]
+author={Graves, Alex and Fern{\'a}ndez, Santiago and Gomez, Faustino and Schmidhuber, J{\"u}rgen},
+ G. E. Hinton, S. Osindero, and Y. Teh, A fast learning algorithm for deep belief nets, Neural computation, vol. 18, iss. 7, pp. 1527-1554, 2006. [BibTeX]
+ G. E. Hinton and R. R. Salakhutdinov, Reducing the dimensionality of data with neural networks, Science, vol. 313, iss. 5786, pp. 504-507, 2006. [BibTeX]
+ H. Lee, A. Battle, R. Raina, and A. Ng, Efficient sparse coding algorithms, in Advances in Neural Information Processing Systems (NIPS), 2006, pp. 801-808. [BibTeX]
+author={Lee, Honglak and Battle, Alexis and Raina, Rajat and Ng, Andrew},
+ G. W. Taylor, G. E. Hinton, and S. T. Roweis, Modeling Human Motion using Binary Latent Variables, in Advances in Neural Information Processing Systems (NIPS), 2006, pp. 1345-1352. [BibTeX]
+author={Taylor, Graham W and Hinton, Geoffrey E and Roweis, Sam T},
+ M. van de Giessen and J. Schmidhuber, Fast color-based object recognition independent of position and orientation, in Artificial Neural Networks: Biological InspirationsInternational Conference on Artificial Neural networks (ICANN), Springer, 2005, pp. 469-474. [BibTeX]
+ B. Olshausen and D. Field, Emergence of simple-cell receptive field properties by learning a sparse code for natural images, Nature, vol. 381, pp. 607-609, 1996. [BibTeX]
+title = {Emergence of simple-cell receptive field properties by learning a sparse code for natural images},
+ Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel, Backpropagation applied to handwritten zip code recognition, Neural Computation, vol. 1, iss. 4, pp. 541-551, 1989. [BibTeX]
+author={LeCun, Yann and Boser, Bernhard and Denker, John S and Henderson, Donnie and
+Disclaimer: The list might contain errors, especially those due to erroneous BibTeX citations found on different online libraries. Please report these to us.
