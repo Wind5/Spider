@@ -1,0 +1,11 @@
+http://www.ict.cas.cn/xwzx/xshd/index_38.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 简单介绍量子计算的发展以及最近国际上刚刚开始的量子程序理论的研究。最后汇报一下清华大学智能技术与系统国家重点实验室理论研究组在量子计算（包括量子程序理论）与量子信息方面的一些工作。
+ The MultiMatch project: searching multilingual multimedia cultural heritage collections
+ 报告人：Gareth Jones, Eamonn Newman and Ying Zhang
+ Centre for Digital Video Processing
+ Dublin City University, Ireland
+ 动态纹理是普通纹理在时间域上的扩展。动态纹理的描述和识别近期得到了越来越多的关注。
+ 李明教授，美国康纳尔大学计算机系博士，现任加拿大Waterloo大学教授。
+李明教授是计算机科学领域的世界著名学者，是IEEE院士，ACM院士以及Royal Society of Canada院士。
+ 本讲座针对从计算到社会的社会计算之新认识，讨论如何利用复杂系统理论及先进的计算手段和方法，把传统上限于语言层次和静态的人文知识数字化和动态化，并用于各种复杂社会问题的建模、分析和决策支持。主要思想是利用人工系统，计算试验、平行执行等方法，建立社会计算的理论框架。讲座 还将讨论社会计算与开源情报，万维科学等的关系， 以及相关的哲学基础。

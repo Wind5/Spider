@@ -1,0 +1,6 @@
+http://english.is.cas.cn/ns/ue/index_1.html
+ [9-26]FDR3: current and recent developments in CSP model checking 
+ [9-14] Towards Engineering Green, Fast, and Reliable Mobile Applications 
+ [7-27]Computational Models of Referring and their place in Natural Language Generation 
+ [7-27]Integrative Network Analytics for Insights Generation from Massive Healthcare Data 
+ [6-14]The Good, the Bad and the Ugly: Uncovering Novel Opportunities of Data Science 

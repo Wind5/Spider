@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/xwzx/jssxw/201207/t20120716_3616219.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+阿姆斯特丹大学的Chris Jesshope 教授7月4日来计算所做题为“The hardware management of concurrency in the Microgrid and the fungibility of processing resources”的报告。该次报告在计算所12层会议室举行，由计算机体系结构国家重点实验室唐志敏研究员主持。
+首先，Chris Jesshope 教授介绍了他之前从事的相关工作和在阿姆斯特丹大学的研究方向。接着介绍一个多线程，多核心处理器和系统软件的开发工作。
+报告之后，参会的老师和同学就众核处理器上千线程并行进行了热烈讨论，并就其他相关问题展开讨论。

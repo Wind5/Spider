@@ -1,0 +1,6 @@
+http://english.ict.cas.cn/ns/ue/index_1.html
+ What to do about the end of Moore's law (probably)?[2012-04-25]
+ ServerSwitch: A Programmable and High Performance Platform for Data Center Networks[2012-04-23]
+ Computationally Feasible Automated Mechanism Design: General Approach and Case Study on VCG Redistribution Mechanisms[2012-01-06]
+ Influence Diffusion Dynamics and Influence Maximization in Complex Social Networks[2011-12-05]
+ Non-Volatile Memory Architecture for the Performance, Energy Consumption, and Reliability Improvement[2011-09-21]

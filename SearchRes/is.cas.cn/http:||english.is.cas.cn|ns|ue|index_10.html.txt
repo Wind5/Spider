@@ -1,0 +1,6 @@
+http://english.is.cas.cn/ns/ue/index_10.html
+ [10-11]Termination of higher-order rewrite systems using the notion of computability closure 
+ [8-16]Equality to Equals and Unequals: A Revisit of the Equivalence and Nonequivalence Criteria in Class-Level Testing of Object-Oriented Software 
+ [8-9]Modeling strategies and individual differences in learning a diagrammatic reasoning task 
+ [7-26]Decimals of Pi: An example in verified programming about mathematics 
+ [7-3]Modularity in Design: on the Synergy of SoftwareArchitecture, Evolution and Collaboration 

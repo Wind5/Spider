@@ -1,0 +1,34 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/201203/t20120305_3449102.html
+1.          Yong Zhao, Zhibin Zhang, Ting He, Alex X. Liu, Li Guo, and Binxing Fang. A Task-Based Model for the Lifespan of Peer-to-Peer Swarms. in Proceedings of the International Conferences on Networking (Networking), Prague, Czech Republic, May 2012. To Appear.
+1.          Yipeng Wang, Zhibin Zhang, and Li Guo. Using Entropy to Classify Traffic More Deeply. In Proceedings of the 6th IEEE International Conference on Networking, Architecture, and Storage (NAS). July. 2011.  
+2.          Yipeng Wang, Zhibin Zhang, Danfeng Yao, Buyun Qu, and Li Guo. Inferring Protocol State Machine from Network Traces: A Probabilistic Method. In Proceedings of International Conference on Applied Cryptography and Network Security (ACNS). Lecture Notes in Computer Science (LNCS). Jun. 2011.  
+3.          Yipeng Wang, Zhibin Zhang, and Li Guo. Traffic Classification Beyond Application Level: Identifying Content Types from Network Traces. In Proceedings of the 26th ACM Symposium on Applied Computing (SAC). March, 2011. 
+4.          Yong Zhao, Zhibin Zhang, Yipeng Wang, Li Guo and Binxing Fang. Performance Evaluation of  Xunlei Peer-to-Peer Network: A Measurement Study. In Proceedings of IEEE Consumer Communications and Networking Conference (CCNC) Workshop EDCN. Las Vegas, Nevada USA. January  2011. 
+5.          Yong Zhao, Zhibin Zhang, Li Guo, Binxing Fang, Revisiting the Swarm Evolution: A Long‐Term Perspective, In the proceedings of 16th IEEE Symposium on Computers and Communications (ISCC), June 28-July 1, 2011 Corfu, Greece
+6.          Yong Zhao, Zhibin Zhang, Li Guo, Understanding Long-term Evolution and Lifespan in Peer-to-Peer Systems, NAS 2011, July 28-30, 2011, Dalian, China
+7.          Yipeng Wang,  Xingjian Li, Jiao Meng, Yong Zhao, Zhibin Zhang, and Li Guo,Biprominer:  Automatic Mining of Binary Protocol Features. In the proceedings of 12th International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT-11). 
+8.          Yong Zhao, Zhibin Zhang, Li Guo, Binxing Fang, XunleiProbe: A Sensitive and Accurate Probing on a Large-Scale P2SP System. In the proceedings of 12th International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT-11).
+9.          沙灜，张志斌，谭建龙，郭莉，一种针对Bencode编码实现的BitTorrent系统攻击方法，第一届中国网络攻防与系统安全会议(NADSS2010)。
+1.         Yipeng Wang, Zhibin Zhang, and Li Guo. Inferring Protocol State Machine from Real-World Trace.In Proceedings of 13th International Symposium on Recent Advances in Intrusion Detection (RAID). Ottawa, Ontario, Canada. Sep. 2010.
+2.         Yipeng Wang, Liyan Wang, Xingjian Li, Zhibin Zhang, and Li Guo. Automatic Mining of  Distinguishers with Unknown Protocol Format. In Proceedings of  International Conference on  Intelligent Computing and Integrated Systems Guilin, China October, 2010. 
+3.         Jing Cai, Zhibin Zhang, Peng Zhang, Xinbo Song, ”Rethinking the Building Block: A Profiling Methodology for UDP Flows,” GCC, pp.332-337, 2010 Ninth International Conference on Grid and Cloud Computing, 2010
+4.         Jing Cai, Zhibin Zhang, Peng Zhang, Xinbo Song, ”An Adaptive Timeout Strategy for UDP Flows Using SVMs,” PDCAT, pp.118-127, 2010 International Conference on Parallel and Distributed Computing, Applications and Technologies, 2010
+5.         Jing Cai, Zhibin Zhang, Xinbo Song, ”An Analysis Of UDP Traffic Classification,” in the Proceedings of 12th IEEE International Conference on Communication Technology (ICCT), 2010
+6.         Jing Cai, Zhibin Zhang, Peng Zhang, Xinbo Song, ”An Adaptive Timeout Strategy for Profiling UDP Flows,” ICNC, pp.44-48, 2010 First International Conference on Networking and Computing, 2010
+7.         Ying Sha, Zhibin Zhang, Jianlong Tan, The Influence of active measurement on Unstructured Peer-to-peer Network, International Conference on Communications, Circuits and Systems，2010.(ICCCAS2010).
+2.        Tingwen Liu, Yong Sun, Zhibin Zhang, Li Guo, Load Balancing for Flow-Based Parallel Processing Systems in CMP Architecture, in Proc. GLOBECOM 2009, 4694-4700
+3.        Ying SHA, Zhibin ZHANG, Jianlong Tan, Measuring the Influence of Active Measurement on Unstructure Peer-to-Peer Network, workshop on Peer-to-Peer Networked Virtual Environments, the 15th International Conference on Parallel and Distributed Systems.(ICPADS 2009)
+1.        Gu Fengna, Zhang Zhibin, Wang Lihong, A Trace-Driven Simulation Study of Load Balancing on Distributed NIDS, In Proceedings of the 3rd IEEE International Conference on Networking, Architecture, and Storage (NAS) 2008, pages 159~160.
+2.        2．Yong Sun, Zhibin Zhang, Li Guo, Shui Bai, Jianlong Tan, A Effective Algorithm for Counting Active Flows Based on Loop Bloom Filter, In Proceedings of the 3rd IEEE International Conference on Networking, Architecture, and Storage (NAS) 2008, pages 104~112.
+1.        Zhibin Zhang, Yanjun Zhang, Li Guo, Binxing Fang, LASF: A Flow Scheduling Policy In Stateful Packet Inspection Systems, the proceedings of ISCC 2007, pages 87~93.
+2.        Zhibin Zhang, Li Guo, Binxing Fang, and Xiaojun Chen, Parallelizing Protocol Processing on SMT Processor Efficiently: A FSM Decomposition Approach, the proceedings of IPCCC 2007, pages 348~355.
+2.        Zhibin Zhang, Li Guo, On Cache Contention of Parallel Protocol Processing in SMT, In the proceedings of 8th IEEE Conference on Communication Technology (ICCT) 2006, pages 1~5.
+1.        Zhibin Zhang, Li Guo  Binxing, Fang, Using Packet Scheduling to Enhance I-Cache Behavior, Eighth International Conference on High-Performance Computing in Asia-Pacific Region, 2005, pages 463-469
+1.         国家信息安全计划 (242) 20087030. 负责人. 2007~2009 
+2.         国家信息安全计划(242) 20097090. 负责人. 2008~ 2009
+3.         973重点, 2007CB311100(子课题三). 骨干. 2007~2011
+4.         信息内容安全技术国家工程实验室建设项目. 骨干. 2008~2010
+5.         国家信息安全计划（242）20107030. 骨干. 2010~2011
+6.         安全中心项目 20107090. 骨干. 2009~2010
+7.         科学院（重要方向）20104070. 骨干 2010
+8.         安全中心奥运安保项目 20087020. 骨干 2008

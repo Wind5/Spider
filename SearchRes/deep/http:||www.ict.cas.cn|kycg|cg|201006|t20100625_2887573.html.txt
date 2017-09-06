@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/kycg/cg/201006/t20100625_2887573.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+基于视频的虚拟环境快速建模技术研究----中国科学院计算技术研究所
+本课题深入研究了基于视频的虚拟环境快速建模技术。具体来说，研究了基于视觉几何方法的图像建模、基于可视外壳方法的图像建模、基于图纸的交互建模，以及基于语义的场景建模，分别构建了相应的原型系统和工具。并在虚拟家庭装修、公共安全预案模拟等领域进行了实际应用或应用示范。

@@ -1,0 +1,4 @@
+http://english.is.cas.cn/ns/ue/index_5.html
+ [8-14]Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both? 
+ [6-12]Mobile Cloud Computing – Infrastructures, research issues, and challenges 
+ [6-12]Test Algebra for Concurrent Combinatorial Testing in a Cloud Environment 

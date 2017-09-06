@@ -1,0 +1,6 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_14.html
+ A GPU-based Matting Laplacian Solver for High Resolution Image Matting
+ An Enhanced Password Authenticated Key Agreement Protocol for Wireless Mobile Network
+ Extending the Strand Space Method with Timestamps: Part II Application to Kerberos V
+ Improving Software Testing Process: Feature Prioritization to Make Winners of Success-Critical Stakeholders
+ Journal of Software Maintenance and Evolution: Research and Practice, 2010.

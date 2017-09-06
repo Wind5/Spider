@@ -1,0 +1,3 @@
+http://www.ict.cas.cn/xwzx/xshd/index_5.html
+ Test Data Analytics — Exploring Spatial and Test-Item Correlations in Production Test Data
+ Active Flash: Towards Energy-Efficient, In-situ Data Analytics on Extreme-Scale Machines

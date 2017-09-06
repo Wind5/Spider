@@ -25,7 +25,7 @@ DOWNLOAD_TIMEOUT = 15
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 100
+CONCURRENT_REQUESTS = 200
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -49,9 +49,13 @@ COOKIES_ENABLED = False
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'SearchRes.middlewares.SearchresSpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+  # 'SearchRes.middlewares.SearchresSpiderMiddleware': 543,
+  # enable our middleware
+  'SearchRes.middlewares.MyOffsiteMiddleware': 500,
+  # disable old middleware
+  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware': None, 
+}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html

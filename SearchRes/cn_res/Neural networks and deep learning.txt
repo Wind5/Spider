@@ -1,0 +1,12 @@
+http://neuralnetworksanddeeplearning.com/
+baidu
+12
+Neural Networks and Deep LearningWhat this book is aboutOn the exercises and problemsUsing neural nets to recognize handwritten digitsPerceptronsSigmoid neuronsThe architecture of neural networksA simple network to classify handwritten digitsLearning with gradient descentImplementing our network to classify digitsToward deep learning
+How the backpropagation algorithm worksWarm up: a fast matrix-based approach to computing the output from a neural networkThe two assumptions we need about the cost functionThe Hadamard product, $s \odot t$The four fundamental equations behind backpropagationProof of the four fundamental equations (optional)The backpropagation algorithmThe code for backpropagationIn what sense is backpropagation a fast algorithm?Backpropagation: the big picture
+Improving the way neural networks learnThe cross-entropy cost functionOverfitting and regularizationWeight initializationHandwriting recognition revisited: the codeHow to choose a neural network's hyper-parameters?Other techniques
+A visual proof that neural nets can compute any functionTwo caveatsUniversality with one input and one outputMany input variablesExtension beyond sigmoid neuronsFixing up the step functionsConclusion
+Why are deep neural networks hard to train?The vanishing gradient problemWhat's causing the vanishing gradient problem? Unstable gradients in deep neural netsUnstable gradients in more complex networksOther obstacles to deep learning
+Deep learningIntroducing convolutional networksConvolutional neural networks in practiceThe code for our convolutional networksRecent progress in image recognitionOther approaches to deep neural netsOn the future of neural networks
+ If you benefit from the book, please make a small
+language processing. This book will teach you many of the core
+build on this book, but not to sell it. If you're interested in

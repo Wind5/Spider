@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/gjjl/xshd/index_47.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+确定学习原理研究未知动态环境下的知识获取、表达、存储和再利用等问题。
+确定学习是机器学习、智能控制、模式识别等领域的新方向，它将成为未来智能自主系统的一项关键技术。
+1989年7月和1997年4月分别毕业于北京航空航天大学自动控制系并获得学士和硕士学位，2002年6月获得新加坡国立大学电子与计算机工程系博士学位。
+学术兼职包括IEEE控制系统学会会议编委，IEEE控制系统学会...

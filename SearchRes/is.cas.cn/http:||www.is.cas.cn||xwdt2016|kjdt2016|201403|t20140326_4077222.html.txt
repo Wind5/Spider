@@ -1,0 +1,7 @@
+http://www.is.cas.cn//xwdt2016/kjdt2016/201403/t20140326_4077222.html
+法国格勒诺布尔综合理工学院Jean-Francois Monin教授访问软件所----软件研究所
+研究员（正高级工程师）
+副研究员（高级工程师）
+ 法国格勒诺布尔综合理工学院Jean-Francois Monin教授访问软件所
+ 文章来源：  |  发布时间：2014-03-26  |  【打印】 【关闭】
+ 3月20日，应计算机科学国家重点实验室邀请，法国格勒诺布尔综合理工学院Jean-Francois Monin教授到软件所进行访问，并作题为Handcrafted Coq Inversions Made Operational on Operational Semantics的学术讲座，讲座由 Jean-Jacque Levy研究员主持。 报告中，Jean-Francois Monin教授阐述了一种使用Coq工具在做定理证明时会用到的策略， 由于该技术可以降低证明过程的难度，使用范围较广。但问题是使用该技术后证明过程比较繁琐，而且可控性差。针对该问题，他们提出了一种基于非断言的归纳数据结构和反对角参数相结合的证明技术，不仅极大的缩减了证明过程，而且鲁棒性更强。Jean-Francois Monin教授的报告激起了与会人员的浓厚兴趣，大家对该新的策略技术的适用范围和应用前景十分关注。报告结束后，与会人员同Jean-Francois Monin教授进行了深入广泛交流。Jean-Francois Monin现任法国格勒诺布尔综合理工学院(Universite de Grenoble )/约瑟夫傅利叶(Joseph Fourier)大学教授。他曾任法国国家科学研究中心(CNRS)、中法信息自动化与应用数学联合实验室(LIAMA) 研究员，并曾在法国电信研发部门工作，领导一个致力于形式化方法的研究团队。2009年，担任法国国家科学研究中心研究员，并在中法信息自动化与应用数学联合实验室(LIAMA) 从事科研工作。他的研究领域主要包括Coq的理论型证明等，这些证明辅助实现了分布式算法的设计、安全问题的解决和嵌入式软件的实现等各项应用。Jean-Francois Monin教授作报告 

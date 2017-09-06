@@ -1,0 +1,7 @@
+http://www.is.cas.cn/xwdt2016/kjdt2016/201311/t20131104_3967035.html
+爱沙尼亚塔尔图大学Dietmar Pfahl副教授到软件所交流----软件研究所
+研究员（正高级工程师）
+副研究员（高级工程师）
+ 爱沙尼亚塔尔图大学Dietmar Pfahl副教授到软件所交流
+ 文章来源：  |  发布时间：2013-11-04  |  【打印】 【关闭】
+ 11月1日上午，应基础软件国家工程研究中心的邀请，爱沙尼亚塔尔图大学(University of Tartu, Estonia)的Dietmar Pfahl副教授到软件所进行访问交流，并做了The Role of Empirical Studies in Software Engineering的学术报告。  报告会上，Pfahl教授主要介绍了工程与科学的区别。在介绍中，他强调了工程的约束性，正是因为约束因素，如何更好的选择工程开发方式和开发工具便显得尤为重要。Pfahl教授提出，通过经验研究（Empirical Study）可以了解到有利于软件工程项目开发的合理方法及合适工具。  随后，他对经验研究进行了深入阐述，Pfahl教授举例说明了Survey, Experiment和Case Study三种类型的研究方法，并针对每类研究方法给出了具体而生动的例子，深入浅出的展示了这些方法的应用。  报告结束后，大家同Pfahl教授进行了踊跃互动。对听众提出的问题，Pfahl教授结合自己的研究工作和经验做出了细致回答，并针对计算机科学与工程方面的研究进行了热烈和广泛的讨论。  Dietmar Pfahl现任爱沙尼亚塔尔图大学计算机科学学院软件工程系副教授，他还是加拿大卡尔加里大学Schulich工程学院的兼职教授，主要从事软件项目管理、软件过程改进、软件产品管理、软件测试等方面的研究。Dietmar Pfahl在学术界和工业界有20多年的经验。他是IEEE会员及ACM资深会员、国际期刊Journal of Software: Evolution and Process编委会成员、SPW/ProSim、ICSP等国际会议的程序委员会主席，以及多个国际会议的程序委员会成员。 从2006年开始，Dietmar Pfahl与中国科学院软件研究所建立了紧密的合作关系，多年来合作举办了SPW/ProSim，ICSP等国际会议，曾多次来所进行交流访问。 Dietmar Pfahl教授作报告报告会现场

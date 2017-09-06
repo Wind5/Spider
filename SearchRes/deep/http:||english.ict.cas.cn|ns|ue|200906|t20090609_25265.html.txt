@@ -1,0 +1,5 @@
+http://english.ict.cas.cn/ns/ue/200906/t20090609_25265.html
+ Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
+ Upcoming Events:   Network Routing for Efficient Energy Usage
+Speaker: Dr. Jinhu Lu, Academy of Mathematics and Systems Science, CASTime: 10:00am—11:30am, Jun. 15, 2009 (Monday)Place: Meeting Hall, 4th Floor, ICT, CAS
+Abstract: Over the last decade, complex networks have been intensively studied across many fields, especially in Internet technology, biological engineering, and nonlinear science. This talk will briefly review the main advances in the investigation of complex networks, with emphasis on the analysis, control and synchronization of complex networks. Moreover, some possible applications in software engineering will also be discussed. 

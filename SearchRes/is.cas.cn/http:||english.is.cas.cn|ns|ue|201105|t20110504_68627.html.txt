@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/201105/t20110504_68627.html
+ [5-11]Probabilistic Model Checking for Markov chains & Solving ODEs 
+Title:　 Probabilistic Model Checking for Markov chains & Solving ODEs Speaker: Lijun Zhang  (Technical University of Demark)
+Time:　  3pm, Wednesday May 11Venue:　 Lecture room, Lab for Computer Science, Level 3 Building #5, Institute of Software, CAS 
+Discrete-state Markov processes are very common models used for performance and dependability evaluation of, for example, distributed information and communication systems. Over the last fifteen years, compositional model construction and model checking algorithms have been studied for these processes, and variations thereof, especially processes incorporating nondeterministic choices.  In this talk we give a survey of model checking and show that the core algorithm reduces to solving ODEs (ordinary differential equations), for such processes in discrete and continuous time, with nondeterministic extensions. 

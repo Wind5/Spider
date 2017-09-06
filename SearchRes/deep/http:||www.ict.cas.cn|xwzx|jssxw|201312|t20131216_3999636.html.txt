@@ -1,0 +1,3 @@
+http://www.ict.cas.cn/xwzx/jssxw/201312/t20131216_3999636.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 　　2013年12月5-6日，由中国计算机学会（CCF）主办，CCF大数据专家委员会承办，我所与CSDN具体组织的中国规模最大、最具影响的大数据领域技术盛会——2013中国大数据技术大会（Big Data Technology Conference 2013，BDTC 2013）在北京世纪金源大饭店圆满落幕。　　本次大会的前身是去年举办的“Hadoop与大数据技术”大会，在此之前是“Hadoop中国云计算大会（Hadoop in China）”。为了因应大数据时代的到来，今年大会正式更名为“中国大数据技术大会(Big Data Technology Conference，BDTC)”。 BDTC 2013以“应用驱动的架构与技术”为主题，共设立“大数据架构与系统”、“大数据技术”、“大数据应用”、“大数据研究与发展”，“大数据基准测试(Benchmark)”五大技术分论坛，并首次增加“2013中国智能交通与大数据技术峰会”和“传统行业如何驾驭大数据总裁研讨会”。作为分论坛数量最多的一届大会，2013中国大数据技术大会参会人数首次突破2000人。

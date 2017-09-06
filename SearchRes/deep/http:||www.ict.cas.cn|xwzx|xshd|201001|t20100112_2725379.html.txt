@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/xwzx/xshd/201001/t20100112_2725379.html
+Automatic adaptation of annotation standards:a case study on word segmentation and POS tagging—ACL2009 
+DMA Cache: Using On-Chip Storage to Architecturally Separate I/O Data from CPU Data for Improving I/O Performance — HPCA-16 
+GenerOS: an asymmetric operating system kernel for multi-core systems —IPDPS 2010 
+Non-identical linear pulse-coupled oscillators model with application to time synchronization in wireless sensor networks—IEEETIE 

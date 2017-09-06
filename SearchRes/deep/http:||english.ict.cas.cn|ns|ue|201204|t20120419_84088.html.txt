@@ -1,0 +1,3 @@
+http://english.ict.cas.cn/ns/ue/201204/t20120419_84088.html
+This talk will review a short history of server computing and present and overview of the three futures of server computing. The talk will cover topics such as scale out computing, heterogeneous computing, and the evolution of enterprise servers.
+Mike Moore leads AMD’s server ISV alliances worldwide.　 In this role, he is responsible for relationships with strategic ISVs such as VMware, RedHat, Citrix, Oracle, SuSE, and many others.　 Mike has been working in the technology industry for over 30 years with executive roles at companies such as AMD, Sun Microsystems, Ridge Technologies, and others.　 He lives in California’s silicon valley area. 

@@ -1,0 +1,2 @@
+http://english.ict.cas.cn/rh/rps/
+ Design on Virtual Machine Based Trusted Computing Environment and Trustworthy Software[2009-08-19]

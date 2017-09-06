@@ -1,0 +1,9 @@
+http://www.is.cas.cn/kjcx/lw/index.html
+ Model-driven Level 3 BLAS Performance Optimization on Loongson 3A Processor
+ Parallelization and performance optimization on face detection algorithm with OpenCL: A case study
+ The Research and Analysis of Hungarian Algorithm in the Structure Index Reduction for DAE
+ Analysis and Implementation for the Algorithm based on Combinatorial Relaxation for Computing the Structure Index of DAE
+ Parallel computation of continuous Petri nets based on hypergraph partitioning
+ VDQAM：A Toolkit for Database Quality Evaluation based on Visual Morphology
+ WiP Abstract: A Human-Centered Cyber-Physical Systematic Approach for Post-Stroke Monitoring
+ Robust Maximum Likelihood Estimation by Sparse Bundle Adjustment using the L1 norm

@@ -1,0 +1,8 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496784.html
+ 1. Wendi Wang, Peiheng Zhang, Xinchun Liu, Short read DNA fragment anchoring algorithm. The Seventh Asia Pacific Bioinformatics Conference(APBC009), 13-16 January 2009, Beijing, China. 
+2. Peiheng Zhang，Guangming Tan，Guang R. Gao, Implementation of the Smith-Waterman Algorithm on A Reconfigurable Supercomputing Platform，Workshop on High-Performance Reconfigurable Computing Technology and Applications (HPRCTA'07)，November 11，2007，Reno，Nevada，USA. 
+3. Xianyang Jiang，Peiheng Zhang，Xinchun Liu，Stephen S.-T. Yau，Survey on index based homology search algorithms，The Journal of Supercomputing，40（2），pages 185~212，23 March 2007 
+4. Xianyang Jiang, Xinchun Liu, Lin Xu, Peiheng Zhang, and Ninghui Sun， A Reconfigurable Accelerator for Smith–Waterman Algorithm，IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS, 54(12), Pages: 1077～1081, December 2007 
+8. Xu Lin，Zhang Peiheng，Bu Dongbo，Feng Shengzhong，Sun Ninghui，To Accelerate Multiple Sequence Alignment using FPGAs，HPCASIA '05，176~180 
+10. Liu Xinchun，Zhang Peiheng，Sun Ninghui，The Architecture of a Specific Chip for RNA Secondary Structure Prediction，Journal of Electronics，22（3），281～287，2005． 
+12. Xiaojun Yang，Lili Guo，Peiheng Zhang，Ninghui Sun，Design of High Performance System Area Network Interface Card Based on Embedded System，in Proc. ICESS2004：Advances in Embedded Software and System, pages 144～149，Science Press，Hangzhou，China, December 9～10，2004． 

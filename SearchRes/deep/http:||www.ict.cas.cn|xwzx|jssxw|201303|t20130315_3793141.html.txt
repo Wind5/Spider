@@ -1,0 +1,9 @@
+http://www.ict.cas.cn/xwzx/jssxw/201303/t20130315_3793141.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+计算所在ISSCC’13上介绍新款龙芯芯片----中国科学院计算技术研究所
+ 第六十届国际固态电路研讨会（International Solid-State Circuits Conference, 简称ISSCC’13）于今年2月17日－21日在美国旧金山举行。计算所微处理器中心的胡伟武老师和杨梁出席了该会议，并做了关于龙芯最新多核处理器芯片“Godson-3B1500: A 32nm 1.35GHz 40W 172.8GFLOPS 8-Core Processor”的分会长文报告。
+ISSCC会议始于1953年，是全世界公认的集成电路设计领域最高级别会议，电路研究的许多重要成果都是第一次在该会议上发表，被誉为集成电路行业的“奥林匹克盛会”，每年都有超过3000位来自世界各地的学术界和工业界人士参加。恰逢ISSCC会议六十周年及IEEE五十周年，ISSCC’13的主题为“供给未来动力的六十年”。
+ISSCC会议对论文要求较为严格，其技术必须得到流片验证。今年接收的论文数量近210篇，录用率约为三分之一，其中中国大陆仅有三篇入围，为历年来最高。会议内容涵盖处理器芯片、存储器、射频、模拟、无线、传感器、生物医学等多个方面，分为27个session、6个forum、10个tutorial和6个evening session等进行。
+继ISSCC’11后，龙芯的集成电路设计能力又一次得到国际顶尖技术认可。在会议上介绍的龙芯3B1500于2012年新研发成功，采用32nm高K金属栅工艺，硅片面积182.5mm2，晶体管数目达到11亿个，集成8核心向量处理器，峰值运算能力可达192GFLOPS。3B1500芯片在会议上受到了包括IBM、Intel和AMD在内的广泛关注，被评为本次会议上“最值得关注的芯片”之一（注1），会后还被EETimes等媒体追踪报导（注2）。该芯片即将在28纳米工艺投片量产。 
+注1：http://www.cdrinfo.com/Sections/News/Details.aspx?NewsId=34926 
+注2：http://www.eetimes.com/electronics-news/4407272/China-processors-to-power-homegrown-server-in-2014 

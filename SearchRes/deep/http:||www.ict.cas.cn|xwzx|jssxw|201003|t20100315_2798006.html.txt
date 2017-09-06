@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/xwzx/jssxw/201003/t20100315_2798006.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+计算所系统结构基础研究突破国际最高水平学术会议----中国科学院计算技术研究所
+近期，计算所系统结构基础研究方向喜讯频传，在最高水平的国际学术会议ISCA和PLDI上都取得了突破。更令人欣喜的是，在44篇被录用的ISCA2010论文中，计算所占据两个席位。这是计算所基础研究的重大收获，表明计算所在系统结构领域已开始走上国际前沿。
+ISCA（International Symposium on Computer Architecture）位居系统结构研究领域三大顶级会议之首（另外两个是HPCA和Micro）。继连续两年在HPCA上发表论文之后，计算所在2010年的ISCA会议上取得突破。今年ISCA会议共收到投稿245篇，录用44篇，录用率不到18%，而计算所有两篇论文被录用，一篇来自系统结构重点实验室可靠性设计组，另一篇来自微处理器中心。而在此之前，国内单位发表ISCA论文共计只有5篇。这代表了计算所在系统结构研究方向的一个新的高起点。PLDI（Programming Language Design and Implementation）是编程语言设计和编译技术研究方向的顶级学术会议，国内在此会议上发表的论文凤毛麟角。继连续在CGO会议上发表论文之后，系统结构重点实验室编译组今年成功在PLDI上实现突破。
+李所长通过邮件向论文作者表示祝贺，并希望计算所以后每年至少有一篇论文进入ISCA或同样最高水平的国际会议。

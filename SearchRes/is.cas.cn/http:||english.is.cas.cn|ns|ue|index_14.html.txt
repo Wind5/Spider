@@ -1,0 +1,8 @@
+http://english.is.cas.cn/ns/ue/index_14.html
+ [5-17]Optimization methods in software project planning and project management 
+ [5-12]Optimization methods in software project planning and project management 
+ [5-12]Assisting the Design of XML Schema: Diagnosing Nondeterministic Content Models 
+ [5-11]Probabilistic Model Checking for Markov chains & Solving ODEs 
+ [4-25]Evolutionary mechanics: degeneracy and the emergence of flexibility in a dynamic and uncertain world 
+ [4-25]Systematic applications of SAT -- towards a better understanding of SAT 
+ [3-17]Transformations and Expressiveness Relations for Quantified Boolean Formulas, Boolean Circuits, and Boolean Functions 

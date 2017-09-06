@@ -1,0 +1,11 @@
+http://www.ict.cas.cn/ztwz/kypt/cspt/201103/t20110304_3079573.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+计算科学交叉研究支撑平台目前拥有计算节点67个，系统峰值浮点运算速度为4.95万亿次/秒，包括：
+30台曙光刀片节点：Quad-Core AMD 8347 HE（4*4），内存64GB，147GB SATA磁盘
+31台计算节点：　  Dual-Core AMD 2212（2*2）；内存8GB；147GB scsi 磁盘
+1台胖节点：　　　 Quad-Core AMD 8378（8*4），内存128GB，147GB SAS磁盘
+2台intel节点：Intel(R) Xeon(R) E5530 2.40GHz（2*4）；内存16GB，147GB SAS磁盘
+2台sun工作站和1台cell节点
+其中，刀片节点、节点和intel节点使用20Gb infiniband网络互联；16台普通节点使用10Gb infiniband互联；所有节点使用千兆以太网互联。
+平台使用3套蓝鲸文件系统（包括一套大容量顺序访问优化，一套随机访问优化和普通共享文件系统），共提供40.2TB的可用存储空间。
+2011年5月份即将完成同构千核平台的扩建任务，同构千核平台由16台曙光I950G（Intel Xeon CPU X7550（8*8）；内存128GB，300GB SAS磁盘）组成，节点间以40Gb infiniband网络互联，面向大规模高性能计算提供同构1024核的计算平台。

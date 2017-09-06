@@ -1,0 +1,20 @@
+http://www.is.cas.cn/kjcx/lw/index_12.html
+ Identification and Evaluation of Sharing Memory Covert Timing Channel in Xen Virtual Machines
+ Automatic Mining of Change Set Size Information from Repository for Precise Productivity Estimation
+ Improvement and Analysis of VDP Method in Time/Memory Tradeoff Applications
+ An Algorithm of NAF Scalar Multiplication on ECC against SPA
+ Simulation Modeling for Quality Enhanced Software Process Based on Rework Analysis
+ Network Analysis of Oss Evolution :An Empirical Study on ArgoUML Project
+ Design and Implementation of a Graphical Programming Tool for Children
+ Some Improvements to the Cost-Based Framework for Analyzing Denial of Service Attacks
+ Local Bias And Its Impacts On The Performance Of Parametric Estimation Models
+ An Automatic Performance Modeling Approach to Capacity Planning for Multi-servcie Web Alications
+ Handling Missing Data In Software Effort Prediction With Naive Bayes And Em Algorithm
+ A Comparative Evaluation of Cache Strategies for Elastic Caching Platforms
+ Static Detection of Bugs Caused by Incorrect Exception Handling in Java
+ A Practical Covert Channel Identification Approach in Source Code based on
+ An Statistical Approach for Estimating CPU Consumption in Shared Java Middleware Server
+ The 35th International Computer Software and Applications Conference (COMPSAC 2011)
+ On-line Cache Strategy Reconfiguration for Elastic Caching Platform: A Machine Learning Approach
+ The 35th International Computer Software and Applications Conference (COMPSAC 2011)
+ Compression Methods by Code Mapping and Code Dividing for Chinese Dictionary Stored in a Double-Array Trie

@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/xwzx/jssxw/201412/t20141222_4279992.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+973项目“高通量计算系统的构建原理、支撑技术及云服务应用”召开年度总结会----中国科学院计算技术研究所
+ 973项目“高通量计算系统的构建原理、支撑技术及云服务应用”召开年度总结会
+ 2014-12-22 | 【大 中 小】【打印】【关闭】
+ 　　根据科技部973计划的工作部署，计算所于2014年12月17日上午召开了由973项目首席科学家李国杰院士主持的“高通量计算系统的构建原理、支撑技术及云服务应用”年度总结会，会议邀请了吕建院士等项目责任专家、陈俊亮院士、沈绪榜院士等项目专家组成员等9人参加了本次会议。　　与会专家听取了首席科学家助理孙凝晖研究员的项目总体情况汇报，以及六个课题的研究进展汇报。在973项目的资助下，在2014年度，本项目在核心科学问题的研究方面超额完成了预期目标。共发表论文95篇，其中，SCI收录37篇，包括IEEE Trans. on VLSI Systems(TVLSI), IEEE Trans. on Architecture and Code Optimization(TACO), Communication of the ACM、IEEE Micro、IEEE Transaction on Computers,IEEE Transactions on Moblie Computing、Elsevier Journal of Network and Computer Application, Elsevier Computer Networks, Wiley International Journal of Communication Systems, Oxford Computer Journal等国际期刊和ISCA、ASE、HPCA、DASFFA、CGO、PACT、DAC、DSN、Hot Chips、ITC、VTS、ICCAD、DATE、IISWC等国际会议。申请并受理发明专利67项，获得发明专利权2项。所取得的阶段性研究成果对本项目明年的研究奠定了坚实基础。　　与会专家们听取汇报之后，一致认为本项目工作进展很好，取得了预期的成绩，并对如何更好的迎接明年的项目验收提出了宝贵的意见。

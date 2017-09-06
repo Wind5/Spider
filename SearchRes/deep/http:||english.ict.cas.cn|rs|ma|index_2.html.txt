@@ -1,0 +1,6 @@
+http://english.ict.cas.cn/rs/ma/index_2.html
+ Fundamental Technology Research Project of integrated circuit logical design and test was awarded the Second Prize for the CAS Natural Sciences in 1999. 
+ JIAJIA Shared-Virtual Memory Software has been used in more than 20 countries since its source code was made available in 1998. 
+ Dawning 1000, the first MPP system designed by China, won the Special Prize for the CAS Scientific and Technological Progress and the First Prize for National Scientific and Technological Progress in 1996 and 1997 respectively.
+ Dawning No. 1 is the first SMP developed by our country. It won the Special Prize for the CAS Science and Technology Progress and the Second Prize for the National Science and Technology Progress in 1994 and 1995 respectively, and it was contained in the government work report in 1994.
+ Intelligent English-Chinese Machine Translation System(IMT/863)won the First Prize for the National Scientific and Technological Progress in 1995.

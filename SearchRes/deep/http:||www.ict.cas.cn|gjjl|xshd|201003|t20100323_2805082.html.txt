@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/gjjl/xshd/201003/t20100323_2805082.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 时间：2010年3月17日（周三）上午9：30-10：30 
+报告人及访问学校：唐胜副研究员，National University of Singapore 
+报告名称：Report of Academic Visit to National University of Singapore 
+个人简介：2006年3月毕业于计算所获博士学位，2007年入选计算所首批“百星计划”。2008年3月被聘为副研究员。曾带领研究小组参加国际视频检索评测TRECVID取得优异成绩。2009年2月受国家留学基金委资助对新加坡国立大学进行了为期12个月的学术访问。 
+报告简介：新加坡国立大学Prof Chua Tat-Seng领导下的媒体搜索实验室长期参加TREC-QA问题回答和视频检索国际评测TRECVID并取得优异成绩；近年来发表国际知名期刊论文17篇，国际顶级会议论文40余篇。蔡博士在国际研究领域十分活跃，他组织了一系列计算机图形学、多媒体和文本处理国际会议，担任ACM Trans. on Information Systems、IEEE Trans. on Multimedia等国际期刊的副主编；曾担任顶级国际顶级会议ACM Multimedia 2005、ACM SIGIR 2008主席。本报告将主要介绍报告人访问新加坡国立大学媒体搜索实验室的具体情况和感受。（1）新加坡国立大学的科研环境。(2) 在新加坡国立大学访问期间开展的科研工作：大规模视频语义概念检测技术研究。(3) 科研体会和收获。

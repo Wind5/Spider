@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/xwzx/jssxw/201208/t20120823_3631830.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+7月27日，匹兹堡大学的陈怡然教授来计算所做题为Emerging NVM Enabled Computing Architecture – From Evolution to Revolution的学术报告。此次学术报告的主题是基于新型非易失性存储器的计算架构。报告在计算所446会议室举行，由计算机体系结构国家重点实验室的胡瑜研究员主持。
+陈怡然教授是Spintronic Memristor电子自旋忆阻器的发明者。2009年3月16日，IEEE Spectrum报道了陈怡然教授关于Spintronic Memristor的研究贡献。在此次学术报告中，陈教授首先介绍了下一代非易失性存储器技术包括相变存储器、电子自旋存储器、阻性存储器。由于具有非易失性、存储密度高、纳米级访问时间、低功耗等优势，非易失性存储器在现代计算架构的不同存储层次都得到了使用。随后陈教授介绍了基于忆阻器crossbar阵列的新的神经计算模式。基于忆阻器的计算和存储能力，这种新的计算结构能够获得1000 GFLOPS/W的功效。陈教授精彩的报告展示了非易失性存储器的演化过程以及非易失性存储器对计算架构的革命性影响，引起了大家的极大兴趣。学术报告之后，参会的师生就非易失性存储器的最新进展及工艺、非易失性存储器与神经计算等问题做了进一步的交流。

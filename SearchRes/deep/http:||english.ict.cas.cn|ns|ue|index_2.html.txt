@@ -1,0 +1,5 @@
+http://english.ict.cas.cn/ns/ue/index_2.html
+ A MuMI Integrated Tool MAIDE: Making Performance and Power Data Collection Process Automatic[2011-09-09]
+ Ensembles of Intelligent Systems with Generalization Capabilities for Complex Application Problems[2011-06-22]
+ Toward a Robust Substrate for Internet of Things: A Study on High Availability in Stream Processing Systems[2011-03-01]
+ Degrees and Research at Sydney University Electrical and Information Engineering[2011-02-15]

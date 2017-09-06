@@ -1,0 +1,8 @@
+http://english.ict.cas.cn/rh/rd/200908/t20090820_33347.html
+ Upcoming Events:   ScalaExtrap: Trace-Based Communication Extrapolation for ...
+ The Pervasive Computing Research Center, founded in March of 2007, is devoted to the original innovation of core technologies and the integration innovation of low-cost informatized advanced technologies in the research field of pervasive computing. The Center presently has four research fields of embedded systems, perception computing, real-time signal processing, and natural human-machine interaction, with emphasis on intelligent perception and interaction, scenario computing, embedded and advanced terminals, high-speed digital signal processing, Internet of things, digital content processing, Loongson-based low-cost informatized application intergration technology, etc. 
+Loongson-based re-search computing customized education terminal and long-distance wireless transmission customized terminal
+Intelligent network application protocol INAP, network access terminal, visual telephone 
+High-speed video image processor and DCI-standard conformable 2K digital movie playing server 
+Ad recognition and filtration system based on rapid audio retrieval 
+Intelligent Braille dot character input system and server terminal voice delivering system 

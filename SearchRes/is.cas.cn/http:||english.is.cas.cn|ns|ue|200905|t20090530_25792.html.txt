@@ -1,0 +1,6 @@
+http://english.is.cas.cn/ns/ue/200905/t20090530_25792.html
+ The 2nd ISCAS/USC/UMass Joint Workshop on Trustworthy Software Systems 
+ The 2nd ISCAS/USC/UMass Joint Workshop on Trustworthy Software Systems ISCAS, Beijing, June 3- 4, 2009 
+To promote cooperation and exchanges in the field of research on trustworthy software systems, the second ISCAS/US/UMass Joint Workshop is going to be held in June 3-4, 2009, in ISCAS Beijing. The theme of the Joint Workshop is Trustworthy Software Systems, focuses on the development, service and evolution of trustworthy software. The workshop is sponsored by ISCAS-iTechs. Members of the joint laboratory, Professor Barry Boehm from USC-CSSE, Leon. Osterweil and Lori Clarke from UMass-LASER, will give keynote addresses at the workshop. Research faculty and students at iTechs will also present their latest progresses. In addition, 6 researchers from Tsinghua Univ., Wuhan University, Beihang University, etc are also invited to give talks and participate in the workshop.Two years ago, the first ISCAS-USC-UMASS Joint Workshop began cooperation and exchanges of the three laboratories. We believe the coming seminar will be more successful.
+ Automated Test Program Generation for an Industrial Optimizing Compiler 
+ Session II: Trustworthy Software Environment and Tools (Chair: Mei He)

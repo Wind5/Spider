@@ -1,0 +1,11 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_19.html
+ Modeling Sketching Primitives to Support Freehand Drawing Based on Context Awareness
+ visualizing time-series data in processlines: design and evaluation of a process enterprise
+ 16th IEEE Real-Time and Embedded Technology and Applications Symposium, RTAS 2010
+ Easy Toy:A Plush Toy Design System Using Editable Sketching Curves
+ 24th IEEE International Parallel and Distributed Processing Symposium, IPDPS 2010
+ Optimizing Sparse Matrix Vector Multiplication Using Diagonal Storage Matrix Format
+ knitsketch: a sketch pad for conceptual design of 2d garment patterns
+ Scalability studies of an implicit shallow water solver for a Rossby-Haurwitz wave？problem
+ ICEIS 2010 - 12th International Conference on Enterprise Information Systems
+ Heterogeneous Multi-core Parallel SGEMM Performance Testing and Analysis on Cell/B.E Processor

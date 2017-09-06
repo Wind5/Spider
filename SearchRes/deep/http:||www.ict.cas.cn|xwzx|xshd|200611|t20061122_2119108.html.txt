@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/xwzx/xshd/200611/t20061122_2119108.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Trustworthy Networks and Evaluation Methods for Network Survivability and Security----中国科学院计算技术研究所
+摘　  要：　　　  在报告中首先介绍可信计算的概念及可信联盟的情况，在此基础上提出可信网络的概念，并提出相关的属性。在报告中重点介绍网络生存性和安全性的模型方法和数量分析、评价方法。
+简　  历： 　　　  林闯 现任清华大学计算机科学与技术系主任、教授、博士生导师。他毕业于清华大学计算机系，在中国科学院和清华大学分别取得计算机专业硕士和博士学位。林闯教授是IFIP TC6 (Communication Systems) 中国代表，IEEE 高级会员，IEEE Transactions on Vehicular Technology和Journal of Parallel and Distributed Computing等期刊编委，国家自然科学基金重大研究计划“网络和信息安全”的科学指导专家。主要研究领域为计算机网络，系统性能评价，安全分析，随机Petri网。主持的“计算机系统的随机模型与系统评价”项目获得教育部提名国家科学技术奖自然科学一等奖。已在国内外一级学术期刊上和IEEE Computer Society的学术年会上发表论文230多篇，并已出版3本专著。

@@ -1,0 +1,4 @@
+http://www.is.cas.cn/ztzl2016/qnlhh2016/xsqy2016/201304/t20130417_3821274.html
+ 文章来源：  |  发布时间：2013-04-18  |  【打印】 【关闭】
+The advent of big data is greatly transforming many fields of science. It also presents opportunities and challenges to the communities of statisticians and computer scientists.  I will discuss some current statistical and computational methods for analyzing big data and visualizing the results. Throughout the talk, methods will be demonstrated with applications to large-scale genomics and metagenomics data.　 
+　  Big Data:Computational and Statistical opportunities and challenges  　

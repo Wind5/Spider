@@ -1,0 +1,10 @@
+http://english.ict.cas.cn/ns/ue/201010/t20101012_59838.html
+ Upcoming Events:   In Search of Design Inspiration: A Semantic-based Retriev...
+ Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
+Abstract: Mainstream computer venders have announced two dramatic changes in their future architectures. First, the increase in clock frequency we've experienced over the past decades will cease to continue and therelative amount of cache memory per processor will decrease. Second,there will be exponentially increasing number of processor cores on a chip. 
+These changes present two unprecedented challenges to the software stack. Namely, how does the software 1) deal with the stagnation of single threaded performance and cache memory, and 2) utilize the additional capabilities provided by multiple cores on a chip? 
+In this talk, I will discuss these issues and argue why these challenges present great opportunities for software optimization and suggest some approaches to address these fundamental problems. 
+Bio: Michael Hind is a Research Staff Member and Senior Manager of the Programming Technologies Department at IBM's T.J. Watson Research Center. 
+Michael received his Ph.D. from New York University in 1991. From 1992-1998, Michael was an assistant and associate professor of computer science at the State University of New York at New Paltz and an Academic Visitor at IBM Research. In 1998, Michael became a Research Staff Member at the IBM T.J. Watson Research Center, working 
+on the Jalapeno project, the project that produced the open source Jikes Research Virtual Machine (RVM). In 2000, he became the manager of the Dynamic Optimization Group at IBM Research, and in 2007, became Senior Manager of the Programming Technologies Department at IBM Research. 
+Michael is an associate editor of ACM TACO, has served on over two dozen program committees, given talks at top universities and conferences, and co-authored over 40 publications. His research interests include adaptive optimization, program analysis, and software optimizations for multicore processors. 

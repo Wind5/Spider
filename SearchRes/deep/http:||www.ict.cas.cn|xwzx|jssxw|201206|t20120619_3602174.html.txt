@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/xwzx/jssxw/201206/t20120619_3602174.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Kathryn McKinley博士到计算所交流并做学术报告----中国科学院计算技术研究所
+受中科院计算所的计算机体系结构国家重点实验室（筹）武成岗副研究员的邀请，Kathryn McKinley博士于2012年6月18日到计算所交流并做了题为“Getting Software into the Energy Efficiency Game”的学术报告。本次报告会于上午10点在计算所446会议室举行。
+Kathryn McKinley是微软的首席研究员以及美国得克萨斯大学奥斯汀分校计算机科学系的特聘教授。她从莱斯大学获得了博士学位。体系结构，编译器，内存管理，运行时系统，可靠性，安全以及软件工程等方向都是她的研究兴趣所在。她和她的同事开发了若干广泛使用的工具：Java的基准测试程序DaCapo，编译器TRIPS，内存管理器Hoard，垃圾收集工具包MMTk以及垃圾收集器Immix。同时，她还作为大会程序主席参加了多个知名会议：ASPLOS’04，PACT’05，PLDI’07，ISMM’12和CGO’13，在2007-2010年间担任ACM TOPLOS的主编，从2012年至今担任CRA董事会成员。
+在本次报告中，Kathryn McKinley博士给出了从服务器到移动设备等一系列的设备上各种工作负载情况下对于功率，性能以及能量的定量分析。展示了如何利用运行时系统针对不同工作负载的特性显著提高能源的利用效率。同时实验结果指出在将来的系统中，为了提高能源的利用率，软件应该发挥更大的作用。在报告的过程中，Kathryn McKinley博士使用大量的数据翔实的说明了在多核环境下如何利用运行时系统和辅助核提高能源的利用率，使得参会的老师和同学产生了明确的认识。通过参加本次报告，无论是否从事相关工作，所有人都获益良多。本次报告持续了近两个小时，对于Kathryn McKinley博士的生动的报告，参与者给予了热烈的掌声。
+下午，在1201会议室，Kathryn McKinley博士继续和实验室的若干老师进行更加深入地交流和讨论。直到下午5点多，McKinley博士才结束了本次ICT之旅。

@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/xwzx/jssxw/201208/t20120827_3634397.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+天玑团队喜获SIGIR'2012最佳学生论文奖----中国科学院计算技术研究所
+第35届国际信息检索年会SIGIR2012于2012年8月12日在美国波特兰正式召开。在8月14日的大会晚宴上，中科院计算所网络数据科学与工程研究中心“天玑团队”牛树梓同学的论文“Top-k Learning to Rank: Labeling, Ranking and Evaluation”获得了Best Student Paper奖。
+该论文从网络大数据的全局处理难以及排序学习的可靠标注数据获取的瓶颈问题出发，提出了Top-k的排序学习框架，包含高效的标注策略，有效的排序方法和可靠的评价准则。会议论文评审人员给予该论文很高的评价，认为该文理论深厚，实验科学（A solid paper with well designed experiments. Solid work with reasonably convincing experiments.）。Top-k的排序学习框架抓住了排序学习的本质，突破了传统方法的局限，（It is nice to see this whole top-k ranking framework, which can avoid the limitations of pairwise ranking (non-emphasized) and listwise ranking (high cost on labeling and ranking)），将促进排序学习技术在实际系统中的应用。论文的口头大会报告吸引了上百人的聆听，报告结束后，很多人参与讨论，对于Top-k的排序学习问题表示了浓厚的兴趣以及较高的评价。
+该工作完全由国内团队自主研究而获得国际顶级会议奖项，实属难得，表明国内在网络搜索与挖掘领域的研究水平已经进入国际顶尖行列。中科院计算所网络数据科学与工程研究中心“天玑团队”在程学旗研究员的带领下长期以网络数据搜索与挖掘作为其一重要研究方向，近年来在该领域取得一系列重要研究成果。特别值得一提的是，第20届ACM信息和知识管理会议（ACM CIKM2011）的Best Paper奖也为该团队摘取。
+论文作者合影（左起：郭嘉丰博士, 牛树梓同学，程学旗研究员，兰艳艳博士）

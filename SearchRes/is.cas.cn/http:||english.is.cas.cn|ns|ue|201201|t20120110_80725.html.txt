@@ -1,0 +1,3 @@
+http://english.is.cas.cn/ns/ue/201201/t20120110_80725.html
+Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Science.
+In this talk, I will introduce Multiparty Session Types, a type discipline for the pi-calculus which extends binary session type theory to multiparty communication. I will then present some recent results about a connection between Multiparty Session Types and communicating automata. This connection defines a new class of automata, that we call Multiparty Session Automata (MSA). MSA enjoy several good properties, such as freedom from deadlock and communication error, and buffer boundedness, while still being polynomial.

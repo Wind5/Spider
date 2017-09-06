@@ -1,0 +1,183 @@
+In this section, we show how Theano can be used to implement the most basic
+classifier: the logistic regression. We start off with a quick primer of the
+model, which serves both as a refresher but also to anchor the notation and
+In the deepest of machine learning traditions, this tutorial will tackle the exciting
+by a weight matrix and a bias vector . Classification is
+done by projecting an input vector onto a set of hyperplanes, each of which
+corresponds to a class. The distance from the input to a hyperplane reflects
+the probability that the input is a member of the corresponding class.
+Mathematically, the probability that an input vector is a member of a
+class , a value of a stochastic variable , can be written as:
+The models prediction is the class whose probability is maximal, specifically:
+ # initialize with 0 the weights W as a matrix of shape (n_in, n_out)
+ # initialize the biases b as a vector of n_out 0s
+ # W is a matrix where column-k represent the separation hyperplane for
+ # x is a matrix where row-j represents input training sample-j
+ # b is a vector where element-k represent the free parameter of
+ # symbolic description of how to compute prediction as class whose
+Since the parameters of the model must maintain a persistent state throughout
+training, we allocate shared variables for . This declares them both
+as being symbolic Theano variables, but also initializes their contents. The
+dot and softmax operators are then used to compute the vector . The result p_y_given_x is a symbolic variable of vector-type.
+To get the actual model prediction, we can use the T.argmax operator, which
+will return the index at which p_y_given_x is maximal (i.e. the class with
+Now of course, the model we have defined so far does not do anything useful
+yet, since its parameters are still in their initial state. The following
+For a complete list of Theano ops, see: list of ops
+Learning optimal model parameters involves minimizing a loss function. In the
+case of multi-class logistic regression, it is very common to use the negative
+log-likelihood as the loss. This is equivalent to maximizing the likelihood of the
+While entire books are dedicated to the topic of minimization, gradient
+descent is by far the simplest method for minimizing arbitrary non-linear
+functions. This tutorial will use the method of stochastic gradient method with
+The following Theano code defines the (symbolic) loss for a given minibatch:
+ # y.shape[0] is (symbolically) the number of rows in y, i.e.,
+ # number of examples (call it n) in the minibatch
+ # Log-Probabilities (call it LP) with one row per example and
+ # the mean (across minibatch examples) of the elements in v,
+Even though the loss is formally defined as the sum, over the data set,
+of individual error terms, in practice, we use the mean (T.mean)
+in the code. This allows for the learning rate choice to be less dependent
+We now have all the tools we need to define a LogisticRegression class, which
+encapsulates the basic behaviour of logistic regression. The code is very
+similar to what we have covered so far, and should be self explanatory.
+ The logistic regression is fully described by a weight matrix :math:`W`
+ and bias vector :math:`b`. Classification is done by projecting data
+ points onto a set of hyperplanes, the distance to which is used to
+ :param input: symbolic variable that describes the input of the
+ :param n_in: number of input units, the dimension of the space in
+ :param n_out: number of output units, the dimension of the space in
+ # initialize with 0 the weights W as a matrix of shape (n_in, n_out)
+ # initialize the biases b as a vector of n_out 0s
+ # W is a matrix where column-k represent the separation hyperplane for
+ # x is a matrix where row-j represents input training sample-j
+ # b is a vector where element-k represent the free parameter of
+ # symbolic description of how to compute prediction as class whose
+ """Return the mean of the negative log-likelihood of the prediction
+ :param y: corresponds to a vector that gives for each example the
+ Note: we use the mean instead of the sum so that
+ the learning rate is less dependent on the batch size
+ # y.shape[0] is (symbolically) the number of rows in y, i.e.,
+ # number of examples (call it n) in the minibatch
+ # Log-Probabilities (call it LP) with one row per example and
+ # the mean (across minibatch examples) of the elements in v,
+ """Return a float representing the number of errors in the minibatch
+ over the total number of examples of the minibatch ; zero one
+ :param y: corresponds to a vector that gives for each example the
+ # the T.neq operator returns a vector of 0s and 1s, where 1
+ # generate symbolic variables for input (x and y represent a
+ y = T.ivector(y) # labels, presented as 1D vector of [int] labels
+We start by allocating symbolic variables for the training inputs and
+their corresponding classes . Note that x and y are defined
+requires the input to build its graph, it is passed as a parameter of the
+__init__ function. This is useful in case you want to connect instances of
+such classes to form a deep network. The output of one layer can be passed as
+the input of the layer above. (This tutorial does not build a multi-layer
+network, but this code will be reused in future tutorials that do.)
+Finally, we define a (symbolic) cost variable to minimize, using the instance
+ # the cost we minimize during training is the negative log likelihood of
+To implement MSGD in most programming languages (C/C++, Matlab, Python), one
+would start by manually deriving the expressions for the gradient of the loss
+of a computation graph. The function train_model, which performs one step
+ # specify how to update the parameters of the model as a list of
+ # compiling a Theano function `train_model` that returns the cost, but in
+ # the same time updates the parameter of the model based on the rules
+updates is a list of pairs. In each pair, the first element is the symbolic
+variable to be updated in the step, and the second element is the symbolic
+function for calculating its new value. Similarly, givens is a dictionary
+their replacements during the step. The function train_model is then defined such
+the input is the mini-batch index index that, together with the batch
+size (which is not an input since it is fixed) defines with
+the return value is the cost/loss associated with the x, y defined by
+on every function call, it will first replace x and y with the slices
+from the training set specified by index. Then, it will evaluate the cost
+associated with that minibatch and apply the operations defined by the
+Each time train_model(index) is called, it will thus compute and return the
+cost of a minibatch, while also performing a step of MSGD. The entire learning
+algorithm thus consists in looping over all examples in the dataset, considering
+As explained in Learning a Classifier, when testing the model we are
+interested in the number of misclassified examples (and not only in the likelihood).
+builds the symbolic graph for retrieving the number of misclassified examples in
+ """Return a float representing the number of errors in the minibatch
+ over the total number of examples of the minibatch ; zero one
+ :param y: corresponds to a vector that gives for each example the
+ # the T.neq operator returns a vector of 0s and 1s, where 1
+which we can call to retrieve this value. As you will see shortly,
+for the examples in that minibatch, the number that were misclassified by the
+model. The only difference between them is that test_model draws its
+minibatches from the testing set, while validate_model draws its from the
+ # compiling a Theano function that computes the mistakes that are made by
+by a weight matrix :math:`W` and a bias vector :math:`b`. Classification is
+done by projecting data points onto a set of hyperplanes, the distance to
+ &= \frac {e^{W_i x + b_i}} {um_j e^{W_j x + b_j}}
+The output of the model or prediction is then done by taking the argmax of
+ The logistic regression is fully described by a weight matrix :math:`W`
+ and bias vector :math:`b`. Classification is done by projecting data
+ points onto a set of hyperplanes, the distance to which is used to
+ :param input: symbolic variable that describes the input of the
+ :param n_in: number of input units, the dimension of the space in
+ :param n_out: number of output units, the dimension of the space in
+ # initialize with 0 the weights W as a matrix of shape (n_in, n_out)
+ # initialize the biases b as a vector of n_out 0s
+ # W is a matrix where column-k represent the separation hyperplane for
+ # x is a matrix where row-j represents input training sample-j
+ # b is a vector where element-k represent the free parameter of
+ # symbolic description of how to compute prediction as class whose
+ """Return the mean of the negative log-likelihood of the prediction
+ :param y: corresponds to a vector that gives for each example the
+ Note: we use the mean instead of the sum so that
+ the learning rate is less dependent on the batch size
+ # y.shape[0] is (symbolically) the number of rows in y, i.e.,
+ # number of examples (call it n) in the minibatch
+ # Log-Probabilities (call it LP) with one row per example and
+ # the mean (across minibatch examples) of the elements in v,
+ """Return a float representing the number of errors in the minibatch
+ over the total number of examples of the minibatch ; zero one
+ :param y: corresponds to a vector that gives for each example the
+ # the T.neq operator returns a vector of 0s and 1s, where 1
+ # Download the MNIST dataset if it is not present
+ # input is a numpy.ndarray of 2 dimensions (a matrix)
+ # where each row corresponds to an example. target is a
+ # numpy.ndarray of 1 dimension (vector) that has the same length as
+ # the number of rows in the input. It should give the target
+ # to the example with the same index in the input.
+ The reason we store our dataset in shared variables is to allow
+ Theano to copy it into the GPU memory (when code is run on GPU).
+ Since copying data into the GPU is slow, copying a minibatch everytime
+ is needed (the default behaviour if the data is not in a shared
+ # When storing data on the GPU it has to be stored as floats
+ # therefore we will store the labels as ``floatX`` as well
+ # we need them as ints (we use labels as index, and if they are
+ # floats it doesnt make sense) therefore instead of returning
+ # ``shared_y`` we will have to cast it to int. This little hack
+ :param n_epochs: maximal number of epochs to run the optimizer
+ :param dataset: the path of the MNIST dataset file from
+ # compute number of minibatches for training, validation and testing
+ # generate symbolic variables for input (x and y represent a
+ y = T.ivector(y) # labels, presented as 1D vector of [int] labels
+ # the cost we minimize during training is the negative log likelihood of
+ # compiling a Theano function that computes the mistakes that are made by
+ # compute the gradient of cost with respect to theta = (W,b)
+ # specify how to update the parameters of the model as a list of
+ # compiling a Theano function `train_model` that returns the cost, but in
+ # the same time updates the parameter of the model based on the rules
+ patience = 5000 # look as this many examples regardless
+ patience_increase = 2 # wait this much longer when a new best is
+ improvement_threshold = 0.995 # a relative improvement of this much is
+ # if we got the best validation score until now
+ print(The code run for %d epochs, with %f epochs/sec % (
+ An example of how to load a trained model and use it
+ # We can test it on some examples from test test
+ print("Predicted values for the first 10 examples in test set:")
+The user can learn to classify MNIST digits with SGD logistic regression, by typing, from
+ epoch 72, minibatch 83/83, test error of best model 7.510417 %
+ epoch 73, minibatch 83/83, test error of best model 7.489583 %
+Optimization complete with best validation score of 7.500000 %,with test performance 7.489583 %
+On an Intel(R) Core(TM)2 Duo CPU E8400  3.00 Ghz the code runs with
+approximately 1.936 epochs/sec and it took 75 epochs to reach a test
+error of 7.489%. On the GPU the code does almost 10.0 epochs/sec. For this
+lowest validation error is reached. We can reload this model and predict
+labels of new data. predict function shows an example of how
+ An example of how to load a trained model and use it
+ # We can test it on some examples from test test
+ print("Predicted values for the first 10 examples in test set:")

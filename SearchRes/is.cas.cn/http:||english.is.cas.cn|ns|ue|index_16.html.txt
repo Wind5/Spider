@@ -1,0 +1,4 @@
+http://english.is.cas.cn/ns/ue/index_16.html
+ [9-14]Advanced Features of Duration Calculus and Their Applications in Sequential Hybrid Programs 
+ [5-27]Reasoning about Optimistic Concurrency using a Program Logic for History 
+ [5-5]Tags Meet Ratings: Improving Collaborative Filtering with Tag-Based Neighborhood Method 

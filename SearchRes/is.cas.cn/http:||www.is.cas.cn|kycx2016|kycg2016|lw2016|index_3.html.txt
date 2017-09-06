@@ -1,0 +1,11 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_3.html
+ A Framework to Enable Web Applications Work Offline in Challenged Network Environments
+ A Path-oriented Approach to Generating Executable Test Sequences for Extended Finite State Machines
+ Vrank:A Context-Aware Approach to Vulnerability Scoring and Ranking in SOA
+ attacking the dimensionality problem of parameterized systems via bounded reachability graphs
+ virtual machine replay update: improved implementation for modern hardware architecture
+ DYNAMIC MODELING OF ELASTIC CACHING PLATFORMS FOR CACHE STRATEGY RECONFIGURATION
+ Tibetan Base Noun Phrase Identification Framework Based on Chinese-Tibetan Sentence Aligned Corpus
+ Building Large Scale Text Corpus for Tibetan Natural Language Processing by Extracting Text from Web Pages
+ A Computational Approach to Measure Availability of Networked Software System
+ A Hybrid Search Engine Framewore for the Internet of Things based on Spatial-temporal,Value-based,and Keyword-based Conditions

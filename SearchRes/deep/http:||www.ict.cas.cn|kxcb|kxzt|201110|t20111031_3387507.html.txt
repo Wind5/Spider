@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/kxcb/kxzt/201110/t20111031_3387507.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+下面几个办法可以采用：
+1. 在解毒之前，要先备份重要的数据文件。
+2. 启动反病毒软件，并对整个硬盘进行扫描。
+3. 发现病毒后，一般应利用反病毒软件清除文件中的病毒。
+4. 某些病毒无法完全清除，应采用事先准备的干净的系统引导盘引导系统，运行相关杀毒软件进行清除。

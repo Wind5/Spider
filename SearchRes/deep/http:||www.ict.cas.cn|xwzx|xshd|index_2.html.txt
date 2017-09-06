@@ -1,0 +1,2 @@
+http://www.ict.cas.cn/xwzx/xshd/index_2.html
+ Adaptive Thread to Core Assignment via Online Program Phase Classification in Asymmetric Multicore Processors (AMP)

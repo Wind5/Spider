@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/kycg/bslw/
+ High Performance Matrix Multiplication on Many-coresHigh Performance Matrix Multiplication on Many-cores
+ Joint Decoding with Multiple Translation ModelsJoint Decoding with Multiple Translation Models
+ Exploiting Stream Request Locality to Improve Query Throughput of a Data Integration System

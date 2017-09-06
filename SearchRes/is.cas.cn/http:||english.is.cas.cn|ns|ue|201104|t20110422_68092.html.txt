@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/201104/t20110422_68092.html
+ [4-25]Systematic applications of SAT -- towards a better understanding of SAT 
+Title：Systematic applications of SAT -- towards a better understanding of SAT
+We need to understand what happens when a SAT solver shows good or bad(!) performance. Is it random? Or is there some structure? Can we do (much) better?! One area, which provides excellent benchmark series in great number and variety, is Ramsey theory. Small changes in parameter values can yield large changes in behaviour. In the first part of my talk I will give some overview on various results we obtained recently in the area of van-der-Waerden-like numbers.
+In the second part I want to start with some fragments of a general theory of "good representations" of boolean functions. As an application I will present some first results on SAT attacks on DES/AES (cryptosystems). 

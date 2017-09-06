@@ -1,0 +1,11 @@
+http://www.is.cas.cn/yjsgk/zzjg/201610/t20161012_4674990.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+组织机构----中国科学院软件研究所
+ 首页 > 研究所概况 > 组织机构
+ 人机交互技术与智能信息处理实验室 
+ 时间：2013-07-01 
+实验室成立于1999年1月11日，致力于自然人机交互技术的创新性研发，现认定为人机交互北京市重点实验室。目前，实验室有职工39人，其中博士学位以上人员占60%以上，高级职称以上人员10人，博士、硕士研究生约50人。
+秉承“以人为本”的创新理念，坚持理论与实践相结合，实验室出色地完成了多项国家级973、863和国家自然科学基金重点课题；研究开发了笔式操作平台PBOP和分布式实时数据库系统Agilor(安捷http://agilor.iscas.ac.cn)；在国内外主流会议（ACM SIGGRAPH，ACM SIGCHI,IEEE RTSS等）和期刊（IEEE transaction on Multimedia, ACM Transaction on Graphics，IEEE Transactions on Pattern Analysis and Machine Intelligence等）上发表相关学术论文300余篇，对推动自然人机交互的研究发展产生了重要影响。特别是在过去10年里，实验室与国家审计署、国家开发银行等单位合作，研究开发了面向海量数据的通用审计系统；与中国石化合作，研究开发了流程企业生产执行系统，上述两个系统分别在金融和流程制造领域得到成功应用。
+实验室同时重视开展实质性的国际合作研究，与国外多个研究机构建立了长期的合作交流关系，多次应邀到英国、美国、澳大利亚和日本等地进行学术报告和交流。
+4、时空数据可视化分析技术
+实验室网站：http://iel.iscas.ac.cn/　实时数据库产品主页 http://agilor.iscas.ac.cn

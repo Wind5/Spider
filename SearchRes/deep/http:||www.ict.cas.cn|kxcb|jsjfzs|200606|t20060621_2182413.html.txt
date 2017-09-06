@@ -1,0 +1,14 @@
+http://www.ict.cas.cn/kxcb/jsjfzs/200606/t20060621_2182413.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+         自ENAIC诞生至今半个多世纪来，计算机获得了突飞猛进的发展。人们依据计算机性能和当时软硬件技术(主要根据所使用的电子器件)，将计算机的发展划分成以下四个阶段。
+延迟线、 磁芯、磁鼓磁带、纸带
+磁芯、磁鼓 磁带、磁盘
+半导体存储器 磁芯、磁鼓 磁带、磁盘
+半导体存储器 磁带、磁盘 光盘
+实时/分时处理网络操作系统
+科学计算 数据处理 过程控制
+科学计算 系统设计等科技工程领域
+ENIACEDVACIBM705
+UNIVACⅡ IBM7094 CDC6600
+IBM360 PDP 11 NOVA1200
+ILLIAC-Ⅳ VAX 11 IBM PC

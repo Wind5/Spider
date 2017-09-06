@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/xwzx/jssxw/201505/t20150529_4365073.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+973项目“高通量计算系统构建原理、支撑技术及云服务应用”召开交流研讨会----中国科学院计算技术研究所
+ 973项目“高通量计算系统构建原理、支撑技术及云服务应用”召开交流研讨会
+ 2015-05-29 | 【大 中 小】【打印】【关闭】
+ 　　计算所于2015年5月26日下午召开了由973项目首席科学家李国杰院士主持的“高通量计算系统的构建原理、支撑技术及云服务应用”项目交流研讨会，首席科学家助理孙凝晖研究员、项目专家组成员李晓维研究员、科研处常务副处长罗瑞丽、课题负责人、课题骨干等20余人参加了本次会议。　　首先，六个课题负责人分别就执行期任务完成情况、代表性成果、下一步的工作计划以及需要探讨的技术问题等进行了汇报。在执行期内（2011年1月至今），本项目在核心科学问题的研究方面完成了预期目标。共发表论文355篇，其中，SCI收录108篇，包括IEEE Trans. on VLSI Systems(TVLSI), IEEE Trans. on Architecture and Code Optimization(TACO), Communication of the ACM、IEEE Micro、IEEE Transaction on Computers, IEEE Transactions on Moblie Computing、Elsevier Journal of Network and Computer Application, Elsevier Computer Networks, Wiley International Journal of Communication Systems, Oxford Computer Journal等国际期刊和ISCA、ASE、HPCA、DASFFA、CGO、PACT、DAC、DSN、Hot Chips、ITC、VTS、ICCAD、DATE、IISWC等国际会议。申请并受理发明专利166项，获得发明专利权18项。在973项目的资助下，执行期内获得北京市科学技术奖一等奖一项，北京市科学技术奖二等奖两项。所取得的阶段性研究成果对本项目今年的结题验收等奠定了坚实基础。　　各个课题负责人对项目的下一步工作内容以及如何更好的结题验收等问题进行了深入的交流和讨论。最后，项目负责人李国杰院士指出，各个课题需要思考如何能将课题的成果做到在国内外产生影响力，项目的后续工作能够持续在本领域做出对国家有价值的事情。　　课题负责人做报告交流研讨会现场

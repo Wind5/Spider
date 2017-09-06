@@ -1,0 +1,5 @@
+http://english.is.cas.cn/rh/rps/200908/t20090819_33147.html
+ Software Quality Management Platform provides software companies with software process assets management, software project management, software measurement, requirement management, function point estimation and bug management, in accordance with the standards as ISO9000/CMM/CMMI. 
+Through this platform, users manage requirements and estimate cost and size effectively. Also this platform provides such functions as visual process definition and process related document and data management etc., which are essential elements of the process asset library, so as to help software organizations manage projects. 
+Based on the measurement and analysis on process data, it also facilitates continuous process improvement through quantitative process management.
+Used in 8 national software industry bases, 10 national software incubators and more than 200 software organizations 

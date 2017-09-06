@@ -1,0 +1,2 @@
+http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379072.html
+ Efficient motion data indexing and retrieval with local similarity measure of motion strings

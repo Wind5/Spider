@@ -1,0 +1,4 @@
+http://english.is.cas.cn/ns/ue/200812/t20081221_25779.html
+Speaker：Professor Arieh Iserles         Department of Applied Mathematics and Theoretical Physics         Centre for Mathematical Sciences         University of Cambridge
+The main research of Professor Arieh Iserles is on various aspects of 
+numerical ordinary differential equations. It spans Geometric integration; Highly oscillatory integrals in one or more dimensions; Acceleration of convergence and its connection with complex dynamics; Approximation by orthogonal linear combinations of exponentials; The theory of orthogonal and biorthogonal polynomials; Orthogonality in multivariate Sobolev spaces; Functional-differential equations with proportional delay; Infinite-dimensional systems of ODEs and their numerical treatment. 

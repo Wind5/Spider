@@ -1,0 +1,2 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496629.html
+ [1] Si-Min He et al. On guaranteed smooth switching for buffered crossbar switches, IEEE/ACM Trans. Networking, 16(3): 718-731, June 2008.[2] Simin He et al. Smooth switching problem in buffered crossbar switches. ACM SIGMETRICS, pp. 386-387, Banff, Alberta, Canada, 2005.[3] HE Simin and ZHANG Bo. Solving SAT by algorithm transform of Wu's method. Journal of Computer Science and Technology, 14(5): 468-480, Sept. 1999.

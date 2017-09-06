@@ -1,0 +1,7 @@
+http://english.is.cas.cn/ns/ue/index_12.html
+ [1-5]Dynamic Quality-aware Configuration and Optimization of Service Monitoring Systems 
+ [2012-1-5] Degrees of non- determinacy of computable games and linear logic 
+ CALL FOR PAPERS ----- The 8th IEEE eScience conference 2012 
+ [12-15]Fault Localization Inspired by the PIE Model (in Chinese) 
+ [11-17]SKLCS seminar:Mornitor-Based statsstical Model checking for Weighted Metric Temporal Logic 
+ [11-11] SKLCS Seminar: Comlexity Issues of Ternary Boolean Diagrams 

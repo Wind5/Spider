@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/xwzx/jssxw/201303/t20130308_3788366.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+受中科院计算技术研究所的计算机体系结构国家重点实验室（筹）的侯锐副研究员的邀请，Brad Beckmann博士于2013年3月5日来计算所交流并做了题为“The gem5 simulator”的学术报告。该报告于下午2点在计算所446会议室举行。
+在本次报告中，Brad Beckmann博士介绍了gem5模拟器的各个方面，包括gem5的开发动机和它的主要特点，gem5的软件实现等方面。Brad Beckmann重点介绍了gem5的软件实现的三个方面：gem5的整体结构，编程语言和gem5目前所支持的运行模式，这些正是与会人员所最关心的。报告当中，Brad Beckmann博士还介绍了gem5的两种内存系统的类型： Classic和Ruby。同时，报告期间他还多次提到了gem5作为一个开源软件是gem5开发者的一个交流平台，开发者可以将他们自己的代码提交到ReviewBorad系统上。他说这次报告就是希望能够吸引更多的研究者加入到gem5的开发和完善当中。最后，他还简要的介绍了gem5的开发历史和未来的努力方向。
+报告期间，Brad Beckmann和参会的各位老师和同学之间进行了很好的交流。整个报告的气氛也非常的活跃，参会的老师和同学从报告中也得到了很大的帮助。一个半小时以后，在大家的掌声中，Brad Beckmann 博士结束了本次报告。
+报告之后，参会的老师和同学就报告中的相关问题进行了热烈讨论。感谢Brad Beckmann博士给我们带来的这次精彩报告。
+注：Brad Beckmann博士从07年开始加入位于华盛顿州的AMD研究院工作。2006年在威斯康辛大学麦迪逊分校获得博士学位。在博士期间的主要研究CMP cache的布线延时在物理层面和逻辑层面上的解决方案。在AMD工作期间，承担了很多在内存，I/O，图像处理和片上网络等方面的项目。目前，Brad带领着AMD模拟器团队重点研究新型APU的内存系统.

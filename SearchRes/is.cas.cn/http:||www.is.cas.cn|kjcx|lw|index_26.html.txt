@@ -1,0 +1,42 @@
+http://www.is.cas.cn/kjcx/lw/index_26.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+论文----中国科学院软件研究所
+ 首页 > 科技创新 > 论文
+ 一种用于软件采购定价的成本估算系统
+ 面向开发阶段的软件缺陷分类方法研究
+ 基于刚体运动学仿真的坦克训练模拟系统研究
+ 基于SPEM扩展模型的PSP实施方法
+ 一种基于组织实体能力的软件过程建模方法
+ 一种基于半结构化数据的项目备份方法研究
+ 应用统计过程控制监控软件测试过程
+ 基于价值的软件测试工作量估算模型
+ 面向海量层次信息可视化的嵌套圆鱼眼视图
+ 计算机辅助设计与图形学学报
+ 一种基于时间自动机的测试用例自动生成及执行方法
+ 基于Snort规则库的冲突检测
+ A pen and speech-based storytelling system for Chinese children
+ Computers in Human Behavior
+ 网络受限移动对象不确定性轨迹的索引
+ Isabelle在分析安全操作系统状态机模型中的应用
+ 高效XML验证技术的实现
+ 基于JPM的可信文件系统CIVFS的研究和实现
+ MPI同步通信顺序模型死锁静态检测算法
+ 测试顺序选择策略研究
+ 无线传感器网络中的调度算法研究
+ MPI程序同步通信基本模型死锁检测
+ 互联网的业务融合及可信度研究
+ Performance Analysis of Multi-homed Transport Protocols with Network-level Fault Tolerance
+ IET Communications
+ 基于单字提示特征的中文命名实体识别快速算法
+ 支持复杂事务模式的Web应用服务器复制机制
+ 基于分布RDF（S）模型的信息查询与集成
+ WikiWinWin: A Wiki Based System for CollaborativeRequirements Negotiation
+ Estimating Fixing Effort and Schedule based on Defect Injection Distribution
+ Software Process Improvement and Practice
+ Interest Mining and Recommender System for Local Activities
+ 2008 IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology
+ A Structured Prediction Approach for Statistical Machine Translation
+ Third International Joint Conference on Natural Language Processing
+ A Flexible Transformation Scheme between the ‘OR’ of BPMN and ‘Link’ of BPEL
+ APSCC 2008
+共34页  首页上5页上一页2627282930下一页下5页尾页 

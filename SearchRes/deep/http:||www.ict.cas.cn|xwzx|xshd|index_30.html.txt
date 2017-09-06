@@ -1,0 +1,3 @@
+http://www.ict.cas.cn/xwzx/xshd/index_30.html
+ Reevaluating AmdahlReevaluating Amdahl's Law in the Multicore Eras Law in the Multicore Era
+报告人：Benjamin W. Wah, Professor of the University of Illinois at Urbana-Champaign

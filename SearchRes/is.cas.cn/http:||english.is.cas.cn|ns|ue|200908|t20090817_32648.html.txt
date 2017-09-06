@@ -1,0 +1,6 @@
+http://english.is.cas.cn/ns/ue/200908/t20090817_32648.html
+ [8-12]Phase-field models for multiphase complex fluids: modeling, numerical analysis and simulations 
+ Title：Phase-field models for multiphase complex fluids: modeling, numerical analysis and simulations
+Time： 4:00-5:00 pm, Wednesday, August 12Venue：Room 337, Level 3 Building #5
+I shall present an energetic variational phase field model for multiphase incompressible flows which leads to a set of coupled nonlinear system consisting a phase equation and the Navier-Stokes equations. We shall pay particular attention to situations with large density ratios as they lead to formidable challenges in both analysis and simulation.
+I shall present efficient and accurate numerical schemes for solving this coupled nonlinear system, and show ample numerical results (air bubble rising in water, Newtonian bubble rising in a polymeric fluid, defect motion in a liquid crystal flow, etc.) which not only demonstrate the effectiveness of the numerical schemes, but also validate the flexibility and robustness of the phase-field model. 

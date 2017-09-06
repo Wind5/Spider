@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/xwzx/xshd/index_10.html
+ A rigorous statistical method for detecting single nucleotide polymophisms (SNPs) using shord reads
+ Wouldn't it be wonderful if you knew exactly what measures you could take to stave off, or even prevent, the onset of disease? 
+ The hardware management of concurrency in the Microgrid and the fungibility of processing resources

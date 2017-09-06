@@ -54,3 +54,19 @@ class SearchresSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+from scrapy.spidermiddlewares.offsite import OffsiteMiddleware
+from scrapy.utils.httpobj import urlparse_cached
+class MyOffsiteMiddleware(OffsiteMiddleware):
+
+    def should_follow(self, request, spider):
+        """Return bool whether to follow a request"""
+        # hostname can be None for wrong urls (like javascript links)
+        url = request.url
+        if 'pdf' in url:
+            return False
+        host = urlparse_cached(request).hostname or ''
+        for domain in spider.allowed_domains:
+            if domain in host:
+                return True
+        return False

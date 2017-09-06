@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/xwzx/xshd/201002/t20100203_2740061.html
+A New Era after the Convergence of Network Centric and Data Centric Computing----中国科学院计算技术研究所
+摘要： This talk will examine the challenges in the convergence of both network centric and data centric computing, and present a vision of a content addressable future Internet. It will also present a number of research projects that are carried out in our Intelligent Storage Consortium. These projects include data deduplication, long-term data preservation, data/storage security/privacy, and solid state drives. 
+报告人简介：Dr. Du is an IEEE Fellow (since 1998) and a Fellow of the Minnesota Supercomputer Institute. He received a Ph.D. degree from University of Washington (Seattle), a M.S from University of Washington and a B.S. from National Tsing-Hua University (Taiwan) in 1981, 1980 and 1974 respectively. He joined University of Minnesota as a faculty since 1981. 

@@ -1,0 +1,10 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_22.html
+ EUC 2010, The 8th IEEE/IFIP International Conference on Embedded and Ubiquitous Computing, December 11-13, 2010, Hong Kong SAR, China.第八届嵌入式与普适计算国际会议
+ 24th IEEE International Conference on Advanced Information Networking and Applications(AINA2010)
+ Detecting Data Inconsistency Failure of Composite Web Services through Parametric Stateful Aspect
+ A New Approach to Performance Optimization of Mashups via Data Flow Refactoring
+ Static Detection of Unsafe Use of Variables in Java Program
+ 1st International Workshop on Software Trustworthiness(SoTrust 2010) Notification26-29 Oct. 2010 Xi’an, China
+ A Two-Phase Approach to Subscription Subsumption Checking for Content-Based publish/Subscribe Systems
+ 24th IEEE International Conference on Advanced Information Networking and Applications(AINA2010)
+ Efficient Address Updating for Seamless Handover in Multi-homed Mobile Wnvironments

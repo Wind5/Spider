@@ -1,0 +1,8 @@
+http://www.is.cas.cn/kjcx/lw/index_1.html
+ A Novel Fast Method for L1 Problems in Multiview Geometry
+ Unistroke gestures on multi-touch interaction: supporting flexible touches with key stroke extraction
+ Modeling and simulations of drop pinch-off from liquid crystal filaments and the leaky liquid crystal faucet immersed in viscous fluids
+ An Initial Evaluation of Requirements Dependency Types in Change Propagation Analysis
+ VMFDF: AVirtualization-based Multi-Level Fault Detection Framework for High Availability Computing
+ Debug Concurrent Programs With Visualization and Inference of Event Structure
+ Semi-Static Detection of Runtime Type Errors in Component-Based Java Programs

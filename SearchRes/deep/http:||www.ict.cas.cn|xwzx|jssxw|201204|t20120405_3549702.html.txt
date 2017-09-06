@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/xwzx/jssxw/201204/t20120405_3549702.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Mentor Graphics公司Huang Yu博士来体系结构重点实验室访问----中国科学院计算技术研究所
+2012年3月30日，Mentor Graphics公司的Huang Yu博士受体系结构国家重点实验室的邀请进行学术访问，并在计算所446会议室做了一次学术报告。此次报告由胡瑜研究员主持，报告的主要内容是面向用户自定义故障类型(UDFM: User-Defined Fault Model)的ATPG。
+Huang Yu博士首先用一段视频，简单的介绍了Mentor Graphics公司近些年的发展情况，以及其测试工具Tessent。然后，对UDFM-ATPG进行了介绍，包括UDFM文件的格式，UDFM如何描述Intra-Cell Fault，UDFM如何描述Inter-Cell Fault，用UDFM为实际工业电路生成测试向量。体系结构国家重点实验室可靠性团队
+计算所大约30位老师和同学参加了这次报告，报告过程中大家积极踊跃的提出了各自感兴趣的问题，黄博士和大家就如何描述时延故障，在描述Intra-Cell Fault时应该考虑的故障类型，如何依据版图利用UDFM描述crosstalk，如何将UDFM的思想扩展到验证领域中，等等问题进行了热烈的讨论。
+学术报告在轻松而热烈的气氛下持续了大概一个半小时。会后约定了进一步的合作研究计划。

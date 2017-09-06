@@ -1,0 +1,6 @@
+http://www.is.cas.cn/xshd2016/xsbg2016/index.html
+ [2017-09-04][9-11]Internet Investigation and Web Monitoring: a discussion about digital evidence quality and ...
+ [2017-09-01][9-4] Pixie: A system for Recommending 1+ Billion Items to 175+ Million Pinterest Users in Real-Time
+ [2017-07-18][7-26]From Big Data to Big Knowledge: Knowledge Engineering with Big Data
+ [2017-06-23][6-27]Deep Learning Approaches for Brain Image Segmentation, Analysis, and Related Problems
+ [2017-04-17][4-21]Tempo: From Data Streams to Graph Streams, from Searching to Mining

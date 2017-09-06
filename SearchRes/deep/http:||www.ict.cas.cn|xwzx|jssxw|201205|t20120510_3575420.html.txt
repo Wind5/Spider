@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/xwzx/jssxw/201205/t20120510_3575420.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+John Carter博士来计算所作技术报告交流----中国科学院计算技术研究所
+IBM奥斯汀研究院的John Carter博士5月8日来计算所作题为“Designing Energy-Efficient Servers and Data Centers”的报告。报告在计算所4层会议厅举行，由先进计算机系统实验室的张立新研究员主持。
+John Carter博士介绍了IBM奥斯汀研究院在高能效服务器和数据中心方向的技术，包括处理器、内存系统、存储和系统软件、应用等。
+首先，John Carter博士介绍了它之前从事的相关工作和IBM奥斯汀研究院的从事的研究工作。接着，他介绍了在Power7系列处理器中用来降低功耗的策略。其中主要包括3个组成部件:处理器中关键路径监测电路，响应时序盈余变化的时钟频率调整部件和处理器电压调整部件。随后，它介绍了内存系统能耗管理方面的一些问题和存在的机遇与挑战，同时介绍了在高能效存储设计的相关问题和挑战。最后，他介绍了在节能服务器和数据中心中的系统软件和应用的相关问题。报告之后，参会的老师和同学就Power7中的低功耗策略进行了热烈讨论，并就其他相关问题展开讨论。

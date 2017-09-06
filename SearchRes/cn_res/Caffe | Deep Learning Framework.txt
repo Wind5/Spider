@@ -1,0 +1,27 @@
+http://caffe.berkeleyvision.org/
+baidu
+10
+Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+It is developed by Berkeley AI Research (BAIR) and by community contributors.
+Yangqing Jia created the project during his PhD at UC Berkeley.
+Switch between CPU and GPU by setting a single flag to train on a GPU machine then deploy to commodity clusters or mobile devices.
+In Caffe’s first year, it has been forked by over 1,000 developers and had many significant changes contributed back.
+Thanks to these contributors the framework tracks the state-of-the-art in both code and models.
+Caffe can process over 60M images per day with a single NVIDIA K40 GPU*.
+That’s 1 ms/image for inference and 4 ms/image for learning and more recent library versions and hardware are faster still.
+We believe that Caffe is among the fastest convnet implementations available.
+Community: Caffe already powers academic research projects, startup prototypes, and even large-scale industrial applications in vision, speech, and multimedia.
+Join our community of brewers on the caffe-users group and Github.
+ DIY Deep Learning for Vision with Caffe and Caffe in a Day
+A 4-page report for the ACM Multimedia Open Source competition (arXiv:1408.5093v1).
+BAIR suggests a standard distribution format for Caffe models, and provides trained models.
+ Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
+Join the caffe-users group to ask questions and discuss methods and models. This is where we talk about usage, installation, and applications.
+Framework development discussions and thorough bug reports are collected on Issues.
+The BAIR Caffe developers would like to thank NVIDIA for GPU donation, A9 and Amazon Web Services for a research grant in support of Caffe development and reproducible research in deep learning, and BAIR PI Trevor Darrell for guidance.
+The BAIR members who have contributed to Caffe are (alphabetical by first name):
+Carl Doersch, Eric Tzeng, Evan Shelhamer, Jeff Donahue, Jon Long, Philipp Krähenbühl, Ronghang Hu, Ross Girshick, Sergey Karayev, Sergio Guadarrama, Takuya Narihira, and Yangqing Jia.
+The open-source community plays an important and growing role in Caffe’s development.
+Check out the Github project pulse for recent activity and the contributors for the full list.
+If you’d like to contribute, please read the developing & contributing guide.
+Yangqing would like to give a personal thanks to the NVIDIA Academic program for providing GPUs, Oriol Vinyals for discussions along the journey, and BAIR PI Trevor Darrell for advice.

@@ -1,0 +1,11 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_28.html
+ Scenario-focused development method for a pen-based user interface: model and applications
+ A Selection Model for Interactive Web Services and Its Implementation in Portal
+ Two Step Chinese Named Entity Recognitiong Based on Conditional Random Fields Models
+ A shortest path algorithm for moving objects in spatial network databases
+ An Empirical AnalReducing Biases in Individual Software Effort Estimations A Combining Approach
+ Quantitative Analysis of Faults and Failures with Multiple Releases of SoftPM
+ A Survey on Software Cost Estimation in the Chinese Software Industry
+ Ensuring the Consistent Concurrent Execution of Composition under Relaxed Isolation
+ Evalvid-SCTP: Trace Driven Simulation of MPEG-4 Video Transmission over SCTP Network
+ A Refined Rate Allocation Scheme with Adaptive Playback Adjustment for Robust HD Video Stream Transmission

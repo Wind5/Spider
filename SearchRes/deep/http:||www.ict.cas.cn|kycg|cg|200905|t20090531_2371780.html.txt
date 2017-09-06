@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/kycg/cg/200905/t20090531_2371780.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+基于龙芯2号的瘦客机和军用处理器模块研制----中国科学院计算技术研究所
+         龙芯瘦客户机以国产龙芯2号高性能通用处理器(500MHz-1GHz)为核心，从整机系统、主板到系统软件均为自主开发。该瘦客户机由于采用了国产龙芯2号处理器，具有性价比高、安全性好、功耗低、体积小的优点。瘦客户机外围接口丰富，如集成了显示、网络、音频、USB等，可以方便地扩展成其它高端嵌入应用。瘦客户机运行完整的Linux操作，能流畅运行X-Window视窗系统、Mozilla全功能浏览器和媒体播放器,软解码播放MPEG2、MPEG4、AVI等媒体格式。在电子政务、教育、农村信息化、多媒体信息终端等领域有广阔的应用前景。

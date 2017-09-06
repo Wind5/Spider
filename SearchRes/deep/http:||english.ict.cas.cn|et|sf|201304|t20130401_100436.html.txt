@@ -1,0 +1,5 @@
+http://english.ict.cas.cn/et/sf/201304/t20130401_100436.html
+Department of Electronic Engineering and Information Science, University of Science 　and Technology of China (USTC),
+Research on system software of Dawning Cluster System in ICT, including high-availability
+Research on system software and architecture, including intelligent Ethernet NIC, network memory service, optical interconnection etc. 
+Research on HPC architecture in ICT, including scalable simulator and asymmetric operating system. 

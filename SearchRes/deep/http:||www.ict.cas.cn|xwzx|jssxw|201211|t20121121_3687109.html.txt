@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/xwzx/jssxw/201211/t20121121_3687109.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Dhabaleswar K. (DK) Panda教授来高性能中心进行学术交流----中国科学院计算技术研究所
+受高性能中心的邀请，俄亥俄州立大学的Dhabaleswar K. (DK) Panda教授于9月26号来计算所进行学术交流，并在计算所221会议室现场解答了高性能中心师生的问题。
+Panda教授此次中国之行的主要目的是参加Cluster 2012会议，他在会议上给出了题目为“Designing Networking Technologies and Communication Libraries for Exascale Computing Systems:Opportunities and Challenges”的大会主题报告。在报告中，他对亿亿次高性能计算机通信系统在通信网络硬件和通信软件库所面临的挑战和机遇进行了精彩阐述。他指出，由于亿亿次高性能计算机包含数量众多的处理单元，通信系统需要提供相应的编程模型支持。鉴于此，从性能和编程性两方面出发，他介绍了同时支持消息传递MPI（Message Passing Interface）和分区全局地址空间PGAS（Partitioned Global Address Space）两种编程模型的通信系统。为了珍惜这次难得的机会，高性能中心在 Panda教授做完主题报告后，随即邀请他到计算所进行交流。在面对面的交流中，高性能中心的广大师生首先针对报告中存在的疑问，向Panda教授进行了提问。然后，师生们根据曙光高性能计算机研制过程中所遇到的实际问题包括通信库的扩展性、HPP单一系统映像以及异构编程等，向Panda教授进行了请教。Panda教授对每一个问题进行了详细地解答，并给出了宝贵的指导意见。针对高性能中心下一步将要实现的CHPP通信系统，Panda教授表现了极大的兴趣并给与了充分肯定。

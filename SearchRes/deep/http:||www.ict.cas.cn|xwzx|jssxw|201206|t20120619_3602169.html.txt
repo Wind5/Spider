@@ -1,0 +1,6 @@
+http://www.ict.cas.cn/xwzx/jssxw/201206/t20120619_3602169.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+受中科院计算所的计算机体系结构国家重点实验室（筹）武成岗副研究员的邀请，Robby Findler教授于2012年6月15日来计算所交流并做了题为“Macros matter: effectively building lots of programming languages”的学术报告。该报告于上午10点30分在计算所446会议室举行。
+Robby Findler是美国西北大学的副教授，他在2002年在Rice大学获得了博士学位。他的研究领域是编程语言，主要关注与编程环境，软件合同以及操作语义建模工具。他负责维护DrRacket，编程语言Racket的开发环境。同时也是“How to Design Programs”一书的作者之一。
+在本次报告中，Robby Findler教授概括介绍了Racket支持的大量的编程语言以及在关于宏的研究领域中取得的进展以及相关的技术挑战和解决方案。在报告过程中， Kindler教授通过现场编程演示的方法，清晰明了的介绍了相关的工作。使得参加报告的老师和同学能有更深刻的认识。Kindler教授介绍了新的通过宏系统的构建编程语言的方法。这种方法从已有的程序语言开始，既避免了从头构建整个编程语言的复杂性，同时还能够保留改变原有语法和语义的灵活性。
+在整个报告的过程中，Kindler教授和参会的老师同学之间在进行不断的交流。通过问答的形式，使得现场的气氛始终很活跃。一个多小时的时间很快就过去了，在大家的掌声中，Robby Findler教授结束了本次学术报告。报告之后，参会的老师和同学就报告中的相关问题进行了热烈讨论。感谢Robby Findler教授给我们带来的这次精彩报告。

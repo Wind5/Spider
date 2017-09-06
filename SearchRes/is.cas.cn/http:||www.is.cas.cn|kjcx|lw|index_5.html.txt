@@ -1,0 +1,9 @@
+http://www.is.cas.cn/kjcx/lw/index_5.html
+ A Real-Time Key Recovery Attack on the Lightweight Stream Cipher A2U2
+ Automatic Search of Truncated Impossible Differentials for Word-Oriented Block Ciphers
+ Deterministic Public Key Encryption and Identity-Based Encryption from Lattices in the Auxiliary-Input Setting
+ An New Anti-SPA Algorithm of NAF Scalar Multiplication used in ECC
+ A New Efficient Property-based Attestation Protocol Based on Elliptic Curves
+ (Pseudo) Preimage Attack on Round-Reduced Grostl Hash Function and Others
+ A New Variant of Time memory Trade-Off on the Improvement of Thing and Ying's Attack
+ EXTENDED PROBABILISTIC LATENT SEMANTIC ANALYSIS MODEL FOR TOPICS IN TIME-STAMPED IMAGES

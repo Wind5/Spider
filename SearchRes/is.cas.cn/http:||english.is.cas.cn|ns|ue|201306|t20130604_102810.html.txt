@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/201306/t20130604_102810.html
+Speaker: Mingsheng Ying（Tsinghua University, China and University of Technology, Sydney, Australia）
+Venue: Lecture Room, 3rd Floor, Building #5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
+We study verification of programs for future quantum computers. Quantum programs are modelled by quantum Markov chains (qMCs). Three kinds of long-term behaviours of qMCs are considered of, namely reachability, repeated reachability and persistence. As the major contribution, several (classical) algorithms for computing the reachability, repeated reachability and persistence probabilities of a qMC are presented, and their complexities are analysed.
+Reference: Shenggang Ying, Yuan Feng, Nengkun Yu and Mingsheng Ying. Reachability Probabilities of Quantum Markov Chains. Accepted for CONCUR2013. 

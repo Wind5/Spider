@@ -1,0 +1,2 @@
+http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379065.html
+ A Self-Adaptive Greedy Scheduling Scheme for a Multi-Objective Optimization on Identical Parallel Machines

@@ -1,7 +1,7 @@
 ﻿import requests
 import re
 from bs4 import BeautifulSoup
-import io
+import io, os
 
 def is_alphabet(uchar):
     if (u'\u0041' <= uchar<=u'\u005a') or (u'\u0061' <= uchar<=u'\u007a'):
@@ -31,7 +31,7 @@ class CxExtractor:
         self.__blocksWidth = blocksWidth
         self.__threshold = threshold
 
-    def crawl(self, html, path, filename):
+    def crawl(self, url, html, path, filename, engine=None, rank=None):
         # try:
         #     html = self.getHtml(url)
         # except:
@@ -43,7 +43,7 @@ class CxExtractor:
         soup = BeautifulSoup(html, 'html.parser')
         links = soup.find_all('a', href=re.compile('http'))
         self.__num_a = len(links)
-        print 'num_a: ' + str(self.__num_a)
+        # print 'num_a: ' + str(self.__num_a)
         # for link in links:
         #     print link['href']
         div_content = soup.find('div', class_=re.compile('main-content'))
@@ -60,23 +60,36 @@ class CxExtractor:
         res_text = self.clean_and_judge(content)
         # return res_text
         self.__lang = 'en' if self.__lang else 'cn'
-        if res_text is not None:
-            with io.open(path[self.__lang] + filename + '.txt', 'w') as f:
-                f.write(res_text)
+        if res_text is not None and len(res_text) > 0:
+            if engine is not None:
+                path += engine + '/'
+                info = url.decode('utf-8') + u'\n' + engine.decode('utf-8') + u'\n' + rank.decode('utf-8') + u'\n'
+            else:
+                info = url.decode('utf-8') + u'\n'
+            if os.path.exists(path) is False:
+                os.mkdir(path)
+            with io.open(path + filename.replace('/', '|') + '.txt', 'w') as f:
+                f.write(info + res_text)
+            return True
+        else:
+            return False
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=10):
-        s = content.decode('utf-8')
+        try:
+            s = content.decode('utf-8')
+        except:
+            s = unicode(content, errors='ignore')
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
         self.__lang = cn_ratio < 0.3
-        print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
+        # print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
         s = s.split('\n')
         result = []
         for ts in s:
             if (self.__lang and len(ts.split(' ')) > en_threshold) or (not self.__lang and len(ts) > cn_threshold):
                 result.append(ts + '\n')
-        print 'num of lines:' + str(len(result))
+        # print 'num of lines:' + str(len(result))
         if len(result) < 5 and self.__num_a > 150:
             return None
         else:

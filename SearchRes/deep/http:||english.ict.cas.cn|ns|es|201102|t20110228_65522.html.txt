@@ -1,0 +1,4 @@
+http://english.ict.cas.cn/ns/es/201102/t20110228_65522.html
+The Facial Recognition Technology (FRT), developed by Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS), was used in people search website (http://xunren.baidu.com/) launched by Chinese search engine giant Baidu on Feb. 20, 2011 to help missing children back home.
+The website provides an open-accessed public welfare platform which stores data and photos of missing and wandering children. FRT was used in the website to match with these photos in an efficient and accurate way.　 
+FRT, a developing technology still confronted with various challenges, has emerged as an attractive solution to address many contemporary needs for identification and the verification of identity claims.

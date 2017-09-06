@@ -1,0 +1,8 @@
+http://english.is.cas.cn/ns/ue/index_19.html
+ [10-16]Model Checking: My 28-year Quest to Overcome the State Explosion Problem 
+ [9-23]Mobility in Ad Hoc Wireless Networks: Friend or Foe 
+ [9-10]Formal security proofs for cryptographic algorithms and their implementations 
+ [8-13]Multi-level Domain Decomposition Preconditioners and Applications in Solving Inverse Elliptic Problems 
+ [8-13]An Algorithmic Framework for Solving Systems of PDEs from Multi-physics Applications on Parallel Computers 
+ [8-12]Phase-field models for multiphase complex fluids: modeling, numerical analysis and simulations 
+ [7-23]Moduli of Smoothness and K-functionals on Unit Sphere and Unit Ball 

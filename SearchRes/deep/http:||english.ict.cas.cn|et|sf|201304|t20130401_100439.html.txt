@@ -1,0 +1,24 @@
+http://english.ict.cas.cn/et/sf/201304/t20130401_100439.html
+Natural Language Processing Research Group,Key Laboratory of Intelligent Information Processing,Institute of Computing Technology, Chinese Academy of Sciences　　　　　　　　　　　　　　　　  
+Chinese Natural Language Processing, Machine Translation, Information Extraction 　　  
+2012.07 ~ Now: Centre for Next Generation Localisation (CNGL), Dublin City University (DCU), Professor
+2003.09 ~ Now: University of Chinese Academy of Science (UCAS), Professor (part time)
+1992.07 ~ Now: Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), Researcher, Professor (part time from 2012-07)
+1999.9 ~ 2004.5: Studied (on-job) and got Ph.D. degree in the Institute of Computational Linguistics in Peking University
+1989.9 ~ 1992.7: Studied and got M.S. degree in Computer Sciences in Institute of Computing Technology, Chinese Academy of Sciences 
+1984.9 ~ 1989.7: Studied and got B.S. degree in Computer Sciences in University of Science and Technology of China 
+[1]Yang Liu, Qun Liu, and Shouxun Lin. 2010. Discriminative Word Alignment by Linear Modeling. Computational Linguistics, 36(3).
+[2]LIU Qun, WANG Xiangdong, LIU Hong, SUN Le, TANG Sheng, XIONG Deyi, HOU Hongxu, LV Yuanhua, LI Wenbo, LIN Shouxun, QIAN Yueliang，Introduction to HTRDP evaluations on Chinese information processing and intelligent human-machine interface, Frontiers of Computer Sciences in China, Vol.1, No.1, pp.58-93, Feb.2007
+[3]Qun Liu, Sujian Li, Word Similarity Computing Based on How-net, Computational Linguistics and Chinese Language Processing，Vol.7, No.2, August 2002, pp.59-76， originally published as：LIU Qun, LI Sujian, Word Similarity Computing Based on How-net, The 3rd Chinese Lexical Semantics Wrokshop, Taipei, May 2002
+[1]Xinyan Xiao, DeyiXiong, Yang Liu, Qun Liu, and Shouxun Lin. 2012. Unsupervised Discriminative Induction of Synchronous Grammar for Machine Translation. In Proceedings of Coling 2012. 
+[2]Xinyan Xiao, DeyiXiong, Min Zhang, Qun Liu, and Shouxun Lin. 2012. A Topic Similarity Model for Hierarchical Phrase-based Translation. In Proceedings of ACL 2012
+[3]Jun Xie, HaitaoMi and Qun Liu, A novel dependency-to-string model for statistical machine translation, in the Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP2011), pages 216-226, Edinburgh, Scotland, UK. July 27–31, 2011
+[4]Yang Liu and Qun Liu. 2010. Joint Parsing and Translation. In Proceedings of COLING 2010, Beijing, China, August.
+[5]Yang Liu, HaitaoMi, Yang Feng, and Qun Liu. 2009. Joint Decoding with Multiple Translation Models. In Proceedings of ACL/IJCNLP 2009, pages 576-584, Singapore, August. 
+[6]Qun Liu, Zhongjun He, Yang Liu, and Shouxun Lin. 2008. Maximum Entropy based Rule Selection Model for Syntax-based Statistical Machine Translation. In Proceedings of EMNLP 2008, pages 89-97, Hawaii, USA, October.
+[7]Hongmei Zhao, Jun Xie, Qun Liu, YajuanLü, Dongdong Zhang and Mu Li, Introduction to China's CWMT2008 Machine Translation Evaluation, in Proceedings of MT Summit XII, Ottawa, Ontario, Canada, August 26-30, 2009
+[8]HaitaoMi, Liang Huang and Qun Liu. Forest-Based Translation. In Proceedings of ACL-08:HLT, pp192-199, Columbus, Ohio, USA. 2008
+[9]Wenbin Jiang, Liang Huang, Qun Liu and YajuanLü. A Cascaded Linear Model for Joint Chinese Word Segmentation and Part-of-Speech Tagging. In Proceedings of ACL-08:HLT, pp 897-904, Columbus, Ohio, USA. 2008
+[10]Yang Liu, Qun Liu, and Shouxun Lin. 2006. Tree-to-String Alignment Template for Statistical Machine Translation. COLING-ACL 2006, Sydney, Australia, July 17-21. 
+[11]DeyiXiong, Qun Liu, and Shouxun Lin. Maximum Entropy Based Phrase Reordering Model for Statistical Machine Translation. COLING-ACL 2006, Sydney, Australia, July 17-21.
+[12]Hua-Ping Zhang, Hong-Kui Yu, De-Yi Xiong and Qun Liu, HHMM-based Chinese Lexical Analyzer ICTCLAS, proceedings of 2nd SigHan Workshop, July 2003, pp.184-187

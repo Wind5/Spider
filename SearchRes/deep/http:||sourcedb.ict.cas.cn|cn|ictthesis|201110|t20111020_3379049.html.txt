@@ -1,0 +1,2 @@
+http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379049.html
+ A 10 Gb/s receiver with half rate period calibration CDR and CTLE/DFE combiner

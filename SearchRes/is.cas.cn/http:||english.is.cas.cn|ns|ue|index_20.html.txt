@@ -1,0 +1,6 @@
+http://english.is.cas.cn/ns/ue/index_20.html
+ [7-15]Cloud Computing: Virtual Clusters, Data Security, and Disaster Recovery 
+ [7-14]A New Era after the Convergence of Network Centric and Data Centric Computing 
+ [6-16]Introducting SMT with parametric theories and the Decision Procedure Toolkit 
+ [6-16]Large Scale Simulation and Ordering for Parallel Sparse Matrix Computation 
+ The 2nd ISCAS/USC/UMass Joint Workshop on Trustworthy Software Systems 

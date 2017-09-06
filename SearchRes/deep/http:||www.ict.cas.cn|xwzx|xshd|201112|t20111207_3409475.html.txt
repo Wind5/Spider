@@ -1,0 +1,20 @@
+http://www.ict.cas.cn/xwzx/xshd/201112/t20111207_3409475.html
+Godson-3B: A 1GHz 40W 8-Core 128GFlops Processor in 65nm CMOS （ISSCC2011）
+ReviveNet: A Self-adaptive Architecture for Improving Lifetime Reliability via Localized Timing Adaptation （IEEE Trans. on Computer 2011）
+Effetcive and Efficient Microprocessor Design Space Exploration Using Unlabeled Design Configurations （IJCAI 2011）
+Transparent Dynamic Binding with Fault-Tolerant Cache Coherence Protocol for Chip Multiprocessors （DSN 2011）
+Efficient and Effective Misaligned Data Access Handling in a Dynamic Binary Translation System （TACO 2011）
+Dawning Nebulae: A petaFLOPS supercomputer with a heterogeneous structure （JCST 2011）
+Localized Multiple Kernel Learning for Realistic Human Action Recognition in Videos (IEEE Trans. on CSVT 2011)
+An efficient regular expressions compression algorithm from a new perspective （INFOCOM 2011）
+EasiCPRS: Design and Implementation of a Portable Chinese Pulse-wave Retrieval System （SenSys 2011）
+Mobility in IPv6: Whether and How to Hierarchize the Network? （TPDS 2011）
+Enabling Fast Prediction for Ensemble Models on Data Streams （SIGKDD 2011）
+Semantic linking through spaces for cyber-physical-socio intelligence: A methodology （Artificial Intelligence 2011）
+Learning Image Vicept Description via Mixed-Norm Regularization for Large Scale Semantic Image Search （CVPR 2011）
+Exploring Non-Linear Relationship of Blendshape Facial Animation （Computer Graphics Forum 2011）
+Three-dimensional reconstruction using an adaptive simultaneous algebraic reconstruction technique in electron tomography （JSB 2011）
+Large-scale prediction of long non-coding RNA functions in a coding-non-coding gene co-expression network （Nucleic Acids Research 2011）
+Improved Latent Concept Expansion Using Hierarchical Markov Random Fields （CIKM 2010）
+Transferring boosted detectors towards viewpoint and scene adaptiveness （IEEE Trans. On Image Processing 2011）
+SELM: Semi-supervised ELM with application in sparse calibrated location estimation (Neurocomputing 2011)

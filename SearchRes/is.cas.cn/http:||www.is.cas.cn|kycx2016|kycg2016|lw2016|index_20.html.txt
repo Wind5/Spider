@@ -1,0 +1,9 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_20.html
+ QuantWiz: A Scalable Parallel Software Package for Label-free Protein Quantification
+ A Legendre Spectral Method for the Electromagnetic Scattering from a Cavity
+ development of a scalable solver for the earth's core convection
+ discrete fourier analysis on fundamental domain and simplex of a (d) lattice in d-variables
+ numerical simulation of the thermal convection in the earth's outer core
+ a finite difference non-matching domain decomposition algorithm for the parabolic equation
+ a fully implicit domain decomposition algorithm for shallow water equations on the cubed-sphere
+ perspectives of china's hpc system development: a view from the 2009 china hpc top100 list

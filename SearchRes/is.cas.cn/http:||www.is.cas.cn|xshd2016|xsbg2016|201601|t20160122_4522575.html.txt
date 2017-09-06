@@ -1,0 +1,3 @@
+http://www.is.cas.cn/xshd2016/xsbg2016/201601/t20160122_4522575.html
+ 文章来源：  |  发布时间：2016-01-15  |  【打印】 【关闭】
+ SKLCS Seminar　　Title: The evolutionary benefits of recombination: A mathematical analysis    　Speaker: Antonio Montalban (UC Berkeley, USA)  　Time: 15:00, January 21st (Thursday), 2016.　　Venue:  Seminar Room (334), Level 3, Building 5, Institute of Software,　　Chinese Academy of Sciences.　　　　Abstract: We compare the evolutionary benefits of sexual and asexual reproduction from a purely mathematical viewpoint. The model we study concentrates on the most basic features of the process, abstracting out everything else, allowing us to provide a deep and robust reason　for the superiority of sexual reproduction.　　

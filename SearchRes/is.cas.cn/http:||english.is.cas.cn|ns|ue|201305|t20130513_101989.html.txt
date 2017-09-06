@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/201305/t20130513_101989.html
+Venue: Lecture Room, 3rd Floor, Building #5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
+Automata over infinite alphabets provide a formalism for the theoretical study of processes working with unbounded data. However, infinite sets of data come with a high price: even limited expressiveness leads to high complexity of decision algorithms. In this context, we propose a class of automata for counting the multiplicity of occurrences of data in words and show that emptiness is elementarily decidable. While we do not have a logical characterization for these automata, we discuss results on related logics.
+The work presented here is joint with Amaldev Manuel (LIAFA, Paris).
+R. Ramanujam is a researcher in logic and automata theory at the Institute of Mathematical Sciences, Chennai, India, where he is currently Professor. His research interests are in mathematical and philosophical logic and their applications in computer science, especially in questions related to the theory of distributed systems, security theory and game theory. 

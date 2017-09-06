@@ -1,0 +1,7 @@
+http://english.is.cas.cn/ns/ue/200908/t20090817_32642.html
+ [7-23]Moduli of Smoothness and K-functionals on Unit Sphere and Unit Ball 
+ Title：Moduli of Smoothness and K-functionals on Unit Sphere and Unit BallSpeaker：Prof. Yuan Xu (徐源), Department of Mathematics, University of Oregon
+Abstract：A new modulus of smoothness based on the Euler angles is introduced on the unit sphere and is shown to satisfy all the usual characteristic properties of moduli of smoothness, including direct and inverse theorem for the best approximation by polynomials and its equivalence to a K-functional, de ned via partial derivatives in Euler angles. It also leads to new moduli of smoothness and K-functionals on the unit ball, which are used to study approximation by polynomials on the ball.
+About the speaker：(Prof. Yuan Xu, Ph. D., Temple University, 1988)Prof. Xu’s research spans numerical analysis, approximation theory,　special functions,　 harmonic analysis. His interest is mostly on problems in severalvariables, such as orthogonal polynomials in several variables, cubature formulas and related approximation　problems. Recently his interest also extends to computer tomography.
+Prof. Xu is now on the editorial board of East J. on Approximations,　J. Approximation Theory and Numerical Algorithm.  He is an executive editor of　Numerical Mathematics: Theory, Methods and Applications.
+Up to present, Prof. Xu has published 2 books and more than 170　papers.  Besides, he has got 7 patents. 

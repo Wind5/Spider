@@ -1,0 +1,9 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496596.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 1992年9月-1996年9月 湖南湘潭大学，计算机应用专业，本科毕业1996年9月-1999年9月 湖南湘潭大学，计算机软件与理论专业，硕士毕业1999年9月-2003年3月 中科院计算所，计算机应用专业，博士毕业2004年2月-2004年6月 香港科技大学计算机系，访问学者2004年6月-2007年3月 中科院计算所上海分所，常务副所长2007年3月_2013年4月 中科院计算所普适计算研究中心，副主任2013年4月      至今 中科院计算所普适计算研究中心，主任
+ IEEE会员，CCF高级会员，YOCSEF AC委员，IEEE多媒体系统及应用技术委员会委员（IEEE MSA TC Member）,中国计算机学会普适计算专业委员会委员，中国图形图象学会多媒体专业委员会委员，中国标准化协会多媒体广播技术委员会委员，也是IEEE TCSVT, IEEE TKDE等多种国际期刊审稿人。
+ 曾荣获2002年度中国科学院院长奖优秀奖、2003年度国家科技进步奖二等奖，2004年度首届中国科学院优秀博士论文奖，2005年度全国百篇优秀博士论文提名，2005年度北京市科技新星以及浦东新区专家学术休假津贴获得者以及2004年度上海市启明星等。
+ 1、 “基于多功能感知理论的手语识别与合成系统”，2003年度国家科学进步奖2、 “基于数据挖掘的虚拟人多模式行为合成”，2004年度首届中国科学院优秀博士论文,全国百篇优秀博士论文提名3、 “Learning prosodic patterns for mandarin text to speech”，The Journal of Intelligent Information System，20024、 基于机器学习的语音驱动人脸动画方法，软件学报，20035、 “Learning and Synthesizing MPEG-4 Compatible 3-D Face Animation from Video Sequence”，IEEE Transactions on Circuits and Systems for Video technology，20036、 手语合成中的多模式行为协同韵律模型，计算机学报，20067、 一种新的手势运动数据重定向方法, 计算机学报, 20068、 “Power-efficient Access Point Selection for Indoor Location Estimation”，IEEE Transactions on Knowledge and Data Engineering, 2006.9、Multidimensional Vector Regression for Accurate and Low-Cost Location Estimation in Pervasive Computing. IEEE Trans. On Knowledge and Data Engineering. 2006
+ 承担国家自然科学基金重大研究计划子课题，国家科技支撑计划子课题，国家高科技863计划项目以及国家自然科学基金与工信部电子发展基金等多项课题的研究，在国际国内期刊和会议上发表论文八十余篇，申请多项专利。
+ 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
+ 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

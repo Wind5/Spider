@@ -1,0 +1,3 @@
+http://english.is.cas.cn/ns/ue/index_4.html
+ [Paper sub. Sep. 8] Call for Papers ---- ICICS 2015 
+ [5-8]A Synergistic Analysis Method for Explaining Failed Regression Tests 

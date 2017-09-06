@@ -1,0 +1,40 @@
+http://www.is.cas.cn/kjcx/lw/index_24.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+论文----中国科学院软件研究所
+ 首页 > 科技创新 > 论文
+ 基于产品线工程方法提高组件容器的可复用性
+ 基于人像识别的嵌入式智能门禁系统的设计与实现
+ 基于规则推导的特权隐式授权分析
+ 松弛隔离性下的事物性网构应用并发控制研究
+ 一种基于TPM匿名证书的信任协商方案
+ 基于决策树的流量分类方法
+ 上下文感知的移动用户界面生成框架ChibaPlus
+ 基于适配的服务协作流程动态管理
+ A Concurrency Control Mechanism for Composite Service Supporting User Defined Relaxed Atomicity
+ 2008 IEEE Computer Society
+ Design and Analysis of Conceptual Sketches based on Context awareness
+ 第8届亚太人机交互会议
+ 软件缺陷预测技术研究
+ SeWSD：一种基于访问控制的安全Web服务发现机制
+ DONet-VoD: A hybrid overlay solution for efficient peer-to-peer video on demand services
+ IEEE ICME 2008
+ 多投影仪无缝拼接显示中颜色校正技术比较研究
+ A Project Scheduling Method Based on Human Resource Availability
+ QuickPay Online Payment Protocol
+ 人名直接映射电话号码的研究
+ Improving Component Container Development Process through Product Line Engineering
+ 基于CSVL的非对称VLAN
+ 战场管理语言中的词汇语法
+ 第三届战争复杂性与信息化战争模拟研讨会
+ 基于收益机制发布/订阅系统时间约束保障技术
+ 比例方程组与MPI同步通信静态死锁检测
+ 数值计算与计算机应用
+ Diameter 在视频监控系统中的应用
+ 以活动为中心的个人信息管理
+ 网络安全域隔离技术安全性研究
+ 安全服务器网络集成管理框架的研究与实现
+ 一个基于NUTCH的新闻分类搜索引擎的设计与实现
+ 可用带宽度量系统中的若干基本问题
+ 空间网络数据库中移动对象的最短路线算法
+ IBMR：一种基于IEEE830-1998的多角色需求度量方法
+共34页  首页上5页上一页2122232425下一页下5页尾页 

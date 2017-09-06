@@ -1,0 +1,6 @@
+http://english.ict.cas.cn/ns/ue/index_3.html
+ Designing High Performance, Scalable and Fault-Resilient MPI Library for Modern Clusters[2010-10-22]
+ The Impact of Multicore Architectures on Software: Disaster or Opportunity?[2010-10-12]
+ In Search of Design Inspiration: A Semantic-based Retrieval in Support of Concept Design[2010-10-12]
+ Learning the Design of VoIP Systems With High Perceptual Quality[2010-07-02]
+ Elucidation of Rules that Govern the Genomic Structure of Bacteria[2009-11-20]

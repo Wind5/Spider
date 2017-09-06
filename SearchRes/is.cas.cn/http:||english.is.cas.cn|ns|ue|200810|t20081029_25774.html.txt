@@ -1,0 +1,2 @@
+http://english.is.cas.cn/ns/ue/200810/t20081029_25774.html
+Separation logic is a newly discovered logic for reasoning about computer programs. It unifies the study of pointers, concurrency, communication and even weak memory consistency. The logic can be simply explained by pictures of the flow of data between events in a trace of program execution. No prior knowledge of graphs or separation logic is needed.

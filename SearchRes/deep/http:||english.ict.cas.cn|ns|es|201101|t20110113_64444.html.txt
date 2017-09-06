@@ -1,0 +1,6 @@
+http://english.ict.cas.cn/ns/es/201101/t20110113_64444.html
+ Upcoming Events:   ScalaExtrap: Trace-Based Communication Extrapolation for ...
+ The kick-off meeting of 973 project on “High-throughput Computing System: Principles, Techniques and Applications in Cloud Computing” was held in the Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS) on Dec. 20, 2010.
+Focusing on the research plans for various topics during 2011 and 2012 as well as their relationship, the meeting attracted more than 30 participants who exchanged views on each topic. 
+Academician LI Guojie, chief scientist of the 973 project, delivered a speech at the meeting, highlighting major achievements of ICT, including its previous 973 project on microprocessor design to extend Moore's law, the high-percentage of internationally published papers, and the advances of its well-performed computers. LI also gave guidelines for the implementation of each topic.
+Prof. SUN Ninghui, secretary to chief scientist of the project, called for better management on 973 project by regularizing academic exchange on different topics. 

@@ -1,0 +1,16 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496587.html
+　C.Cao H.Wang and Y Sui: Knowledge modeling and acquisition of traditional Chinese herbal drugs and formulae from text. International Journal of Artificial Intelligence in Medicine, 2004, 32:3-13. 
+　C.Cao and Y.Sui (eds): Knowledge economy meets science and technology. Tsinghua University Press, 2004.  　陈良玉、卢兵友、曹存根等编：《农村科技信息共享技术与实践》。中国农业科学技术出版社，2004。 
+　X.Yue and C.Cao: Meta-level elicitation and analysis of knowledge requirements. Proc. KEST04, 273-279. 
+　X. Yong, C.Cao, D.Zhang and S.Tang: A formal representational model of emotion knowledge. Proc. KEST04, 310-316. 
+　C.Cao, N.McIntosh and I.Kohane: Artifact detection in PO2 and PCO2 data streams. International J. Clinical Monitoring and Computing, 1999，15: 369-378. 
+　C.Cao，T.-Y. Leong, et al.: Dynamic decision analysis in medicine: a data-driven approach. International J. Medical Informatics, 1998, 51: 13-28. 
+　C.Cao and T.-Y. Leong: Learning conditional probabilities for influence views. Proc. of the IJCAI Workshop on Intelligent Data Analysis in Medicine, Japan, 1997, 11-20. 
+　C.Cao，T.-Y. Leong, et al.: Induction of diagnostic strategies with multi-level information measures. Proceedings of the 9th World Congress on Medical Informatics, 1998, 477-482. 
+　T.-Y.Leong and C.Cao: Modeling medical decisions in DynaMol: A new general framework of dynamic decision analysis. Proceedings of the 9th World Congress on Medical Informatics, 1998, 483-487. 
+　C.Cao: Looking at the other side of knowledge. Proceedings of Pacific Asian Conference on Artificial Intelligence, 1996, 375-382. 
+　C.Cao: Liveness characterization of WEFC net systems (I), Science in China, Series E, 1996, 39：196-205. 
+　C.Cao: Liveness characterization of WEFC net systems (II), Science in China, Series E, 1996, 39：206-216. 
+　R.Lu, C.Cao, et al.: A PNLU approach to ICAI system generation, Science in China, Series A, 1996, 38: 1-11. 
+　C.Cao: AI developments in China, IEEE Expert, 1995, 10: 6-7. 
+R.Lu, C.Cao, et al.: On automatic generation of ICAI systems. Proceedings of the 7th World Congress on Artificial Intelligence in Education, 1995, 67-74. 

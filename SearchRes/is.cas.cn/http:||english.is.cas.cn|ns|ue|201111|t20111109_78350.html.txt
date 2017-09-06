@@ -1,0 +1,7 @@
+http://english.is.cas.cn/ns/ue/201111/t20111109_78350.html
+ [11-17]SKLCS seminar:Mornitor-Based statsstical Model checking for Weighted Metric Temporal Logic 
+Speaker: Assoc Prof. Guangyuan Li (State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences).
+Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of computer science, Institute of software, Chinese Academy of Science.
+We present a novel approach and implementation for analyzing weighted timed automata(WTA) with respect to the weighted metric temporal logic (WMTL≤). Based on a stochastic semantics of WTAs, we apply statistical model checking (SMC) to estimate and test probabilities of satisfaction with desired levels of confidence. Our approach consists in generation of deterministic monitors for formulas in WMTL≤, allowing for efficient SMC by run-time evaluation of a given formula. By necessity, the deterministic observers are in general approximate (over-under-approximations),
+but are most often exact and experimentally tight. The technique is implemented in the new tool CASAAL that we seamlessly connect to UPPAAL-SMC in a tool chain. We demonstrate the applicability of our technique and the efficiency of our implementation through a number of case- students.
+Jointwork with Peter Bulychev, Alexandre David, Kim G. Larsen, AxelDanny Bøgsted Poulsen, Amelie Stainer. 

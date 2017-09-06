@@ -1,0 +1,9 @@
+http://www.is.cas.cn/kjcx/lw/index_6.html
+ Updating preconditioner for iterative method in time domain simulation of power systems
+ On the number of infinite sequences with trivial initial segment complexity
+ On the derandomization of the graph test for homomorphism over groups
+ A comparative study of TF*IDF, LSI and multi-words for text classification
+ Kolmogorov complexity of initial segments of sequences and arithmetical definability
+ A Case Study on REST-Style Architecture for Cyber-Physical Systems: Restful Smart Gateway
+ A NEW METHOD OF LINE FEATURE GENERALIZATION BASED ON SHAPE CHARACTERISTIC ANALYSIS
+ A novel formalization of symbolic trajectory evaluation semantics in Isabelle/HOL

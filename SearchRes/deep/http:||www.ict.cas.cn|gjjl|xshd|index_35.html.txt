@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/gjjl/xshd/index_35.html
+ Reevaluating AmdahlReevaluating Amdahl's Law in the Multicore Eras Law in the Multicore Era
+报告人：Benjamin W. Wah, Professor of the University of Illinois at Urbana-Champaign
+ Application Specific Instruction-set Processor for high performance and low power streaming computing
+ 时间：2009年7月3日（周五）上午10：00-12：00地点：440教室报告人：Prof. Shuo-Yen Robert Li, IEEE Fellow, The Chinese University of HongKong

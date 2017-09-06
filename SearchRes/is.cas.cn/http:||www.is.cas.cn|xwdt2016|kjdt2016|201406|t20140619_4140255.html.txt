@@ -1,0 +1,7 @@
+http://www.is.cas.cn/xwdt2016/kjdt2016/201406/t20140619_4140255.html
+美国亚利桑那州立大学蔡维德教授访问软件所----软件研究所
+研究员（正高级工程师）
+副研究员（高级工程师）
+ 美国亚利桑那州立大学蔡维德教授访问软件所
+ 文章来源：  |  发布时间：2014-06-19  |  【打印】 【关闭】
+ 6月12日上午，应基础软件国家工程研究中心的邀请，美国亚利桑那州立大学蔡维德教授到软件所进行访问，并作题为Test Algebra for Concurrent Combinatorial Testing in a Cloud Environment的学术讲座，讲座由王青研究员主持。报告中，蔡教授详细地了移动云（Mobile Cloud）环境下的软件测试问题，Mobile Cloud是由众多移动设备组成的云计算环境，由在云计算和移动互联结合后产生的一个新的概念，对当前移动计算产生着重要影响。在讲到云环境下软件测试时，他强调了改造传统测试方法的重要性，证实了云环境下动态优化的并发的软件测试方法可以大幅提高测试效率。同时，他还对 TaaS (Testing-as-a-Service)提出了自己的见解，他认为 Mobile Cloud 环境下的TaaS 需要新的数学与计算模型。蔡维德教授是软件工程领域的著名学者，在 Mobile Cloud 研究领域拥有众多成果，近年来已在IEEE Transactions、Communications of the ACM、IEEE Computer、IEEE Software等国际期刊以及ICSM、QSIC、COMPSAC等国际会议上发表论文300多篇，曾任COMPSAC、HASE、WORDS等国际会议主席或程序委员会主席。蔡维德教授作报告

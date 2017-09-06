@@ -1,0 +1,28 @@
+http://www.is.cas.cn//xwdt2016/kjdt2016/201112/t20111216_3414112.html
+ 文章来源：  |  发布时间：2011-12-16  |  【打印】 【关闭】
+As we look beyond the petascale era, accelerators such as Graphics Processing
+Units (GPUs) and FPGAs, as well as upcoming integrated hybrid processing cores,
+are expected to play a preeminent role in architecting the largest systems in
+the world. While there is significant interest in these architectures, much of
+this interest is an artifact of the hype associated with them. This workshop
+and programming environments of future systems. It seeks to ground accelerator
+research through studies of application kernels or whole applications on such
+systems, as well as tools and libraries that improve the performance or
+The goal of this workshop is to bring together researchers and practitioners
+who are involved in application studies for accelerators and other hybrid
+systems, to learn the opportunities and challenges in future design trends for
+We are soliciting contributions in areas including but not limited to:
+ * Techniques for optimizing kernels for execution on GPUs and future
+ * Modeling of applications running on accelerators and hybrid HPC systems.
+ * Tools and techniques to assist application development for accelerators and
+10-point size font on 8.5x11 inch pages (IEEE conference style), including
+The best papers of AsHES 2012 will be included in a Special
+The hpc-announce mailing list has been setup to have a common mailing
+events. You are included in this mailing list based on your
+participation or interest in a previous HPC conference or other event.
+The purpose for providing a single mailing list is to allow
+1. If you feel that the number of such emails is too many, filter them
+3. Finally, if you do not wish to receive any emails from hpc-announce,
+unsubscribed, we guarantee that you will not be added back in through
+participation in a different HPC related conference or event. You will
+If you need help with any of the above, please email us at

@@ -1,0 +1,7 @@
+http://english.is.cas.cn/ns/ue/200806/t20080603_25741.html
+ Title： Program Systems Institute of the Russian Academy of Sciences (PSI RAS). Short Introduction
+Speaker：Sergei Abramov, Director of PSI RAS, corresponding member of the Russian Academy of Sciences
+The Program Systems Institute of RAS is one of the leading Russian academician institutes in the area of computer science and engineering. 
+ PSI RAS performs research and development in the following directions:
+* Artificial intelligence* Medical information systems* HPC - hardware and software for supercomputers and grids* Solutions for town and rural networks* Sensor network technologies
+The presentation contains short introduction to the history of PSI RAS and description of the most important results obtained in the R&D directions mentioned above.

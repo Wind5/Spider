@@ -1,0 +1,6 @@
+http://english.is.cas.cn/rh/as/
+ Although ISCAS is quite young, its staff members have received numerous awards, some of which are listed below:☆ National Natural Science Award
+Theory and Design of Temporal Logic based Software Engineering Environment (1989)
+Theory for the Design of Distributed Programs (1987)Algebraic Theory and Verification Tools for Process Algebras (1999)
+Understandable and Reusable Software Design Supporting System URS-1 (1992)Research and Development of High Performance Numerical Computation Software (2000)Research and Product Development on Computer Network Security Technologies (2000)Distributed Networking Software Platform and Its Application in SINOPEC Industry Engineering (2002)Software process technology and integrated management system(2005)Public-key infrastructure technology research and application(2005)
+Analysis of the UNIX System and Development of Related Applications (1985)Integrated Networked Management System for Insurance-Related Transactions (1999)

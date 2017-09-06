@@ -1,0 +1,5 @@
+http://www.ict.cas.cn/gjjl/jldt/201204/t20120426_3563854.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+美国微电子公司Mike Moore先生来重点实验室做技术报告----中国科学院计算技术研究所
+2012年4月20日上午10点计算所446会议室，美国微电子公司（AMD）服务器联盟（Server Alliance）主任Mike Moore先生为计算所师生做了题为“服务器计算的未来”（The Futures of Server Computing）的学术报告。侯锐老师主持了此次会议。
+Mike首先回顾了服务去发展的历史。通过回顾，Mike指出提高能源效率（power efficiency）是当今服务器发展中追求的目标，服务器将来的可能的三个发展趋势是大规模计算（scale-out computing），云计算（clouds computing）和混合型计算（heterogeneous computing）。随后Mike介绍了AMD的混合型计算方案APU。由AMD低功耗CPU、GPU和第三方知识产权（IP）的核心组成的APU提高能源效率的同时也使得对混合系统的编程变得相对容易。报告后，在场师生就以上问题进行了热烈的讨论。

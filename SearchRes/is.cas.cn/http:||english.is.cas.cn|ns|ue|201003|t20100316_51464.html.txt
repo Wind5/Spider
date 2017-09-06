@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/201003/t20100316_51464.html
+Venue：Lecture Room, State Key Lab of Computer Science, Level 3 Building #5
+In the past several years, there are quite a few complexity dichotomy theorems for counting problems classes of #CSP, counting graph homomorphisms, and Holant problems. We introduce three of them and compare them in a general counting problem notation #F|G.
+We also introduce one important method in this area, Valiant's holographic reduction, and how it stimulates the study of Holant problems.
+Mingji Xia received his ph D in the Institute of Software, Chinese Academy of Sciences in 2008. 

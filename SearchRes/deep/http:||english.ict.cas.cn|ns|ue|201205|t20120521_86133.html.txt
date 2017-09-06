@@ -1,0 +1,7 @@
+http://english.ict.cas.cn/ns/ue/201205/t20120521_86133.html
+A High-performance, Low-power Cache Design, and Enabling Speech Recognition on Smartphones
+ A High-performance, Low-power Cache Design, and Enabling Speech Recognition on Smartphones
+Time： 10:30-12:00 am , May. 28,2012 (January)Place：Room 446, ICT. CASSpeaker:  Dr. Zhen Fang 
+AbstractThis talk consists of two parts, one on processor cache design and the other on SoC applications. In the first half of the talk, I will talk about a high-performance L1 cache design that exploits software semantics for the purpose of saving power. In the second half, I will discuss how we optimized one of the best-known speech recognition engines for the purpose of enabling on smartphone-class devices.
+Bio Zhen Fang is a Senior Memory Architect at Nvidia working on GPU and SoC memory subsystem design and verification. Previously he worked at Intel on various projects including high-performance processor core and uncore design, low-cost processor design, and SoC architectures and applications. 
+Zhen Fang received his Ph.D degree from the University of Utah, and MS and BS degrees from Fudan University. He received a number of awards at Intel for contributions to the Nehalem processor, an Intel-confidential embedded processor, and SoC applications. He has over 20 issued and pending US patents. 

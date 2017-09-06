@@ -1,0 +1,4 @@
+http://www.ict.cas.cn/xwzx/jssxw/201310/t20131030_3965462.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+悉尼大学Branka Vucetic教授来访计算所进行技术交流----中国科学院计算技术研究所
+ 　　10月29日上午，来自澳大利亚悉尼大学电信学院的Branka Vucetic教授来访计算所，参观无线中心实验室并和师生们就未来5G关键技术进行交流。为了满足未来5G通信系统中Gbps级的空口要求，提出了使用E-Band微波80GHz频段（由71G~76G/81G~86G构成）的方案，并针对该方案进行了信道容量分析，以及对影响该容量的各种因素进行了理论分析和仿真。在场师生认真听取报告，并纷纷和教授亲切交谈，讨论了关于将该方案应用到实际中存在的一些挑战等问题，会场气氛良好。　　Branka Vucetic教授是中科院计算所首批外国专家特聘研究员，同时也是IEEE Fellow,目前从事无线通信、信道编码、数字通信、MIMO系统等领域的研究。发表多篇刊物及会议论文，相关领域专著4部。Branka Vucetic教授同时也是无线中心的外籍特聘教授，中心积极响应国际化人才培养战略，Branka Vucetic教授的来访进一步推动中心的发展，为日后的科研工作奠定坚实的基础。

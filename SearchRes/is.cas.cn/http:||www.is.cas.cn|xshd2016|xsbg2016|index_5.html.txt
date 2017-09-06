@@ -1,0 +1,4 @@
+http://www.is.cas.cn/xshd2016/xsbg2016/index_5.html
+ [2014-09-22][9-28]Do We Need to Handle Every Temporal Violation in Scientific Workflow Systems?
+ [2014-08-13][8-14]Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both?
+ [2014-06-11][6-12]Test Algebra for Concurrent Combinatorial Testing in a Cloud Environment

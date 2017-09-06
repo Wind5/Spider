@@ -1,0 +1,11 @@
+http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_23.html
+ An Empirical Analysis on Distribution Patterns of Software Maintenance Effort?
+ A constraint-driven human resource scheduling Method in software Development and maintenance process
+ Mining Recent Frequent Itemsets in Data Streams with Optimistic Pruning
+ First Ubiquitous Knowledge Discovery Workshop in conjunction with ECML/PKDD 2008 Conferences
+ Comparative Study of Real-time Multimedia Transmission over Multi-homing Transport Protocols
+ A Balanced Tree-based Strategy for Unstructured Media Distribution in P2P Networks
+ Cloud Theory Based Simulated Annealing Algorithm for Multiple Observers Sitting on Terrain Problem
+ A Practical Certified E-Mail System with Temporal Authentication Based on Transparent TSS*
+ An Approach to Handle Overload in Real-time Data Stream Management System,
+ Route Planning for Unmanned Air Vehicles with Multiple Missions Using an Evolutionary Algorithm

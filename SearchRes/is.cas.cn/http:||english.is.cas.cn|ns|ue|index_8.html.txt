@@ -1,0 +1,7 @@
+http://english.is.cas.cn/ns/ue/index_8.html
+ [6-18]A Unifying Approach to Assessing Market Power in Deregulated Electricity Market 
+ [5-9]Detection and Tracking of Dynamic Amorphous Events in Wireless Sensor Networks 
+ [4-26]Reasoning about State Invariants and Constraints in Artificial Intelligence 
+ [4-25]A Controlled Experiment on Software Documentation Benefits and Cost 
+ [4-19] Turing's Computable Real Numbers and Why They Are Still Important Today 
+ [4-18]Document and model annotation: a formal view and a system for Web annotation 

@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/gjjl/jldt/201108/t20110831_3330475.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+美国匹兹堡大学陈怡然(Yiran Chen)教授来重点实验室访问----中国科学院计算技术研究所
+ 应计算机体系结构国家重点实验室邀请，2011年8月25日美国匹兹堡大学陈怡然教授来计算所访问交流。
+陈教授首先深入浅出的介绍了他们课题组在STT-RAM方面的研究工作，STT-RAM是一种新型的存储器件，因为其具有非挥发性，存储密度高，无漏电等特性，受到国际研究和产业界高度关注。陈教授近几年了利用该类存储器设计片上高速缓存（Cache），提出了多种新型体系结构设计。
+报告结束后，重点实验室的韩银和课题组和陈教授进行进一步的交流，并约定了进一步合作研究计划。
+陈怡然教授本科毕业于清华大学，在美国普渡大学获得博士学位，毕业后在EDA知名公司Synopsys和世界知名存储设备厂商Seagate工作。在Synopsys工作期间，陈教授获得了"Prestigious 2007 DesignVision Awards" 奖，在Seagate期间，陈教授参与了多款先进存储新器件技术的研发。陈教授一共发表过80多篇论文，有37项专利获得授权。

@@ -1,0 +1,6 @@
+http://english.ict.cas.cn/ns/icn/201207/t20120716_88959.html
+Prof Chris Jesshope gave a Technical Report on The hardware management of concurrency in the Microgrid and the fungibility of processing resources
+ Prof Chris Jesshope gave a Technical Report on The hardware management of concurrency in the Microgrid and the fungibility of processing resources
+On July 4th, a report named “The hardware management of concurrency in the microgrid and the fungibility of processing resources” was given by Professor Chris Jesshope from University of Amsterdam. This report was held on the 12th floor of ICT(Institute of Computing Tech), which was hosted by Director Zhimin Tang from Institute of Computer Architecture State Key Laboratory.
+First, Professor Chris Jesshope demonstrated his research interests and achievement in related area. Then, he introduced an innovative “multi-thread, multi-core processor” and the development of corresponding software. 
+After the report, the teachers and students presented held a heated discussion upon the topic “issues of thousands of thread on many-core processors” and other related issues. 

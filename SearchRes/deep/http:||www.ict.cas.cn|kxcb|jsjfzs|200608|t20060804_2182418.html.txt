@@ -1,0 +1,3 @@
+http://www.ict.cas.cn/kxcb/jsjfzs/200608/t20060804_2182418.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+         计算机种类很多，可以从不同的角度对计算机进行分类。按照计算机原理分类，可分为数字式电子计算机、模拟式电子计算机和混合式电子计算机。按照计算机用途分类，可分为通用计算机和专用计算机。按照计算机性能分类，可分为巨型机、小巨型机、大型机、小型机、工作站和个人计算机六大类。

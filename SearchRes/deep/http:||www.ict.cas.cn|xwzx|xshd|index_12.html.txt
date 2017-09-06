@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/xwzx/xshd/index_12.html
+ NVMalloc: Exposing an Aggregate SSD Store as a Memory Partition in Extreme-Scale Machines
+ A High-performance, Low-power Cache Design, and Enabling Speech Recognition on Smartphones
+ Title: Algorithms for the closest string and the shared center problems 
+ Improving the Performance/Watt of Asymmetric Multicores via Online Phase Classification, Adaptive Core Morphing and Dynamic Thread Scheduling
+ When Selfish Agents Meet Distributed System: distributed consensus resilient to strategic manipulations
+Inviter: Dr. Sun Xiaoming, Center for Advanced Computing Research, ICT 

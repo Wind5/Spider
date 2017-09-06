@@ -1,0 +1,4 @@
+http://english.is.cas.cn/rh/rd/201109/t20110926_75613.html
+Research and Development Center for Parallel Software----Institute of Software Chinese Academy of Sciences
+OverviewThe major research areas includes research on parallel algorithm, development of parallel numerical and non-numerical software, and technical services for high performance computing. Main research and development projects come from national climbing plan, national 863 project, national science foundation, national 973 project of China, and international corporations, etc. We also have intimate corporations with domestic parallel computer manufactures and industry companies on research of parallel algorithms and development of corresponding parallel software. 
+High Performance Parallel Numerical Linear Algebra Libraries: Speed up version of BLAS/LAPACK/ ScaLAPACK 

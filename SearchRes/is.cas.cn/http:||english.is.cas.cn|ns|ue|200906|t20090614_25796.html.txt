@@ -1,0 +1,5 @@
+http://english.is.cas.cn/ns/ue/200906/t20090614_25796.html
+ [6-16]Introducting SMT with parametric theories and the Decision Procedure Toolkit 
+ Title：Introducting SMT with parametric theories and the Decision Procedure Toolkit Speaker：Dr. Jin YANG    （Strategic CAD Labs, Intel ）
+Time：3：00pm, June 16Venue：Lecture room, State Key Lab of Computer Science, Level 3 Building #5Abstract：Satisfiability Modulo Theories (SMT) problem is a decision problem for logical formulas with respect to combinations of background theories expressed in classical first-order logic with equality. In this talk, we will introduce the Decision Procedure Toolkit (DPT) developed at Intel Strategic CAD Labs. DPT is a system of cooperating decision procedures for answering satisfiability queries. The DPT implementation in OCaml comprises a DPLL-style SAT solver with decision procedures for parametric theories. 
+About the Speaker： Jin Yang is a Principal Engineer at Intel Strategic CAD Labs. His main interest is in applying formal methods to System-on-Chip design and validaiton. He received a Ph.D. in computer sciences from University of Texas at Austin in 1997. 

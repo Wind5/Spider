@@ -1,0 +1,21 @@
+http://www.is.cas.cn//xwdt2016/kjdt2016/201109/t20110920_3351867.html
+CALL FOR PAPERS----The Second International Workshop on Accelerators and Hybrid Exascale Systems (ASHES 2012)----软件研究所
+ CALL FOR PAPERS----The Second International Workshop on Accelerators and Hybrid Exascale Systems (ASHES 2012)
+ 文章来源：  |  发布时间：2011-09-20  |  【打印】 【关闭】
+As we look beyond the petascale era, accelerators such as Graphics Processing
+Units (GPUs) and FPGAs, as well as upcoming integrated hybrid processing cores,
+are expected to play a preeminent role in architecting the largest systems in
+the world. While there is significant interest in these architectures, much of
+this interest is an artifact of the hype associated with them. This workshop
+and programming environments of future systems. It seeks to ground accelerator
+research through studies of application kernels or whole applications on such
+systems, as well as tools and libraries that improve the performance or
+The goal of this workshop is to bring together researchers and practitioners
+who are involved in application studies for accelerators and other hybrid
+systems, to learn the opportunities and challenges in future design trends for
+We are soliciting contributions in areas including but not limited to:
+ * Techniques for optimizing kernels for execution on GPUs and future
+ * Modeling of applications running on accelerators and hybrid HPC systems.
+ * Tools and techniques to assist application development for accelerators and
+10-point size font on 8.5x11 inch pages (IEEE conference style), including
+The best papers of AsHES 2012 will be included in a Special

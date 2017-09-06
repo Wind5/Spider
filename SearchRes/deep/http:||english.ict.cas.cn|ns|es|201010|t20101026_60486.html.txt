@@ -1,0 +1,9 @@
+http://english.ict.cas.cn/ns/es/201010/t20101026_60486.html
+ Upcoming Events:   Designing High Performance, Scalable and Fault-Resilient ...
+The 4th International Universal Communication Symposium (IUCS 2010) was hosted by Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS) from October 18-19, 2010 in Beijing.
+First held outside Japan, it attracted 86 delegates from over 10 countries including Korea and Japan. Prof. SUN Ninghui, deputy director of ICT, addressed the opening ceremony. 
+Consisting of keynote speeches, invited talks and systems exhibition, IUCS 2010 covered such topics as natural language processing, speech processing, image processing, and virtual reality.
+Prof. LU Ruqian from Institute of Mathematics, CAS made a detailed explanation on controlled natural languages (CNL) and pseudo natural languages (PNL). And Prof. Yutaka Kidawara from National Institute of Information and Communications Technology, Japan (NICT) outlined the information analysis technology for universal communication, which would provide an efficient means for overcoming the barrier of “Information Quality”.
+85 papers were received for IUCS 2010, of which 35 papers were accepted for oral presentation and 22 papers for poster presentation. Proceedings of IUCS 2010 will be published by the Institute of Electrical and Electronics Engineers (IEEE), America and indexed by EI. 
+IUCS was initiated by NICT under the basic concept of “Universal Communication”. It was held every year and the next session will be held in Gumi, Korea in 2011.
+For more information about IUCS 2010, please visit the website http://www.i-uc-s.org/2010/

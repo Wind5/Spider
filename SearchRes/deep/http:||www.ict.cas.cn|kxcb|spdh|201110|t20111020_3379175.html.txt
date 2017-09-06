@@ -1,0 +1,7 @@
+http://www.ict.cas.cn/kxcb/spdh/201110/t20111020_3379175.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+人的自然行为模拟(2)--同时控制运动风格与个体差异的人体动画方法----中国科学院计算技术研究所
+ 人的自然行为模拟(2)--同时控制运动风格与个体差异的人体动画方法
+ 【大 中 小】【打印】【关闭】
+http://vr.ict.ac.cn/paper_selected/SCA2010/SCA2010.htm
+给出了一种可以同时控制运动风格与个体差异的人体动画方法，通过参数传递网络搭建外部用户约束同人体行为空间的桥梁，从而有助于生成千差万别且自然真实的人体运动过程。

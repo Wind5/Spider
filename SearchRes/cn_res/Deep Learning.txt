@@ -1,0 +1,7 @@
+http://deeplearning.stanford.edu/
+baidu
+16
+today often means spending a long time hand-engineering the input feature
+representation. This is true for many problems in vision, audio, NLP,
+the input. These algorithms are today enabling many groups to achieve ground-breaking
+will teach you how to apply these algorithms to your own problems. 

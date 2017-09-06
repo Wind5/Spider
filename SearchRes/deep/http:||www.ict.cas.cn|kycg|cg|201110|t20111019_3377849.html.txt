@@ -1,0 +1,8 @@
+http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377849.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+基于自测试自诊断自修复原理的高性能处理芯片可靠性设计----中国科学院计算技术研究所
+本成果是基于自测试/自诊断/自修复（3S）原理实现缺陷容忍和故障容忍，通过体系结构级的容错技术实现差错容忍，提高微处理器芯片的成品率和提高万亿次级高效能处理器TGAP运行时的可靠性。具体包括：
+1）在缺陷容忍方面，深入研究了基于自测试/自诊断/自修复（3S）原理的处理器测试、诊断和修复方法，创新性地提出了协同优化测试功耗和测试数据量的低功耗测试方法、面向任意故障模型和复合故障的多故障诊断方法、以及基于重构的单/多核处理器缺陷容忍方法。发表IEEE Transactions on VLSI Systems (TVLSI)论文2篇、IEICE Transactions on Information and Systems论文4篇、IEEE/ACM International Conference on Computer-Aided Design (ICCAD)论文1篇、IEEE International Test Conference (ITC)论文1篇、IEEE /ACM Conference on Design, Automation and Test in Europe(DATE)论文5篇。
+2）在故障容忍方面，深入研究了基于自测试/自诊断/自修复（3S）原理的体系结构级可靠性评估、参数偏差在线检测与容忍方法，创新性地提出了体系结构级间歇故障脆弱因子评估方法、基于信号稳定性侦测的定时偏差在线检测方法与动态细粒度的定时偏差容忍方法、以及利用核间互补效应的多类参数偏差协同容忍方法。录用IEEE Transactions on VLSI Systems (TVLSI)论文１篇；发表IEICE Transactions on Electronics论文１篇、IEEE International Symposium on Computer Architecture (ISCA)论文１篇、IEEE /ACM Conference on Design, Automation and Test in Europe(DATE)论文2篇、IEEE International Symposium on Low Power Electronics and Design (ISLPED)论文１篇。
+3）除了方法研究之外，本课题的研究成果还部分地应用于高性能处理器：将自测试/自诊断/自修复（3S）原理应用于一款单核处理器Self-Repairable Processor（简称SRP）和一款众核处理器Godson-T。在SRP处理器中，采用内容可寻址技术结合存储器冗余位的缺陷容忍技术，有效地延长了单核自修复处理器的生命期。在Godson-T处理器中，通过屏蔽由于不同处理器核失效导致的底层异构，为上层提供了高效而统一的虚拟拓扑。
+本课题合计发表（含录用）IEEE TVLSI和IEICE I&F等SCI期刊论文11篇、发表ISCA、ICCAD、ITC、DATE等ACM/IEEE国际会议论文27篇、发表EI期刊论文11篇；授权发明专利1项、受理发明专利8项；受理软件登记7项。

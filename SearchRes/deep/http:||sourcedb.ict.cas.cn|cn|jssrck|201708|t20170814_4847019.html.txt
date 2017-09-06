@@ -1,0 +1,8 @@
+http://sourcedb.ict.cas.cn/cn/jssrck/201708/t20170814_4847019.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 2012年10月 — 今：中国科学院计算技术研究所，副研究员 2010年6月 — 2012年9月：中国科学院计算技术研究所，助理研究员 2003年9月 — 2010年1月：清华大学计算机科学与技术系，博士研究生 1999年9月 — 2003年7月：清华大学计算机科学与技术系，本科生
+ 我国早期IPv4/v6双栈核心路由器研制骨干成员，2004年获国家教育部科技成果完成人表彰。 2013年被评为计算所“卓越之星”优秀员工。 我国首个未来网络小规模实验设施建设核心成员，2013年被获评最佳贡献奖。 2012年5月起任江苏省未来网络创新研究院技术副总监，被聘为首批“江苏省企业创新岗特聘专家”，入选江苏省双创团队。 2016年被聘为南京邮电大学客座硕士生导师。
+ 期刊文章: [1] On Guaranteed Smooth Switching for Buffered Crossbar Switches, IEEE/ACM Transactions on Networking 2008 [2] NewReno拥塞控制方式下路由器缓冲区容量研究，电子学报2009 [3]可扩展路由器，软件学报2008会议文章： [1] The FlowAdapter: Enable Flexible Multi-Table Processing on Legacy Hardware, ACM Sigcomm Workshop HotSDN 2013 [2] Evaluating and Optimizing IP Lookup on Many core Processors, IEEE International Conference on Computer Communications and Networks 2012 [3] Building a Flexible and Scalable Virtual Hardware Data Plane, IFIP/TC6 Networking 2012专利： [1] 软件定义网络组合编程动作计算方法、系统、装置及芯片，申请号201610055907.7 [2] 一种SDN服务链应用有效性的检测方法，申请号201510590903.4 [3] 一种用于不同版本的OpenFlow交换机协同工作的驱动系统及驱动方法，申请号2014100257457.3
+ [1] 国家自然科学基金项目：OpenFlow高效转发方法研究，项目负责人； [2] 国家863计划项目子课题：IPv6大规模编址与路由关键技术研究和验证，项目负责人； [3] 科学院修购项目：后IP网络研究试验平台，项目负责人 [4] 江苏省前瞻性研究重点项目：高效多域协同软件定义网络关键技术研究与示范，项目负责人 [5] 华为合作项目：OpenFlow转发面关键技术研究，项目负责人 [6] 航天五院合作项目：空间网络协议设计与验证系统，项目负责人
+ 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
+ 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

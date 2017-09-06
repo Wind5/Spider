@@ -1,0 +1,10 @@
+http://www.is.cas.cn/kjcx/lw/index_16.html
+ bypassing the decomposition attacks on two-round multivariate schemes by a practical cubic round
+ Improving the ROI of Software Quality Assurance Activities:An Empirical Study
+ Improving software testing process: feature prioritization to make winners of success-critical stakeholders
+ Balancing Load of Shaper in WikiWinWin Requirements Negotiation Environment: An Empirical Evaluation
+ a new variant of 3gpp-mac with provable security and higher efficiency
+ TC-DCA: A System for Text Classification Based on Document’s Content Allocation
+ Improving Performance of Network Covert Timing Channel through Huffman Coding
+ ISCAS:A System for Chinese Word Sense Induction Based on K-means Algorithm
+ Overview of the Chinese Word Sense Induction Task at CLP2010

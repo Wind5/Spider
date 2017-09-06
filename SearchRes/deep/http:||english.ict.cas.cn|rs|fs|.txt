@@ -1,0 +1,7 @@
+http://english.ict.cas.cn/rs/fs/
+There are four large and public platforms are creating, serving the research and innovations of the Institute. 
+Cover design environment, design software of high technics, IP database, test and validation facility, etc.
+To serve the advanced computing research, basic research and grand applications exploration
+To serve  the basic research of network science, distributed system, mass data analyzing and intelligent information processing
+To support the basic research and key technologies on information security
+Multi-platform and multi-level computing environment;Store large scale real network data; Secure and reliable;Support the development and validation of special systems
