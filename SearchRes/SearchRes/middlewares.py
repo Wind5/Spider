@@ -62,6 +62,8 @@ class MyOffsiteMiddleware(OffsiteMiddleware):
     def should_follow(self, request, spider):
         """Return bool whether to follow a request"""
         # hostname can be None for wrong urls (like javascript links)
+        if spider.allowed_domains is None or len(spider.allowed_domains) == 0:
+            return True
         url = request.url
         if 'pdf' in url:
             return False

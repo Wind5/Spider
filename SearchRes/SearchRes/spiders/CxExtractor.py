@@ -62,12 +62,13 @@ class CxExtractor:
         self.__lang = 'en' if self.__lang else 'cn'
         if res_text is not None and len(res_text) > 0:
             if engine is not None:
-                path += engine + '/'
                 info = url.decode('utf-8') + u'\n' + engine.decode('utf-8') + u'\n' + rank.decode('utf-8') + u'\n'
             else:
                 info = url.decode('utf-8') + u'\n'
+            path += self.__lang + '/' 
+            print path
             if os.path.exists(path) is False:
-                os.mkdir(path)
+                os.makedirs(path)
             with io.open(path + filename.replace('/', '|') + '.txt', 'w') as f:
                 f.write(info + res_text)
             return True
@@ -82,8 +83,8 @@ class CxExtractor:
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
-        self.__lang = cn_ratio < 0.3
-        # print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
+        self.__lang = cn_ratio < 0.2
+        print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
         s = s.split('\n')
         result = []
         for ts in s:
@@ -164,7 +165,6 @@ class CxExtractor:
         response = requests.get(url)
         coding = response.encoding
         page = response.content
-        print coding
         return page
 
     def readHtml(self, path, coding):

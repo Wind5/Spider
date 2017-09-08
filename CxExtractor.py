@@ -59,7 +59,7 @@ class CxExtractor:
         res_text = self.clean_and_judge(content)
         return res_text
 
-    def clean_and_judge(self, content, cn_threshold=10, en_threshold=10):
+    def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
         s = content.decode('utf-8')
         if s is None or len(s) == 0:
             return None
@@ -67,10 +67,15 @@ class CxExtractor:
         self.__lang = cn_ratio < 0.3
         print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
         s = s.split('\n')
-        result = []
-        for ts in s:
-            if (self.__lang and len(ts.split(' ')) > en_threshold) or (not self.__lang and len(ts) > cn_threshold):
-                result.append(ts + '\n')
+        result = [s[0]]
+        for i in range(1, len(s) - 1):
+            if self.__lang:
+                if not (len(s[i].split(' ')) < en_threshold and len(s[i-1].split(' ')) < en_threshold and len(s[i+1].split(' ')) < en_threshold):
+                    result.append(s[i] + '\n')
+            else:
+                if not (len(s[i]) < cn_threshold and len(s[i+1]) < cn_threshold and len(s[i-1]) < cn_threshold):
+                    result.append(s[i] + '\n')
+        result.append(s[-1] + '\n')
         print 'num of lines:' + str(len(result))
         if len(result) < 5 and self.__num_a > 150:
             return None
@@ -100,17 +105,21 @@ class CxExtractor:
         boolend = False
         for i in range(len(self.__indexDistribution) - 1):
             print self.__indexDistribution[i]
-            if self.__indexDistribution[i] > 0:
-                print lines[i]
             if(self.__indexDistribution[i] > self.__threshold and (not boolstart)):
                 if (self.__indexDistribution[i + 1] != 0 or self.__indexDistribution[i + 2] != 0 or self.__indexDistribution[i + 3] != 0):
                     boolstart = True
                     start = i
+                    print '-----start------\n'
+                    if self.__indexDistribution[i] > 0:
+                        for j in range(i, i + self.__blocksWidth):
+                            if lines[j] > 0:
+                                print lines[j] 
                     continue
             if (boolstart):
                 if (self.__indexDistribution[i] == 0 or self.__indexDistribution[i + 1] == 0):
                     end = i
                     boolend = True
+                    print '-----end------\n'
             tmp = []
             if(boolend):
                 for ii in range(start, end + 1):
