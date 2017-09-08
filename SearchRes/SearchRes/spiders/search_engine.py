@@ -7,6 +7,8 @@ import re
 from CxExtractor import CxExtractor
 from urllib import urlencode
 import os
+from scrapy import signals
+from scrapy import Spider
 
 class EngineSpider(scrapy.Spider):
   name = 'search_engine'
@@ -39,6 +41,23 @@ class EngineSpider(scrapy.Spider):
       en_url = 'http://www.baidu.com/s?' + urlencode({'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'en'})
       yield scrapy.Request(cn_url, self.parse, meta={'engine': 'Baidu'})
       yield scrapy.Request(en_url, self.parse, meta={'engine': 'Baidu'})
+
+  @classmethod
+  def from_crawler(cls, crawler, *args, **kwargs):
+    spider = super(EngineSpider, cls).from_crawler(crawler, *args, **kwargs)
+    crawler.signals.connect(spider.spider_closed, signal=signals.spider_closed)
+    return spider
+
+  def spider_closed(self, spider):
+    for subdir in ['cn/', 'en/']:
+      file_id = 1
+      path = self.__path + '/' + subdir
+      for file in os.listdir(path):
+        if os.path.isfile(os.path.join(path, file))==True:
+          newname = str(file_id) + '.txt'
+          os.rename(os.path.join(path, file), os.path.join(path, newname))
+          file_id += 1
+          print file, 'ok'
 
   def parse(self, response):
     if self.__num_of_done >= self.__num_of_wanted:
