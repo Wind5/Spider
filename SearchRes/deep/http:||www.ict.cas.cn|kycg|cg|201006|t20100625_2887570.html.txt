@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201006/t20100625_2887570.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-本课题以构建轻量级智能操作系统为出发点，主要的研究目标是构建一个可供增值开发和模拟测试的P2P平台系统。在这个平台上，重点研究P2P相关的点播技术、直播技术、信息检索和内容分发，以及匿名通信等技术的研究。最终将这些P2P技术转化为具有特色的P2P产品和服务。
-此外，本课题完成了轻量级智能操作系统LIOS平台的开发，并结合实际需求，在LIOS平台的基础上，设计了点播协议模块 LIOS-VOD、直播协议模块LIOS-STREAM、和点搜索协议模块 LIOS-SEARCH。目前开发出的集P2P视频直播和兼容视频点播与文件下载于一体的分布式系统COOLFISH，已经可以提供免费的在线服务（http://www.cool-fish.org/）。建设的一套切实有效的P2P网络信息监控原型系统，为国家相关部门把握P2P网络内的信息分布、获取特定信息的流向及扩散范围、阻断/干扰特定信息的扩散等提供了实用化的解决方案。

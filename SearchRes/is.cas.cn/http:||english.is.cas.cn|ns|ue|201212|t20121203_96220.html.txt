@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/201212/t20121203_96220.html
-Speaker: George Barmpalias (State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences) 
-Venue: Lecture Room, 3rd Floor, Building #5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences 
-It occurred to me that since my introductory talk 1.5 years ago I have not given a talk (formal or informal) to the institute to present my work. Some 10 papers later, I wish to give an overview of my recent results in the area of Algorithmic randomness, many of which are already published. I will select the most suitable topics for a general audience and discuss them informally, as well as some challenges that remain in this area. 
-Later I plan to give another talk about my more recent work on networks and probabilistic models. For those interested, I will also deliver a short introductory course (3 lectures) at the IIIS of Tsinghua on Fridays 1pm, starting from next Friday. 

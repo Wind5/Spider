@@ -1,6 +1,0 @@
-Abstract: Deep learning research aims at discovering learning algorithms that discover
-more abstract concepts. Although the study of deep learning has already led to
-experiments, several challenges lie ahead. This paper proposes to examine some
-of these challenges, centering on the questions of scaling deep learning
-and powerful inference and sampling procedures, and learning to disentangle the
-factors of variation underlying the observed data. It also proposes a few

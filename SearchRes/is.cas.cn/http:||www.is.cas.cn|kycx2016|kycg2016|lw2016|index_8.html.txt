@@ -1,7 +1,0 @@
-http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_8.html
- Visual Cryptography and Secret Image Sharing (Chapter 16: Resolve Alignment Problem in Visual Cryptography)
- A generic framework for constructing cross-realm C2C-PAKA protocols based on the smart card
- Robust Visual Cryptography-based Watermarking Scheme for Multiple Cover Images and Multiple Owners
- Provable secure authentication protocol with anonymity for roaming service in global mobility networks
- An efficient mutual authentication and key agreement protocol preserving user anonymity in mobile networks
- An efficient location-based compromise-tolerant key management scheme for sensor networks

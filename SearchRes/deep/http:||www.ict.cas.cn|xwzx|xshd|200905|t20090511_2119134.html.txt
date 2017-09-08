@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/200905/t20090511_2119134.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 报告人：夏添报告地点：1234会议室报告时间：2009.5.12日 下午16：00-17：30
-　　　  谱聚类是现代聚类方法中最具代表性的一个方法，它能处理具有复杂聚类形状的数据，因而性能上要优于传统的聚类方法。
-报告的提纲：1、Graph Laplacian以及所具有的性质，它是分析谱聚类的工具。
-2、从图分割的角度解释谱聚类。　　　  首先会介绍两个经典的谱聚类算法，ratio-cut和n-cut；然后从图分割的角度对这两个算法进行解释，最后介绍一下谱聚类中state-of-the-art算法－MSC算法。
-3、介绍对谱聚类的归纳和总结。

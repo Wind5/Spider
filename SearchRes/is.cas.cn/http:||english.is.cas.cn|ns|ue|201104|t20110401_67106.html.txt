@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/201104/t20110401_67106.html
-Title:　　　　  Kolmogorov complexity, Computability and Probability. Speaker:　  George BarmpaliasTime:　　　　 3:00pm, April 7th (Thursday), 2011. Place:　　　　 Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences 
-In this talk I wish to introduce myself and the work I did before I come to the ISCAS. 
-In the first part I will discuss the general project of determining the probability that various properties hold in the structure of the Turing degrees. To this end, I will focus on several recent results that I have established with A. Lewis, as well as many problems that remain open. 
-In the second part I will discuss the very interesting interface between Kolmogorov complexity and classical computability theory. I will focus on a resent result that an oracle can compress finite programs better than an uncountable collection of oracles if and only iff it can compress the initial segments of Chaitin's Omega (the halting probability of a universal prefix free machine) by an arbitrary factor. 

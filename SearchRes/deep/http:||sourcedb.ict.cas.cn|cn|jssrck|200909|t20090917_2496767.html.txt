@@ -1,7 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496767.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 主要从事网络与信息安全以及信息内容处理领域的研究 
- 2000年进入中科院计算所工作，现任网络科学与技术重点实验室副主任。
- 先后负责国家863、242信息安全计划、科学院院创新工程等多项重大课题的研发工作，并在国家网络信息安全基础设施建设领域的重大工程中承担了主要工作。
- 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
- 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

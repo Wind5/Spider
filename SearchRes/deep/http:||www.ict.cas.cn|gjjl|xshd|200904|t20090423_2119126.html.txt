@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/200904/t20090423_2119126.html
-摘要：　　　  Parametric models 目前非常流行。其中， 　　　  Latent dirichlet allocation (LDA), 2003. 被引用1060次 　　　  A tutorial on hidden Markov models and selected applications inspeech recognition（HMM）, 1989. 被引用8176次 　　　  这些Parametric models的复杂度(complexity)是固定的(fixed)，所以它们只能从给定数据集中得到有限的信息(a bounded amount of information). 　　　  譬如，在利用LDA对一文档集建模时，我们必须事先设定话题(Topic)的个数K。考虑到实际数据的复杂性以及数据的动态更新性，人为的设定K会是件非常困难的事情。在这次报告中，我们会介绍Dirichlet Processes,它会利用数据集智能地挑选出最优的K，并解决以上提出的问题。 　　　  Let the data speake for themselves！ 

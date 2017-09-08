@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/kycg/kjjl/index_4.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 视频编码关键技术研究及其对MPEG-4国际标准的贡献
- 基于多功能感知理论的中国手语识别与合成研究
- 国家九五重大科技成果奖 （先进个人：樊建平、程学旗）
- 曙光系列可扩展计算机系统（两个专题）1、曙光Internet信息服务系统 2、增强型高可用曙光服务器

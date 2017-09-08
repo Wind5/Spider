@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201003/t20100316_51467.html
-Venue：Lecture Room, State Key Lab of Computer Science, Level 3 Building #5
-In this talk, we will review the relation between cryptography and complexity theory, explain how much the cryptography relies on complexity theory and how complexity theory acts as a foundation of cryptography in an intuitive way. Moreover, we will also propose some cryptographic problems which are related to complexity theory for further discussion.
-Born in April 1964, Professor and vice director of State Key Laboratory of Information Security, Institute of Software, the Chinese Academy of Sciences. His Research interests include cryptology, security protocols, symbolic computation and software development, he is currently working on multivariate public key cryptography, zero knowledge proof and network based cryptographic computation. 

@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/201111/t20111101_77503.html
-Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-A confluent process (of a given transition system G) is an acyclic confluent transition system that is a `partial unfolding' of G. Intuitively, it represents a concurrent run of G. Given a non-confluent G, how to find maximal confluent processes of G is a theoretical problem having many practical applications.
-In this talk we propose an unfolding procedure for extracting maximal confluent processes from transition systems. The key technique we utilize in the procedure is the construction of granular configuration structures (i.e. a form of event structures) based on diamond structures inside transition systems.
-Xu Wang received a B.Sc., M. Eng. and Ph. D in Computer Science from Xi'an Jiaotong University and Chinese Academy of Sciences resp. He is currently an academic staff at United Nations University (UNU-IIST). Previously he also held research positions at the Hong Kong University of Science and Technology, Oxford University, and Birmingham University. 

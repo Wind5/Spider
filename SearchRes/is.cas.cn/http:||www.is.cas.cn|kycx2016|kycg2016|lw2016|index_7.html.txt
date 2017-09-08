@@ -1,9 +1,0 @@
-http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_7.html
- Parallel multilevel methods for implicit solution of shallow water equations with nonsmooth topography on the cubed-sphere
- Scale adaptation of mean shift based on graph cuts theory
- Proceedings - 12th International Conference on Computer-Aided Design and Computer Graphics, CAD/Graphics 2011
- A parallel well-balanced finite volume method for shallow water equations with topography on the cubed-sphere
- KnitSketch: A Sketch Pad for Conceptual Design of 2D Garment Patterns
- Calibrating effective focal length for central catadioptric cameras using one space line
- Sketchboard: Supporting natural interaction for video organization and navigation using sketch based annotation
- Calibration of Central Catadioptric Camera with One-Dimensional Object Undertaking General Motions

@@ -1,9 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_17.html
- [4-21]Connection between Logical Approach and Algebraical Approach to Concurrent Systems 
- [4-20]An Abuse-Free Fair Contract Signing Protocol Based on the RSA Signature 
- [4-19]Challenges, Approaches and Benefits of Standardisation for Safety in Railway 
- [4-12]CAP UNIFICATION : A Tool for Crypto Protocol Analysis 
- [4-7]A logic for reasoning about computational indistinguishability--- Cryptography viewed from logic and programming languages 
- [3-31]Social networks and beyond --- Our recent work on large networks 
- [3-10]A Generalized Real-Time Obstacle Avoidance Method without the Cspace Calculation—what we can learn from this practical problem 
- [1-28]Solving the Salinity Control Problem in a Potable Water System Using Constraint Programming 

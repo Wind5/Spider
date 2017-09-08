@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201004/t20100427_53450.html
-Place:　　　　 Lecture Room, Level 3, Building No. 5, Institute of Software
-Tea time:　　 16:00 – 16:30, Common Room, Level 3, Building No. 5
-It is an important open question to naturally define the notion of community, and to find the community structures in large networks, including social networks, information networks, and biological networks. We will review the current progress in this research and propose a new approach to defining and identifying the community structures in large networks. The new approach is devoted to understanding the nature of large community, a weak version of the giant component, and the role of small (or strong) community in both destructive and constructive ways, helping to identify  terrorists organization and  to build harmonic societies respectively. 

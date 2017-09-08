@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kxcb/jsjfzs/200807/t20080714_2182459.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-计算机的应用领域:人工智能(或智能模拟)----中国科学院计算技术研究所
-人工智能(或智能模拟)        人工智能(Artificial Intelligence)是计算机模拟人类的智能活动，诸如感知、判断、理解、学习、问题求解和图像识别等。现在人工智能的研究已取得不少成果，有些已开始走向实用阶段。例如，能模拟高水平医学专家进行疾病诊疗的专家系统，具有一定思维能力的智能机器人等等。

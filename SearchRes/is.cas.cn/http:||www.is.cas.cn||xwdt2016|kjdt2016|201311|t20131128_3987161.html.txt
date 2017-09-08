@@ -1,7 +1,0 @@
-http://www.is.cas.cn//xwdt2016/kjdt2016/201311/t20131128_3987161.html
-冰岛雷克雅未克大学Luca Aceto和Anna Ingolfsdottir教授到软件所交流----软件研究所
-研究员（正高级工程师）
-副研究员（高级工程师）
- 冰岛雷克雅未克大学Luca Aceto和Anna Ingolfsdottir教授到软件所交流
- 文章来源：  |  发布时间：2013-11-28  |  【打印】 【关闭】
- 11月13日-26日，冰岛雷克雅未克大学Luca Aceto和Anna Ingolfsdottir教授应计算机科学国家重点实验室的邀请到软件所进行学术交流，并作学术报告。报告会由林惠民院士主持。11月21日，Luca Aceto教授在5号楼334报告厅进行了题为Rule Formats for Structural Operational Semantics: A Very Short Introduction的学术报告。操作语义通过程序在抽象机器上的执行来描述程序的行为。结构化操作语义是给出程序设计和规约语言操作语义的一种语法驱动、基于规则的方法。报告中，Luca Aceto教授介绍了其研究团队在结构化操作语义理论方面的成果，改研究的目的在于用纯粹语法的方法保证程序和规约语言满足某些合意的语义性质。规则格式是推理规则所需要满足的语法模板，只要操作语义的推导规则满足一定的格式，就可以保证所定义的语义具有相应的性质。报告会上，Luca Aceto教授还对规则格式作了详细的阐述。11月25日，Anna Ingolfsdottir教授在5号楼334报告厅进行了学术报告，报告的题目为Towards model checking the hardware description language BSV。报告中，Anna Ingolfsdotti教授首先由浅入深地阐述了对硬件描述语言BSV的验证方法，BSV是一种可直接编译为硬件代码的面向对象语言。随后，Anna Ingolfsdotti教授介绍了其研究团队将BSV翻译到实时系统描述语言Uppaal上的初步工作，这一工作使得在生成最终硬件产品之前对BSV设计进行模型检测成为可能。两场报告会十分精彩。报告会后，与会人员就规则格式、SBSV和Uppaal如何转换、转换是否保持判定性等问题与两位教授进行了深入交流。Luca Aceto教授现为冰岛雷克雅未克大学计算机科学学院教授，他是欧洲理论计算机科学学会（EATCS）的现任主席。他目前致力于并发语义、计算机科学逻辑、结构化操作语义、验证问题和生物信息学问题的计算复杂性等方面的研究。Anna Ingolfsdottir教授现为冰岛雷克雅未克大学计算机科学学院教授，主要从事并发理论及其在软件开发中的应用、生物学中的数学和计算建模等方面的研究。　　 　 

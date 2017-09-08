@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201206/t20120629_3606946.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-Mentor Graphics的首席科学家Dr.Janusz Rajski来国重做学术交流报告----中国科学院计算技术研究所
-2012年6月28日，Mentor Graphics的首席科学家Janusz Rajski博士受体系结构国家重点实验室的邀请进行学术访问，并在计算所446会议室做了一次学术报告。此次报告由胡瑜研究员主持，报告的主要内容是关于芯片测试的质量。
-Janusz Rajski博士首先介绍了在测试中常用的故障模型，例如桥接故障和小时延故障。他同样介绍了面向版图的标准单元内故障，以及如何用UDFM(用户自定义故障模型)对这类故障进行描述。然后，Janusz Rajski博士介绍了一些测试压缩技术，包括EDT，LBIST(逻辑内建自测试)，以及EDT和LBIST的混合压缩方法。这些技术有效的降低了测试开销。
-计算所大约35位老师和同学参加了这次报告，报告过程中大家积极踊跃的提出了各自感兴趣的问题，Janusz Rajski博士和大家就n-detect向量生成、基于压缩响应的故障诊断、等等问题进行了热烈的讨论。
-学术报告在轻松而热烈的气氛下持续了大概一个半小时。会后约定了进一步的合作研究计划。

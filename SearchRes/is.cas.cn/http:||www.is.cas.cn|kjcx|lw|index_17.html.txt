@@ -1,8 +1,0 @@
-http://www.is.cas.cn/kjcx/lw/index_17.html
- Frequency response bounds for a d.c.motor driven system by considering the inequalities constraints
- Tibetan Number Identification Based on Classification of Number Components in Tibetan Word Segmentation
- Analysis of Stakeholder/ Value Dependency Patterns and Process Implications: A Controlled Experiment
- EXPRE — A repository for managing software data and experience
- Influencing factors of defect removal: an empirical study based on industrial data
- Understanding the Influential Factors to Development Effort in Chinese Software Industry
- A Fuzzy-Based Method for Evaluating the Trustworthiness of Software Processes

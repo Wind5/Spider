@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377782.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-密集影像匹配和高精度连续DSM获取关键技术----中国科学院计算技术研究所
-基本完成基于人类视觉感知机理的高可靠匹配关键技术，城市的房顶边缘自动匹配成功率在85％以上，遮挡自动发现率85%以上。
-初步完成逐像素影像匹配技术。
-部分完成基于超密集点云的城市高精度连续DSM获取技术。完成海量密集数码航空影像的并行匹配和并行城市高精度DSM获取关键技术研究。

@@ -1,9 +1,0 @@
-sessions in IEEE Xplore and for no other purpose. The cookies will not persist after a session ends. 
-Please change your browser settings to accept cookies before you access IEEE Xplore. Here are some directions to enable cookies for a few commonly used browsers: 
-Click the Default button or slide the bar down to 'Medium'.
-At the top of the Firefox window, click on the Firefox button and then select Options.
-Select Use custom settings for history in the 'Firefox will:' dropdown [v3.5 only] 
-For additional information, please refer to the Mozilla Firefox Knowledge Base.
-If you are accessing IEEE Xplore from a network that is not configured to accept
-other network appliances must be configured to accept cookies from the
-Once you have enabled cookies, you may return to the previous page.

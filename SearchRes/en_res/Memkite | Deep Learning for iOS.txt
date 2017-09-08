@@ -1,2 +1,0 @@
-DeepLearningKit is an Open Source Deep Learning framework for iOS that can be used to support Artificial Intelligence (AI) in apps. An example use case is image recognition (e.g. object detection in photos / camera input).
- You may use these HTML tags and attributes: <a href="" title=""> <abbr title=""> <acronym title=""> <b> <blockquote cite=""> <cite> <code> <del datetime=""> <em> <i> <q cite=""> <strike> <strong> 

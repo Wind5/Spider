@@ -1,9 +1,0 @@
-http://english.is.cas.cn/ns/ue/201102/t20110224_65406.html
-Location：　　 Lecture room, Lab for Computer Science, Level 3 Building #5, Institute of Software, CAS
-In this talk, we first introduce models for image processing based on partial differential equations. This part will cover the well-known models related to ROF (total variation model), Mumford-Shah model, Euler's elastica model. Then we will give some details in using these models for image processing, including image restoration, image segmentation, noise removal and image inpainting.
-In order to use these models for real industrial applications, fast numerical methods are needed. We start with the traditional gradient decent algorithms. Afterwards, we will go through some modern fast numerical schemes including: Dual algorithms, Alternating minimization algorithms, Augmented Lagrangian methods, graph cuts schemes and some fast iterative algorithms that have been proposed recently.
-Prof Tai Xue-Cheng is a member of the Department of Mathematics at the University of Bergen of Norway and also Division of Mathematical Sciences, Nanyang Technological University of Singapore.  In addition, he is also a member of Center of Mathematics for Application at University of Oslo and Center of Integrated Petroleum Research at Bergen. His research interests include numerical PDEs, optimization techniques, inverse problems, and image processing. He has done significant research work his research areas and published over 80 top quality international conference and journal papers.
-Prof. Tai is the winner of the 8th Feng Kang Prize for scientific computing. Prof. Tai is a member of the editor board for the following journals:
-* Executive editor for Numerical Mathematics: Theory, Methods and Applications (NM-TMA) (2005 - now)
-* International Journal of Numerical analysis and modelling (2004 - now)
-* International Journal of Tomography and Statistics (2005 - now) 

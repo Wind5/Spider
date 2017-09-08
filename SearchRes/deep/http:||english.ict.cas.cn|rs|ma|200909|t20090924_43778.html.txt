@@ -1,4 +1,0 @@
-http://english.ict.cas.cn/rs/ma/200909/t20090924_43778.html
- Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
- Upcoming Events:   Network Routing for Efficient Energy Usage
-Loongson-1 General-Purpose CPU Chip is a major achievement of the CAS??s Knowledge Innovation Program and the National 863 R & D Plan. It won the CAS Outstanding Achievement Award in 2003. It is also the first CPU chip for general-purposes devised by China with a clock frequency of 266 MHz.

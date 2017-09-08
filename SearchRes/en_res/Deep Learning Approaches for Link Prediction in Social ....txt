@@ -1,1 +1,0 @@
- pp 425-432Deep Learning Approaches for Link Prediction in Social Network ServicesAuthorsAuthors and affiliationsFeng LiuBingquan LiuChengjie SunMing LiuXiaolong WangConference paper 

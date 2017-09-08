@@ -1,8 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_13.html
- [10-28]Software and System developments using Formal Models, Refinements, and Proofs with Event-B 
- [10-18]Game Solving for Industrial Automation and Control - Models, Algorithms, and Tools 
- CALL FOR PAPERS----The Second International Workshop on Accelerators and Hybrid Exascale Systems (ASHES 2012) 
- CALL FOR PAPERS--Eighth IEEE Workshop on High-Performance, Power-Aware Computing (HP-PAC) 
- [9-1]Security and privacy implications of the multi-component nature of Software-as-a-Service 
- [8-31]On building effective software system using component-based software technology 
- [5-26]Real-Time Scheduling for Wireless Control Networks: a WirelessHART Case Study 

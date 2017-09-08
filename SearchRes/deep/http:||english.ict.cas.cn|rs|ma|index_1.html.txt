@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/rs/ma/index_1.html
- Dawning 3000 Super Server System, running at a computing rate of 403.2 billion floating-point operations per second, is a major result of the CAS Knowledge Innovation Program and the National 863 R & D Plan, was honored with the Second Prize for the National Science and Technology Progress in 2003.
- Loongson-1 General-Purpose CPU Chip is a major achievement of the CAS??s Knowledge Innovation Program and the National 863 R & D Plan. It won the CAS Outstanding Achievement Award in 2003. It is also the first CPU chip for general-purposes devised by China with a clock frequency of 266 MHz.
- Hand Gesture Recognition and Synthesis Research Project based on multi-sensation theories won the Second Prize for the National Science and Technology Progress in 2002.
- Compunicator, a combination of personal computing and mobile computing, won the Second Prize for the National Scientific and Technologic Progress in 2002.
- Dawning 2000 Super Server System won the Second Prize for the National Scientific and Technological Progress in 2001.

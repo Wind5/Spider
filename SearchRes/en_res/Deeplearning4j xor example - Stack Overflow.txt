@@ -1,9 +1,0 @@
-I'm trying to train an xor network with deeplearning4j, but i think i didn't really get how to use the dataset.
-I wanted to create a NN with two inputs, two hidden neurons and one output neuron. 
- //Print the number of parameters in the network (and for each layer)
- System.out.println("Number of parameters in layer " + i + ": " + nParams);
-o.d.o.s.BaseOptimizer - Objective function automatically set to minimize. Set stepFunction in neural net configuration to change default settings.
-Exception in thread "main" java.lang.IllegalArgumentException: Unable to getFloat row of non 2d matrix
-I believe there is a XOR example straight from their git repository! 
-The code is well documented and you can find it the repository here: https://github.com/deeplearning4j/dl4j-0.4-examples.git
- 1deeplearning4j: online Word2Vec training1Deeplearning4j LSTM output size0Do Anomaly detection on my own images use deeplearning4j0I am trying one of the rl4j example A3CCartpole, threw an exception: java.lang.NoSuchMethodError1Deeplearning4j, why is there a method to specify the number of outputs of each layer in convolutional neural networks?1Is there any code example of data imputation by VAE or SDA by using deeplearning4j0Is there any similar function of Deeplearning4j like vae.reconstruct() in tensorflow?0classify new image on trained custom model in deeplearning4j (convolutional network)1Run deeplearning4j without GPU?0How Does Deeplearning4J Word2Vec.getLookupTable Work?

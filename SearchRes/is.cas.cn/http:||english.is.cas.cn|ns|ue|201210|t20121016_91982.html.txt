@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201210/t20121016_91982.html
-Venue: Lecture Room, 3rd Floor, Building #5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-Abstract:In 1998, Paturi, Pudlak, Saks, and Zane presented PPSZ, an elegant randomized algorithm for k-SAT. Fourteen years on, this algorithm is still the fastest known worst-case algorithm. We give the first nontrivial lower bounds on its running time. We show that its worst case running time is at least 2^(c * n), where c is a constant depending on k that converges to 1 as k grows.
-Bio:-- in 2011 he got by PhD at ETH Zürich-- since then a postdoc in Aarhus, Denmark-- right now visiting IIIS Tsinghua University 

@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/gjjl/jldt/200908/t20090819_2423464.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 　　2008年12月9日至13日，SIGGRAPH ASIA 2008在狮城新加坡举行。这是世界上最大的电脑图形图像界盛会SIGGRAPH首次选择在美国以外举办分会。SIGGRAPH ASIA 2008大会足足占了SUNTEC中心（位于新加坡繁华的中心城区）四层的空间。一层是接待处；二，三层是艺术家和我们感兴趣的部分，包括 Animation Festival（动画节），Electronic Theater（动画剧场），Technical Papers（技术论文）和Courses（讲座）；四层是公司展位和工作招聘。规模很大，明年日本横滨举办的第二届会更大。 
-　　展会大厅里，Autodesk公司巨型屏幕，M4（3ds Max，Maya，Motion Builder和Mudbox）悉数到场，包括NVIDIA和ATI等知名硬件厂商，还有Rhythm&Hues（印度分公司），Lucas Film（新加坡分公司）等CG业巨擘。 
-　　技术讲座中，Autodesk，Chaos（V-Ray软件开发商），SideFx（高端特效软件Houdini的开发商）等公司派来技术专家现场讲解。Autodesk公司首席科学家，nParticle发明人Duncan先生给了演讲，据说，他在飞机场等机的时候，发明了 Maya 2009中的这一关键元素。
-　　当然，与我们最相关的是学术报告，计算机图形学方面的专家学者给了许多精彩演讲，包括Don Greenberg， Cornell University Program of Computer Graphics Computer Graphics Pioneer，题目为The Expanding Boundaries of Computer Graphics，主要介绍下一代计算机图形学遇到的挑战问题。Rob Cook，Vice President，Advanced Technology，Pixar Animation Studios。题目为：Behind the Scenes at Pixar，介绍了Pixar公司的新技术。另外本次会议共收录技术论文54篇，Sketch 30多篇以及十几篇Poster。
-　　普适计算研究中心感知计算课题组由1篇Sketch入选，陈益强博士代表课题组在分组会给了20分钟的报告，得到众多学者的兴趣，尤其是对将动画与普适计算的位置服务结合的演示。会后，陈益强博士被新加坡著名高校南洋理工大学计算机系黄广斌、苗春燕等教授邀请去作简单交流和报告，双方发现很多感兴趣研究点，为建立长期合作关系打下基础。

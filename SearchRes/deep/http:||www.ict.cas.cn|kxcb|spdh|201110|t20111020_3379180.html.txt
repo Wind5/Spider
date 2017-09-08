@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/kxcb/spdh/201110/t20111020_3379180.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-人的自然行为模拟(3)--符合人脸生理结构的高真实感人脸动画方法----中国科学院计算技术研究所
- 人的自然行为模拟(3)--符合人脸生理结构的高真实感人脸动画方法
- 【大 中 小】【打印】【关闭】
-http://vr.ict.ac.cn/paper_selected/CGF2011/CGF2011.htm
-给出了一种符合人脸生理结构的高真实感人脸动画方法，抽取真实人脸表情的非线性特征，并将其融入到高真实感人脸表情迁移方法中，可确保数字人脸表情动画中眉眼、嘴角、下颚等部位运动轨迹的非线性。

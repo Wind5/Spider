@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_23.html
- [6-26]Specification and Enforcement of Flexible Security Policy for Active Cooperation 
- [6-19]Mobile Sensor Network under Extremely Low Connectivity: Plan B 
- [6-16]Mobile Filtering for Data Collection in Sensor Networks and Beyond 
- [6-16]Efficient Bulk Transport and Mobility Control in Wireless Sensor Networks 

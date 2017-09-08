@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/200906/t20090614_25795.html
- [6-16]Large Scale Simulation and Ordering for Parallel Sparse Matrix Computation 
- Title：Large Scale Simulation and Ordering for Parallel Sparse Matrix Computation Speaker：Haixiang LinTime：2：00 pm, June 16 Venue：Room337,  Building #5 
-In the first part of the talk a summary of several research projects at the Department of Large Scale Model and Simulation of Delft Institute of Applied Mathematics (DIAM) will be presented. In the second part, we will discuss the importance of ordering in parallel direct solution of sparse matrix systems. The relation between parallelism and ordering will be shown using examples of designing algorithms for tri-diagonal matrices. In case of parallel block algorithms for block matrices arising from domain decomposition/graph partitioning we will the importance of the ordering of interface segments to the parallel performance. 

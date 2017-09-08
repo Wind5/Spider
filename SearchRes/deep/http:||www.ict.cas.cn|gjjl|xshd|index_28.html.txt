@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/index_28.html
-地 点：计算所四层报告厅报告人：Prof. Kwei-Jay Lin, IEEE Fellow, University of California, Irvine 
- Designing High Performance, Scalable and Fault-Resilient MPI Library for Modern Clusters

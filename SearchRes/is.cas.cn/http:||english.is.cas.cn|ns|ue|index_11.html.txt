@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_11.html
- [6-14]Trace Driven Approach for Testing and Debugging Concurrent Programs 
- [5-24]Invigorating Console Logs: Logs as THE Debugging Tool for Large-scale Systems 
- [5-18]Slow Intelligence Systems - A New Approach for Component-based Software Engineering 
- [5-11]Controllers with Minimal Observation Power (Application to Timed Systems) 
- [4-20]Hard-Real-Time Scheduling on a Weakly Programmable Multi-core Processor with Application to Multi-standard Channel Decoding 

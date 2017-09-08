@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_9.html
- [12-10]A Role for Mereology in Domain Science and Engineering 
- [11-22]Optimizing Data Shuffling in Data-Parallel Computation by Understanding User-Defined Functions 
- [10-25]Basics of Research Studies that They Don't Teach You at the Graduate School 

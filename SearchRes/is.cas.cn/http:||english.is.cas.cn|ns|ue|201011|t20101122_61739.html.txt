@@ -1,3 +1,0 @@
-http://english.is.cas.cn/ns/ue/201011/t20101122_61739.html
-Venue:　 Lecture room, Lab for Computer Science, Level 3 Building #5, Institute of Software, CAS
-Developing effective reasoning techniques for programming languages with higher-order constructs is a challenging problem, made even more challenging by the presence of concurrency, mobility, and distribution. Such languages are becoming increasingly relevant to software development and verification. This talk will mainly focus on languages based on the higher-order pi-calculus, an extension of the pi-calculus with transmission of processes. We will examine and compare the main techniques for reasoning in such languages and discuss questions that still remain open. 

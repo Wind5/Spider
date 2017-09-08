@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/index_22.html
- Non-Volatile Memory Architecture for the Performance, Energy Consumption, and Reliability Improvement
- Speaker: Guangyu Sun Center for Energy Efficient Computing and Applications Peking University
- A MuMI Integrated Tool MAIDE: Making Performance and Power Data Collection Process Automatic

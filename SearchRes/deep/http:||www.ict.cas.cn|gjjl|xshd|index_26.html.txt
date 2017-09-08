@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/index_26.html
- Toward a Robust Substrate for Internet of Things: A Study on High Availability in Stream Processing Systems

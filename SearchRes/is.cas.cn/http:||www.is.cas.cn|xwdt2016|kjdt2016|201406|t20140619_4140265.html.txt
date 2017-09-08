@@ -1,7 +1,0 @@
-http://www.is.cas.cn/xwdt2016/kjdt2016/201406/t20140619_4140265.html
-圣何塞州立大学Jerry Gao教授到软件所进行学术交流----软件研究所
-研究员（正高级工程师）
-副研究员（高级工程师）
- 圣何塞州立大学Jerry Gao教授到软件所进行学术交流
- 文章来源：  |  发布时间：2014-06-19  |  【打印】 【关闭】
- 6月12日，美国圣何塞州立大学(San Jose State University) 计算机工程系Jerry Gao教授应邀基础软件国家工程研究中心的邀请访问软件所，并作题为Mobile Cloud Computing Infrastructures, research issues, and challenges的学术报告。随着移动计算技术和无线网络的快速推进，移动用户显著增加。移动云计算已经成为一项重要技术，对移动云应用和服务的需要也越来越强烈。针对移动云（Mobile Cloud）相关问题，Jerry Gao教授在报告中介绍了什么是Mobile Cloud, 并对其基础设施、挑战及需求进行了阐述。他表示，Mobile Cloud环境产生了新的应用、软硬件基础设施、以及新服务模式的需求，值得研究探讨。除此之外，他还对Mobile Cloud环境下的计算机制进行了介绍。Jerry Gao教授是美国圣何塞州立大学计算机工程系的教授。他目前的研究领域包括云计算、移动计算、移动云服务、软件工程和测试自动化。Jerry Gao教授作报告

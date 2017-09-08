@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_15.html
- [3-8]A Vision for Computer Science - The System Perspective 
- [2-23]Migration of Legacy Applications to Heterogeneous Architectures using HMPP 
- [1-13]A Complete Method to Polynomial Differential Invariant Generation for Hybrid Systems 
- Call for Submission and Participation Symposium in Honor of Prof. Barry W. Boehm 
- [11-1]Towards Business Value Driven Management of Business Processes and Service-Oriented Architectures 

@@ -1,8 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/index_43.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 李明教授，美国康纳尔大学计算机系博士，现任加拿大Waterloo大学教授。
-李明教授是计算机科学领域的世界著名学者，是IEEE院士，ACM院士以及Royal Society of Canada院士。
- 本讲座针对从计算到社会的社会计算之新认识，讨论如何利用复杂系统理论及先进的计算手段和方法，把传统上限于语言层次和静态的人文知识数字化和动态化，并用于各种复杂社会问题的建模、分析和决策支持。主要思想是利用人工系统，计算试验、平行执行等方法，建立社会计算的理论框架。讲座 还将讨论社会计算与开源情报，万维科学等的关系， 以及相关的哲学基础。
- 在报告中首先介绍可信计算的概念及可信联盟的情况，在此基础上提出可信网络的概念，并提出相关的属性。在报告中重点介绍网络生存性和安全性的模型方法和数量分析、评价方法。
- Numerically optimising a cost function on a manifold has many applications in signal processing and wireless communications. 
- Dr Chua Tat-Seng is the Professor at the School of Computing, National University of Singapore. He was the Acting and Founding Dean of the School of Computing from 1998-2000. He spent three years as a research staff member at the Institute of Systems Science (now I2R) in late 1980s.

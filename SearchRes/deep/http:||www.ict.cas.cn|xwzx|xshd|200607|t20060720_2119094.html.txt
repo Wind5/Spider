@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/200607/t20060720_2119094.html
-Real time solution of Duncan-Mortensen-Zakai equation in nonlinear filtering and VLSI design of the solver----中国科学院计算技术研究所
- Real time solution of Duncan-Mortensen-Zakai equation in nonlinear filtering and VLSI design of the solver
-报告摘要：Abstract: It is well known that filtering theory plays an important role both in commercial and military industries. In this talk we shall give a brief introduction of nonlinear filtering. The central problem is to solve Duncan-Mortensen-Zakai (DMZ) equation (which is a time dependent parabolic equation) in real time.  We shall describe some previous rigorous methods in solving special DMZ equation. We shall also describe our new general method to solve DMZ equation in real time which is a joint work with S. T. Yau. The VLSI design of the solver will also be introduced.

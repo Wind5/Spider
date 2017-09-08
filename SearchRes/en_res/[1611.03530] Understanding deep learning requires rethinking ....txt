@@ -1,7 +1,0 @@
-Abstract: Despite their massive size, successful deep artificial neural networks can
-of the model family, or to the regularization techniques used during training.
-approaches fail to explain why large neural networks generalize well in
-gradient methods easily fit a random labeling of the training data. This
-even if we replace the true images by completely unstructured random noise. We
-that simple depth two neural networks already have perfect finite sample
-expressivity as soon as the number of parameters exceeds the number of data

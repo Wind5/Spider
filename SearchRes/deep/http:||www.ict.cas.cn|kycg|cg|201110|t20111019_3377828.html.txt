@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377828.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-网络智能化及语义Web相关的基础理论与关键技术研究----中国科学院计算技术研究所
-本项目主要研究语义Web的逻辑基础、语义Web知识挖掘、语义Web资源管理、语义Web查询及推理模式和互联网智能平台。提出了（1）扩展的动态描述逻辑(EDDL)；（2）语义关联模型SAM；（3）面向语义Web环境的分布式分类算法；（4）面向Web异构计算环境的任务分配算法；（5）基于本体的概念语义空间和元数据管理的网络知识管理方法；（6）基于本体概念相似度的服务匹配算法；（7）基于动态描述逻辑的服务组合方法；（8）面向语义Web服务组合的语境过滤方法。在《IEEE Trans.on IT》、《J. Para. & Dis. Computing》、《计算机学报》、《软件学报》等国内外重要刊物发表论文20篇，在SIGKDD2007、DL2007、PRICAI2008等专业性国际会议上发表学术论文30篇；在此基础上研制了动态描述逻辑推理机DDLR、知识管理系统KMSphere、分布式数据挖掘系统MSMiner3、语义Web服务代理原型系统SWSBroker。知识管理系统KMSphere已经获得计算机软件著作权授权。成果已在北京信息科技大学、中国移动等单位推广应用。

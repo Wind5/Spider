@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/201111/t20111114_3395653.html
- 摘要： Soft-error induced reliability problems have become a major challenge in designing new generation microprocessors. Three researchers will talk about soft errors for 40 and 28 nm technologies, radiation- and fault-tolerant microelectronics and cross layer reliability towards self healing. 
-报告一: Soft errors in 40 and 28 nm 报告人: Prof. Bharat Bhuva from Vanderbilt University (美国范德比特大学) 
-报告二: Radiation- and fault-tolerant microelectronics 报告人: Prof. Li Chen from University of Saskatchewan(加拿大萨斯卡彻温大学 
-报告三: Cross layer reliability towards self healing 报告人: Dr. Shi-Jie Wen from Cisco Systems Inc. USA 

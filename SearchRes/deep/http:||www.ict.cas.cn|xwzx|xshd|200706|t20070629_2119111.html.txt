@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/200706/t20070629_2119111.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-基于局部二值模式的动态纹理识别及人脸表情的扩展应用----中国科学院计算技术研究所
- 摘 要： 　　　  动态纹理是普通纹理在时间域上的扩展。动态纹理的描述和识别近期得到了越来越多的关注。我们提出了两种时空域上的描述子：volume local binary patterns (VLBP)和local binary patterns on three orthogonal planes (LBP-TOP)，将纹理的外观特征和运动特征结合起来，用于表示动态纹理；并在此基础上，提出了基于块的表示方法，用于人脸表情识别。在描述人脸表情的外观特征和运动特征的同时，保留了人脸基本单元的空间相关性，从而分别在像素层、块层以及体层描述了人脸表情的特征。在两个动态纹理数据库以及Cohn-Kanade人脸表情库的实验结果，超过了早期的算法，证明了算法的有效性以及可扩展性。算法的优点包括局部处理以获得过渡信息、对单调光亮度变化的不变性以及计算简单易于实现。 
-　　　  赵国英，2005年7月毕业于中国科学院计算技术研究所，获工学博士学位，导师为李华研究员。之后，她加入芬兰Oulu大学Matti Pietik?inen教授的机器视觉小组，进行博士后研究工作。她的研究兴趣包括动态纹理识别、人脸表情识别、人体运动分析和生物特征识别。近年来，已在相关领域国际期刊和会议上发表了30多篇论文，其中包括1篇顶级国际期刊IEEE Trans. on PAMI的长文。现为十几个国际期刊和国际会议的审稿人。赵博士于2006年8月，在第18届模式识别国际会议上(ICPR2006,香港)，和Pietik?inen教授一起，作了题为"Local Binary Pattern Approach to Computer Vision"的tutorial报告。

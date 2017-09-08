@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/ns/ue/201004/t20100428_53509.html
- Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
- Upcoming Events:   Network Routing for Efficient Energy Usage
-Time: 9:30 April 28th,2010Place: Meeting Hall, 4th Floor, ICT, CASSpeaker: Prof Branka Vucetic, The University of Sydney
-Abstract: In this lecture essential steps in communicating research results will be discussed. The presenter will give her views on general rules for writing research papers and examine in detail research paper structure and content.  Common mistakes in writing research papers will also be addressed. 
-Bio: Prof Branka Vucetic has held various research and academic positions in Australia and UK. She is currently the Director of The Telecommunications Laboratory at Sydney University and Head of Electrical and Information Engineering School. Her research interests include wireless communications and coding. She has completed a number of industry sponsored projects in wireless communications and taught a wide range of undergraduate, postgraduate and continuing education courses worldwide.Prof  Vucetic co-authored four books and more than three hundred papers in telecommunications journals and conference proceedings. She has been elected to the grade of IEEE Fellow for contributions to the theory and applications of channel coding. 

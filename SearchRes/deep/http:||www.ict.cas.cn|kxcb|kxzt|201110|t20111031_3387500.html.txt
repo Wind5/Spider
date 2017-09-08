@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/kxcb/kxzt/201110/t20111031_3387500.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-计算机病毒的数量现仍在不断增加，但世界上究竟有多少种病毒，说法不一，分类也不统一。按不同的方式大致可分为以下几类：
-　　按传染方式可分为引导型病毒、文件型病毒和混合型病毒等；
-　　按连接方式可分为源码型病毒、入侵型病毒、操作系统型病毒、外壳型病毒等；
-按破坏性可分为良性病毒，恶性病毒等。

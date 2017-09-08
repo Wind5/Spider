@@ -1,7 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_2.html
- [5-16]On the Road to Exascale and Beyond, Intelligent Restarted Linear Algebra Methods 
- [4-21]An I/O Efficient Approach for Detecting All Accepting Cycles 
- [3-15]Agile Formal Engineering Methods for Software Productivity and Reliability 
- [12-28]Graph Processing and Mining in the Era of Big Data 
- [12-17]Statistical And Computational Challenges For Investigating Microbial Interaction Networks 
- [11-10]Hybrid Vortex Model for Efficient Diffusive, Turbulent Smoke Simulations 

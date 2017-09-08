@@ -1,2 +1,0 @@
-http://english.is.cas.cn/ns/ue/200908/t20090817_32646.html
-JinchaoXu is a distinguished professor at department of Mathematics of Pennsylvania State University, Changjiang professor in Beijing University. His research is on computational mathematics. He studies numerical methods for partial differential equations, and in particular, in finite element methods. One major research interest is in multigrid methods for their theoretical analysis, algorithmic developments and practical application. 

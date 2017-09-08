@@ -1,2 +1,0 @@
-TURBO2 is a deep-learning outdoor 4WD rover using NVIDIA Jetson TX1/TX2 for autonomous navigation and motion control. It uses Stereolabs ZED and LIDAR processed by neural networks with reinforcement learning) for pathfinding, obstacle avoidance, and performing vision-guided tasks with it's arm like manipulation and picking of objects.
-All the materials and code for building the robot are released here on GitHub. See the Bill of Materials in BoM.md

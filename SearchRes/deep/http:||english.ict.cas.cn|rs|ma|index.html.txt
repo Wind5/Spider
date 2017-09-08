@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/rs/ma/index.html
- The Loongson-2E High-Performance General-Purpose CPU Chip was made with a 4-way superscalar superpipeline architecture and a 90-nanometer process. Its clock frequency reaches 1GHz and the SPEC CPU 2000 scores exceed 500. The chip was completed in 2006. It was a significant achievement of the 863 Program during the 10th-Five-Year Plan.
- Dawning 4000A Super Server System is a supercomputing system supporting grid computing. It has a peak speed of 11.2 teraflop/s and 8 teraflop/s Linpack speed. It ranked 10th in Top500 of the world??s supercomputing systems in 2004. It won the CAS Outstanding Achievement Award in 2005.
- IPv6 Network Key Technology Research and City Area Demonstration System is an important part of the CAS??s Knowledge Innovation Program. The first domestic IPv6 city area demonstration network was completed in June 2004.
- Video Encoding Key Technology Research Project made significant contributions to the establishment of the audio & video coding standard AVS in China, and was honored with the First Prize for Beijing Science and Technology in 2004.It became officially China national standard in March 2006.
- Dawning 4000L, launched in March 2003, was then the largest super server system for data processing with a storage capacity in excess of 100 trillion bytes.

@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/index_1.html
- Scale-out Energy-efficient Big-data Server: Thousand Cores In-Memory with Reconfigurable I/Os

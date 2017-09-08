@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/index_17.html
- Speaker: Dr. Weikuan Yu, Auburn University & Oak Ridge National Laboratory, USA 
-Inviter: Dr. Sun Xiaoming, Center for Advanced Computing Research, ICT 
- Non-Volatile Memory Architecture for the Performance, Energy Consumption, and Reliability Improvement
- Speaker: Guangyu Sun Center for Energy Efficient Computing and Applications Peking University

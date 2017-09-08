@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201211/t20121121_3687110.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-Zizhong Chen博士来高性能计算机研究中心作学术交流报告----中国科学院计算技术研究所
-University of California, Riverside的Zizhong Chen博士于9月28日来我所作题为“Scalable Fault Tolerance at the Extreme Scale”的报告。该报告在计算所10层会议室1048举行，由高性能计算机研究中心的谭光明副研究员主持。
-Zizhongchen博士介绍了大规模机群下具有可扩展性的容错技术的最新进展，其中涉及无磁盘的检查点容错技术和基于算法的容错技术（ABFT）。关键思想是在Exascale下，不论是检查点技术还是ABFT都要结合算法和应用的特征来减少冗余数据的备份，用增加计算时间来换取通信和存储时间的降低。
-报告之后，参会师生就目前体系结构的发展与应用的需求之间的关系进行了热烈讨论。

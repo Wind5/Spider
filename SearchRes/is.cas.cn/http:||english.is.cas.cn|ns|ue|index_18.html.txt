@@ -1,7 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_18.html
- [1-13]A Cross-Layer Routing in Wireless Ad Hoc Sensor Networks 
- [2010-1-5]NetTube: Exploring Social Networks for Peer-to-Peer Short Video Sharing 
- [12-22]Energy and Time Constrained Task Scheduling on Multiprocessor Computers with Variable Voltage and Speed 
- [12-3]A Formal Model of Ontology for Handling Fuzzy Membership and Typicality of Instances 
- [11-17]Three years of research at the MSR-INRIA Joint Centre 
- [11-16]Model-based tool-chain for the design and analysis of embedded hybrid systems 

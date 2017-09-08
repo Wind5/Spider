@@ -1,5 +1,0 @@
-items when the user-item interactions are sparse and high-rank. In this paper,
-we present Wide & Deep learning---jointly trained wide linear models and deep
-for recommender systems. We productionized and evaluated the system on Google
-Play, a commercial mobile app store with over one billion active users and over
-one million apps. Online experiment results show that Wide & Deep significantly

@@ -1,5 +1,0 @@
-http://www.is.cas.cn/xwdt2016/kjdt2016/201004/t20100422_2827866.html
- 文章来源：  |  发布时间：2010-04-22  |  【打印】 【关闭】
-“ISCAS-SWELL联合研讨会”将于2010年4月26日（下周一）在中国科学院软件研究所5号楼4层大报告厅召开。此次研讨会的主题是“Empirical Software Engineering”。届时瑞典Swedish research school in Verification and Validation和Blekinge Institute of Technology来4位研究人员参加，介绍瑞典学术界和工业界在经验软件工程、验证、测试等方面的研究工作。同时还邀请了清华大学的研究人员、及在我所基础软件中心进行访问研究的USC的Ali进行学术报告。
-Ali Afzal Malik (USC), Comparative Analysis of Requirements Elaboration of an Industrial Product
-Yunzhi Xue  (ISCAS), Probo: An Automated Testing Framework for Distributed Real-time Systems

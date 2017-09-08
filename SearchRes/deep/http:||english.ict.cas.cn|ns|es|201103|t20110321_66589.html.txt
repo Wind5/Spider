@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/ns/es/201103/t20110321_66589.html
-The kick-off meeting of the project “Research and Development on High Throughput Just-in-time Event Processing technology for Smart Electricity Utilization (SEU)” was held on March 10, 2011.
-The project will be co-accomplished by the Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS) and the State Grid Information & Telecommunication Company Ltd. (SGIT).
-As a key S&T project of SGIT, the project aims to develop cutting-edge technologies for SEU and accelerate its system construction so as to enhance the core-competitiveness of the state grid industry and take the initiative in a new-round technological revolution. 
-The project group will combine the strengths of ICT and SGIT and intensify international cooperation to develop a high-level SEU platform that has independent intellectual property.
-SGIT, established on April 22, 2008, is a solely owned subsidiary of State Grid Corporation of China (SGCC). It undertakes mainly the construction, operation and business management of SGCC's information and telecommunication network. 

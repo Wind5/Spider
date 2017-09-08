@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/200905/t20090504_25788.html
-Time：3pm, May 11 Venue：Lecture room, State Key Lab of Computer Science, Level 3 Building #5
-Abstract： We develop a version of the picalculus where channels are interpreted as resources which have costs associated with them. Code runs under the financial responsibility of owners; they must pay to use resources, but may profit by providing them. 
-We provide a behavioural theory based on bisimulations and demonstrate its usefulness via a series of examples. We also justify the theory via a contextual characterisation. 

@@ -1,5 +1,0 @@
-signal processing in the brain. These models have dramatically improved the
-networks, in large part because much of it was designed for von Neumann
-both computational speed and energy efficiency. Here, we propose a new
-of optics, promises a computational speed enhancement of at least two orders of
-magnitude over the state-of-the-art and three orders of magnitude in power

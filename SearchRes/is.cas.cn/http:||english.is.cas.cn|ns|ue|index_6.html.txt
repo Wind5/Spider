@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_6.html
- [4-16]How to Treat Evolutionary Algorithms as Ordinary Randomized Algorithms 
- [11-21]Rule Formats for Structural Operational Semantics: A Very Short Introduction 
- [11-19]Efficient Detection of Emergency Event from Moving Object Data Streams 
- [11-1] The Role of Empirical Studies in Software Engineering 

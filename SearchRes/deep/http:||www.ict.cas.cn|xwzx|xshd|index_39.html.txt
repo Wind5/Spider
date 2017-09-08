@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/index_39.html
- Numerically optimising a cost function on a manifold has many applications in signal processing and wireless communications. 
- Dr Chua Tat-Seng is the Professor at the School of Computing, National University of Singapore. He was the Acting and Founding Dean of the School of Computing from 1998-2000. He spent three years as a research staff member at the Institute of Systems Science (now I2R) in late 1980s.
- Network becomes the engine of scientific research activities in 21st century. Networks interact with one another and are recursive. For example, social networks are built upon information networks which built upon communications networks which in turn are built on physical networks.

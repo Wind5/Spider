@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377831.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-本项目目标是探索符合中国国情的低成本信息化道路，促进国产自主龙芯高性能通用处理器产业化。主要成果包括：研制成功符合龙芯SOC架构的关键IP核（包括凤芯2号高清解码IP核、FFT IP核）；研制成功基于龙芯2F处理器的千兆网络防火墙；研制出基于龙芯2F处理器的低成本"农易通"农村信息化解决方案；研制出基于龙芯2F处理器的低成本办公信息化解决方案；设计出基于龙芯处理器的高校实验课程并编写出教材。

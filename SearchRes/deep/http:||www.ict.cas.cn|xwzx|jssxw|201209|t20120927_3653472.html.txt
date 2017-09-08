@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201209/t20120927_3653472.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-IBM奥斯汀研究院的Ram Rajamony博士9月25日来我所做题为“Designing Energy-Efficient Servers and Data Centers”的报告。该次报告在计算所4层会议厅举行，由先进计算机系统实验室的张立新研究员主持。
-Ram Rajamony博士介绍了IBM研发的一套高效能易于使用的可靠计算系统PERCS，报告的重点是系统的设计架构和涉及到的技术，包括机器的集成、节点间互联、存储和软件基础等内容。
-首先，Ram Rajamony博士介绍了PERCS系统，PERCS系统也成为Power 775，是IBM针对美国国防先进研究项目局的高效能计算系统提出的解决方案。IBM月2011年7月12日正式发布，并于同年8月发售。接下来他提到了对系统的期望，如最大化单核的性能，低延迟，高通信带宽。Ram Rajamony也介绍了PERCS的一些设计方案，并展示了系统的结构和一些特性，这些特性使得系统能够获得更好的性能和效能。在PERCRS系统中所有的设计都是基于高带宽，传输包的低延迟，高速互联等设计原则之上的。最后Ram Rajamony介绍了如何评价这样的系统。
-报告之后，参会的老师和同学就PERCS系统的设计细节进行了热烈讨论，并就其他相关问题展开讨论。

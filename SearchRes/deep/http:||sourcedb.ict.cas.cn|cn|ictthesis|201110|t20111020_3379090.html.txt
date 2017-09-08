@@ -1,2 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379090.html
- Joint Video/Depth Rate Allocation for 3D Video Coding based on View Synthesis Distortion Model

@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201111/t20111109_78335.html
-Speaker: Prof. Wenhui Zhang (SKLCS, Institute of Software, Chinese Academy of Sciences)
-Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-Ternary Boolean diagrams (TBDs) have been used for representation of sets of states for model checking purposes. The advantage of Ternary Boolean diagrams is that it may represent sets of states more compactly than traditional decision diagrams. This talk will explain the representation succinctness of TBDs relative to that of BDDs.

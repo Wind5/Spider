@@ -1,7 +1,0 @@
-http://english.is.cas.cn/ns/ue/201105/t20110519_69986.html
-Speaker:  Hong Zhang　 (Research Professor, Computer Science Department Illinois Institute of Technology, USA 
-and  Mathematics and Computer Science Division Argonne National Laboratory, USA )
-Venue:  Lecture room 337, Building #5, Institute of Software, CAS
-Portable, Extensible Toolkit for Scientific Computation (PETSc) is a suite of data structures and routines for the scalable (parallel) solution ofscientific applications. Due to its solid mathematical grounding, careful software design, and most importantly, evolution resulting from the usage of many users on various application areas, PETSc is enabling engineers and scientists to solve massive problems, with previously unreachable resolution, in areas as diverse as groundwater contamination, cardiology, fusion, nuclear energy, astro-physics, and climate change.
-This talk will present our recent research and development in 1) friendly user application interfaces: python bindings and PETSc-MATLAB, 2) architecture-aware numerical algorithms and implementations which includes GPU acceleration, and 3) novel numerical solvers for multi-physics. 
-Hong Zhang was a professor of mathematics at Clemson University and Louisiana State University until she joined the PETSc team at Argonne National Laboratory (ANL) in 1999. Since then, she teaches graduate courses in the Department of Computer Science atIllinois Institute of Technology as a research professor, and conducts research at ANL as a PETSc developer. 

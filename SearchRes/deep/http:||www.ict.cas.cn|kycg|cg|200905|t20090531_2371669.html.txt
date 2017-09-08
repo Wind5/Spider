@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/200905/t20090531_2371669.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-并行计算系统中的故障检测和容错通讯----中国科学院计算技术研究所
-并行计算系统中的故障检测和容错通讯," >
-并行计算系统中的故障检测和容错通讯" >

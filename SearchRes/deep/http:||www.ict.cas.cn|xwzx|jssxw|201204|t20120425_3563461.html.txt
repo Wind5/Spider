@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201204/t20120425_3563461.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-NetApp公司张望远博士来计算所学术交流----中国科学院计算技术研究所
-2012年4月19日上午10点30分计算所221会议室，NetApp公司张望远博士为计算所师生做了题为“存储技术：现状和趋势”（Storage Technology : Status and Trends）的学术报告。张立新研究员主持了此次会议。
-张望远博士首先介绍了NetApp公司在存储领域的情况。接着张博士介绍了存储领域尤其在数据中心的存储中的背景知识，包括存储结构从DAS到NAS、SAN的转变，虚拟化技术等。然后张博士结合自己公司和EMC公司的产品详细地介绍了传统存储技术:存储虚拟化（Storage Virtualization）、文件系统（File System）和存储控制器（Storage Controllers）在数据中心的应用。最后介绍了存储领域最新的技术趋势，包括对象存储（Object Storage）、Flash新应用（Flash at Hosts）、分布式文件系统（Distributed File System）和存储级内存（Storage Class Memories）。
-报告后，在场师生就存储控制器和Flash技术等问题与张博士进行了热烈的讨论。

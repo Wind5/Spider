@@ -1,6 +1,0 @@
-Abstract: We introduce scalable deep kernels, which combine the structural properties
-methods. Specifically, we transform the inputs of a spectral mixture base
-and scalability. We jointly learn the properties of these kernels through the
-marginal likelihood of a Gaussian process. Inference and learning cost $O(n)$
-for $n$ training points, and predictions cost $O(1)$ per test point. On a large
-and diverse collection of applications, including a dataset with 2 million

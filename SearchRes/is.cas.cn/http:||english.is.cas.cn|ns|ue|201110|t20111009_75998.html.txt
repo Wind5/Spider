@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201110/t20111009_75998.html
-Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-In this talk, I will summarize recent work in synthesis. Some (random) topics include game-based LTL synthesis, sketching, functional synthesis, partial synthesis (e.g., deadlock avoidance), and lastly, work in Microsoft and NASA Ames.
-Chih-Hong Cheng received his master degree from National Taiwan University. He pursued his doctoral degree in Technical University Munich and had recently submitted his thesis (under review). Since July 2011, he joined fortiss GmbH (An Software Institute of Technical University Munich) as a staff researcher, leading the subgroup of formal methods in cyber-physical systems. His research interest includes formal methods and embedded systems, with special focus in game-based synthesis.

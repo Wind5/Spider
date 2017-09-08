@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/200709/t20070926_2119113.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 摘要：　　　  简单介绍量子计算的发展以及最近国际上刚刚开始的量子程序理论的研究。最后汇报一下清华大学智能技术与系统国家重点实验室理论研究组在量子计算（包括量子程序理论）与量子信息方面的一些工作。
-　　　  应明生1964年5月出生；1981年7月毕业于江西师范学院抚州分院数学科。曾在抚州师范专科学校数学系、江西师范大学数学系、南京航空航天大学计算机科学与工程系任教。现为清华大学计算机科学与技术系智能技术与系统国家重点实验室教授、博士生导师、教育部长江学者奖励计划特聘教授、任《Artificial Intelligence》等刊编委。　　　  目前主要从事量子计算与量子信息、形式化方法、人工智能基础理论等方面的科研工作。在Springer出版社出版专著Topology in Process Calculus: Approximate Correctness and Infinite Evolution of Concurrent Programs，在国际刊物(如Acta Informatica、Artificial Intelligence、IEEE Transactions on Information Theory、Journal of Symbolic Logic、Physical Review Letters、Theoretical Computer Science)发表一系列论文。

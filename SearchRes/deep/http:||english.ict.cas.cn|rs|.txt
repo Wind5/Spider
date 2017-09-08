@@ -1,2 +1,0 @@
-http://english.ict.cas.cn/rs/
-The library of ICT functions for collecting information resources and providing information services in computer sciences and high tech fields, for the researchers and students of ICT. It also conducts services such as information analysis, digital library system development, and scientific publication of an inner journal (Information Technology Letter).

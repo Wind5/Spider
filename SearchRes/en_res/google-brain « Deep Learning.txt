@@ -1,3 +1,0 @@
-Googles new large-scale learning experimentation using 16000 CPU cores and deep learning as part of google brain project had made a big success on Imagenet dataset. This success had a wide media coverage. Some pointers to the news:
-NYT Front page on large scale neural network John Markoff, []
-December 13th, 2012 | Tags: deep-learning, deep-neural-network, google-brain | Category: news | 2 comments - (Comments are closed) 

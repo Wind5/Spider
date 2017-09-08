@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/200905/t20090531_2371785.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-         AVS完备性测试码流发生分析仪的研制，一是作为AVS码流信号源，用来产生标准的AVS测试码流，用于检测AVS解码器的完备性；二是对AVS编码器产生的AVS码流进行一致性分析和检测，以判定该码流是否为符合标准规范的一致性码流，从而确定产生该码流的编码器是否符合标准，并对编码器的客观性能进行必要的评价。通过AVS完备性测试码流发生分析仪的研制，以及相关技术专利的申请，为AVS作为我国具有自主知识产权的音视频编解标准的制定和实现提供了基本保证，对AVS标准的推广和应用具有促进作用。

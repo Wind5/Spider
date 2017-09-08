@@ -1,4 +1,0 @@
-Introduction to fundamental techniques for designing and analyzing algorithms, including asymptotic analysis; divide-and-conquer algorithms and recurrences; greedy algorithms; data structures; dynamic programming; graph algorithms; and randomized algorithms. 
-Introduction to applied machine learning. In this course, you'll learn about machine learning techniques such
- as linear regression, logistic regression, naive Bayes, SVMs, clustering, and more. In addition, 
- you'll also learn the practical, hands-on, skills and techniques needed to get learning techniques 

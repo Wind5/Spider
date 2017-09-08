@@ -1,5 +1,0 @@
-http://english.ict.cas.cn/ns/es/201204/t20120405_83499.html
-Dr. Yu Huang, from Mentor Graphics, USA, gave a report at 9:30 am, on March 30, in the room 446 of ICT. This talk chaired by Prof. Yu Hu at State Key Laboratory of Computer Architecture（CARCH）. The report topic is UDFM (User-Defined Fault Model).
-At the beginning, Dr. Huang introduced the recent development of Mentor Graphics Corporation and their testing tool Tessent with a video. Then he introduced the UDFM-ATPG, including the format of the UDFM file, how to describe Intra-Cell Fault using UDFM, generate test patterns for industrial circuits with UDFM.
-About 30 teachers and students attended this report, and discussed with Dr. Huang about some interesting topics, such as how to describe the delay fault using UDFM, the fault types needed to be considered for Intra-Cell Faults, how to describe crosstalk fault using UDFM based on the layout, how to extend the UDFM to the design verification.
-We get along very well and agreed to keep a long-term cooperation with each other.

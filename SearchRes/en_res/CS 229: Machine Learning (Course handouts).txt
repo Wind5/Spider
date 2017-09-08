@@ -1,2 +1,0 @@
-of standard datasets for testing learning algorithms. If you want to
-see examples of recent work in machine learning, start by taking a look

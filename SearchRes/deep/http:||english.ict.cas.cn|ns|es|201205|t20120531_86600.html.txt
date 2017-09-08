@@ -1,8 +1,0 @@
-http://english.ict.cas.cn/ns/es/201205/t20120531_86600.html
-Dr. Zhen Fang Gave a Technical Report on Low Power Cache Design and SoC application optimization
- Dr. Zhen Fang Gave a Technical Report on Low Power Cache Design and SoC application optimization
-Dr. Zhen Fang, from Nvida, gave a report titled A high-performance, Low-power Cache Design, and Enabling Speech Recognition on Smartphones, in the room 446 of ICT. This talk was invited and hosted by Researcher Lixin Zhang at Advanced Computer Systems Laboratory.
-This speech included two parts, one on low-power design of L1 cache, and the other on optimization of Speech Recognition on Smartphones.
-Firstly, Dr. Fang gave a introduction of his paper about Low power design of L1 cache. He talked about the mechanism they used to optimize the DL1 cache design. The mechanism he adopted is the stack vs heap semantics. He and his colleagues added a vtag bit in L1 cache line, which can avoid preftching of usefulness cache lines, thus reduce the power. Then, he talked about the method they used to optimize IL1 cache, which using the kernel vs user space semantics by add a Rtag bit in L1 instruction cache to distinct user space and kernel space.
-After that, Dr. Fang talked application optimization for speech recognition (Sphinx3). He talked about the methods they used to optimize the application and gave some advices about how to do application optimization.
-After the report, attendees talked about the issues of Low-power design of cache systems and the principles of application optimization both in hardware and software.

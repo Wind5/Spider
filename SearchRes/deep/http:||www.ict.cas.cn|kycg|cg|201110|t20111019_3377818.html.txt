@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377818.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-紧凑路由是降低路由表大小和提高路由扩展性的重要方法。但目前特定针对Scale-Free网络的紧凑路由研究还没有得到足够重视。然而互联网拓扑测量表明，其网络呈现无标度(Scale-Free)、强聚集、富人俱乐部(Rich-Club)等特性。一般认为，结构决定功能，利用网络的拓扑结构知识可以优化路由。由于没有考虑Scale-Free网络特有的特征，针对通用网络的紧凑路由算法应用到Scale-Free网络上势必会引起低性能。本项目重点研究了Scale-Free网络的拓扑特征（如节点度的幂律分布，Rich-Club和高聚集系数等）对于路由的影响，并根据这些特征提出了针对Scale-Free网络的命名依赖(name-dependent)的和命名独立(name-independent)的紧凑路由策略，然后在多种Scale-Free网络模型和真实的Internet拓扑上进行了仿真验证。理论分析和仿真表明利用Scale-Free、强聚集和Rich-Club等特性有利于获得更高的路由性能。研究结果填补了紧凑路由理论研究的空白，并可以为解决互联网的路由扩展问题提供理论和实践指导。

@@ -1,5 +1,0 @@
-http://english.ict.cas.cn/ns/es/index_2.html
- Professor Xueqi cheng is awarded Young Scientist Awards of Chinese Academy of Sciences[2011-06-21]
- CAS Conducted an Onsite Evaluation of The Key Laboratory of Intelligent Information Processing[2011-06-13]
- Godson-3B : A 1GHz 40W 8-Core 128GFlops Processor in 65nm CMOS[2011-05-10]
- ICT’s Project on High Performance Multi-Core CPU Passes Acceptance Checks[2011-03-10]

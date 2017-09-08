@@ -1,3 +1,0 @@
-http://www.is.cas.cn/kjcx/lw/index_31.html
- Extraction and segmentation of tables from Chinese ink documents based on a matrix model
- 5th International Conference on Applied Cryptography and Network Security, ACNS 2007

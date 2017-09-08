@@ -1,7 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/jssrck/201511/t20151119_4470413.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 新型成像关键技术及成像装置、音视频处理算法并行化与软硬件协同加速关键技术 
- 新型成像关键技术及成像装置、音视频处理算法并行化与软硬件协同加速关键技术
- 1. 国家自然科学基金青年项目“基于众核处理器的高通量视频解码优化技术研究”，项目负责人2. 国家自然科学基金科学仪器基础研究专项“动态可配置的压缩感知成像系统”，项目骨干
- 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
- 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

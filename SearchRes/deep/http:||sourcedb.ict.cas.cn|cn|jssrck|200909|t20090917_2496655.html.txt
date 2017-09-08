@@ -1,9 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/jssrck/200909/t20090917_2496655.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 1978年3月至1982年1月北京航空学院毕业，1982年2月至1983年8月在航空部601研究所工作，1983年9月至1986年2月在北京航空学院获硕士学位，1986年3月至1989年3月在中科院计算所获博士学位，1989年4月至1991年3月先后在德国日本留学，1991年4月回国至今在中科院计算所工作。最新更新参见国科大教师主页：http://210.76.211.71/~_lihua 
- IEEE 会员，IEEE 北京分会执委会委员；英国IET 北京分会秘书长；中国计算机学会高级会员,中国计算机学会计算机辅助设计与图形学专业委员会副主任；中国图象图形学会常务理事；中国工程图学会常务理事、学术委员会副主任
- 1. 1998年科学计算可视化研究获得国家科技进步三等奖。2. 2001年IEEE The Third Millennium 奖。
- 1. Dong Xu, Hua Li，Geometric Moment Invariants，Pattern Recognition, Vol. 41(1), pp. 240-249, 20082. Luhong Diao, Bin Yu, Hua Li, A Novel Edge Detector Based on Fresnel Diffracton Mode, Pattern Recognition Letters, 28(7), pp859-864, 2007.3. Taotao Li，Hua Li，Luhong Diao，Cone-beam tomography of propagation based imaging，Applied Physics Letters, Vol.93(23), pp221114-1～221114-3, 20084. 邓宇, 李振波, 李华, 基于视频的三维人体运动跟踪系统的设计与实现, 计算机辅助设计与图形学学报，卷 19, 期 6, 页 769-774, 2007. 5. 李华，数字化虚拟人，《科学》卷54（5），pp20-23, 2002
- 主持过国家自然科学基金项目“医学数据三维可视化技术与应用研究”和“三维形状内在特征描述方法”、国家高技术研究发展（863）计划重点项目“数字化虚拟人体若干关键技术”；参加过国家自然科学基金重点项目“科学计算可视化的理论和方法研究”和国家重点基础研究(973)计划项目“数学机械化与自动推理平台”、“数学机械化及其在信息技术中的应用” 研究，以及奥运科技计划项目“数字化三维人体运动的仿真研究”。目前从事的主要研究工作包括国家自然科学基金重点项目“基于传播的相位衬度锥束XCT成像理论及其关键技术研究”，“跨媒体海量信息的综合检索与智能技术的研究”等。
- 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
- 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

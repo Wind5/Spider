@@ -1,9 +1,0 @@
- Deep neural networks that learn to represent data in multiple layers of increasing abstraction have dramatically improved the state-of-the-art for speech recognition, object recognition, object detection, predicting the activity of drug molecules, and many other tasks. Deep learning discovers intricate structure in large datasets by building distributed representations, either via supervised, unsupervised or reinforcement learning.
-The Deep Learning Summer School 2016 is aimed at graduate students and industrial engineers and researchers who already have some basic knowledge of machine learning (and possibly but not necessarily of deep learning) and wish to learn more about this rapidly growing field of research.
- Invited TalkBuilding Machines that Imagine and Reason: Principles and Applications of Deep Generative ModelsBuilding Machines that Imagine and Reason: Principles and Applications of ...
- Invited TalkBeyond inspiration: Five lessons from biology on building intelligent machinesBeyond inspiration: Five lessons from biology on building intelligent machines
- Invited TalkTheoretical neuroscience and deep learning theoryTheoretical neuroscience and deep learning theory
- Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural NetworksChains of Reasoning over Entities, Relations, and Text using Recurrent ...
- Beam Search Message Passing in Bidirectional RNNs: Applications to Fill-in-the-Blank Image CaptioningBeam Search Message Passing in Bidirectional RNNs: Applications to Fill-in-the-Blank ...
- Analyzing the Behavior of Deep Visual Question Answering ModelsAnalyzing the Behavior of Deep Visual Question Answering Models
- Recombinator Networks: Learning Coarse-to-Fine Feature AggregationRecombinator Networks: Learning Coarse-to-Fine Feature Aggregation

@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/201105/t20110519_70016.html
-Speaker: Prof. Xinxin Liu (柳欣欣, State Key Laboraotry of Computer Science, Institute of Software, Chinese Academy of Sciences)
-Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory ofComputer Science, Institute of Software, Chinese Academy of Sciences
-Propositional Dynamic Logic (PDL) was first introduced in the late 70s as a formalism for reasoning about programs. Soon afterwards the logic was outdated for that purpose through the introduction of the modal mu-calculus, because the latter is much more expressive with just a little higher complexity. Then in recent years PDL became popular again because of its simplicity. In this work we introduce limited use of recursion into PDL, with the purpose of obtaining a language which keeps a good balance between expressiveness and ease of analysis. 

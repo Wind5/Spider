@@ -1,2 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379129.html
- Exploiting Stream Request Locality to Improve Query Throughput of a Data Integration System

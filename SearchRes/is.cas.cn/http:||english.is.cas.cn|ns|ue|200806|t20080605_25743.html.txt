@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/200806/t20080605_25743.html
-Speaker: Prof. Andrei P. Nemytykh, Program Systems Institute of the Russian Academy of Sciences
-Let a program-predicate T testing another program P with respect to a given post-condition be given. Concrete tests (data of the program P) are input data for T. Let us consider the program T when values of its argument are unknown. Then a proof of the fact that the predicate T is true for all input data of the program P is verification of P with respect to the given post-condition.
- It is not known in advance: does the P satisfy a needed safety property? Does it not? That means the program-predicate T has to take care of both TRUE and FALSE branches of the corresponding condition. In the other words, T has to contain the operator return FALSE. 
-The problem is to automatically recognize that the operator is redundant and can be safely removed from the T program, because the corresponding branch can never be reached for all tests d.
-Supercompilation is a technology of automatic program specialization. Recently the speaker (together with Alexei Lisitsa from the Liverpool University) has shown that (using the idea given above) supercompilation can be used for verification safety properties of a class of cache coherence protocols. The speech will be devoted to this subject. 

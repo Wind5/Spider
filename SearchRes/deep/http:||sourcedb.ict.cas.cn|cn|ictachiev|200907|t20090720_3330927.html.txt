@@ -1,6 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/ictachiev/200907/t20090720_3330927.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 曙光系列可扩展计算机系统（两个专题）1、曙光Internet信息服务系统 2、增强型高可用曙光服务器
- 国家九五重大科技成果奖 （先进个人：樊建平、程学旗）
- 欢迎访问中国科学院计算技术研究所　京ICP备05002829号 
- 地址：北京海淀区中关村科学院南路6号　邮编：100190　电话：010-62601166 邮箱：xuanchuanban@ict.ac.cn

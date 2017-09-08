@@ -1,8 +1,0 @@
-variables which are statistically related. Markov random fields (MRFs) are a
-great mathematical tool to encode such relationships. The goal of this paper is
-random variables. Towards this goal, we propose a training algorithm that is
-able to learn structured models jointly with deep features that form the MRF
-potentials. Our approach is efficient as it blends learning and inference and
-makes use of GPU acceleration. We demonstrate the effectiveness of our
-algorithm in the tasks of predicting words from noisy images, as well as
-of the deep features and the MRF parameters results in significant performance

@@ -1,8 +1,0 @@
-http://english.is.cas.cn/ns/ue/200712/t20071227_25652.html
- Title: Formalisation and Verification in a Type-theoretic FrameworkSpeaker: Prof. LUO Zhaohui                Dept of Computer Science,                Royal Holloway, Univ of London
-Time:  3pm, Tuesday Dec. 11Venue: Lecture room, Lab for Computer Science, Level 3 Building #5,           Institute of Software, CAS
-Dependent type theory provides a powerful logical calculus for computer-assisted formal reasoning.  The associated technology of theorem proving has produced very useful tools, the so-called proof assistants, for formal proof development both in the verification of programs and in the formalisation of mathematics.  
-After giving an overview of the research field, I shall present a new type-theoretic framework LTT and explain its use in formalisation and verification.  The particular features of the LTT framework include:
-LTT is a foundational calculus for formal reasoning with different logical foundations, establishing the basis for wider applications of the type theory based theorem proving technology.  
-LTT employs a notion of typed set, combining the type-theoretical reasoning with the set-theoretical reasoning in an effective way and supporting efficient proof development in formalisation and verification.  
-As a promising framework, LTT has been used in several case studies, including the formalisation of Weyls predicative mathematics and the analysis of security protocols. 

@@ -1,7 +1,0 @@
-http://english.ict.cas.cn/ns/es/201205/t20120510_84885.html
-Dr. John Carter Gave a Technical Report on Designing Energy-Efficient Servers and Data Centers
- Dr. John Carter Gave a Technical Report on Designing Energy-Efficient Servers and Data Centers
-Dr. John Carter, from IBM Research, Austin, gave a report on Designing Energy-Efficient Servers and Data Centers, on May 8, in the Conference Hall, 4th floor of ICT. This talk was invited and hosted by Researcher Lixin Zhang at Advanced Computer Systems Laboratory.
-Dr. Carter introduced technologies in designing energy-efficient servers and data centers, including circuits, architecture, system software, and applications, etc. 
-Firstly, Dr. Carter gave a introduction of his previous works and IBM Research, Austin. Then he talked about the mechanisms used to reduce the power consumption in Power7, monitoring the critical path circuit, adjusting clock frequency within cycles in response to excess or inadequate timing margin and adjusting the processor voltage. After that, he talked about the problems and opportunities in Memory Power Management. He then talked about the issues in designing energy-effective storage. At last, he introduced issues in system software and applications.
-After the report, attendees discussed about the details of mechanisms to reduce power consumption used in Power7, and other relative issues.

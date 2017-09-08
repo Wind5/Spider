@@ -1,4 +1,0 @@
-http://english.ict.cas.cn/rs/ma/200909/t20090924_43785.html
- Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
- Upcoming Events:   Network Routing for Efficient Energy Usage
-The Loongson-2E High-Performance General-Purpose CPU Chip was made with a 4-way superscalar superpipeline architecture and a 90-nanometer process. Its clock frequency reaches 1GHz and the SPEC CPU 2000 scores exceed 500. The chip was completed in 2006. It was a significant achievement of the 863 Program during the 10th-Five-Year Plan.

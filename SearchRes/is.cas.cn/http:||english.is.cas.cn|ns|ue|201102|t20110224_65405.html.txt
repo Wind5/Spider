@@ -1,5 +1,0 @@
-http://english.is.cas.cn/ns/ue/201102/t20110224_65405.html
- [1-13]A Complete Method to Polynomial Differential Invariant Generation for Hybrid Systems 
-Title: A Complete Method to Polynomial Differential Invariant Generation for Hybrid Systems
-Venue: Lecture room, State Key Laboratory of Computer Science, 3rd Floor, Building #5, Institute of Software, Chinese Academy of Sciences
-How to design correct hybrid systems is a grand challenge in computer science and control theory. In this paper, by analyzing the Lie derivatives of a polynomial at different orders along a given vector field, we present a complete method for generating polynomial differential invariants of a hybrid system in which all functions in the expression are or can be reduced to polynomials. Completeness here means that for a given hybrid system, if there exists a polynomial differential invariant in the form of the predefined template, then our approach can indeed discover it. To the best of our knowledge, this is the first complete approach to polynomial differential invariant generation. 

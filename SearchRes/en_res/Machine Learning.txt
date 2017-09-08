@@ -1,7 +1,0 @@
- Practical on week 2: (1) Learning Lua and the tensor library. pdf 
- Practical on week 3: (2) Online and batch linear regression. pdf 
- Practical on week 4: (3) Logistic regression and optimization. pdf 
- Practical on week 6: (4) Feedforward neural networks, and implementing your own layer. pdf 
- Practical on week 7: (5) Intro to nngraph for graph-shaped modules. pdf
- Practical on week 8: (6) Training a LSTM language model. pdf
-See the Github repository list for the practicals' code and technical instructions.

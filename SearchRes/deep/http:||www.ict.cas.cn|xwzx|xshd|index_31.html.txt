@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/index_31.html
- Application Specific Instruction-set Processor for high performance and low power streaming computing
- 时间：2009年7月3日（周五）上午10：00-12：00地点：440教室报告人：Prof. Shuo-Yen Robert Li, IEEE Fellow, The Chinese University of HongKong
- Speaker: Dr. Jinhu Lu, Academy of Mathematics and Systems Science, CAS

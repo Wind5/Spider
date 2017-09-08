@@ -1,9 +1,0 @@
- There are many reasons why a cookie could not be set correctly. Below are the most common reasons:
- You have cookies disabled in your browser. You need to reset your browser to accept cookies or to ask you if you want to accept cookies.
- Your browser asks you whether you want to accept cookies and you declined.
- To accept cookies from this site, use the Back button and accept the cookie.
- Your browser does not support cookies. Try a different browser if you suspect this.
- The date on your computer is in the past. If your computer's clock shows a date before 1 Jan 1970,
- the browser will automatically forget the cookie. To fix this, set the correct time and date on your computer.
- You have installed an application that monitors or blocks cookies from being set.
- You must disable the application while logging in or check with your system administrator.

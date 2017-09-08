@@ -1,3 +1,0 @@
-http://english.is.cas.cn/ns/es/200807/t20080722_25644.html
- Prof. TANG Zhisong, the famous computer scientist of ISCAS, died on 21 July in Beijing at the age of 83.
-Prof. TANG Zhisong is one of the pioneers in computer science and software engineering in China. In 1983, he proposed the executable temporal logic language XYZ/E, which can express programs and their specifications in a unified framework. In the followed years, he devoted himself to developing the XYZ/E-based CASE tools which can support the software development process. For this work, he won the first class prize of Chinese Natural Science Award in 1989, and the HeLiangHeLi Science and Technology Progress Award in 1996.

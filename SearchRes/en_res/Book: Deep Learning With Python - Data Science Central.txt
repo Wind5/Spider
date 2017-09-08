@@ -1,8 +1,0 @@
-Deep learning is the most interesting and powerful machine learning technique right now.
-Top deep learning libraries are available on the Python ecosystem like Theano and TensorFlow. Tap into their power in a few lines of code using Keras, the best-of-breed applied deep learning library.
-In this mega Ebook written in the friendly Machine Learning Mastery style that you’re used to, learn exactly how to get started and apply deep to your own machine learning projects. After purchasing you will get:
-21 data science systems used by Amazon to operate its business
-5 Data Science Leaders Share their Predictions for 2016 and Beyond
-How to detect spurious correlations, and how to find the real ones
- Permalink Reply by Patrick J. Hagan on June 30, 2016 at 9:33am 
-Jason Brownlee's Machine Learning Mastery materials are very good. He sells a bundle of material on topic such as Machine Learning, R, Python, Weka, and so on, which are cheaper if you buy the whole bundle. If he publishes something that is not part of the bundle, you get it a discount. At least that is what happened with me. Based on all the materials I have looked at over the last year, his materials are probably the best place to start along with DSC, of course.Thank you.

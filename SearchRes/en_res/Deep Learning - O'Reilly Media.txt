@@ -1,8 +1,0 @@
-Although interest in machine learning has reached a high point, lofty expectations often scuttle projects before they get very far. How can machine learning—especially deep neural networks—make a real difference in your organization? This hands-on guide not only provides the most practical information available on the subject, but also helps you get started building efficient deep learning networks. 
-Authors Adam Gibson and Josh Patterson provide theory on deep learning before introducing their open-source Deeplearning4j (DL4J) library for developing production-class workflows. Through real-world examples, you’ll learn methods and strategies for training deep network architectures and running deep learning workflows on Spark and Hadoop with DL4J. 
-Dive into machine learning concepts in general, as well as deep learning in particular
-Explore the major deep network architectures, including Convolutional and Recurrent 
-Learn how to map specific deep networks to the right problem
-Walk through the fundamentals of tuning general neural networks and specific deep network architectures
-Use vectorization techniques for different data types with DataVec, DL4J’s workflow tool 
- © 2017 O’Reilly Media, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.

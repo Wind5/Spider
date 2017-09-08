@@ -1,6 +1,0 @@
-Abstract: Face representation is a crucial step of face recognition systems. An optimal
-present. In this paper, we present a very easy-to-implement deep learning
-framework for face representation. Our method bases on a new structure of deep
-to be very fast and computation-efficient. In addition, the structure of
-accuracy ($85.8\%$ on LFW benchmark) with only 8 dimension representation. When
-new benchmark of realistic face images on social network and validate our

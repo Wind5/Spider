@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/201708/t20170822_4850779.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-Recent Advances and Applications in Human-Computer Conversation Systems----中国科学院计算技术研究所
- 　　报告题目：Recent Advances and Applications in Human-Computer Conversation Systems　　时间：2017年8月23日（周三）下午14:30　　地点：计算所446会议室　　报告人：严睿，北京大学　　摘要： 近年来，自动人机对话系统在学术界和工业界都获得了相当大的关注度，随着微软小冰百度度秘等产品的发布，以及大量人工智能公司的建立，这些对话系统背后的技术在逐步积累，也逐步解密。随着研究者的探索愈发深入，人们看到了一个对话系统逐渐从科幻电影中走进现实生活的可能。在讲座中，我将回顾人机对话的发展历程，以及随着深度学习技术盛行之后，由数据驱动模型带来的革命性改变。讲座将从人机对话的已有应用出发，再分析现有对话系统的不足，展望下一代人机对话系统的挑战。同时会分享在人机对话研究所做的努力与探索，以及相应的代表性成果。　　报告人简介：　　严睿，北京大学助理教授，前百度公司资深研发，华中师范大学与中央财经大学客座教授与校外导师。主持研发多个开放领域对话系统和服务类对话系统，发表高水平研究论文近50篇，担任多个学术会议（KDD, SIGIR, ACL, WWW, AAAI, CIKM, EMNLP等）的（高级）程序委员会委员及审稿人。

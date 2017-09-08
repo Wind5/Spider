@@ -1,9 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201006/t20100625_2887574.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-移动IPv6关键技术研究及其协议栈实现----中国科学院计算技术研究所
-针对移动IPv6切换方面的关键技术展开研究，重点研究了移动IPv6快速切换，兼顾切换性能和安全性的算法，并在此基础上开发了MIPv6协议栈，完成了任务书中的计划。在完成原有计划的基础上，进一步研究了多业务流的切换问题，并向IETF提交标准草案一项，主要内容包括：
-1、针对现有MIPv6在切换过程中带来实时业务服务质量剧烈下降的的问题，采用二、三层联合触发和提前资源预留的方案来解决用户在移动中的通信信道快速切换。
-2、基于位置预测的快速切换以及多业务流切换的算法研究。
-3、兼顾切换性能与切换安全的算法，支持对用户行为的审计，对用户的非法行为进行追踪。
-4、开发MIPv6移动节点协议栈，实现符合标准MIPv6所规定的功能，对外提供统一接口。
-在算法研究的基础上，向IETF提交标准草案一项，draft-sunyi-fast-rsvp-00.txt：RSVP Extensions for Fast Reservation during Handover in IPv6 Network。

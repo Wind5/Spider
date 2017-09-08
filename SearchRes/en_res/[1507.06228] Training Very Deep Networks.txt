@@ -1,7 +1,0 @@
-Abstract: Theoretical and empirical evidence indicates that the depth of neural
-networks is crucial for their success. However, training becomes more difficult
-as depth increases, and training of very deep networks remains an open problem.
-Here we introduce a new architecture designed to overcome this. Our so-called
-networks and use adaptive gating units to regulate the information flow. Even
-with hundreds of layers, highway networks can be trained directly through
-simple gradient descent. This enables the study of extremely deep and efficient

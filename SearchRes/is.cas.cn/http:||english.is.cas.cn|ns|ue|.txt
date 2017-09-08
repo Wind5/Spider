@@ -1,7 +1,0 @@
-http://english.is.cas.cn/ns/ue/
- [7-26]From Big Data to Big Knowledge: Knowledge Engineering with Big Data 
- [6-27]Deep Learning Approaches for Brain Image Segmentation, Analysis, and Related Problems 
- [4-25]Formal methods and agile development: towards a happy marriage 
- [4-21] A Brief Tutorial on the Prototype Verification System (PVS) 
- [4-21]Tempo: From Data Streams to Graph Streams, from Searching to Mining 
- [3-16]Understanding and Detecting Wake Lock Misuses for Android Applications 

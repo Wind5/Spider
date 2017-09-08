@@ -1,4 +1,0 @@
-Abstract: We give an overview of recent exciting achievements of deep reinforcement
-learning (RL). We discuss six core elements, six important mechanisms, and
-learning, hierarchical RL, and learning to learn. Then we discuss various
-yet. After listing a collection of RL resources, we present a brief summary,

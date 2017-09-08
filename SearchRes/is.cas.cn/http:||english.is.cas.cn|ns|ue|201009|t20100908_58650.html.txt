@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/201009/t20100908_58650.html
- [9-14]Advanced Features of Duration Calculus and Their Applications in Sequential Hybrid Programs 
-Title:Advanced Features of Duration Calculus and Their Applications in Sequential Hybrid Programs
-Venue:Lecture room, Lab for Computer Science, Level 3 Building #5, 
-Abstract: Duration Calculus was introduced as a logic to specify real-time requirements of computing systems. It has been used successfully in a number of case studies. Moreover, many variants were proposed to deal with various features of real time systems, including sequential communicating processes, sequential hybrid systems and imperative programming languages. This talk aims to present work that integrates several variants of Duration Calculus, and provides a semantic framework for real-time programming languages, as well as refinement and verification of sequential hybrid programs.
-Xu Qiwen obatined a DPhil from Oxford University Computing Laboratory. He has worked as a Postdoc researcher at Kiel University, Germany, Abo Academy, Turku, Finland, and a Research Fellow at International Insititute for Software, United Nations University. Currently, he is an Assistant Professor at University of Macau. His main research interests are formal reasoning of computing systems, in particular, refinement and verification. 

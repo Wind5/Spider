@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/kxcb/spdh/201110/t20111020_3379172.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-人的自然行为模拟(1)--高真实感人脸表情迁移方法----中国科学院计算技术研究所
-http://vr.ict.ac.cn/paper_selected/CASA08/casa08.htm
-给出了一种高真实感人脸表情迁移方法，将真实人脸表演的生动表情迁移到任意给定的数字人脸，有助于快速创建高真实感数字人脸表情动画。

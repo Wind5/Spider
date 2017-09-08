@@ -1,4 +1,0 @@
-About Baidu ResearchBaidu Research brings together global research talent to work on AI technologies in areas such as image recognition, speech recognition, high performance computing, natural language processing and deep learning. Baidu Research comprises four labs: the Silicon Valley AI Lab, the Institute of Deep Learning, the Big Data Lab and the Augmented Reality Lab.
-A Spatial-Temporal Modeling Framework for Large-scale Video UnderstandingBy Xiao Liu and Shilei Wen This blog discusses a novel approach to video recognition and classification that won Baidu [...]
-Baidu Research Announces Next Generation Open Source Deep Learning Benchmark ToolBaidu Research today unveiled the next generation of DeepBench, the open source deep learning benchmark that now includes measurement for [...]
-Learning to Speak via InteractionIn early April, our team at Baidu Research successfully taught an AI agent to navigate a virtual maze using natural [...]Read More

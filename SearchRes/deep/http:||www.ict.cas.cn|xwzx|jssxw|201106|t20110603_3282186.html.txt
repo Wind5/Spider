@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201106/t20110603_3282186.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-计算所苏州分部力邀美国教授开展专业培训----中国科学院计算技术研究所
-5月21日，在中科院计算所的推荐下，苏州分部邀请到了来自美国马萨诸大学的Israel Koren教授来中心授课。
-此次课程内容涉及“Defect Reduction and Fault Tolerance in VLSI Integrated Circuits”，即容错设计。课程吸引了来自苏州瑞萨、秉亮等20多家集成电路设计企业的100多位工程师参加。容错设计属于逻辑设计，是集成电路设计里的必不可少的重要一环。生动的案例剖析让大家兴致盎然，纷纷参与到讨论交流中。自开展培训工作以来，计算所苏州分部积极邀请来自美国、台湾等世界各地的知名专家进行授课，目前已经培训学员7000多人次，为苏州集成电路产业的飞速发展发挥了巨大的贡献。
-Koren教授为马萨诸塞大学电子与计算机工程教授，IEEE会员，并任IBM, Analog Devices, Intel, AMD and National Semiconductors公司顾问，专长系统结构、VLSI设计。

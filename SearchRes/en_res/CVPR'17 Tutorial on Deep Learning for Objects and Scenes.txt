@@ -1,6 +1,0 @@
-The half-day tutorial will focus on providing a high-level summary of the recent work on deep learning for visual recognition of objects and scenes, with the goal of sharing some of the lessons and experiences learned by the organizers specialized in various topics of visual recognition.
-14:10 - 14:50. Lecture 1: Learning Deep Representations for Visual Recognition, by Kaiming He.[slide][youtube video]
-14:50 - 15:30. Lecture 2: Deep Learning for Instance-level Object Understanding, by Ross Girshick.[slide][youtube video]
-16:15 - 16:55. Lecture 3: Interpreting Deep Visual Representations, by Bolei Zhou.[slide][youtube video]
-16:55 - 17:35. Lecture 4: Deep Learning for Object Detection in Videos, by Xiaogang Wang. [slide][youtube video]
-Download whole videos: part1 (lecture 1 and 2) part2 (lecture 3 and 4)

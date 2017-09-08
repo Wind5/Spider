@@ -1,8 +1,0 @@
-http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_25.html
- Capability Assessment of Individual Software Development Processes Using Software Repositories and DEA
- An Empirically-Based Process to Improve the Practice of Requirement Review
- Quantitatively Managing Defects for Iterative Projects:An Industrial Experience Report in China
- RVSim: A Simulation Approach to Predict the Impact of Requirements Volatility on Software Project Plans
- UTR-Tree: An Index Structure for the Full Uncertain Trajectories of Network-Constranined Moving Objects
- Tilt Menu: Using the 3D Orientation Information of Pen Devices to Extend the Selection Capability of Pen-based User Interfaces
- The 13th International Conference on Database Systems for Advanced Applications

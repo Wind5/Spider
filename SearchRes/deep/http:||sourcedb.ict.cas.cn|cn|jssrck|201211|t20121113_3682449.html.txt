@@ -1,7 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/jssrck/201211/t20121113_3682449.html
-7.   Junbo Guo, Anan Liu, Yan Song, Zhineng Chen, Lin Pang, Hongtao Xie, Leigang Zhang “TRECVID 2008 Event Detection By MCG-ICT-CAS ”; Proc. TRECVID Workshop,Gaithesburg, USA , Nov 2008
-8.   Lin Pang, Juan Cao, Junbo Guo, Shouxun Lin, Yan Song: Bag of Spatio-temporal Synonym Sets for Human Action Recognition. MMM 2010: 422-432
-9.   Zhineng Chen, Juan Cao, Yicheng Song, Junbo Guo, Yongdong Zhang, Jintao Li: Context-oriented web video tag recommendation. WWW 2010: 1079-1080
-10.  Juan Cao, YongDong Zhang, JunBo Guo, Lei Bao, JinTao Li, VideoMap: An Interactive Video Retrieval System of MCG-ICT-CAS. ACM International Conference on Image and Video Retrieval (CIVR), Santorin, 2009.
-11.  Xiao Wu, Yongdong Zhang, Junbo Guo, Jintao Li,“Web Video Recommendation And Long Tail Discovering”,IEEE International Conference on Multimedia and Expo，Hannover German, June 2008 (369-372)
-12.  Ke Gao,Shouxun Lin,Junbo Guo,Dongming Zhang,Yongdong Zhang,Yufeng Wu “Object Retreival Based on Spatially Frequent Items with Informative Patches” IEEE International Conference on Multimedia and Expo， Hannover German, June 2008(1305-1308)

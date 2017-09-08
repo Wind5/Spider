@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/index_41.html
- Real time solution of Duncan-Mortensen-Zakai equation in nonlinear filtering and VLSI design of the solver

@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/ztwz/kypt/yzpt/201103/t20110304_3079628.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- Mentor Vstation Pro(Mentor公司产品，6.5M 门容量) 
- Cadence Xtreme(Cadence公司产品，72M 门容量)
-随着集成电路工艺技术不断进步，促成了 ASIC 设计规模和设计复杂度的飞速增长，使验证(Verification)成了整个设计过程中最大的瓶颈之一。单凭传统的软件仿真工具已经无法完全解决验证的 问题，而且随着越来越多的需要处理大量实时数据的应用（如视频）出现，更要求能够在接近实时频率的条件下进行验证。设计FPGA 验证板，从硬件层面上来进行ASIC 设计验证，可以使软件的开发调试和ASIC 的开发调试并行的进行，但即使是最大容量的FPGA，也难以满足目前ASIC的规模需求，必须借助多块FPGA来解决，这给验证带来了很大的麻烦。采用专业的验证加速设备，利用已有的先进解决方案，可以很好地解决这个问题，大大缩短验证所需的时间。中科院计算所EDA中心下辖的验证加速实验室，目前拥有Mentor公司的Vstation Pro和Cadence公司的Cadence Xtreme两台高性能验证加速设备，具备高达650M门容量的性能指标，最高仿真速度可达2MHz。

@@ -1,7 +1,0 @@
-http://english.ict.cas.cn/ns/icn/201206/t20120608_86903.html
-Dr.Xiaosong Ma Gave a Technical Report on “NVMalloc: Exposing an Aggregate SSD Store as a Memory Partition in Extreme-Scale Machines”
- Dr.Xiaosong Ma Gave a Technical Report on “NVMalloc: Exposing an Aggregate SSD Store as a Memory Partition in Extreme-Scale Machines”
-Dr. Xiaosong Ma, from North Carolina State University, gave a report on NVMalloc: Exposing an Aggregate SSD Store as a Memory Partition in Extreme-Scale Machines, on June8, in the 446 Conference Room of ICT. This talk was invited and hosted by Researcher Jin Xiong at Advanced Computer Systems Laboratory.
-Dr. Ma introduced technologies in exploiting NVM as a secondary memory partition so that applications can explicitly allocate and manipulate memory regions therein. 
-Firstly, Dr. Ma gave an introduction of the situation that DRAM is a precious resource in extreme-scale machines and is increasingly becoming scarce, mainly due to the growing number of cores per node. Then she talked about their approach. They propose an NVMalloc library with a suite of services that enables applications to access a distributed NVM storage system. After that, she presented the experiments they conducted on a 128-core cluster to prove that NVMalloc enables applications to compute problem sizes larger than the physical memory in a cost-effective manner. Finally, she briefly introduced another two of their recent projects.
-After the report, attendees discussed about the details of exploiting NVM as a secondary memory, and other relative issues. 

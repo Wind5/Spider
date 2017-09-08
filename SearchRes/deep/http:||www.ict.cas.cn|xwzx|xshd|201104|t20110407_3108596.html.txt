@@ -1,9 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/201104/t20110407_3108596.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-时间：2011年4月8日（周五）下午2：00- 3：00 
-地点： 446会议室 
-报告人及访问学校：米海涛助理研究员 
-University of Southern California, Information Sciences Institute 
-报告名称：赴美学术访问报告 
-个人简介：2009年毕业于计算所获博士学位。近四年来发表14篇顶级国际学术会议论文，获EMNLP 2008最佳论文提名。2010年初对机器翻译领域领军机构美国南加州信息科学研所进行为期一年的学术访问，期间赴IBM和Google做学术交流。 
-报告简介： 本报告将主要介绍报告人在访问南加州信息科学研究所自然语言组期间，与一流团队协作的具体情况与经验总结，以及对美国生活的感触。 

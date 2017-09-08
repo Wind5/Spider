@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201005/t20100507_2840913.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 2010年上海世博会于5月1日在全球瞩目下拉开帷幕。龙芯系列芯片作为我国自主研发的高性能通用CPU，展现了我国信息产业核心技术领域的重大突破，在本次世博会中作为北京市重要科技成果在北京馆内展出。其中于2009年最新研制成功的龙芯3A四核芯片也同台展出。龙芯3A采用65纳米工艺设计，包含4.25亿个晶体管，在高性能通用处理器设计技术上已经达到世界先进水平。
-北京馆内—龙芯芯片展示

@@ -1,6 +1,0 @@
-Abstract: We propose a conceptually simple and lightweight framework for deep
-of deep neural network controllers. We present asynchronous variants of four
-actor-learners have a stabilizing effect on training allowing all four methods
-on the Atari domain while training for half the time on a single multi-core CPU
-instead of a GPU. Furthermore, we show that asynchronous actor-critic succeeds
-on a wide variety of continuous motor control problems as well as on a new task

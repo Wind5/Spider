@@ -1,7 +1,0 @@
-http://www.is.cas.cn/xshd2016/xsbg2016/201404/t20140404_4086339.html
-[4-8]NP-Complete Problems and Special Bipartite Graphs----软件研究所
-研究员（正高级工程师）
-副研究员（高级工程师）
- [4-8]NP-Complete Problems and Special Bipartite Graphs
- 文章来源：  |  发布时间：2014-04-04  |  【打印】 【关闭】
- Title: NP-Complete Problems and Special Bipartite GraphsSpeaker: Tian Liu (Peking University)Time: 15:30-17:00, 8th April 2014Venue: Lecture Room (334), 3rd Floor, Building #5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of SciencesAbstract:NP完全问题是计算机科学理论的核心概念之一，对于理论研究和实际应用都有重要意义。大量的NP完全问题中有很多有实际应用但目前还缺乏多项式时间算法的计算问题，如最小顶点反馈集、最小联通支配集、最小独立支配集、哈密顿回路与通路等。这几个重要的计算问题在一般二部图上是NP完全的，在凸二部图上有多项式时间算法。二部图是重要的图类，不仅可用来为实际问题建模，还可获得在一般图上难以获得的结论，其内部包含丰富的结构，可定义各种特殊的二部图，如凸二部图、环凸二部图、树凸二部图、弦二部图等。近年来，报告人和合作者许可教授以及学生们把凸二部图扩充到树凸二部图，并对相关的树施加不同限制，分别得到星凸二部图、三岔凸二部图等，在这些特殊的二部图上研究上述NP完全问题的算法和复杂度，确定对哪些图类有多项式时间算法及对哪些图类是NP完全的。下一步，将对这些特殊的图类开展组合刻画、随机图、近似算法、参数算法、指数算法等方面的研究，目的是理解这些特殊二部图的数学结构对上述有重要应用的NP完全问题的算法设计的影响，为实际应用打下坚实的理论基础。本报告将从NP完全问题的基础知识讲起，回顾各种对付NP完全性的方法和理论成果，重点介绍报告人和合作者过去几年在特殊二部图上取得的结果，并展望未来几年可能的研究方向和研究问题。Biography:刘田，北京大学信息学院计算机系软件研究所副教授，北京大学高可信软件技术教育部重点实验室成员，中国计算机学会理论计算机科学专委会委员，主要研究方向为算法分析与计算复杂度，近年来与北航许可教授合作，在随机约束满足问题的结构特征和算法分析、NP完全问题难解性的刻画和处理等方面取得成果。曾在美国IEEE计算复杂度理论年会、欧洲Theoretical　Computer Science、Journal of Combinatorial Optimization 和 Minds and Machines等期刊上发表论文，在国际人工智能大会（IJCAI）的约束满足、可满足性和搜索（CSP/SAT/Search）分会上口头报告论文，担任过 TAMC、FAW、AAIM、COCOON 等国际会议的程序委员会委员或分会主席。

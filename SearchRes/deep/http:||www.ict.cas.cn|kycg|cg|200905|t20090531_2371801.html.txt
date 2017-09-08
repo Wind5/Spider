@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/200905/t20090531_2371801.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-        中科SoC的关键技术体现在聚芯SoC1000芯片上,在总线架构技术、动态变频技术、动态优先级自调整仲裁技术、自适应门控技术、ASIC可重构技术等方面有自主创新，在SoC设计技术上已达到国际先进水平，居国内SoC芯片研制领先地位，具有自主知识产权，能加快产业化进程。聚芯SoC1000包含高效可靠的SoC总线架构L*BUS(由AXB、OEB和DCB三总线组成)，从计算机体系结构角度把握单芯片系统集成技术，使其性价比远大于"龙芯CPU+北桥+南桥+显示设备"，属于高端通用化的32/64位SoC，能支持Linux、VxWorks、WindowCE等操作系统，同时支持强大的EJTAG在线调试功能。可广泛用于数控、电子政务、终端机、实时监控、身份识别、电子导航、工控设备、瘦客户机等专业计算机应用系统中，也可应用于手持设备、信息家电、消费类产品等场合，具有十分广阔的市场前景。

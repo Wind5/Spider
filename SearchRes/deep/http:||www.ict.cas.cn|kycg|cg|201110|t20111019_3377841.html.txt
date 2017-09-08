@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/201110/t20111019_3377841.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-可扩展、可重构片上并行体系结构与原型芯片设计----中国科学院计算技术研究所
-本项目面向半导体摩尔定律继续延长的趋势，研究可扩展可配置的多核/众核处理器体系结构，并研制出运算速度在每秒万亿次级的高效能原型芯片。主要成果包括：1）提出了基于"Mesh+Crossbar"互连结构的多层次可伸缩可配置的多核处理器体系结构，在计算单元级、处理器核级、处理结点级、芯片级等层次实现可伸缩，同时在处理器核、片内存储系统、片上互连网络等方面可配置；2）提出了可扩展的众核Godson-T体系结构及其关键技术；研究了多型指令集体系结构DISC（Dataflow-like Instruction Set Computer），提出分片式处理器微结构TPA，有效地实现DISC指令系统；3）研制出万亿次原型芯片TGAP（即龙芯3B）采用65nm工艺，集成了8个XPU核，主频达到1GHz，功耗40瓦，峰值运算性能达到每秒万亿次操作（媒体操作），双精度浮点操作峰值性能达到每秒1280亿次。本项目共发表论文133篇（包括顶级国际会议ISCA、HPCA、Micro、ISSCC，顶级期刊IEEE Micro），申请发明专利54项（其中授权20项）。

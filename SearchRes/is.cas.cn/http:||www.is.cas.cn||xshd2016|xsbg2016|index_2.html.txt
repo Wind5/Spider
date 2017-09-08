@@ -1,4 +1,0 @@
-http://www.is.cas.cn//xshd2016/xsbg2016/index_2.html
- [2016-05-13][5-16]On the Road to Exascale and Beyond, Intelligent Restarted Linear Algebra Methods
- [2016-01-20][1-21]软件所青年联合会第32期活动---Mining Geo-Social Networks - Mining 4W (What, Who, When, Where)
- [2015-12-25][12-28]软件所青年联合会第29期活动－－Graph Processing and Mining in the Era of Big Data

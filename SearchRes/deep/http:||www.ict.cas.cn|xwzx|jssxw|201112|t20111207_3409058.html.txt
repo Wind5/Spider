@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201112/t20111207_3409058.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-第五届Hadoop中国云计算大会圆满闭幕----中国科学院计算技术研究所
-由中国科学院计算技术研究所主办的第五届Hadoop中国云计算大会于2011年12月3日在北京会议中心落下帷幕。Lucene、Nutch、Hadoop等开源软件创始人，Apache软件基金会主席兼Apache Hadoop项目负责人Doug Cutting先生首次来华访问，并到会做了题为“Apache Hadoop and the Big Data Platform”的主题演讲，为广大Hadoop开发者和使用者描绘了Hadoop生态环境未来的发展蓝图。Doug Cutting表示：“Hadoop和大数据技术仍未发展成熟，未来将会以越来越快速度发展。”Condor创始人University of Wisconsin–Madison的Miron Livny教授，Ohio State University计算机系主任，Robert M. Chritchfield讲席教授张晓东，两位计算机领域的著名学者在大会上阐述了大数据计算方面的学术观点。学术界和产业界的观点在本届Hadoop中国大会上产生了充分而有益的碰撞。
-作为Hadoop in China社区的年度技术盛会，以“海量数据掘宝”为主题的本届Hadoop中国大会亮点颇多。一是通过技术应用和学术研究双重视角探讨了大数据计算技术的发展趋势；二是大数据领域众多一线工程师带来的“干货”吸引了参会者的眼球；三是大数据技术的领域和行业应用覆盖面愈发广泛，而应用的实际需求促使新热点和新技术不断涌现；四是Hadoop开源社区和生态环境的力量开始显现，Hadoop已成为一种大数据计算领域事实上的标准。以“最细致的研发细节，最直接的交流互动”使本届Hadoop中国大会达到了“理解实际需求，聆听大师观点，促进应用实践，发扬开源精神”的预期目的。
-为期两天的第五届Hadoop中国大会除主会场外，还设置了Hadoop生态环境、大数据技术与应用、NoSQL系统及应用和云计算研究四个分会场，共有8个主题演讲和40个分会场报告。来自Google、Facebook、Yahoo!、eBay、中移动、华为、百度、腾讯、EMC、Intel、360、淘宝、曙光、IBM等国内外著名互联网公司和IT企业的学者和资深开发人员到场演讲，并与参会者进行现场技术交流。来自全国各地的大数据计算的从业人员和科研人员踊跃参会，与会人数远超往年。中科院计算所学术委员会主任徐志伟研究员代表主办方致辞。
-程学旗研究员与Hadoop之父Doug Cutting先生亲切交谈

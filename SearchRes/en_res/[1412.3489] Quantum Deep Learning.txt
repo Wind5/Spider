@@ -1,7 +1,0 @@
-Abstract: In recent years, deep learning has had a profound impact on machine learning
-and artificial intelligence. At the same time, algorithms for quantum computers
-have been shown to efficiently solve some problems that are intractable on
-reduces the time required to train a deep restricted Boltzmann machine, but
-also provides a richer and more comprehensive framework for deep learning than
-of the underlying objective function. Our quantum methods also permit efficient
-training of full Boltzmann machines and multi-layer, fully connected models and

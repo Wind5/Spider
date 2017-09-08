@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/ns/ue/201002/t20100205_50748.html
- Upcoming Events:   Resource Allocation in 4G Wireless Data Networks
- Upcoming Events:   Network Routing for Efficient Energy Usage
-Time: pm3:00 February 4,2010Place: Meeting Hall, 4th Floor, ICT, CASSpeaker: Prof. David Du, University of Minnesota 
-Abstract: This talk will examine the challenges in the convergence of both network centric and data centric computing, and present a vision of a content addressable future Internet. It will also present a number of research projects that are carried out in our Intelligent Storage Consortium. These projects include data deduplication, long-term data preservation, data/storage security/privacy, and solid state drives. 
-Bio:Dr. Du is an IEEE Fellow (since 1998) and a Fellow of the Minnesota Supercomputer Institute. He received a Ph.D. degree from University of Washington (Seattle), a M.S from University of Washington and a B.S. from National Tsing-Hua University (Taiwan) in 1981, 1980 and 1974 respectively. He joined University of Minnesota as a faculty since 1981. 

@@ -1,8 +1,0 @@
-Abstract: Multipliers are the most space and power-hungry arithmetic operators of the
-digital implementation of deep neural networks. We train a set of
-MNIST, CIFAR-10 and SVHN. They are trained with three distinct formats:
-floating point, fixed point and dynamic fixed point. For each of those datasets
-and for each of those formats, we assess the impact of the precision of the
-multiplications on the final error after training. We find that very low
-precision is sufficient not just for running trained networks but also for
-training them. For example, it is possible to train Maxout networks with 10

@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/201708/t20170831_4853532.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-Android root 生态系统以及我们能做什么----中国科学院计算技术研究所
- 　　报告时间：2017年9月11日（周一）下午 03:30-04:30　　报告地点：计算所446室　　主讲人：钱志云,Assistant Professor,University of California, Riverside　　报告摘要：　　很少有人讨论，Android 以开放的生态环境抢得今天的市场份额，其中隐性的代价其实是安全。多样而杂乱的Android系统导致了漏洞层出不穷以及安全维护的高成本。Android 一键 root 软件的应运而生就是一个佐证；这些软件合法而且可以有效利用各种内核/驱动漏洞而达到目的。这次报告中会揭秘这个鲜为人知的Android root生态系统，已经我们如何利用这些知识为恶意软件的检测做出贡献。　　主讲人简介：　　钱志云是加州大学河滨分校 (University of California, Riverside) 的助理教授 (Assistant Professor)。他的研究兴趣有系统网络安全网络，其中涉及到TCP/IP协议的设计与实现，安卓系统的漏洞挖掘/分析等。他在2016 GeekPwn中凭借TCP远程劫持获得最大脑洞奖，在2017年获得NSF CAREER Award。

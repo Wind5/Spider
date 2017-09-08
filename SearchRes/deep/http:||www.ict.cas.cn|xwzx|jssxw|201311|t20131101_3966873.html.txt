@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201311/t20131101_3966873.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-普林斯顿大学 H. Vincent Poor教授来计算所学术交流----中国科学院计算技术研究所
- 　　应计算所普适计算研究中心邀请，美国普林斯顿大学H. Vincent Poor教授于2013年10月30日访问计算所，并做了题为“Games, Privacy and Distributed Inference for the Smart Grid”的学术报告、参观普适计算研究中心科研成果并和师生们就领域前沿技术进行交流。　　在本次报告中，H. Vincent Poor教授介绍了三个热点研究，包括博弈论方法及其对交互系统的建模、信源数据的隐私效用均衡机制、状态估计中的分布式方法，还针对每个热点给出了未来的研究方向。报告内容非常精彩，参会的老师和同学从报告中得到了很大的帮助。　　H. Vincent Poor教授是普林斯顿大学电子工程系教授，美国国家科学院院士、美国国家工程院院士、英国皇家工程院院士、IEEE会士，目前从事信息理论、统计信号处理和分析，及其在无线通信、社交网络、智能电网等中的应用。H. Vincent Poor教授曾获IET Ambrose Fleming 奖、IEEE Eric E. Sumner奖等。H. Vincent Poor教授的来访进一步促进普适中心学科建设发展。

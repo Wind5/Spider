@@ -1,8 +1,0 @@
-http://www.is.cas.cn/ztzl2016/qnlhh2016/xsqy2016/201412/t20141210_4272315.html
-Argumentation Accelerated Reinforcement Learning for Cooperative Multi-Agent Systems----软件研究所
-研究员（正高级工程师）
-副研究员（高级工程师）
-首页 > 专题专栏 > 中科院软件所青年联合会 > 学术前沿
- Argumentation Accelerated Reinforcement Learning for Cooperative Multi-Agent Systems
- 文章来源：  |  发布时间：2014-12-10  |  【打印】 【关闭】
- 活动介绍： 报告题目 ：Argumentation Accelerated Reinforcement Learning         for Cooperative Multi-Agent Systems           报告人:高扬博士 时间：2014年12月11日 下午1:30        地点：软件所5号楼4层中会议室    报告摘要： 强化学习（Reinforcement Learning）被广泛应用在机器人控制、多智能体系统等领域。其突出特点是可以进行连续决策（sequential decision making），并仅需要较少的人工指导信息。但强化学习面临的最大问题是其收敛速度较慢。我们利用论辩逻辑（Argumentation logic）将人的先验知识进行整理和归纳，然后利用这些经过处理的先验知识来指导强化学习，以提高其收敛速度。我们提出的方法在多个邻域得到应用，如足球机器人、家用电器使用调度系统等，相较于其他的强化学习算法，我们的方法具有一定的优势。    报告人介绍：    高扬，男，现为英国帝国理工学院博士后。2011年6月获得西北工业大学计算机科学与技术专业工学学士学位，2011年10月起由国家留学基金委资助在帝国理工学院攻读博士学位。主要研究方向为强化学习，论辩逻辑和多智能体学习系统。本科期间代表西北工业大学参加数次全国和国际机器人足球大赛，多次获得冠军。从2012年起在人工智能主要会议上（ECAI，AAMAS）发表论文数篇。  活动宣传:高扬博士作 《Argumentation Accelerated Reinforcement Learning for Cooperative Multi-Agent Systems 》报告  

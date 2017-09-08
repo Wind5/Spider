@@ -1,4 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/jssrck/201101/t20110110_3057339.html
-1、Mingyang Guo, Liu Liu, Yongle Zhang, Zhenjun Liu, Lu Xu, “Stable Set Model Based Methods for Large-capacity Client Cache Management”, in Proceedings of the 14th HPCC, Liverpool, UK, June 25-27, 2012.
-2、Yang Yin, Zhenjun Liu, Haiying Tang, Haiying Tang, Yajun Jia, Xiaoming Han and Lu Xu. “SonD: A Fast Service Deployment System Based on IP SAN”. 22nd IEEE International Parallel and Distributed Processing Symposium WorkShop on System Management Techniques, Processes, and Services (SMTPS), 2008.
-3、Yang Yin, Zhenjun Liu, Shuqing Yang, Shuo Feng, Zhiyong Su, Lu Xu. Vsvm-enhanced: a volume manager based on the evms framework". In Proceedings of the 4nd Grid and Cooperative Computing Workshops, pages 424-431, 2006.

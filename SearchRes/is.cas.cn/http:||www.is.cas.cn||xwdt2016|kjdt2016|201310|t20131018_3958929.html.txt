@@ -1,7 +1,0 @@
-http://www.is.cas.cn//xwdt2016/kjdt2016/201310/t20131018_3958929.html
-美国新墨西哥大学Deepak Kapur教授到软件所交流----软件研究所
-研究员（正高级工程师）
-副研究员（高级工程师）
- 美国新墨西哥大学Deepak Kapur教授到软件所交流
- 文章来源：  |  发布时间：2013-10-18  |  【打印】 【关闭】
- 10月16日下午，应计算机科学国家重点实验室的邀请，美国新墨西哥大学Deepak Kapur教授到软件所进行学术交流，并作题为Automatic Generation of Program Invariants from Traces的学术报告。报告会由张健研究员主持。 报告中，Deepak Kapur教授针对程序循环不变式的自动生成问题进行了系统介绍。循环不变式生成是形式验证中的关键问题，难度很大。Kapur教授介绍了他和他的博士生Thanh Vu Nguyen提出的一种新的循环不变式生成方法，该方法可发现非线性以及含有数组表达式的循环不变式。报告结束后，与会人员就形式验证和软件工程领域的一些热点问题与Kapur教授进行了深入广泛的交流。 Deepak Kapur教授现任美国新墨西哥大学计算机科学系杰出教授。他得到中国科学院“外国专家特聘研究员”项目支持，在中国科学院软件研究所访问九个月。他的研究领域包括自动推理、符号计算、形式化方法。他长期担任Journal of Symbolic Computation，Journal of Automated Reasoning等相关领域国际主流杂志的编委（其中1993至2007年担任Journal of Automated Reasoning主编）；曾获得自动推理界最高奖-- Herbrand奖。Deepak Kapur教授作报告

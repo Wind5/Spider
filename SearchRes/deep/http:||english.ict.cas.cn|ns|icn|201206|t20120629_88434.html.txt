@@ -1,7 +1,0 @@
-http://english.ict.cas.cn/ns/icn/201206/t20120629_88434.html
-Dr. Onur Mutlu Gave a Technical Report on Scaling the Main Memory System in the Many-Core Era
- Dr. Onur Mutlu Gave a Technical Report on Scaling the Main Memory System in the Many-Core Era
-Dr. Onur Mutlu, fromCarnegie Mellon University, gave a report titled Scaling the Main Memory System in the Many-Core Era, in themeeting room 446 of ICT. This talk was invited and hosted by Researcher Lixin Zhang at Advanced Computer Systems Laboratory.
-This speech focuses on three points: 1) how to design more efficient and higher-bandwidth DRAM architectures, 2) how to employ emerging memory technologies in a hybrid memorysystem, and 3) how to enable more predictable and QoS-aware main memory systems.
-Firstly, Onur gave a introduction of the challenges in today’s DRAM design. These challenges involve scaling the capacity, energy-efficiency, bandwidth, and feature size of main memory. And then he gave a detail discussion about the recent researches to solve these challenges. He also gave some discussions on new technologies in memory system, such as PCM, hybrid memory system, and so on. At last, he gave a overview about the trends of memory system.
-After the report, attendees talked about the related issues in DRAM system design. 

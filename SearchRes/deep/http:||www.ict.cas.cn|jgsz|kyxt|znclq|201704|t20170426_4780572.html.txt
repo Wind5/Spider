@@ -1,3 +1,0 @@
-http://www.ict.cas.cn/jgsz/kyxt/znclq/201704/t20170426_4780572.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 　　智能处理器研究的目标是探索新型智能处理器的指令集、体系结构、编程环境以及芯片设计等方面的科学技术问题，研制高性能、低能耗的智能处理器芯片及整机系统，服务于我国智能产业的建设和发展。主要研究方向包括智能算法共性特征分析、智能处理器体系结构、智能编程语言、分布式智能处理和智能芯片物理设计等。中心在深度学习处理器上的研究水平处于国际前沿，前期工作受到了哈佛、斯坦福、MIT、普林斯顿、Intel、HP、NVidia等国际同行的广泛跟踪引用。

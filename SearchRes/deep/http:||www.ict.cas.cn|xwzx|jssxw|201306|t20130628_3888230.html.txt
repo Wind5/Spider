@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201306/t20130628_3888230.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-6月20日，来自美国奥斯丁德克萨斯大学的David Z. Pan教授访问计算所并做了题为《Cross-Layer Resilient Design for Extreme Scaling and Beyond》的学术报告。本次报告在计算所446房间举行。
-David Z. Pan教授深入浅出的给师生们介绍了在光刻过程中如何通过版图划分来处理晶体管特征尺寸远小于光刻波长的问题。虽然晶体管的特征尺寸不断缩小使得芯片集成度不断增大，然而芯片制造的光刻技术并没有赶上特征尺寸缩小的速度，目前光刻波长远大于特征尺寸，使得芯片在生产过程中容易出现缺陷。为此，出现了对一个完整版图进行划分，然后通过多次光刻提高芯片生产良率的技术方法。另外，David Z. Pan教授也为我们介绍了在三维集成电路中，硅通孔制造材料带来的应力问题，其可能影响周围晶体管的速度，进而影响整个芯片的最高工作频率。
-报告期间，参与的师生就版图光刻过程和芯片制造过程的现状和前景、三维集成电路的挑战和发展趋势等问题同David Z. Pan教授进行了深入的探讨。

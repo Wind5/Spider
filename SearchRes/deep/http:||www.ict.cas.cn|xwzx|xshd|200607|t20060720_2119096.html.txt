@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/xwzx/xshd/200607/t20060720_2119096.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-我国农村信息化问题、现状、解决方案和技术需求----中国科学院计算技术研究所
- 主讲人：陈良玉主讲单位：中国农村技术开发中心报告日期：2005年11月2日
-报告摘要：介绍关于我国农村信息化方面的问题、现状、解决方案和技术需求，结合计算所在农村信息化等方面所做的工作，探讨可能的合作内容和发展方向。

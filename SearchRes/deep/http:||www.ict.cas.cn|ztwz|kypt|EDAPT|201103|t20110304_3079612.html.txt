@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/ztwz/kypt/EDAPT/201103/t20110304_3079612.html
-双Intel 5110 CPU（1.6GHZ），4MB L2 Cache，8G 内存；存储服务器一台，单Intel 5130 CPU（2.0GHZ），4MB L2 Cache，1G 内存，2TB Raid5 磁盘空间；

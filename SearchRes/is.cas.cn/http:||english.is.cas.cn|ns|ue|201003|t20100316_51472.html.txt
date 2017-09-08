@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/201003/t20100316_51472.html
- [3-31]Social networks and beyond --- Our recent work on large networks 
-Title：Social networks and beyond --- Our recent work on large networks
-Venue：Lecture room, State Key Lab of Computer Science, Level 3 Building #5
-With the increasing popularity of online social network sites such as Facebook, Myspace, and Twitter, many new research opportunities are presented in understanding the social networking phenomenon and harnessing the power of social networks for commerce or social welfare. In this talk, I will survey several studies I and my collaborators conducted recently on social networks or other related complex networks. The topics include: (a) scalable influence maximization for viral marketing in social networks; (b) bounded-budget betweenness centrality (B3C) game for network formation; and (c) distance oracle and compact routing in power-law graphs.
-Wei Chen is a Lead Researcher in the Theory Group of Microsoft Research Asia, in Beijing China. He is also an Adjunct Professor at Tsinghua University. His research interests include algorithmic aspects of social networks, algorithmic game theory, distributed computing, and fault tolerance. For more information, you are welcome to visit his home page at http://research.microsoft.com/en-us/people/weic/. 

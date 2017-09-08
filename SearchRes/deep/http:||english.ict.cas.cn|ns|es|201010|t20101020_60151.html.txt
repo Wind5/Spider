@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/ns/es/201010/t20101020_60151.html
- Upcoming Events:   ScalaExtrap: Trace-Based Communication Extrapolation for ...
-35 foreign officialsattendingthe seminar on Informatization and Sustainable Development for Officials ofDeveloping Countries paid a visit to the Institute of Computing Technology, Chinese Academy of Sciences (ICT) on Sep. 13, 2010.
-During the visit, Prof. HU Weiwufrom ICT gave an overview on the developing history of ICT, China’s R&D on chips, and the technologies for Godson chips. ZHANG Heng, deputy general manager ofJiangsu Lemote Technology Co., Ltd., further explained Godson chip-based products and their applications.Thenthe officials visited the exhibition halls for Godson products and achievements of ICT. 
-As the first academic institution engaged in comprehensive research on computer science and technology, ICT is honored as “The Cradle of China’s Computer Science” and represents the frontier of IT in China. The officials showed interests in China’s R&D achievements in computer field, especially in China’s independently-developed CPU with high performance. They also expressed hope that China would cooperate with their countries onGodson products.
-General Manager from Loongson is introducing Godson achievements to the officials 

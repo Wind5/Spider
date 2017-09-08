@@ -1,6 +1,0 @@
-actors that generate new behaviour; parallel learners that are trained from
-stored experience; a distributed neural network to represent the value function
-or behaviour policy; and a distributed store of experience. We used our
-algorithm was applied to 49 games from Atari 2600 games from the Arcade
-surpassed non-distributed DQN in 41 of the 49 games and also reduced the
-wall-time required to achieve these results by an order of magnitude on most

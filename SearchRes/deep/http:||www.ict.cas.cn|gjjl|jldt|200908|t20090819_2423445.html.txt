@@ -1,2 +1,0 @@
-http://www.ict.cas.cn/gjjl/jldt/200908/t20090819_2423445.html
- 　　ANSS的全称是ANnual Simulation Symposium，是国际建模与模拟社区SCS（The Society for Modeling and Simulation International，成立于1953年）的核心学术研讨会，至今已经举办41届（ANSS始于1968年）。由于规模较小（每年大约30篇文章），ANSS作为Spring Simulation Multi-conference 2008（SCS与ACM/SIGSIM主办）的一部分，和其他多个模拟领域的学术研讨会共同举行，今年的举办地为加拿大渥太华，由加拿大Carleton大学承办，时间为4月14日到17日。

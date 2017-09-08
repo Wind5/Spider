@@ -1,9 +1,0 @@
-http://english.is.cas.cn/ns/ue/index_22.html
- [10-23]Simulation-Based Planning, Re-Planning and Stability Analysis for Operational Release Plans 
- [10-14]Combining Development and Property Evaluation of Parallel Computational Models ... 
- [9-29]Performance Analysis and Optimization of Parallel Scientific Applications on ... 
- [9-17]Belief Revision in Description Logics and Its Application to the Semantic Web 
- [9-3]A Revival of Data Dependencies for Improving Data Quality 
- [8-26]Efficient Policy Analysis for Administrative Role Based Access Control 
- [7-24]Fault Tolerance for PetaScale Systems: Current Knowledge, Challenges and Opportunities 
- [7-8]Imperative Programs on Numbers: Mechanization of Loop Invariant Generation and Loop Termination 

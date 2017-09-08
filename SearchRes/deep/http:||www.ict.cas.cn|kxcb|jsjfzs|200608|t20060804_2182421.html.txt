@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kxcb/jsjfzs/200608/t20060804_2182421.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-         人们通常所说的计算机，是指电子数字计算机。一般认为，世界上第一台数字式电子计算机诞生于1946年2月，它是美国宾夕法尼亚大学物理学家莫克利（J.Mauchly）和工程师埃克特（J.P.Eckert）等人共同开发的电子数值积分计算机（Electronic Numerical Integrator And Calculator，简称ENIAC），如下图所示。
-        ENIAC是一个庞然大物，其占地面积为170平方米，总重量达30吨。机器中约有18800只电子管、1500个继电器、70000只电阻以及其它各种电气元件，每小时耗电量约为140千瓦。这样一台“巨大”的计算机每秒钟可以进行5000次加减运算，相当于手工计算的20万倍，机电式计算机的1000倍。        ENIAC虽是第一台正式投入运行的电子计算机，但它不具备现代计算机“存储程序”的思想。1946年6月，冯·诺依曼博士发表了“电子计算机装置逻辑结构初探”论文，并设计出第一台“存储程序”的离散变量自动电子计算机（The Electronic Discrete Variable Automatic Computer，简称EDVAC），1952年正式投入运行，其运算速度是ENIAC的240倍。冯·诺依曼提出的EDVAC计算机结构为人们普遍接受，此计算机结构又称冯·诺依曼型计算机。

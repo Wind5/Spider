@@ -1,2 +1,0 @@
-http://sourcedb.ict.cas.cn/cn/ictthesis/201110/t20111020_3379092.html
- Contour-motion feature (CMF): A space–time approach for robust pedestrian detection

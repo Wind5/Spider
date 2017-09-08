@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/200910/t20091019_2554075.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- 　　近日，由计算所系统结构重点实验室与微处理器中心合作的论文《DMA Cache: Using On-Chip Storage to Architecturally Separate I/O Data from CPU Data for Improving I/O Performance》被第16届国际高性能计算体系结构会议（HPCA）录用。该论文是由微处理器中心的唐丹博士生、胡伟武研究员和重点实验室高性能体系结构小组（ASL）的包云岗博士、陈明宇研究员合作完成，是一次非常成功的跨实验室合作。 
-　　论文主要针对高吞吐计算（High-Throughput Computing，HTC），基于ASL小组的内存监控分析系统（HMTT）对CPU访存和I/O访存进行分析，发现两者具有截然不同的特征，进而借鉴处理器中将指令与数据分开的思想，提出了将I/O数据与CPU数据分开的方法；并利用微处理器中心的FPGA仿真平台进行实验，验证了该方法能有效地降低了I/O访存的开销。 
-　　此次论文的录用并非一帆风顺，期间经历了诸多波折。据作者介绍，2009年5月的CACM会议上，Ken Birman and Fred B. Schneider发表了一篇文章《Program Committee Overload in Systems》，文中提到有一些研究人员总是期待评审意见来修改下一版，这是导致增加PC工作量的原因之一。从2008年11月产生的第一版初稿到2009年8月HPCA的投稿版，文章共尝试了3种组织方式，彻底重写了3遍，开展了大量新实验，产生了约 85个中间修改版本，最终获得了国际同行的肯定。 
-　　据悉，本届HPCA共收到175篇高质量的投稿，录用32篇论文，录用率为18%。2008年，计算所代表大陆科研机构首次在该顶级会议上发表论文（Fast Complete Memory Consistency Verification, Yunji Chen, Yi Lv, Weiwu Hu, Tianshi Chen,HPCA15），至今计算所已连续两年在HPCA会议上发表论文。 

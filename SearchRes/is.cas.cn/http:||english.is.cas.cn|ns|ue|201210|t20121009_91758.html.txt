@@ -1,6 +1,0 @@
-http://english.is.cas.cn/ns/ue/201210/t20121009_91758.html
- [10-11]Termination of higher-order rewrite systems using the notion of computability closure 
-Title: Termination of higher-order rewrite systems using the notion of computability closure
-Venue: Lecture Room, 3rd Floor, Building 5#, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-Abstract:I will recall the notion of computability introduced by W. W. Tait (1967) and J.-Y. Girard (1971) for proving the termination of beta-reduction in typed lambda-calculi, and show how it can be extended to deal with various forms of higher-order rewrite relations, and how it can be related with other notions or techniques too.
-Bio:Dr. Hab. Frédéric Blanqui is a permanent full-time researcher of INRIA, the French national research institute in computer science and automation. Since September 2008, he is member of the European-Chinese consortium LIAMA. Between September 2008 and June 2012, it was at Tsinghua University. Since June 2012, he is invited member of the Institute of Software of the Chinese Academy of Sciences. He works on rewriting theory, type theory and the combination of both theories, and on termination and formal verification.

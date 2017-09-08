@@ -1,5 +1,0 @@
- The combination of modern reinforcement learning and deep learning approaches brings significant breakthroughs to a variety of domains requiring both rich perception of high-dimensional sensory inputs
-我们已与文献出版商建立了直接购买合作。
-你可以通过身份认证进行实名认证，认证成功后本次下载的费用将由您所在的图书馆支付
-您可以直接购买此文献，1~5分钟即可下载全文。
-关于我们百度学术集成海量学术资源，融合人工智能、深度学习、大数据分析等技术，为科研工作者提供全面快捷的学术服务。在这里我们保持学习的态度，不忘初心，砥砺前行。联系我们意见反馈©2017 Baidu 百度学术声明 使用百度前必读

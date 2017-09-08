@@ -1,7 +1,0 @@
-Abstract: The key challenge of face recognition is to develop effective feature
-inter-personal differences. In this paper, we show that it can be well solved
-with deep learning and using both face identification and verification signals
-same identity together, both of which are essential to face recognition. The
-learned DeepID2 features can be well generalized to new identities unseen in
-the training data. On the challenging LFW dataset, 99.15% face verification
-accuracy is achieved. Compared with the best deep learning result on LFW, the

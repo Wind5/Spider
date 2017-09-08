@@ -1,6 +1,0 @@
-http://www.is.cas.cn/kycx2016/kycg2016/lw2016/index_21.html
- optimal error estimates in jacobi-weighted sobolev spaces for polynomial approximations on the triangle
- Privacy Preserving of Trust Management Credentials Based on Trusted Computing
- A Language For Secure Requirement Description Based on Information Flow
- measuring the effectiveness of dpa attacks- from the perspective of distinguishers' statistical characteristics
- Constructing Rate-1 MACs from Related-Key Unpredictable Block Ciphers: PGV Model Revisited

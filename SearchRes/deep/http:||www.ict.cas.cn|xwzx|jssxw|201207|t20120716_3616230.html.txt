@@ -1,6 +1,0 @@
-http://www.ict.cas.cn/xwzx/jssxw/201207/t20120716_3616230.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-异构系统架构基金会主席，AMD企业科研理事Phil Rogers先生7月11日来计算所做题为“Heterogeneous System Architecture – Platform for the Future”的报告。报告在计算所4层会议厅举行，由先进计算机系统实验室的侯锐副研究员主持。
-Phil 与大家一起探讨了去年刚刚揭开面纱的异构系统架构（HSA）的发展，并介绍了异构系统架构基金会在建立HAS软件生态系统过程中所扮演的角色。
-首先，Phil指出异构系统结构要经历物理集成、优化平台、结构集成和系统融合四个阶段，异构系统应当具有统一的存储空间。接着以哈尔人脸检测和Memcached Key Lookup为例展示了HAS在性能和功耗两方面的明显优势，并介绍了Java加速方案APARAPI。随后他介绍了现有异构系统的软硬件结构和AMD Bolt C++模板库。最后Phil展望了异构系统的未来，他认为主流程序员将有能力使用异构系统的并行处理能力。
-报告之后，参会的老师和同学就异构系统的趋势和发展方向进行了热烈讨论。

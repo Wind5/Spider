@@ -1,4 +1,0 @@
-http://english.is.cas.cn/ns/ue/200910/t20091009_44833.html
-Time: 3：30 pm, Thursday, October 15Venue: Lecture room 334, Building #5
-A unifying theory is one that generalises a varied range of more specific theories which apply to differing phenomena in the real world. The similarities of the specific theories are codified by a set of laws which they all share; and their differences are codified by laws which they do not share.
-The flow of data between various parts of a computer system are determined by computer programs stored in the system itself.  In the execution of a program, data flow is implemented by means of various kinds of computing resource.  The variables in computer memory implement the flow of data across an interval of time, and communication channels implement flow of data across space in a distributed network. I will present a theory of data flow which unifies these two kinds of resource. 

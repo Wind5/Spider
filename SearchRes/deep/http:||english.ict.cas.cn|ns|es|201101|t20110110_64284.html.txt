@@ -1,7 +1,0 @@
-http://english.ict.cas.cn/ns/es/201101/t20110110_64284.html
- Upcoming Events:   ScalaExtrap: Trace-Based Communication Extrapolation for ...
-Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS) took part in the 2nd Australia-China Information and Communication Technology Summit held in Shanghai on November 17-20, 2010.
-The summit is sponsored by Commonwealth Scientific and Industrial Research Organization (CSIRO), Australia, Chinese Ministry of Science and Technology (MOST), Science and Technology Commission of Shanghai Municipality (STCSM), and the Department of Economic Development, Tourism and the Arts, Tasmania. The aim of the summit is to advance the research of information and communication technology and promote the collaboration between Australia and China.
-Focusing on such topics as wireless broadband, sensor and sensor networks and eHealth, the summit attracted more than 80 attendees including policy makers, industrial leaders and prominent researchers.
-Prof. SHI Jinglin and Prof. QIAN Manli from ICT attended the summit where they gave an overview of broadband wireless communication technology as well as its application in M2M communications. They also demonstrated ICT’s latest achievements in this field. 
-CAS president LU Yongxiang was also present at the summit, who expressed hope that China and Australia would sustain a long-term cooperation. 

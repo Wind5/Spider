@@ -1,6 +1,0 @@
-http://english.ict.cas.cn/ns/es/201101/t20110110_64282.html
- Upcoming Events:   ScalaExtrap: Trace-Based Communication Extrapolation for ...
-China national grid software “CNGrid GOS 4.0” became a highlight at the Achievements Release Conference of the "High-Performance Computer and Grid Service Environment" Project held on November 2, 2010. 
-Supported by the863 Program “R&D of China National Grid Software”, the software was jointly developed by7 institutes and universities headed by the Institute of Computing Technology, Chinese Academy of Sciences after 3 years’ research.
-Consisting of GOS core based high-performance computing grid，data grid and workflow grid, the software has achievedinnovation in  distributed resource management, virtual organization, grip (grid process) technology and grid security. It may rival its peers in the worldfor its competence to promise asound operation of China national grid software.
-The conference also demonstrated the latest achievements of China grid service environment in such fields as aeroplane design, rail transport and weather forecast. 

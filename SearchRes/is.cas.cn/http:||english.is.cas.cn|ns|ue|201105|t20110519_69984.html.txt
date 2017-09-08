@@ -1,3 +1,0 @@
-http://english.is.cas.cn/ns/ue/201105/t20110519_69984.html
-Venue: Lecture Room, Level 3, Building No. 5, State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences
-Semilinearity plays a key  role not only in formal languages but also  in the study of Petri nets. It is known that  the reachability set of a Petri net may not be semilinear in general. We develop sufficient conditions for Petri nets under which semilinearity  is guaranteed. Our approach can be used for consolidating several  existing semilinearity results  as well as for deriving new results all under  the same framework. We also develop a unified strategy for computing the sizes of the minimal elements of certain upward-closed sets associated with Petri nets. 

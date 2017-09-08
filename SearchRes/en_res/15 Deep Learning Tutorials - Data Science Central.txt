@@ -1,2 +1,0 @@
-This reference is a part of a new series of DSC articles, offering selected tutorials on subjects such as deep learning, machine learning, data science, deep data science, artificial intelligence, Internet of Things, algorithms, and related topics. It is designed for the busy reader who does not have a lot of time digging into long lists of advanced publications.
-An Introduction to Deep Learning and it’s role for IoT/ future cities 

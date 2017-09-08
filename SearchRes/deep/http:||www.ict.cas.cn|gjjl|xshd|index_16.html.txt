@@ -1,5 +1,0 @@
-http://www.ict.cas.cn/gjjl/xshd/index_16.html
-Inviter: Prof. Bu Dongbo, Center for Advanced Computing Research, ICT 
- NVMalloc: Exposing an Aggregate SSD Store as a Memory Partition in Extreme-Scale Machines
- A High-performance, Low-power Cache Design, and Enabling Speech Recognition on Smartphones
- Title: Algorithms for the closest string and the shared center problems 

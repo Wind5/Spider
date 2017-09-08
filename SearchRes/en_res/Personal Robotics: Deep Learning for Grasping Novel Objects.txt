@@ -1,5 +1,0 @@
-succeesfully used for grasping novel objects, but required manual design of features for image and depth data.
-We use deep learning, which allow us to learn the basic features used by our algorithm directly 
-Our deep learning algorithm uses our novel structured multimodal regularization approach to encourage the learned features to use a subset of the input
-modalities. This leads to more robust RGB-D features, especially when surface
-Deep Learning for Detecting Robotic Grasps, Ian Lenz, Honglak Lee, Ashutosh Saxena. To appear in International Journal of Robotics Research (IJRR), 2014.

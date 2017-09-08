@@ -1,7 +1,0 @@
-http://www.ict.cas.cn/kxcb/kxzt/201110/t20111031_3387509.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-无论防病毒措施多么理想，系统仍存在被新病毒入侵并中断业务的可能。因此，切实可行的方法是对系统本身、单机以及邮件服务器进行全方位保护，这样才能将病毒带来的危险降至最低。对计算机病毒的防范措施主要有：
-1. 安装最新版本的防毒软件；
-2. 下载时要当心，要到专业的站点去下载；
-3. 备份好有用的文件；
-4. 小心使用磁盘和光盘等。

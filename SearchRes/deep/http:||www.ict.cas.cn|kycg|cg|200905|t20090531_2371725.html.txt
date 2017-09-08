@@ -1,4 +1,0 @@
-http://www.ict.cas.cn/kycg/cg/200905/t20090531_2371725.html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-政务系统可信的Web Service技术的工程实现----中国科学院计算技术研究所
-         本项目来源于国家科技攻关计划、国家"十五"重大科技专项"电子政务试点示范工程""电子政务应用示范工程应用软件及工程实现、相关技术及标准研究"。        提出一种构筑可信Web服务环境的安全架构，并开发实现工程化的可信Web Services系统。研究基于SOAP、WSDL、UDDI的综合环境下的可信Web服务应用框架和安全解决方案，其主要用途是保护服务提供商和服务使用者的利益，构筑一个面向电子商务、电子政务应用的可信Web Services环境。         解决可信Web Services中的关键技术，提出基于PKI/PMI的可信Web服务代理，可信资源管理，SOAP的可信性和安全性保障机制，WSDL可信性保障机制。研制出可信Web Services平台组件，包括以下模块：Trust Agent服务器，可信资源管理服务器，可信SOAP解析器，可信WSDL解析器。可信Web Services技术在工程应用方面，提出一种支持可信Web Services的应用框架，并据此开发实现工程化的可信Web Services系统，将可信Web Services服务平台用于CIMS、数字奥运等行业中。        项目在基于PKI的安全Web服务代理、可信SOAP、可信UDDI等可信Web Services关键技术及应用框架等方面研究有创新。        本项目所实现的可信Web Services支撑平台，已在CIMS 、数字奥运等领域得到很好的应用。目前应用于京东方公司虚拟组织可信支撑环境，并提出奥运应急联动安全解决方案。我们将继续努力，针对更广泛的应用领域，不断完善项目成果，并使之得到更广泛的应用。

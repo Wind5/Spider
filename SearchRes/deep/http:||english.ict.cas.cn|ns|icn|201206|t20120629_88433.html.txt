@@ -1,7 +1,0 @@
-http://english.ict.cas.cn/ns/icn/201206/t20120629_88433.html
-Dr. Janusz Rajski Gave a Technical Report on” Quality of Test – Fault Models and Test Methods”
- Dr. Janusz Rajski Gave a Technical Report on” Quality of Test – Fault Models and Test Methods”
-Dr. Janusz Rajski, a chief scientist and the director of engineering for the Silicon Test Solutions products group at Mentor Graphics, gave a report at 10:00 am, on June 28, in the room 446 of ICT. This talk is chaired by Prof. Yu Hu at State Key Laboratory of Computer Architecture (CARCH). The topic of the report is the quality of test.
-At the beginning, Dr. Janusz Rajski introduces some fault models for test, such as bridging faults and small delay faults. He also introduces intra-cell layout-aware faults, represented by the UDFM (User Defined Fault Model). Then Dr. Janusz Rajski introduces the test compression techniques, including EDT, LBIST, and hybrid techniques. These techniques effectively reduce the test cost.
-About 35 teachers and students attended this report, and discussed with Dr. Janusz Rajski about some interesting topics, such as the n-detect pattern generation and the on-the-fly fault diagnosis.
-We get along very well and agreed to keep a long-term cooperation with each other. 
