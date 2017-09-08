@@ -6,12 +6,13 @@ from bs4 import BeautifulSoup
 import re
 from CxExtractor import CxExtractor
 from urllib import urlencode
+import os
 
 class EngineSpider(scrapy.Spider):
   name = 'search_engine'
   allowed_domains = []
   # try all saved in cn
-  __path = '/home/ChenJW/Project/Spider/SearchRes/'
+  __path = os.getcwd() + '/' # '/home/ChenJW/Project/Spider/SearchRes/'
   __pagenum = 0
   __num_of_done = 0
   __num_of_wanted = 1000
