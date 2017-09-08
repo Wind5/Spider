@@ -69,7 +69,9 @@ class CxExtractor:
             print path
             if os.path.exists(path) is False:
                 os.makedirs(path)
-            with io.open(path + filename.replace('/', '|') + '.txt', 'w') as f:
+            print type(filename)
+            filename = path.decode('utf-8') + filename.replace(u'/', u'|') + u'.txt'
+            with io.open(filename, 'w') as f:
                 f.write(info + res_text)
             return True
         else:
