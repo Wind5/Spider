@@ -3,10 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from CxExtractor import CxExtractor
+import os
+from urlparse import urlparse
 
 class DeepSpider(scrapy.Spider):
   name = 'deep'
-  __path = '/home/ChenJW/Project/Spider/SearchRes/'
+  __path = os.getcwd() + '/'
   allowed_domains = []
 
   def start_requests(self):
@@ -14,11 +16,13 @@ class DeepSpider(scrapy.Spider):
     print url
     if url is None:
       return
-    self.allowed_domains.append(getattr(self, 'domain', url))
-    self.__path += getattr(self, 'dirname', self.allowed_domains[0]) + '/'
+    self.allowed_domains.append(getattr(self, 'domain', self.get_hostname_from_url(url)))
+    self.__path += getattr(self, 'dirname', self.allowed_domains[0].replace('/', '|')) + '/'
     print self.allowed_domains[0]
     yield scrapy.Request(url, self.parse)
 
+  def get_hostname_from_url(self, url):
+    return urlparse(url).netloc.replace('www.', '')
 
   def parse(self, response):
     soup = BeautifulSoup(response.body, 'html.parser')
