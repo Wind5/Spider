@@ -92,6 +92,7 @@ class CxExtractor:
         try:
             s = content.decode('utf-8')
         except:
+            return None
             s = unicode(content, errors='ignore')
         if s is None or len(s) == 0:
             return None
@@ -101,7 +102,7 @@ class CxExtractor:
             if (self.__lang and len(ts.split(' ')) > en_threshold) or (not self.__lang and len(ts) > cn_threshold):
                 result.append(ts + '\n')
         # print 'num of lines:' + str(len(result))
-        if len(result) < 5 and self.__num_a > 150:
+        if len(result) < 3:
             return None
         else:
             return u''.join(result)

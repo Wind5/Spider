@@ -60,7 +60,12 @@ class CxExtractor:
         return res_text
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
-        s = content.decode('utf-8')
+        try:
+            s = content.decode('utf-8')
+        except:
+            s = unicode(content, errors='ignore')
+        if s is None or len(s) == 0:
+            return None
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
