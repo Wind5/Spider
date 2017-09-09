@@ -55,6 +55,7 @@ class CxExtractor:
                 html = str(div_content)
         clear_page = self.filter_tags(html)
         # print 'clear_page: ' + clear_page[:15]
+        self.infer_lang(clear_page)
         content = self.getText(clear_page)
         # print 'content' + content
         res_text = self.clean_and_judge(content)
@@ -76,7 +77,7 @@ class CxExtractor:
         else:
             return False
 
-    def clean_and_judge(self, content, cn_threshold=10, en_threshold=10):
+    def infer_lang(self, content):
         try:
             s = content.decode('utf-8')
         except:
@@ -86,6 +87,14 @@ class CxExtractor:
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
         self.__lang = cn_ratio < 0.2
         print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
+
+    def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
+        try:
+            s = content.decode('utf-8')
+        except:
+            s = unicode(content, errors='ignore')
+        if s is None or len(s) == 0:
+            return None
         s = s.split('\n')
         result = []
         for ts in s:
@@ -100,6 +109,7 @@ class CxExtractor:
 
 
     def getText(self, content):
+        self.__threshold = 120 if self.__lang else 86
         if self.__text:
             self.__text = []
         lines = content.split('\n')
@@ -190,6 +200,8 @@ class CxExtractor:
             '<\s*option[^>]*>.*?<\s*/\s*option\s*>', re.DOTALL | re.I)
         re_label = re.compile(
             '<\s*label[^>]*>.*?<\s*/\s*label\s*>', re.DOTALL | re.I)
+        re_doctype = re.compile(
+            '<!DOCTYPE.+?>', re.DOTALL | re.I)
         re_br = re.compile('<br\s*?/?>')
         re_h = re.compile('</?\w+.*?>', re.DOTALL)
         re_comment = re.compile('<!--.*?-->', re.DOTALL)
@@ -200,6 +212,7 @@ class CxExtractor:
         s = re_option.sub('', s)
         s = re_label.sub('', s)
         s = re_style.sub('', s)
+        s = re_doctype.sub('', s)
         s = re_textarea.sub('', s)
         s = re_br.sub('', s)
         s = re_h.sub('', s)
