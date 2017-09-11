@@ -22,8 +22,6 @@ class CxExtractor:
     __indexDistribution = []
     #web_language, true for en, false for zh-hans
     __lang = 0
-    #num_of_a
-    __num_a = 0
     #is_web_portal
     __web_portal = False
 
@@ -32,34 +30,13 @@ class CxExtractor:
         self.__threshold = threshold
 
     def crawl(self, url, html, path, filename, engine=None, rank=None):
-        # try:
-        #     html = self.getHtml(url)
-        # except:
-        #     print 'Failed to get the url'
-        #     return False
-        # else:
-        #     print 'Succeed to get the url'
-        # soup = BeautifulSoup(html, 'html.parser')
-        soup = BeautifulSoup(html, 'html.parser')
-        links = soup.find_all('a', href=re.compile('http'))
-        self.__num_a = len(links)
-        # print 'num_a: ' + str(self.__num_a)
-        # for link in links:
-        #     print link['href']
-        div_content = soup.find('div', class_=re.compile('main-content'))
-        if div_content is not None and len(div_content) > 0:
-            html = str(div_content)
+        if 'sina' in url:
+        	res_text = self.crawl_sina(html)
         else:
-            div_content = soup.find('div', id=re.compile('main-content'))
-            if div_content is not None and len(div_content) > 0:
-                html = str(div_content)
-        clear_page = self.filter_tags(html)
-        # print 'clear_page: ' + clear_page[:15]
-        self.infer_lang(clear_page)
-        content = self.getText(clear_page)
-        # print 'content' + content
-        res_text = self.clean_and_judge(content)
-        # return res_text
+	        clear_page = self.filter_tags(html)
+	        self.infer_lang(clear_page)
+	        content = self.getText(clear_page)
+	        res_text = self.clean_and_judge(content)
         self.__lang = 'en' if self.__lang else 'cn'
         if res_text is not None and len(res_text) > 0:
             if engine is not None:
@@ -77,11 +54,21 @@ class CxExtractor:
         else:
             return False
 
-    def infer_lang(self, content):
+    def crawl_sina(self, html):
+    	self.__lang = False
+        soup = BeautifulSoup(html, 'html.parser')
         try:
-            s = content.decode('utf-8')
+            div_content = soup.find('div', id='artibody').text
         except:
-            s = unicode(content, errors='ignore')
+            return None
+        return u'\n'.join(re.split(u'\n*', div_content))
+
+    def infer_lang(self, content):
+    	if type(content) is not unicode:
+	        try:
+	            s = content.decode('utf-8')
+	        except:
+	            s = unicode(content, errors='ignore')
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
@@ -89,11 +76,11 @@ class CxExtractor:
         print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
-        try:
-            s = content.decode('utf-8')
-        except:
-            return None
-            s = unicode(content, errors='ignore')
+    	if type(content) is not unicode:
+	        try:
+	            s = content.decode('utf-8')
+	        except:
+	            return None
         if s is None or len(s) == 0:
             return None
         s = s.split('\n')
@@ -110,13 +97,13 @@ class CxExtractor:
 
 
     def getText(self, content):
-        self.__threshold = 120 if self.__lang else 86
+        self.__threshold = 120 if self.__lang else 150
         if self.__text:
             self.__text = []
         lines = content.split('\n')
         for i in range(len(lines)):
             # lines[i] = lines[i].replace("\\n", "")
-            if lines[i] == ' ' or lines[i] == '\n':
+            if len(re.sub(' +', '', lines[i])) == 0 or lines[i] == '\n':
                 lines[i] = ''
         del self.__indexDistribution[:]
         for i in range(0, len(lines) - self.__blocksWidth):

@@ -22,8 +22,6 @@ class CxExtractor:
     __indexDistribution = []
     #web_language, true for en, false for zh-hans
     __lang = 0
-    #num_of_a
-    __num_a = 0
     #is_web_portal
     __web_portal = False
 
@@ -39,33 +37,35 @@ class CxExtractor:
             return False
         else:
             print 'Succeed to get the url'
-        soup = BeautifulSoup(html, 'html.parser')
-        links = soup.find_all('a', href=re.compile('http'))
-        self.__num_a = len(links)
-        print 'num_a: ' + str(self.__num_a)
-        for link in links:
-            print link['href']
-        div_content = soup.find('div', class_=re.compile('main-content'))
-        if div_content is not None and len(div_content) > 0:
-            html = str(div_content)
+        if 'sina' in url:
+            res_text = self.crawl_sina(html)
         else:
-            div_content = soup.find('div', id=re.compile('main-content'))
-            if div_content is not None and len(div_content) > 0:
-                html = str(div_content)
-        clear_page = self.filter_tags(html)
-        # print 'clear_page: ' + clear_page[:15]
-        content = self.getText(clear_page)
-        # print 'content' + content
-        res_text = self.clean_and_judge(content)
+            # div_content = soup.find('div', class_=re.compile('main-content'))
+            # if div_content is not None and len(div_content) > 0:
+            #     html = str(div_content)
+            # else:
+            #     div_content = soup.find('div', id=re.compile('main-content'))
+            #     if div_content is not None and len(div_content) > 0:
+            #         html = str(div_content)
+            clear_page = self.filter_tags(html)
+            # print 'clear_page: ' + clear_page[:15]
+            content = self.getText(clear_page)
+            # print 'content' + content
+            res_text = self.clean_and_judge(content)
         return res_text
 
+    def crawl_sina(self, html):
+        soup = BeautifulSoup(html, 'html.parser')
+        div_content = soup.find('div', id='artibody').text
+        return u'\n'.join(re.split(u'\n*', div_content))
+
+
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
-        try:
-            s = content.decode('utf-8')
-        except:
-            s = unicode(content, errors='ignore')
-        if s is None or len(s) == 0:
-            return None
+        if type(content) is not unicode:
+            try:
+                s = content.decode('utf-8')
+            except:
+                pass
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
@@ -76,16 +76,16 @@ class CxExtractor:
         for i in range(1, len(s) - 1):
             if self.__lang:
                 if not (len(s[i].split(' ')) < en_threshold and len(s[i-1].split(' ')) < en_threshold and len(s[i+1].split(' ')) < en_threshold):
-                    result.append(s[i] + '\n')
+                    result.append(s[i])
             else:
                 if not (len(s[i]) < cn_threshold and len(s[i+1]) < cn_threshold and len(s[i-1]) < cn_threshold):
-                    result.append(s[i] + '\n')
-        result.append(s[-1] + '\n')
+                    result.append(s[i])
+        result.append(s[-1])
         print 'num of lines:' + str(len(result))
-        if len(result) < 5 and self.__num_a > 150:
+        if len(result) < 5:
             return None
         else:
-            return u''.join(result)
+            return u'\n'.join(result)
 
 
 
@@ -95,7 +95,7 @@ class CxExtractor:
         lines = content.split('\n')
         for i in range(len(lines)):
             # lines[i] = lines[i].replace("\\n", "")
-            if lines[i] == ' ' or lines[i] == '\n':
+            if len(re.sub(' +', '', lines[i])) == 0 or lines[i] == '\n':
                 lines[i] = ''
         del self.__indexDistribution[:]
         for i in range(0, len(lines) - self.__blocksWidth):
@@ -110,6 +110,8 @@ class CxExtractor:
         boolend = False
         for i in range(len(self.__indexDistribution) - 1):
             print self.__indexDistribution[i]
+            if self.__indexDistribution[i] > 0:
+                print lines[i]
             if(self.__indexDistribution[i] > self.__threshold and (not boolstart)):
                 if (self.__indexDistribution[i + 1] != 0 or self.__indexDistribution[i + 2] != 0 or self.__indexDistribution[i + 3] != 0):
                     boolstart = True
@@ -130,13 +132,15 @@ class CxExtractor:
                 for ii in range(start, end + 1):
                     if(len(lines[ii]) < 5):
                         continue
-                    tmp.append(lines[ii] + "\n")
-                str = "".join(list(tmp))
-                if ("Copyright" in str or "版权所有" in str):
-                    continue
-                self.__text.append(str)
+                    print lines[ii]
+                    self.__text.append(lines[ii])
+                #     tmp.append(lines[ii] + "\n")
+                # str = "".join(list(tmp))
+                # # if ("Copyright" in str or "版权所有" in str):
+                # #     continue
+                # self.__text.append(str)
                 boolstart = boolend = False
-        result = "".join(list(self.__text))
+        result = "\n".join(list(self.__text))
         return result
 
     def replaceCharEntity(self, htmlstr):
