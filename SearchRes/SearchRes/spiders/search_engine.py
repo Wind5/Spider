@@ -57,12 +57,15 @@ class EngineSpider(scrapy.Spider):
     for subdir in ['cn/', 'en/']:
       file_id = 1
       path = self.__path + '/' + subdir
+    try:
       for file in os.listdir(path):
         if os.path.isfile(os.path.join(path, file))==True:
           newname = str(file_id) + '.txt'
           os.rename(os.path.join(path, file), os.path.join(path, newname))
           file_id += 1
           print file, 'ok'
+    except:
+      pass
 
   def parse(self, response):
     if self.__num_of_done >= self.__num_of_wanted:
@@ -82,7 +85,7 @@ class EngineSpider(scrapy.Spider):
           yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 'rank': str(response.meta['page'])})
         elif response.meta['engine'] == 'Sina':
           a = link.find('h2').find('a')
-          yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 
+          yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'],
                                                                     'rank': str(20 * response.meta['page'] +1 + int(link['data-sudaclick'].split('_')[-1]))})
 
   def parse_content(self, response):

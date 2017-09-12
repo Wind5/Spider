@@ -56,6 +56,11 @@ class CxExtractor:
 
     def crawl_sina(self, url, html):
         self.__lang = False
+        s = re.findall(re.compile('<!-- 原始正文start -->.*<!-- 原始正文end -->', re.DOTALL), html)
+        if len(s) > 0:
+            soup = BeautifulSoup(s[0], 'html.parser')
+            [t.extract() for t in soup.find_all('script')]
+            return soup.text
         soup = BeautifulSoup(html, 'html.parser')
         try:
             div_content = soup.find('div', id='artibody')
@@ -66,7 +71,7 @@ class CxExtractor:
         if div_content is None:
             return None
         [s.extract() for s in div_content.find_all('script')]
-        return u'\n'.join(re.split(u'\n*', div_content.text))
+        return div_content.text
 
     def infer_lang(self, content):
     	if type(content) is not unicode:
