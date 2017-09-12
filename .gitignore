@@ -14,3 +14,5 @@ build
 # My configurations:
 *.txt
 *.log
+*.ipynb
+
