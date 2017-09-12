@@ -43,7 +43,7 @@ class CxExtractor:
                 info = url.decode('utf-8') + u'\n' + engine.decode('utf-8') + u'\n' + rank.decode('utf-8') + u'\n'
             else:
                 info = url.decode('utf-8') + u'\n'
-            path += self.__lang + '/' 
+            path += self.__lang + '/'
             print path
             if os.path.exists(path) is False:
                 os.makedirs(path)
@@ -54,14 +54,17 @@ class CxExtractor:
         else:
             return False
 
-    def crawl_sina(self, html):
-    	self.__lang = False
+    def crawl_sina(self, url, html):
+        self.__lang = False
         soup = BeautifulSoup(html, 'html.parser')
-        try:
-            div_content = soup.find('div', id='artibody').text
-        except:
+        if 'tech.sina' in url:
+            div_content = soup.find('div', id='artibody').find('div')
+        else:
+            div_content = soup.find('div', id='artibody')
+        if div_content is None:
             return None
-        return u'\n'.join(re.split(u'\n*', div_content))
+        [s.extract() for s in div_content.find_all('script')]
+        return u'\n'.join(re.split(u'\n*', div_content.text))
 
     def infer_lang(self, content):
     	if type(content) is not unicode:

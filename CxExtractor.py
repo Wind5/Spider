@@ -38,7 +38,7 @@ class CxExtractor:
         else:
             print 'Succeed to get the url'
         if 'sina' in url:
-            res_text = self.crawl_sina(html)
+            res_text = self.crawl_sina(url, html)
         else:
             # div_content = soup.find('div', class_=re.compile('main-content'))
             # if div_content is not None and len(div_content) > 0:
@@ -54,10 +54,16 @@ class CxExtractor:
             res_text = self.clean_and_judge(content)
         return res_text
 
-    def crawl_sina(self, html):
+    def crawl_sina(self, url, html):
         soup = BeautifulSoup(html, 'html.parser')
-        div_content = soup.find('div', id='artibody').text
-        return u'\n'.join(re.split(u'\n*', div_content))
+        if 'tech.sina' in url:
+            div_content = soup.find('div', id='artibody').find('div')
+        else:
+            div_content = soup.find('div', id='artibody')
+        if div_content is None:
+            return None
+        [s.extract() for s in div_content.find_all('script')]
+        return u'\n'.join(re.split(u'\n*', div_content.text))
 
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
@@ -120,7 +126,7 @@ class CxExtractor:
                     if self.__indexDistribution[i] > 0:
                         for j in range(i, i + self.__blocksWidth):
                             if lines[j] > 0:
-                                print lines[j] 
+                                print lines[j]
                     continue
             if (boolstart):
                 if (self.__indexDistribution[i] == 0 or self.__indexDistribution[i + 1] == 0):
