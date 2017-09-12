@@ -56,10 +56,16 @@ class CxExtractor:
 
     def crawl_sina(self, url, html):
         soup = BeautifulSoup(html, 'html.parser')
-        if 'tech.sina' in url:
-            div_content = soup.find('div', id='artibody').find('div')
-        else:
+        try:
             div_content = soup.find('div', id='artibody')
+            if div_content.find('div', id=re.compile('ad')) is not None:
+                div_content = soup.find('div', id='artibody').find('div')
+        except:
+            return None
+        # if 'tech.sina' in url:
+        #     div_content = soup.find('div', id='artibody').find('div')
+        # else:
+        #     div_content = soup.find('div', id='artibody')
         if div_content is None:
             return None
         [s.extract() for s in div_content.find_all('script')]
