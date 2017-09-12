@@ -31,7 +31,7 @@ class CxExtractor:
 
     def crawl(self, url, html, path, filename, engine=None, rank=None):
         if 'sina' in url:
-        	res_text = self.crawl_sina(html)
+        	res_text = self.crawl_sina(url, html)
         else:
 	        clear_page = self.filter_tags(html)
 	        self.infer_lang(clear_page)
