@@ -38,7 +38,9 @@ class CxExtractor:
         else:
             print 'Succeed to get the url'
         if 'sina' in url:
-            res_text = self.crawl_sina(url, html)
+            res_text = self.crawl_sina(html)
+        elif 'ifeng' in url:
+        	res_text = self.crawl_ifeng(html)
         else:
             # div_content = soup.find('div', class_=re.compile('main-content'))
             # if div_content is not None and len(div_content) > 0:
@@ -54,7 +56,7 @@ class CxExtractor:
             res_text = self.clean_and_judge(content)
         return res_text
 
-    def crawl_sina(self, url, html):
+    def crawl_sina(self, html):
         s = re.findall(re.compile('<!-- 原始正文start -->.*<!-- 原始正文end -->', re.DOTALL), html)
         if len(s) > 0:
             soup = BeautifulSoup(s[0], 'html.parser')
@@ -67,10 +69,22 @@ class CxExtractor:
                 div_content = soup.find('div', id='artibody').find('div')
         except:
             return None
-        # if 'tech.sina' in url:
-        #     div_content = soup.find('div', id='artibody').find('div')
-        # else:
-        #     div_content = soup.find('div', id='artibody')
+        if div_content is None:
+            return None
+        [s.extract() for s in div_content.find_all('script')]
+        return div_content.text
+
+    def crawl_ifeng(self, html):
+    	s = re.findall(re.compile('<!--mainContent begin-->.*<!--mainContent end-->', re.DOTALL), html)
+        if len(s) > 0:
+            soup = BeautifulSoup(s[0], 'html.parser')
+            [t.extract() for t in soup.find_all('script')]
+            return soup.text
+        soup = BeautifulSoup(html, 'html.parser')
+        try:
+            div_content = soup.find('div', id='main_content')
+        except:
+            return None
         if div_content is None:
             return None
         [s.extract() for s in div_content.find_all('script')]

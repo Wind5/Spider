@@ -31,7 +31,9 @@ class CxExtractor:
 
     def crawl(self, url, html, path, filename, engine=None, rank=None):
         if 'sina' in url:
-        	res_text = self.crawl_sina(url, html)
+        	res_text = self.crawl_sina(html)
+        elif 'ifeng' in url:
+            res_text = self.crawl_ifeng(html)
         else:
 	        clear_page = self.filter_tags(html)
 	        self.infer_lang(clear_page)
@@ -54,7 +56,7 @@ class CxExtractor:
         else:
             return False
 
-    def crawl_sina(self, url, html):
+    def crawl_sina(self, html):
         self.__lang = False
         s = re.findall(re.compile('<!-- 原始正文start -->.*<!-- 原始正文end -->', re.DOTALL), html)
         if len(s) > 0:
@@ -66,6 +68,23 @@ class CxExtractor:
             div_content = soup.find('div', id='artibody')
             if div_content.find('div', id=re.compile('ad')) is not None:
                 div_content = soup.find('div', id='artibody').find('div')
+        except:
+            return None
+        if div_content is None:
+            return None
+        [s.extract() for s in div_content.find_all('script')]
+        return div_content.text
+
+    def crawl_ifeng(self, html):
+        self.__lang = False
+        s = re.findall(re.compile('<!--mainContent begin-->.*<!--mainContent end-->', re.DOTALL), html)
+        if len(s) > 0:
+            soup = BeautifulSoup(s[0], 'html.parser')
+            [t.extract() for t in soup.find_all('script')]
+            return soup.text
+        soup = BeautifulSoup(html, 'html.parser')
+        try:
+            div_content = soup.find('div', id='main_content')
         except:
             return None
         if div_content is None:
