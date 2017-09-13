@@ -57,15 +57,14 @@ class EngineSpider(scrapy.Spider):
     for subdir in ['cn/', 'en/']:
       file_id = 1
       path = self.__path + '/' + subdir
-    try:
+      if os.path.exists(path) is False:
+        os.makedirs(path)
       for file in os.listdir(path):
         if os.path.isfile(os.path.join(path, file))==True:
           newname = str(file_id) + '.txt'
           os.rename(os.path.join(path, file), os.path.join(path, newname))
           file_id += 1
           print file, 'ok'
-    except:
-      pass
 
   def parse(self, response):
     if self.__num_of_done >= self.__num_of_wanted:
