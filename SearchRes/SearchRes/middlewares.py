@@ -65,7 +65,7 @@ class MyOffsiteMiddleware(OffsiteMiddleware):
         if spider.allowed_domains is None or len(spider.allowed_domains) == 0:
             return True
         url = request.url
-        if 'pdf' in url or 'xueshu.baidu' in url:
+        if 'pdf' in url or 'xueshu.baidu' in url or 'fanyi.baidu' in url:
             return False
         host = urlparse_cached(request).hostname or ''
         for domain in spider.allowed_domains:

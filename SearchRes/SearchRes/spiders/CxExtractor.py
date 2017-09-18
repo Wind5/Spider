@@ -36,6 +36,9 @@ class CxExtractor:
             res_text = self.crawl_ifeng(html)
         elif 'baike.baidu' in url:
         	res_text = self.crawl_baike(html)
+        elif 'wikipedia.org' in url:
+        	self.__lang = 'en.wikipedia' in url
+        	res_text = self.crawl_wiki(html)
         else:
 	        clear_page = self.filter_tags(html)
 	        self.infer_lang(clear_page)
@@ -98,7 +101,12 @@ class CxExtractor:
         self.__lang = False
         soup = BeautifulSoup(html, 'html.parser')
         [s.extract() for s in soup.find_all(class_='description')]
-    	s = [i.text for i in soup.find('div', class_='main-content').find_all('div', class_='para')]
+    	s = [i.text for i in soup.find('div', class_=re.compile('main-content')).find_all('div', class_='para')]
+        return u''.join(s)
+
+    def crawl_wiki(self, html):
+        soup = BeautifulSoup(html, 'html.parser')
+    	s = [i.text for i in soup.find('div', class_=re.compile('mw-parser-output')).find_all('p')]
         return u''.join(s)
 
     def infer_lang(self, content):
