@@ -41,6 +41,8 @@ class CxExtractor:
             res_text = self.crawl_sina(html)
         elif 'ifeng' in url:
         	res_text = self.crawl_ifeng(html)
+        elif 'baike.baidu' in url:
+            res_text = self.crawl_baike(html)
         else:
             # div_content = soup.find('div', class_=re.compile('main-content'))
             # if div_content is not None and len(div_content) > 0:
@@ -90,6 +92,12 @@ class CxExtractor:
         [s.extract() for s in div_content.find_all('script')]
         return div_content.text
 
+    def crawl_baike(self, html):
+        self.__lang = False
+        soup = BeautifulSoup(html, 'html.parser')
+        [s.extract() for s in soup.find_all(class_='description')]
+        s = [i.text for i in soup.find('div', class_='main-content').find_all('div', class_='para')]
+        return re.sub( ur'\n{2,}', u'\n',u''.join(s))
 
     def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
         if type(content) is not unicode:

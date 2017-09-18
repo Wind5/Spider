@@ -34,6 +34,8 @@ class CxExtractor:
         	res_text = self.crawl_sina(html)
         elif 'ifeng' in url:
             res_text = self.crawl_ifeng(html)
+        elif 'baike.baidu' in url:
+        	res_text = self.crawl_baike(html)
         else:
 	        clear_page = self.filter_tags(html)
 	        self.infer_lang(clear_page)
@@ -51,7 +53,7 @@ class CxExtractor:
                 os.makedirs(path)
             filename = path.decode('utf-8') + filename.replace(u'/', u'|') + u'.txt'
             with io.open(filename, 'w') as f:
-                f.write(info + res_text)
+                f.write(info + re.sub(ur'\n{2,}', u'\n', res_text))
             return True
         else:
             return False
@@ -91,6 +93,13 @@ class CxExtractor:
             return None
         [s.extract() for s in div_content.find_all('script')]
         return div_content.text
+
+    def crawl_baike(self, html):
+        self.__lang = False
+        soup = BeautifulSoup(html, 'html.parser')
+        [s.extract() for s in soup.find_all(class_='description')]
+    	s = [i.text for i in soup.find('div', class_='main-content').find_all('div', class_='para')]
+        return u''.join(s)
 
     def infer_lang(self, content):
     	if type(content) is not unicode:
@@ -206,7 +215,8 @@ class CxExtractor:
 
     def filter_tags(self, htmlstr):
         re_nav = re.compile('<nav.+</nav>')
-        re_cdata = re.compile('//<!\[CDATA\[.*//\]\]>', re.DOTALL)
+        re_cdata = re.compile('//<!\[CDATA\[.*//\]\]>', re.DOTALL | re.I)
+        re_href = re.compile('<a.+?href.+?>.{30,}?</a>', re.DOTALL | re.I)
         re_script = re.compile(
             '<\s*script[^>]*>.*?<\s*/\s*script\s*>', re.DOTALL | re.I)
         re_style = re.compile(
@@ -225,6 +235,7 @@ class CxExtractor:
         re_space = re.compile(' +')
         s = re_cdata.sub('', htmlstr)
         s = re_nav.sub('', s)
+        s = re_href.sub('', s)
         s = re_script.sub('', s)
         s = re_option.sub('', s)
         s = re_label.sub('', s)

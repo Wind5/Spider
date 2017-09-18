@@ -44,7 +44,7 @@ class EngineSpider(scrapy.Spider):
       yield scrapy.Request(cn_url, self.parse, meta={'engine': 'Baidu'})
       yield scrapy.Request(en_url, self.parse, meta={'engine': 'Baidu'})
       #Sina
-      sina_url = 'http://search.sina.com.cn/?q=' + quote(key.decode('utf-8').encode('gbk')) + '&range=all&c=news&sort=rel' + '&page=' + str(pg + 1)
+      sina_url = 'http://search.sina.com.cn/?q=' + quote(key.decode('utf-8').encode('gbk')) + '&range=all&c=news&sort=time' + '&page=' + str(pg + 1)
       yield scrapy.Request(sina_url, self.parse, meta={'engine': 'Sina', 'page': pg})
 
   @classmethod
