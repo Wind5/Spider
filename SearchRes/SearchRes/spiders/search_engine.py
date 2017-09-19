@@ -6,13 +6,14 @@ from bs4 import BeautifulSoup
 import re
 from CxExtractor import CxExtractor
 from urllib import urlencode, quote
-import os
+import os, threading
 from scrapy import signals
 from scrapy import Spider
 
 class EngineSpider(scrapy.Spider):
   name = 'search_engine'
   allowed_domains = []
+  __lock = threading.Lock()
   # try all saved in cn
   __path = os.getcwd() + '/' # '/home/ChenJW/Project/Spider/SearchRes/'
   __pagenum = 0
@@ -23,29 +24,37 @@ class EngineSpider(scrapy.Spider):
                'Bing': (lambda soup: soup.find_all('li', class_='b_algo'))}
 
   def start_requests(self):
-    key = getattr(self, 'key', None)
-    if key is None:
-      return
-    self.__path += key + '/'
-    self.__pagenum = int(getattr(self, 'pagenum', 10))
-    self.__num_of_wanted = int(getattr(self, 'num', 1000000))
+    key = getattr(self, 'keySearch', None)
+    taskname = getattr(self, 'taskname', key)
+    searchChoose = getattr(self, 'searchChoose', None).split(';')
+    urlAdd = getattr(self, 'urlAdd', None)
+    self.__path += taskname + '/'
+    self.__num_of_wanted = int(getattr(self, 'EposFile', 200))
+    self.__pagenum = self.__num_of_wanted / (5 * len(searchChoose)) + 3
+    print searchChoose
+    if urlAdd is not None:
+      for url in urlAdd.split(';'):
+        yield scrapy.Request(url, self.parse_content, meta={'filename': url.replace('/', '|'), 'engine': 'Added', 'rank': '0'})
 
     #Bing
-    bing_url = "http://www.bing.com/search?" + urlencode({'q': key})
-    yield scrapy.Request(bing_url, self.parse, cookies={"ENSEARCH": "BENVER=0"}, meta={'engine': 'Bing', 'page': 1})  #cn
+    if 'Bing' in searchChoose:
+      bing_url = "http://www.bing.com/search?" + urlencode({'q': key})
+      yield scrapy.Request(bing_url, self.parse, cookies={"ENSEARCH": "BENVER=0"}, meta={'engine': 'Bing', 'page': 1})  #cn
     # yield scrapy.Request(bing_url, self.parse, cookies={"ENSEARCH": "BENVER=1"}, meta={'engine': 'Bing', 'page': 1})  #en
 
     #Baidu & Sina
     for pg in range(self.__pagenum):
       if self.__num_of_done >= self.__num_of_wanted:
         return
-      cn_url = 'http://www.baidu.com/s?' + urlencode({'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'cn'})
-      en_url = 'http://www.baidu.com/s?' + urlencode({'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'en'})
-      yield scrapy.Request(cn_url, self.parse, meta={'engine': 'Baidu'})
-      yield scrapy.Request(en_url, self.parse, meta={'engine': 'Baidu'})
+      if 'Baidu' in searchChoose:
+        cn_url = 'http://www.baidu.com/s?' + urlencode({'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'cn'})
+        en_url = 'http://www.baidu.com/s?' + urlencode({'wd': key, 'pn': str(10 * pg), 'rsv_srlang': 'en'})
+        yield scrapy.Request(cn_url, self.parse, meta={'engine': 'Baidu'})
+        yield scrapy.Request(en_url, self.parse, meta={'engine': 'Baidu'})
       #Sina
-      sina_url = 'http://search.sina.com.cn/?q=' + quote(key.decode('utf-8').encode('gbk')) + '&range=all&c=news&sort=time' + '&page=' + str(pg + 1)
-      yield scrapy.Request(sina_url, self.parse, meta={'engine': 'Sina', 'page': pg})
+      if 'Sina' in searchChoose:
+        sina_url = 'http://search.sina.com.cn/?q=' + quote(key.decode('utf-8').encode('gbk')) + '&range=all&c=news&sort=time' + '&page=' + str(pg + 1)
+        yield scrapy.Request(sina_url, self.parse, meta={'engine': 'Sina', 'page': pg})
 
   @classmethod
   def from_crawler(cls, crawler, *args, **kwargs):
@@ -68,23 +77,21 @@ class EngineSpider(scrapy.Spider):
 
   def parse(self, response):
     if self.__num_of_done >= self.__num_of_wanted:
-        return
+      return
     soup = BeautifulSoup(response.body, "html.parser")
     if response.meta['engine'] == 'Bing' and response.meta['page'] < self.__pagenum:
       next_page = soup.find('a', title=["Next page", '下一页'])['href']
       yield response.follow(next_page, self.parse, cookies={"ENSEARCH": "BENVER=0"}, meta={'engine': 'Bing', 'page': response.meta['page'] + 1})
     for link in self.__get_div[response.meta['engine']](soup):
-        if self.__num_of_done >= self.__num_of_wanted:
-          return
-        if response.meta['engine'] == 'Baidu':
-          a = link.find('h3').find('a')
-          yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 'rank': str(link['id'])})
-        elif response.meta['engine'] == 'Bing':
-          a = link.find('h2').find('a')
-          yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 'rank': str(response.meta['page'])})
-        elif response.meta['engine'] == 'Sina':
-          a = link.find('h2').find('a')
-          yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'],
+      if response.meta['engine'] == 'Baidu':
+        a = link.find('h3').find('a')
+        yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 'rank': str(link['id'])})
+      elif response.meta['engine'] == 'Bing':
+        a = link.find('h2').find('a')
+        yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'], 'rank': str(response.meta['page'])})
+      elif response.meta['engine'] == 'Sina':
+        a = link.find('h2').find('a')
+        yield scrapy.Request(a['href'], self.parse_content, meta={'filename': a.text, 'engine': response.meta['engine'],
                                                                     'rank': str(20 * response.meta['page'] +1 + int(link['data-sudaclick'].split('_')[-1]))})
 
   def parse_content(self, response):
@@ -93,4 +100,7 @@ class EngineSpider(scrapy.Spider):
     cx = CxExtractor(threshold=186)
     print response.url
     if cx.crawl(response.url, response.body, self.__path, response.meta['filename'], response.meta['engine'], response.meta['rank']) is not None:
+      # self.__lock.acquire()
       self.__num_of_done += 1
+      print self.__num_of_done
+      # self.__lock.release()

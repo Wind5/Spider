@@ -59,7 +59,7 @@ class CxExtractor:
                 f.write(info + re.sub(ur'\n{2,}', u'\n', res_text))
             return True
         else:
-            return False
+            return None
 
     def crawl_sina(self, html):
         self.__lang = False
