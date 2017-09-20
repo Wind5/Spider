@@ -114,19 +114,16 @@ class CxExtractor:
 	        try:
 	            s = content.decode('utf-8')
 	        except:
-	            s = unicode(content, errors='ignore')
+	            s = content
+        else:
+            s = content
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
-        self.__lang = cn_ratio < 0.2
+        self.__lang = cn_ratio < 0.05
         print 'language: ' + str(self.__lang) + '  cnratio: ' + str(cn_ratio)
 
-    def clean_and_judge(self, content, cn_threshold=10, en_threshold=6):
-    	if type(content) is not unicode:
-	        try:
-	            s = content.decode('utf-8')
-	        except:
-	            return None
+    def clean_and_judge(self, s, cn_threshold=10, en_threshold=6):
         if s is None or len(s) == 0:
             return None
         s = s.split('\n')
@@ -143,7 +140,12 @@ class CxExtractor:
 
 
     def getText(self, content):
-        self.__threshold = 120 if self.__lang else 150
+        self.__threshold = 120 if self.__lang else 86
+        if type(content) is not unicode:
+            try:
+                content = content.decode('utf-8')
+            except:
+                pass
         if self.__text:
             self.__text = []
         lines = content.split('\n')
@@ -177,13 +179,9 @@ class CxExtractor:
                 for ii in range(start, end + 1):
                     if(len(lines[ii]) < 5):
                         continue
-                    tmp.append(lines[ii] + "\n")
-                str = "".join(list(tmp))
-                if ("Copyright" in str or "版权所有" in str):
-                    continue
-                self.__text.append(str)
+                    self.__text.append(lines[ii])
                 boolstart = boolend = False
-        result = "".join(list(self.__text))
+        result = u"\n".join(list(self.__text))
         return result
 
     def replaceCharEntity(self, htmlstr):

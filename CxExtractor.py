@@ -44,13 +44,6 @@ class CxExtractor:
         elif 'baike.baidu' in url:
             res_text = self.crawl_baike(html)
         else:
-            # div_content = soup.find('div', class_=re.compile('main-content'))
-            # if div_content is not None and len(div_content) > 0:
-            #     html = str(div_content)
-            # else:
-            #     div_content = soup.find('div', id=re.compile('main-content'))
-            #     if div_content is not None and len(div_content) > 0:
-            #         html = str(div_content)
             clear_page = self.filter_tags(html)
             # print 'clear_page: ' + clear_page[:15]
             content = self.getText(clear_page)
@@ -104,7 +97,9 @@ class CxExtractor:
             try:
                 s = content.decode('utf-8')
             except:
-                pass
+                s = content
+        else:
+            s = content
         if s is None or len(s) == 0:
             return None
         cn_ratio = 1.* sum([is_chinese(i) for i in s]) / len(s)
@@ -129,6 +124,13 @@ class CxExtractor:
 
 
     def getText(self, content):
+        if type(content) is not unicode:
+            try:
+                content = content.decode('utf-8')
+            except:
+                pass
+        if content is None or len(content) == 0:
+            return None
         if self.__text:
             self.__text = []
         lines = content.split('\n')
