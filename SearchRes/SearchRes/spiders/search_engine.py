@@ -25,7 +25,7 @@ class EngineSpider(scrapy.Spider):
 
   def start_requests(self):
     key = getattr(self, 'keySearch', None)
-    taskname = getattr(self, 'taskpath', key)
+    taskpath = getattr(self, 'taskpath', key)
     searchChoose = getattr(self, 'searchChoose', ';').split(';')
     urlAdd = getattr(self, 'urlAdd', None)
     self.__path = taskpath + '/'
