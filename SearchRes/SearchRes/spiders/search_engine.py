@@ -25,10 +25,10 @@ class EngineSpider(scrapy.Spider):
 
   def start_requests(self):
     key = getattr(self, 'keySearch', None)
-    taskname = getattr(self, 'taskname', key)
+    taskname = getattr(self, 'taskpath', key)
     searchChoose = getattr(self, 'searchChoose', ';').split(';')
     urlAdd = getattr(self, 'urlAdd', None)
-    self.__path += taskname + '/'
+    self.__path = taskpath + '/'
     self.__num_of_wanted = int(getattr(self, 'EposFile', 200))
     self.__pagenum = self.__num_of_wanted / (5 * len(searchChoose)) + 3
     print searchChoose
