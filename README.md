@@ -1,2 +1,2 @@
 # Spider
-Simple Spider
+Spider
