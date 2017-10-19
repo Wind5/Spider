@@ -32,7 +32,7 @@ class EngineSpider(scrapy.Spider):
     self.__num_of_wanted = int(getattr(self, 'EposFile', 200))
     self.__pagenum = self.__num_of_wanted / (5 * len(searchChoose)) + 3
     print searchChoose
-    if urlAdd is not None:
+    if urlAdd is not None and len(urlAdd) > 0:
       for url in urlAdd.split(';'):
         yield scrapy.Request(url, self.parse_content, meta={'filename': url.replace('/', '|'), 'engine': 'Added', 'rank': '0'})
 
